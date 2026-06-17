@@ -1,0 +1,77 @@
+# House Price Prediction Configuration
+
+# Data paths
+data:
+  raw_path: "data/raw"
+  processed_path: "data/processed"
+  external_path: "data/external"
+
+# Model paths
+models:
+  model_dir: "models"
+  model_name: "house_price_model"
+  model_format: "pkl"  # pkl, joblib, h5
+
+# Reports
+reports:
+  report_dir: "reports"
+  figures_dir: "reports/figures"
+  results_file: "reports/results.md"
+
+# Data preprocessing parameters
+preprocessing:
+  missing_value_strategy: "mean"  # mean, median, drop, forward_fill
+  outlier_threshold: 3.0  # Z-score threshold
+  categorical_encoding: "label"  # label, onehot
+  scaling_method: "standard"  # standard, minmax
+
+# Feature engineering parameters
+feature_engineering:
+  polynomial_degree: 2
+  create_interactions: true
+  select_top_features: 10
+
+# Model training parameters
+training:
+  test_size: 0.2
+  random_state: 42
+  cross_validation_folds: 5
+
+# Model hyperparameters
+models_params:
+  linear_regression:
+    fit_intercept: true
+
+  ridge_regression:
+    alpha: 1.0
+    solver: "auto"
+
+  lasso_regression:
+    alpha: 1.0
+    max_iter: 1000
+
+  random_forest:
+    n_estimators: 100
+    max_depth: 10
+    min_samples_split: 2
+    min_samples_leaf: 1
+    random_state: 42
+
+  gradient_boosting:
+    n_estimators: 100
+    learning_rate: 0.1
+    max_depth: 3
+    random_state: 42
+
+  svm:
+    kernel: "rbf"
+    C: 100
+    gamma: "scale"
+
+# API configuration
+api:
+  host: "0.0.0.0"
+  port: 8000
+  debug: true
+  title: "House Price Prediction API"
+  version: "1.0.0"
