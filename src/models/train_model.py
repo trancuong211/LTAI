@@ -153,7 +153,7 @@ def train_model(df: pd.DataFrame, target_column: str = 'price', model_type: str 
         model_type (str): 'linear', 'ridge', 'lasso', 'random_forest', 'gradient_boosting', or 'svr'
     
     Returns:
-        tuple: (trained model, X_test, y_test)
+        tuple: (trained model, X_test, y_test, X_full, feature_names)
     """
     X = df.drop(columns=[target_column])
     y = df[target_column]
@@ -174,4 +174,4 @@ def train_model(df: pd.DataFrame, target_column: str = 'price', model_type: str 
     elif model_type == 'svr':
         trainer.train_svr()
     
-    return trainer.model, trainer.X_test, trainer.y_test
+    return trainer.model, trainer.X_test, trainer.y_test, X, trainer.feature_names
