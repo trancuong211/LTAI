@@ -139,4 +139,7 @@ models/*.joblib
 data/processed/
 reports/figures/*
 *.csv
-!data/raw/house_data.csv
+!data/raw/nha_pho.csv
+!data/raw/biet_thu.csv
+!data/raw/can_ho_chung_cu.csv
+!data/raw/nha_hem.csv
