@@ -1,8 +1,8 @@
 """
 Constants dung chung cho toan bo project
-- generate_data.py
-- train_by_type.py
-- predict.py
+- train_advanced.py
+- predict_cli.py
+- add_data.py
 """
 from pathlib import Path
 

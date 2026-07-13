@@ -110,9 +110,9 @@ def main():
 
     retrain = input("Train lai model ngay? (y/n): ").strip().lower()
     if retrain == "y":
-        subprocess.run(["python", "train_by_type.py"])
+        subprocess.run(["python", "train_advanced.py"])
     else:
-        print("Bo qua train lai. Chay 'python train_by_type.py' bat cu luc nao.")
+        print("Bo qua train lai. Chay 'python train_advanced.py' bat cu luc nao.")
 
 
 if __name__ == "__main__":

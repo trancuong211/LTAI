@@ -41,10 +41,8 @@ AI_Du_doan_gia_nha_HCM/
 ├── reports/                         # Báo cáo, biểu đồ
 │
 ├── constants.py                     # Danh mục dùng chung
-├── generate_data.py                 # Sinh dữ liệu mẫu
-├── train_by_type.py                 # Train cơ bản
 ├── train_advanced.py                # Train nâng cao (CV + model comparison)
-├── predict.py                       # Predict CLI
+├── predict_cli.py                   # Predict (JSON bridge cho backend)
 ├── add_data.py                      # Thêm dữ liệu thủ công
 ├── config.yaml                      # Cấu hình
 ├── requirements.txt                 # Dependencies
@@ -102,23 +100,9 @@ pip install -r requirements.txt
 
 ## Sử Dụng
 
-### 1. Sinh dữ liệu mẫu
-```bash
-# Tạo 300 mẫu mỗi loại
-python generate_data.py --count 300
+### 1. Train model
 
-# Thêm vào file có sẵn
-python generate_data.py --count 100 --append
-```
-
-### 2. Train model
-
-#### Train cơ bản (RandomForest)
-```bash
-python train_by_type.py
-```
-
-#### Train nâng cao (CV + Model Comparison)
+#### Train nâng cao (CV + Model Comparison) - Khuyến nghị
 ```bash
 python train_advanced.py
 ```
@@ -131,22 +115,16 @@ Kết quả train nâng cao:
 | Chung cư | RandomForest | 0.9228 | 0.9202 | 0.81 | ~15% |
 | Nhà hẻm | LightGBM | 0.9314 | 0.9089 | 0.59 | ~16% |
 
-### 3. Predict
+### 2. Predict (qua web app)
 ```bash
-# Nhà phố
-python predict.py nha_pho 80 3 2 5 "Quận 7" "Sổ hồng" --phuong "Tân Phong" --huong-nha "Nam" --mat-tien 7 --co-san-thuong 1
+# Chạy backend server
+cd backend
+node server.js
 
-# Biệt thự
-python predict.py biet_thu 250 4 3 3 "Quận 3" "Sổ hồng" --phuong "Phú Nhuận" --mat-tien 12 --loai-biet-thu "Song lập" --view "Sông" --co-be-boi 1 --co-gara 1
-
-# Căn hộ
-python predict.py can_ho 75 2 2 15 "Quận 7" "Sổ hồng" --phuong "Tân Phong" --view-ch "Sông" --ten-du-an 3 --phi-quan-ly 18 --co-ham 1
-
-# Nhà hẻm
-python predict.py nha_hem 55 3 2 3 "Quận 8" "Sổ hồng" --phuong "5" --do-rong-hem 3.5 --vi-tri-hem "Hẻm thông" --do-rong-duong-chinh 8 --co-oto 1
+# Web app sẽ gọi predict_cli.py tự động
 ```
 
-### 4. Thêm dữ liệu thủ công
+### 3. Thêm dữ liệu thủ công
 ```bash
 python add_data.py
 ```
