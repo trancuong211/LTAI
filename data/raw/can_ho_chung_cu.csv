@@ -1,501 +1,201 @@
 ﻿dien_tich,quan,phuong,so_phong_ngu,so_phong_tam,huong_nha,nam_xay_dung,phap_ly,gia,tong_so_tang_toa_nha,tang,view,ten_du_an,nam_ban_giao,co_thang_may,phi_quan_ly,co_ham,chat_luong_xay_dung
-116,Quận 12,8,3,2,Tây Bắc,2017,Sổ hồng,5.82,25,13,Không view,D'Edge,2018,1,13.3,0,Trung bình
-92,Bình Thạnh,14,2,1,Nam,2019,Sổ đỏ,13.55,25,1,Không view,Millennium,2021,1,19.0,0,Cao cấp
-149,Quận 7,Tân Kiểng,2,1,Đông Bắc,2015,Sổ hồng,39.44,15,27,Thành phố,Vinhomes Grand Park,2016,1,14.3,0,Trung bình
-147,Phú Nhuận,16,1,1,Nam,2018,Sổ hồng,31.19,20,3,Nội khu,D'Edge,2019,1,23.2,1,Thô
-102,Quận 5,9,2,1,Đông Tây,2023,Sổ hồng,16.41,20,12,Không view,The Estella,2025,1,24.1,0,Trung bình
-116,Bình Thạnh,14,1,1,Tây Bắc,2023,Sổ đỏ,16.27,35,13,Nội khu,Centre Mall,2025,1,10.2,0,Cao cấp
-61,Bình Tân,13,2,2,Tây Bắc,2019,Sổ đỏ,9.01,20,21,Nội khu,The Sun Avenue,2021,1,16.2,0,Cao cấp
-57,Tân Phú,10,2,2,Đông Nam,2015,Sổ hồng,6.41,15,28,Thành phố,Vinci Grand Plaza,2017,1,20.4,1,Trung bình
-137,Bình Tân,12,1,1,Tây Bắc,2018,Sổ hồng,19.2,25,26,Thành phố,Happy Valley,2019,1,13.3,0,Trung bình
-127,Quận 5,1,2,2,Đông Tây,2017,Đang chờ sổ,24.83,35,23,Không view,Saigon Royal,2018,1,16.1,0,Trung bình
-134,Tân Bình,13,1,1,Tây Bắc,2019,Sổ đỏ,26.77,40,7,Không view,D'Edge,2021,1,14.4,0,Cao cấp
-64,Quận 1,Cầu Kho,1,1,Đông Nam,2023,Đang chờ sổ,30.96,25,21,Không view,Saigon Pearl,2025,1,10.2,0,Trung bình
-127,Quận 3,Võ Thị Sáu,3,2,Đông Bắc,2018,Sổ hồng,48.7,40,4,Không view,Vinci Grand Plaza,2020,1,18.4,0,Trung bình
-88,Quận 12,2,1,1,Đông Bắc,2025,Sổ hồng,6.02,15,7,Nội khu,Happy Valley,2026,1,9.5,1,Cao cấp
-138,Tân Phú,8,1,1,Đông,2016,Sổ hồng,21.6,30,9,Thành phố,Centre Mall,2017,1,24.7,0,Trung bình
-91,Phú Nhuận,2,2,2,Đông Bắc,2017,Sổ hồng,18.5,30,14,Không view,Masteri Thao Dien,2018,1,24.5,0,Cao cấp
-106,Quận 4,Bình Thuận,1,1,Tây Bắc,2015,Sổ hồng,20.12,25,6,Nội khu,Vinci Grand Plaza,2017,1,19.5,1,Trung bình
-117,Gò Vấp,11,3,3,Tây,2015,Sổ hồng,20.6,40,15,Sông,Millennium,2016,1,15.8,1,Trung bình
-147,Tân Phú,7,4,1,Tây Bắc,2015,Giấy tờ tay,19.67,40,10,Nội khu,SC VivoCity,2017,1,20.0,1,Cao cấp
-55,Quận 7,Tân Mỹ,2,2,Tây Bắc,2022,Sổ hồng,7.73,20,14,Thành phố,Midtown,2023,1,18.6,1,Thô
-77,Quận 12,8,1,1,Bắc,2016,Sổ đỏ,5.38,40,10,Không view,The Sun Avenue,2017,1,23.0,0,Trung bình
-90,Thủ Đức,Hiệp Bình Chánh,3,2,Đông Tây,2022,Sổ hồng,11.81,35,1,Thành phố,D'Edge,2023,1,8.3,1,Cao cấp
-51,Bình Thạnh,1,4,2,Bắc,2016,Sổ hồng,9.43,35,24,Thành phố,Icon 56,2017,1,19.4,0,Trung bình
-149,Tân Phú,8,4,3,Tây Nam,2023,Giấy tờ tay,16.55,35,9,Sông,Saigon Royal,2025,1,14.9,1,Trung bình
-66,Nhà Bè,8,1,1,Đông Tây,2016,Sổ hồng,3.36,35,20,Không view,Saigon Royal,2018,1,16.4,0,Thô
-94,Quận 7,Tân Mỹ,2,2,Đông Bắc,2024,Đang chờ sổ,19.22,25,4,Thành phố,Masteri Thao Dien,2025,1,18.4,0,Trung bình
-66,Nhà Bè,1,2,2,Tây Bắc,2022,Giấy tờ tay,3.95,15,23,Nội khu,Sunrise City,2023,1,22.8,0,Cao cấp
-78,Bình Chánh,9,2,1,Tây,2025,Sổ hồng,2.95,30,28,Nội khu,Vinci Grand Plaza,2026,1,15.9,0,Trung bình
-97,Bình Thạnh,12,4,1,Tây,2024,Sổ hồng,16.34,30,16,Không view,The Estella,2025,1,11.8,0,Trung bình
-140,Bình Thạnh,13,4,1,Đông Bắc,2021,Sổ hồng,28.28,35,14,Nội khu,Saigon Pearl,2023,1,16.4,0,Thô
-128,Tân Phú,14,4,3,Tây Nam,2019,Sổ đỏ,15.83,40,19,Sông,Happy Valley,2021,1,9.7,0,Trung bình
-74,Phú Nhuận,6,4,3,Tây Nam,2017,Sổ hồng,13.15,25,14,Nội khu,Happy Valley,2018,1,22.5,0,Trung bình
-149,Bình Chánh,2,1,1,Tây Bắc,2022,Sổ hồng,7.85,30,4,Không view,The Estella,2024,1,24.7,1,Trung bình
-105,Bình Thạnh,19,3,3,Bắc,2021,Đang chờ sổ,19.96,30,2,Thành phố,Vinhomes Grand Park,2023,1,17.5,0,Cao cấp
-103,Gò Vấp,9,3,1,Tây Bắc,2021,Sổ đỏ,14.37,40,13,Nội khu,D'Edge,2022,1,15.3,0,Trung bình
-137,Thủ Đức,Linh Trung,1,1,Tây Bắc,2018,Sổ hồng,21.33,30,26,Không view,Masteri Thao Dien,2019,1,23.8,0,Thô
-135,Gò Vấp,1,2,1,Tây Bắc,2020,Sổ hồng,20.98,30,26,Không view,Happy Valley,2022,1,23.4,1,Trung bình
-109,Bình Tân,11,2,1,Tây Nam,2020,Giấy tờ tay,13.71,15,9,Không view,Saigon Royal,2021,1,16.6,0,Trung bình
-69,Bình Thạnh,16,2,2,Đông Bắc,2018,Sổ hồng,10.45,15,27,Thành phố,SC VivoCity,2019,1,14.9,0,Trung bình
-80,Bình Tân,13,1,1,Tây Bắc,2023,Sổ hồng,8.16,35,8,Không view,SC VivoCity,2025,1,9.5,1,Thô
-83,Tân Bình,14,1,1,Tây Nam,2022,Sổ đỏ,12.39,40,18,Nội khu,Icon 56,2024,1,19.7,1,Trung bình
-59,Gò Vấp,1,4,1,Tây Nam,2018,Sổ hồng,7.93,20,22,Thành phố,City Garden,2020,1,23.2,1,Trung bình
-58,Quận 7,Phú Thuận,3,1,Tây Bắc,2019,Đang chờ sổ,12.57,35,5,Không view,Happy Valley,2020,1,10.3,1,Trung bình
-85,Quận 3,Võ Thị Sáu,4,3,Đông Nam,2022,Sổ hồng,27.12,35,27,Thành phố,Saigon Royal,2023,1,21.1,0,Trung bình
-48,Quận 1,Cầu Kho,1,1,Đông Tây,2022,Giấy tờ tay,22.83,25,5,Không view,Charmington,2024,1,24.4,1,Cao cấp
-66,Quận 1,Tân Định,2,1,Đông,2021,Sổ hồng,31.98,40,16,Nội khu,SC VivoCity,2023,1,9.4,0,Trung bình
-89,Bình Chánh,10,4,2,Bắc,2019,Sổ hồng,2.94,15,27,Không view,Masteri Thao Dien,2020,1,24.7,0,Trung bình
-67,Bình Thạnh,17,4,1,Đông Nam,2025,Sổ đỏ,9.49,35,6,Không view,Vinci Grand Plaza,2027,1,20.5,0,Trung bình
-83,Bình Tân,9,4,1,Đông Nam,2015,Đang chờ sổ,7.98,30,26,Sông,The Estella,2016,1,23.4,0,Thô
-84,Quận 1,Nguyễn Cư Trinh,3,2,Nam,2016,Sổ hồng,29.7,30,15,Không view,D'Edge,2017,1,13.4,0,Trung bình
-133,Bình Chánh,5,4,2,Đông Nam,2021,Sổ hồng,5.67,15,6,Thành phố,The Estella,2022,1,16.6,1,Trung bình
-71,Quận 5,15,1,1,Tây,2023,Sổ đỏ,11.16,40,26,Không view,Saigon Royal,2024,1,21.0,0,Trung bình
-40,Quận 1,Cầu Ông Lãnh,2,2,Tây,2022,Đang chờ sổ,21.22,15,21,Thành phố,The Estella,2024,1,22.3,0,Cao cấp
-121,Quận 7,Tân Hưng,1,1,Đông,2016,Sổ hồng,28.67,35,28,Nội khu,Charmington,2018,1,10.4,1,Trung bình
-47,Quận 12,10,2,2,Đông,2020,Sổ hồng,2.52,35,1,Thành phố,Midtown,2022,1,11.4,0,Thô
-125,Nhà Bè,5,1,1,Đông Bắc,2024,Đang chờ sổ,8.08,30,3,Thành phố,The Sun Avenue,2025,1,13.5,1,Cao cấp
-67,Quận 1,Cầu Ông Lãnh,3,2,Đông Tây,2025,Giấy tờ tay,42.1,15,20,Không view,Vinhomes Grand Park,2026,1,21.6,0,Trung bình
-91,Quận 10,14,1,1,Đông Bắc,2020,Sổ đỏ,19.35,20,9,Không view,Sunrise City,2021,1,9.6,0,Trung bình
-103,Quận 12,9,4,1,Nam,2022,Đang chờ sổ,7.94,35,9,Sông,Millennium,2024,1,22.9,1,Trung bình
-107,Thủ Đức,Bình Chiểu,1,1,Tây Bắc,2024,Giấy tờ tay,15.49,20,16,Nội khu,Masteri Thao Dien,2025,1,24.4,0,Trung bình
-68,Nhà Bè,3,1,1,Tây Bắc,2018,Sổ đỏ,4.44,25,28,Sông,The Sun Avenue,2019,1,10.8,0,Cao cấp
-43,Gò Vấp,16,1,1,Đông Tây,2025,Đang chờ sổ,7.35,20,26,Sông,Sunrise City,2027,1,9.1,0,Thô
-48,Quận 4,Bình Thuận,4,3,Đông,2021,Sổ hồng,8.83,30,20,Không view,Vinhomes Grand Park,2023,1,17.3,0,Thô
-84,Gò Vấp,3,1,1,Tây Bắc,2022,Sổ đỏ,10.9,30,2,Thành phố,Sunrise City,2023,1,10.5,0,Trung bình
-117,Quận 10,11,2,2,Đông Nam,2023,Đang chờ sổ,29.02,40,18,Không view,Vinhomes Grand Park,2024,1,22.3,1,Trung bình
-87,Nhà Bè,3,1,1,Tây,2018,Sổ hồng,3.87,30,9,Thành phố,Centre Mall,2019,1,10.7,0,Trung bình
-136,Bình Chánh,1,2,1,Tây Nam,2021,Sổ hồng,6.67,15,7,Không view,Saigon Pearl,2023,1,9.4,0,Trung bình
-143,Phú Nhuận,17,3,1,Đông Tây,2022,Giấy tờ tay,34.56,20,12,Sông,Vinci Grand Plaza,2023,1,21.1,0,Cao cấp
-81,Quận 5,7,1,1,Đông Nam,2025,Giấy tờ tay,15.53,25,16,Không view,Masteri Thao Dien,2026,1,20.7,0,Cao cấp
-42,Quận 5,13,1,1,Nam,2017,Sổ hồng,7.17,30,7,Không view,Happy Valley,2019,1,13.4,1,Cao cấp
-134,Gò Vấp,3,1,1,Tây Bắc,2017,Sổ đỏ,18.02,35,29,Nội khu,Icon 56,2018,1,13.8,0,Trung bình
-81,Tân Bình,5,3,3,Tây,2015,Sổ hồng,12.73,15,17,Không view,SC VivoCity,2016,1,16.0,0,Trung bình
-89,Bình Chánh,1,2,2,Đông Tây,2015,Sổ hồng,3.92,25,10,Không view,Happy Valley,2017,1,23.3,1,Trung bình
-148,Phú Nhuận,1,3,3,Đông Tây,2025,Sổ hồng,29.61,35,6,Không view,Vinhomes Grand Park,2026,1,14.8,1,Cao cấp
-107,Phú Nhuận,8,2,1,Đông Bắc,2025,Sổ hồng,31.45,25,26,Không view,Millennium,2027,1,20.0,1,Cao cấp
-71,Quận 12,12,3,1,Tây Bắc,2019,Đang chờ sổ,5.33,40,7,Không view,Vinhomes Grand Park,2021,1,9.8,1,Trung bình
-66,Quận 1,Tân Định,1,1,Bắc,2019,Sổ hồng,28.03,20,9,Không view,D'Edge,2020,1,22.1,0,Trung bình
-78,Tân Bình,4,4,1,Đông Tây,2016,Sổ hồng,15.45,15,6,Không view,Saigon Royal,2017,1,10.5,1,Cao cấp
-105,Quận 3,14,3,3,Đông Tây,2023,Sổ đỏ,43.6,30,27,Không view,Saigon Royal,2025,1,8.7,1,Cao cấp
-37,Bình Chánh,1,4,2,Nam,2018,Sổ hồng,1.7,25,21,Không view,Centre Mall,2019,1,15.2,0,Thô
-138,Phú Nhuận,17,1,1,Đông Bắc,2025,Giấy tờ tay,28.9,40,15,Sông,The Estella,2026,1,19.7,0,Thô
-130,Tân Bình,12,1,1,Đông Tây,2021,Sổ hồng,20.63,40,7,Không view,Centre Mall,2023,1,9.8,0,Trung bình
-105,Quận 5,1,1,1,Đông Tây,2018,Đang chờ sổ,13.91,40,8,Không view,Charmington,2019,1,8.1,1,Trung bình
-82,Bình Tân,15,1,1,Đông Tây,2016,Sổ đỏ,8.27,30,22,Thành phố,Charmington,2017,1,23.1,0,Trung bình
-55,Quận 7,Tân Hưng,3,1,Tây,2022,Sổ hồng,7.78,20,25,Không view,Icon 56,2023,1,15.3,1,Thô
-115,Gò Vấp,15,4,3,Đông Nam,2018,Sổ hồng,13.24,25,19,Nội khu,Saigon Pearl,2019,1,13.6,1,Thô
-119,Bình Chánh,10,3,2,Tây Nam,2021,Giấy tờ tay,4.07,15,27,Thành phố,Millennium,2023,1,11.9,0,Trung bình
-59,Bình Tân,6,4,3,Nam,2016,Sổ đỏ,7.82,30,15,Nội khu,Midtown,2018,1,20.6,0,Trung bình
-53,Quận 1,Nguyễn Thái Bình,1,1,Tây Nam,2025,Sổ hồng,24.49,20,18,Thành phố,D'Edge,2027,1,20.7,0,Trung bình
-89,Phú Nhuận,10,2,1,Nam,2023,Sổ hồng,22.57,15,27,Nội khu,Saigon Pearl,2025,1,9.9,0,Trung bình
-58,Quận 4,Phú Thuận,4,3,Tây Bắc,2023,Sổ hồng,11.22,25,3,Thành phố,City Garden,2024,1,12.5,0,Cao cấp
-72,Bình Thạnh,13,2,2,Tây Nam,2019,Đang chờ sổ,13.12,35,19,Không view,The Sun Avenue,2021,1,15.2,0,Trung bình
-145,Quận 4,Phú Thuận,1,1,Tây Bắc,2018,Sổ hồng,27.0,35,5,Nội khu,Sunrise City,2020,1,24.1,1,Trung bình
-57,Quận 3,11,1,1,Đông Tây,2020,Sổ hồng,31.89,25,23,Thành phố,The Sun Avenue,2022,1,14.8,1,Cao cấp
-58,Quận 1,Cầu Kho,3,3,Tây Nam,2023,Đang chờ sổ,29.16,30,3,Không view,City Garden,2024,1,12.2,0,Cao cấp
-92,Quận 3,9,3,3,Tây Bắc,2021,Sổ hồng,33.02,35,24,Sông,Centre Mall,2022,1,15.0,1,Thô
-111,Quận 3,11,4,3,Đông Bắc,2015,Sổ hồng,31.09,15,25,Không view,The Estella,2016,1,9.9,0,Thô
-46,Bình Chánh,6,1,1,Đông Nam,2025,Sổ hồng,1.55,30,20,Thành phố,The Estella,2026,1,9.2,0,Thô
-39,Bình Thạnh,9,1,1,Bắc,2017,Sổ đỏ,5.63,20,16,Không view,Vinci Grand Plaza,2018,1,12.2,0,Cao cấp
-105,Tân Phú,14,3,1,Đông,2022,Sổ hồng,18.49,40,29,Không view,Happy Valley,2023,1,17.5,0,Cao cấp
-108,Gò Vấp,14,1,1,Tây,2019,Đang chờ sổ,15.09,40,14,Không view,Saigon Pearl,2021,1,16.6,0,Cao cấp
-84,Quận 7,Tân Phong,4,3,Đông,2023,Sổ hồng,13.19,35,2,Không view,The Estella,2024,1,20.5,0,Trung bình
-58,Quận 7,Bình Thuận,3,1,Tây Bắc,2018,Sổ hồng,11.44,20,20,Thành phố,Millennium,2019,1,16.7,0,Trung bình
-116,Quận 5,13,3,1,Đông Bắc,2017,Sổ đỏ,17.72,30,15,Nội khu,Masteri Thao Dien,2019,1,15.2,0,Thô
-63,Quận 5,9,2,2,Nam,2017,Sổ hồng,11.9,15,22,Không view,Centre Mall,2019,1,16.3,0,Trung bình
-124,Bình Thạnh,1,4,3,Nam,2022,Giấy tờ tay,26.69,15,10,Nội khu,Saigon Royal,2024,1,11.8,0,Trung bình
-93,Nhà Bè,8,2,2,Tây Nam,2024,Sổ hồng,4.22,25,11,Thành phố,Millennium,2025,1,19.9,1,Trung bình
-59,Thủ Đức,Linh Đông,1,1,Tây Nam,2025,Sổ hồng,7.46,25,28,Sông,The Sun Avenue,2026,1,10.8,0,Thô
-58,Bình Thạnh,16,3,1,Đông,2022,Sổ hồng,10.24,30,6,Nội khu,Happy Valley,2023,1,23.7,0,Trung bình
-88,Quận 7,Phú Thuận,4,1,Đông Nam,2019,Giấy tờ tay,19.97,25,8,Không view,The Sun Avenue,2021,1,8.5,0,Trung bình
-89,Quận 3,Võ Thị Sáu,2,1,Tây Nam,2021,Sổ hồng,27.97,35,12,Không view,D'Edge,2023,1,19.1,1,Thô
-56,Quận 5,7,1,1,Bắc,2020,Đang chờ sổ,8.18,20,14,Thành phố,The Estella,2022,1,16.4,1,Trung bình
-135,Quận 1,Nguyễn Thái Bình,2,1,Nam,2021,Sổ đỏ,76.12,15,16,Nội khu,Masteri Thao Dien,2023,1,14.2,1,Trung bình
-119,Bình Thạnh,11,2,1,Tây Bắc,2016,Giấy tờ tay,23.67,20,15,Thành phố,Midtown,2018,1,22.6,0,Trung bình
-106,Tân Bình,1,2,1,Đông Nam,2023,Sổ đỏ,15.44,25,26,Thành phố,D'Edge,2024,1,22.4,0,Thô
-81,Phú Nhuận,4,3,3,Tây,2018,Sổ hồng,16.03,30,2,Không view,Millennium,2020,1,8.3,0,Trung bình
-125,Bình Thạnh,11,2,2,Tây Bắc,2022,Đang chờ sổ,20.17,25,29,Sông,Saigon Royal,2023,1,17.0,0,Trung bình
-68,Thủ Đức,Linh Tây,1,1,Nam,2022,Sổ hồng,8.67,40,22,Không view,Charmington,2024,1,8.2,0,Thô
-41,Quận 3,13,3,2,Tây,2025,Đang chờ sổ,12.4,30,23,Không view,Vinci Grand Plaza,2026,1,9.6,1,Thô
-96,Bình Thạnh,3,2,2,Bắc,2015,Sổ hồng,21.08,20,16,Không view,Saigon Royal,2017,1,22.4,0,Cao cấp
-124,Quận 3,12,1,1,Tây Bắc,2025,Sổ hồng,40.26,40,15,Không view,Masteri Thao Dien,2026,1,16.4,0,Thô
-107,Quận 1,Bến Nghé,3,2,Tây Bắc,2021,Giấy tờ tay,46.67,40,12,Không view,Charmington,2022,1,24.9,0,Trung bình
-75,Tân Bình,1,1,1,Đông,2025,Đang chờ sổ,14.04,35,7,Không view,Saigon Royal,2027,1,14.6,0,Trung bình
-45,Bình Thạnh,9,1,1,Tây Bắc,2019,Sổ hồng,5.56,20,1,Thành phố,The Sun Avenue,2021,1,14.6,0,Trung bình
-118,Quận 3,Võ Thị Sáu,2,2,Bắc,2015,Sổ hồng,51.36,30,4,Không view,D'Edge,2017,1,20.8,1,Trung bình
-142,Thủ Đức,Trường Thọ,3,3,Tây Nam,2016,Đang chờ sổ,17.0,30,13,Thành phố,The Sun Avenue,2018,1,15.3,0,Thô
-128,Quận 1,Bến Thành,1,1,Tây Bắc,2017,Đang chờ sổ,80.16,40,19,Không view,Happy Valley,2018,1,24.6,0,Cao cấp
-81,Bình Chánh,7,4,2,Tây Bắc,2018,Sổ hồng,2.85,40,19,Không view,Saigon Pearl,2020,1,8.0,1,Trung bình
-54,Quận 1,Nguyễn Thái Bình,3,3,Nam,2024,Sổ hồng,28.55,30,18,Không view,The Estella,2026,1,14.1,0,Trung bình
-105,Quận 1,Tân Định,1,1,Tây Bắc,2017,Sổ hồng,54.46,40,7,Sông,SC VivoCity,2018,1,18.2,0,Trung bình
-130,Quận 12,8,2,1,Tây Nam,2018,Đang chờ sổ,10.85,40,28,Nội khu,Vinhomes Grand Park,2019,1,17.5,0,Cao cấp
-83,Bình Chánh,6,4,1,Đông Tây,2022,Đang chờ sổ,4.06,30,10,Nội khu,Happy Valley,2023,1,23.8,0,Cao cấp
-96,Quận 1,Tân Định,1,1,Đông Tây,2020,Đang chờ sổ,52.91,40,19,Không view,Saigon Pearl,2022,1,10.0,1,Cao cấp
-57,Tân Phú,1,3,3,Đông Bắc,2024,Sổ hồng,8.81,20,1,Không view,Charmington,2025,1,16.8,0,Cao cấp
-39,Quận 7,Tân Phú,2,1,Tây,2023,Sổ hồng,8.7,40,14,Thành phố,Saigon Royal,2025,1,23.2,0,Thô
-68,Quận 3,14,1,1,Đông Bắc,2020,Sổ hồng,19.26,25,10,Không view,Saigon Pearl,2022,1,13.8,0,Trung bình
-124,Phú Nhuận,3,1,1,Đông,2019,Sổ đỏ,30.3,30,13,Thành phố,The Estella,2021,1,19.1,1,Trung bình
-76,Thủ Đức,Linh Tây,4,2,Tây Bắc,2018,Sổ hồng,10.17,20,20,Thành phố,Vinhomes Grand Park,2019,1,14.3,0,Trung bình
-121,Quận 3,Võ Thị Sáu,3,3,Đông Tây,2018,Sổ hồng,54.88,35,15,Nội khu,Millennium,2019,1,8.1,1,Trung bình
-59,Quận 5,9,4,2,Đông Nam,2018,Sổ đỏ,10.71,40,14,Không view,Saigon Royal,2019,1,21.4,1,Thô
-149,Quận 12,1,3,3,Tây Nam,2015,Sổ hồng,11.7,40,5,Thành phố,Saigon Royal,2016,1,20.3,0,Trung bình
-107,Nhà Bè,7,4,2,Tây Bắc,2015,Đang chờ sổ,5.84,40,9,Không view,Charmington,2016,1,20.5,0,Thô
-37,Quận 1,Nguyễn Thái Bình,1,1,Đông Nam,2023,Giấy tờ tay,14.41,40,23,Nội khu,Millennium,2024,1,16.6,0,Trung bình
-96,Tân Bình,1,1,1,Tây Bắc,2025,Sổ hồng,19.54,30,25,Thành phố,Masteri Thao Dien,2026,1,14.9,1,Cao cấp
-101,Tân Phú,5,2,2,Tây Bắc,2016,Sổ hồng,13.14,40,9,Không view,The Sun Avenue,2018,1,9.0,1,Cao cấp
-88,Quận 4,Phú Thuận,4,1,Nam,2022,Sổ hồng,16.3,25,26,Thành phố,The Sun Avenue,2024,1,21.3,1,Thô
-127,Quận 1,Nguyễn Cư Trinh,2,2,Tây,2022,Sổ hồng,56.25,15,1,Không view,Vinci Grand Plaza,2024,1,18.9,0,Trung bình
-90,Quận 1,Nguyễn Cư Trinh,2,2,Nam,2020,Sổ hồng,34.47,30,2,Không view,Masteri Thao Dien,2021,1,17.5,0,Cao cấp
-114,Tân Bình,11,1,1,Đông Bắc,2015,Sổ hồng,23.08,20,26,Nội khu,Millennium,2016,1,20.6,0,Trung bình
-117,Bình Thạnh,13,4,2,Đông Nam,2018,Sổ đỏ,21.67,15,22,Sông,Saigon Pearl,2020,1,10.4,0,Cao cấp
-55,Thủ Đức,Tam Phú,2,1,Tây,2019,Đang chờ sổ,6.32,20,26,Thành phố,SC VivoCity,2021,1,15.8,0,Thô
-75,Phú Nhuận,2,1,1,Tây,2018,Đang chờ sổ,13.22,35,27,Thành phố,Happy Valley,2020,1,21.8,1,Trung bình
-76,Phú Nhuận,6,3,3,Tây,2021,Sổ hồng,15.12,40,22,Thành phố,Icon 56,2023,1,13.5,0,Cao cấp
-53,Quận 1,Cầu Kho,4,3,Đông Bắc,2015,Đang chờ sổ,22.15,35,11,Không view,City Garden,2017,1,14.0,0,Trung bình
-43,Quận 7,Tân Hưng,1,1,Tây Bắc,2015,Đang chờ sổ,7.58,25,29,Thành phố,City Garden,2016,1,13.2,0,Thô
-57,Thủ Đức,Trường Thọ,3,2,Tây Bắc,2022,Sổ đỏ,7.97,20,13,Không view,City Garden,2023,1,13.5,0,Trung bình
-35,Quận 7,Tân Hưng,2,1,Nam,2023,Sổ hồng,8.42,15,29,Không view,Icon 56,2025,1,8.8,0,Cao cấp
-38,Phú Nhuận,6,2,1,Tây Nam,2017,Đang chờ sổ,10.98,20,5,Nội khu,SC VivoCity,2018,1,17.2,0,Trung bình
-44,Quận 3,Phú Nhuận,1,1,Đông,2021,Sổ đỏ,14.56,30,10,Không view,Saigon Pearl,2022,1,21.7,0,Cao cấp
-124,Bình Chánh,4,2,2,Nam,2020,Sổ hồng,5.7,25,25,Nội khu,Happy Valley,2022,1,15.2,1,Cao cấp
-141,Quận 10,12,2,2,Nam,2021,Giấy tờ tay,41.2,25,3,Không view,City Garden,2022,1,8.3,0,Cao cấp
-54,Quận 1,Bến Nghé,4,1,Bắc,2022,Sổ hồng,28.98,15,1,Sông,Midtown,2024,1,23.9,0,Trung bình
-99,Tân Bình,15,3,3,Tây Bắc,2021,Sổ hồng,23.17,40,25,Thành phố,Happy Valley,2023,1,24.9,1,Cao cấp
-57,Quận 1,Bến Thành,2,2,Đông Nam,2019,Sổ hồng,24.1,20,2,Không view,The Estella,2020,1,22.3,0,Thô
-121,Tân Phú,10,3,1,Đông Tây,2019,Sổ hồng,12.22,15,8,Không view,Icon 56,2020,1,12.6,1,Thô
-67,Bình Tân,8,4,1,Nam,2021,Sổ hồng,8.76,35,15,Nội khu,Happy Valley,2023,1,9.9,0,Trung bình
-35,Bình Tân,11,2,1,Tây Nam,2017,Sổ hồng,4.02,15,26,Thành phố,The Estella,2019,1,8.2,0,Trung bình
-100,Gò Vấp,16,4,1,Bắc,2018,Giấy tờ tay,17.1,35,17,Thành phố,Charmington,2020,1,19.3,0,Trung bình
-91,Tân Bình,10,3,1,Đông Tây,2017,Sổ hồng,15.26,35,29,Không view,Charmington,2018,1,19.1,0,Trung bình
-59,Quận 3,14,3,1,Bắc,2016,Sổ hồng,18.37,15,12,Sông,City Garden,2017,1,23.5,1,Thô
-127,Quận 5,15,4,3,Đông,2017,Sổ đỏ,23.84,20,20,Không view,Charmington,2019,1,21.9,0,Cao cấp
-53,Thủ Đức,Bình Chiểu,3,1,Đông Tây,2016,Sổ đỏ,7.52,15,10,Không view,Centre Mall,2018,1,11.9,0,Trung bình
-62,Quận 5,10,1,1,Tây Nam,2023,Sổ đỏ,9.41,30,5,Thành phố,Vinci Grand Plaza,2025,1,16.3,0,Trung bình
-93,Tân Bình,10,2,2,Đông,2021,Sổ hồng,13.34,40,28,Thành phố,The Sun Avenue,2023,1,11.9,0,Trung bình
-45,Quận 1,Đa Kao,1,1,Bắc,2018,Sổ hồng,16.46,40,1,Thành phố,Icon 56,2019,1,9.2,1,Trung bình
-88,Bình Chánh,1,2,1,Đông Bắc,2022,Sổ hồng,3.84,30,5,Không view,Vinhomes Grand Park,2024,1,24.6,0,Trung bình
-54,Quận 12,9,3,3,Bắc,2015,Sổ hồng,3.29,40,10,Không view,Saigon Royal,2016,1,21.9,1,Trung bình
-137,Bình Thạnh,4,1,1,Tây,2021,Sổ hồng,29.15,35,10,Không view,Vinhomes Grand Park,2023,1,8.6,0,Trung bình
-149,Tân Bình,12,2,1,Đông,2023,Sổ hồng,26.47,35,21,Không view,The Sun Avenue,2024,1,13.7,0,Cao cấp
-130,Bình Tân,5,1,1,Tây Bắc,2024,Sổ đỏ,18.96,35,7,Sông,SC VivoCity,2025,1,16.9,0,Cao cấp
-36,Quận 7,Tân Kiểng,3,3,Đông Bắc,2024,Sổ hồng,5.21,15,9,Không view,D'Edge,2025,1,12.8,0,Thô
-96,Quận 3,12,4,3,Tây Bắc,2025,Sổ đỏ,34.71,40,19,Nội khu,Vinhomes Grand Park,2027,1,11.9,1,Trung bình
-108,Quận 5,14,2,1,Tây Bắc,2020,Sổ hồng,20.85,30,20,Thành phố,SC VivoCity,2021,1,14.2,0,Trung bình
-90,Quận 5,11,1,1,Đông Nam,2016,Sổ hồng,15.95,30,20,Không view,Charmington,2018,1,16.4,0,Cao cấp
-92,Quận 12,6,3,1,Tây,2017,Đang chờ sổ,6.17,15,6,Không view,The Sun Avenue,2019,1,22.3,1,Trung bình
-111,Phú Nhuận,3,1,1,Đông,2016,Đang chờ sổ,21.06,40,27,Không view,Happy Valley,2017,1,11.8,0,Trung bình
-125,Quận 1,Bến Nghé,2,1,Đông Bắc,2019,Đang chờ sổ,52.29,20,28,Thành phố,The Sun Avenue,2020,1,14.1,0,Thô
-35,Quận 1,Bến Nghé,3,1,Đông Nam,2018,Sổ hồng,16.05,20,15,Nội khu,Masteri Thao Dien,2020,1,20.6,0,Trung bình
-128,Quận 12,1,3,1,Đông Nam,2020,Sổ hồng,7.41,20,26,Nội khu,Saigon Pearl,2022,1,15.1,1,Cao cấp
-107,Tân Bình,9,4,2,Tây Bắc,2015,Sổ hồng,23.35,35,6,Không view,The Estella,2017,1,24.7,0,Trung bình
-72,Nhà Bè,1,2,2,Đông Bắc,2016,Sổ hồng,3.94,20,29,Thành phố,Happy Valley,2017,1,9.0,1,Trung bình
-63,Tân Phú,4,1,1,Đông Bắc,2025,Giấy tờ tay,6.59,30,23,Không view,Saigon Pearl,2027,1,9.6,0,Thô
-126,Gò Vấp,13,1,1,Bắc,2021,Giấy tờ tay,20.36,15,8,Thành phố,Saigon Royal,2023,1,18.0,0,Trung bình
-99,Bình Tân,9,4,2,Đông,2017,Sổ đỏ,10.73,15,16,Nội khu,Sunrise City,2018,1,17.0,0,Trung bình
-79,Quận 5,1,2,1,Đông,2024,Đang chờ sổ,12.59,15,26,Thành phố,Sunrise City,2026,1,18.9,0,Trung bình
-128,Nhà Bè,5,1,1,Đông Bắc,2017,Sổ hồng,7.59,35,16,Không view,Millennium,2019,1,21.3,1,Cao cấp
-81,Quận 1,Nguyễn Thái Bình,2,1,Tây Bắc,2023,Sổ hồng,37.62,30,21,Nội khu,Sunrise City,2024,1,9.2,0,Trung bình
-102,Quận 10,14,4,2,Tây Bắc,2020,Sổ hồng,22.98,30,27,Không view,Icon 56,2022,1,9.1,0,Trung bình
-119,Bình Thạnh,7,3,3,Tây Bắc,2018,Sổ đỏ,14.72,30,26,Thành phố,Centre Mall,2019,1,22.5,0,Thô
-95,Quận 3,Võ Thị Sáu,1,1,Tây Bắc,2018,Đang chờ sổ,41.39,15,3,Không view,SC VivoCity,2019,1,14.2,0,Cao cấp
-85,Quận 1,Bến Thành,4,3,Tây Bắc,2017,Sổ hồng,41.69,35,6,Không view,Happy Valley,2018,1,14.2,0,Trung bình
-69,Bình Tân,12,3,3,Bắc,2024,Sổ hồng,9.56,30,4,Thành phố,Millennium,2026,1,13.4,0,Trung bình
-53,Quận 3,Phú Nhuận,3,2,Đông,2024,Sổ hồng,25.82,25,23,Sông,Happy Valley,2026,1,21.3,0,Cao cấp
-40,Quận 3,12,1,1,Tây Bắc,2021,Sổ hồng,13.87,20,2,Không view,Happy Valley,2023,1,17.3,0,Cao cấp
-47,Quận 1,Bến Thành,1,1,Đông,2017,Sổ hồng,19.96,30,18,Thành phố,Centre Mall,2018,1,15.1,0,Cao cấp
-38,Bình Thạnh,15,1,1,Bắc,2024,Sổ hồng,8.38,30,24,Nội khu,Icon 56,2026,1,18.2,0,Trung bình
-110,Bình Thạnh,3,2,2,Đông,2021,Đang chờ sổ,16.29,40,1,Thành phố,Sunrise City,2023,1,21.1,0,Trung bình
-112,Quận 1,Bến Thành,2,2,Tây Nam,2022,Sổ hồng,46.83,20,13,Không view,Charmington,2023,1,11.1,1,Thô
-130,Phú Nhuận,9,3,2,Đông,2024,Sổ hồng,33.2,20,26,Không view,The Sun Avenue,2026,1,20.9,0,Thô
-46,Quận 4,Tân Kiểng,2,2,Tây Bắc,2024,Sổ hồng,6.82,30,11,Không view,The Estella,2025,1,12.9,0,Trung bình
-83,Tân Bình,14,4,1,Tây Nam,2015,Sổ hồng,16.85,35,24,Nội khu,City Garden,2017,1,13.6,0,Trung bình
-149,Bình Thạnh,19,1,1,Đông Tây,2022,Sổ hồng,25.23,40,11,Không view,Charmington,2024,1,16.4,0,Thô
-104,Quận 1,Đa Kao,2,1,Đông Bắc,2015,Sổ hồng,50.43,35,22,Thành phố,D'Edge,2016,1,11.9,0,Trung bình
-134,Quận 5,11,2,2,Tây Bắc,2021,Sổ hồng,17.71,25,25,Thành phố,Charmington,2022,1,16.0,0,Cao cấp
-92,Bình Thạnh,10,3,1,Tây Bắc,2015,Sổ hồng,19.02,25,19,Nội khu,Midtown,2016,1,11.5,1,Trung bình
-81,Quận 1,Nguyễn Thái Bình,1,1,Tây Nam,2025,Sổ đỏ,35.26,20,11,Thành phố,Centre Mall,2026,1,11.6,0,Cao cấp
-67,Quận 3,14,3,1,Tây Nam,2023,Giấy tờ tay,23.11,25,17,Không view,The Sun Avenue,2025,1,12.2,0,Thô
-115,Thủ Đức,Linh Đông,3,3,Nam,2015,Sổ đỏ,18.17,35,9,Không view,Saigon Pearl,2017,1,22.5,0,Cao cấp
-108,Quận 3,12,4,3,Đông Bắc,2023,Giấy tờ tay,39.58,35,29,Thành phố,The Estella,2024,1,17.0,0,Cao cấp
-131,Phú Nhuận,2,1,1,Tây,2024,Sổ hồng,28.42,20,14,Không view,SC VivoCity,2026,1,13.3,0,Cao cấp
-89,Bình Tân,4,1,1,Đông Tây,2023,Sổ hồng,12.22,30,19,Nội khu,Vinci Grand Plaza,2025,1,19.6,0,Trung bình
-95,Bình Chánh,11,4,2,Đông Bắc,2020,Sổ hồng,3.75,40,4,Thành phố,Millennium,2022,1,20.6,0,Trung bình
-79,Gò Vấp,13,1,1,Tây,2015,Giấy tờ tay,14.06,35,23,Không view,Vinci Grand Plaza,2017,1,12.1,0,Trung bình
-122,Bình Chánh,9,3,3,Bắc,2018,Sổ hồng,5.6,35,29,Thành phố,Vinhomes Grand Park,2019,1,13.2,0,Cao cấp
-149,Quận 1,Đa Kao,3,1,Đông Bắc,2021,Đang chờ sổ,90.53,40,23,Sông,Millennium,2023,1,12.0,0,Trung bình
-102,Thủ Đức,Hiệp Bình Phước,4,1,Nam,2016,Sổ hồng,13.2,15,18,Không view,D'Edge,2017,1,15.3,1,Trung bình
-93,Quận 1,Bến Nghé,2,1,Tây Nam,2025,Sổ hồng,48.79,30,15,Nội khu,Saigon Royal,2027,1,13.6,1,Thô
-133,Tân Bình,10,1,1,Đông,2022,Sổ đỏ,24.63,15,14,Thành phố,Saigon Royal,2023,1,8.1,1,Trung bình
-87,Bình Thạnh,8,4,3,Nam,2015,Đang chờ sổ,19.79,20,1,Không view,The Sun Avenue,2016,1,12.7,1,Cao cấp
-53,Quận 1,Đa Kao,4,1,Nam,2016,Sổ hồng,25.71,30,22,Không view,Saigon Royal,2018,1,23.5,0,Thô
-53,Quận 3,11,1,1,Bắc,2022,Sổ hồng,18.53,30,19,Không view,SC VivoCity,2024,1,15.4,1,Trung bình
-114,Quận 5,10,1,1,Đông Nam,2020,Sổ hồng,26.63,30,23,Không view,Icon 56,2021,1,23.5,1,Cao cấp
-118,Gò Vấp,3,2,1,Tây Bắc,2021,Giấy tờ tay,19.24,15,8,Không view,The Estella,2023,1,20.6,0,Trung bình
-85,Gò Vấp,5,2,2,Đông,2020,Giấy tờ tay,8.77,35,6,Thành phố,Midtown,2021,1,20.1,1,Thô
-125,Quận 1,Nguyễn Thái Bình,1,1,Tây Nam,2024,Đang chờ sổ,66.22,15,17,Thành phố,City Garden,2025,1,22.7,1,Thô
-91,Tân Bình,2,4,2,Tây,2022,Sổ hồng,20.02,35,22,Thành phố,Saigon Royal,2024,1,18.8,0,Cao cấp
-54,Thủ Đức,Trường Thọ,1,1,Đông Bắc,2023,Sổ hồng,7.69,30,29,Thành phố,Sunrise City,2024,1,13.2,1,Trung bình
-83,Thủ Đức,Hiệp Bình Chánh,1,1,Đông,2024,Sổ hồng,10.63,35,3,Không view,Midtown,2025,1,17.2,0,Thô
-105,Gò Vấp,14,4,2,Bắc,2016,Sổ hồng,21.76,15,24,Thành phố,Saigon Royal,2018,1,16.1,1,Trung bình
-128,Tân Phú,11,4,2,Đông,2020,Sổ hồng,12.83,40,28,Không view,SC VivoCity,2022,1,24.6,0,Thô
-74,Quận 12,5,4,2,Tây,2021,Sổ hồng,5.56,25,19,Sông,Masteri Thao Dien,2023,1,13.7,0,Cao cấp
-62,Quận 4,Tân Thuận Đông,4,1,Tây,2023,Sổ hồng,10.68,30,29,Thành phố,Charmington,2025,1,23.2,0,Thô
-130,Quận 1,Đa Kao,4,1,Nam,2015,Sổ hồng,62.42,35,14,Thành phố,Millennium,2016,1,19.6,0,Trung bình
-110,Quận 1,Tân Định,1,1,Đông Bắc,2022,Sổ hồng,50.18,35,9,Thành phố,SC VivoCity,2023,1,21.4,1,Thô
-113,Quận 12,2,4,2,Tây,2019,Sổ hồng,6.68,40,16,Không view,Millennium,2020,1,13.2,0,Trung bình
-136,Quận 4,Tân Hưng,3,3,Đông,2022,Đang chờ sổ,25.67,30,4,Không view,Sunrise City,2024,1,19.6,0,Cao cấp
-83,Quận 7,Tân Mỹ,2,2,Nam,2023,Sổ hồng,12.49,20,23,Thành phố,Midtown,2025,1,15.4,1,Thô
-123,Tân Phú,6,1,1,Tây Nam,2022,Sổ đỏ,15.94,15,6,Thành phố,Midtown,2023,1,17.5,0,Thô
-50,Quận 5,13,1,1,Đông Tây,2024,Sổ đỏ,7.68,15,11,Không view,D'Edge,2026,1,10.9,0,Trung bình
-120,Quận 1,Nguyễn Thái Bình,1,1,Nam,2021,Sổ hồng,51.1,20,2,Thành phố,Masteri Thao Dien,2022,1,23.2,0,Cao cấp
-62,Quận 1,Bến Nghé,2,1,Bắc,2021,Đang chờ sổ,29.03,25,4,Không view,The Estella,2023,1,24.8,0,Thô
-58,Quận 1,Nguyễn Thái Bình,3,2,Tây,2015,Sổ hồng,22.33,15,19,Nội khu,Masteri Thao Dien,2017,1,12.7,1,Trung bình
-101,Quận 7,Tân Phú,2,1,Đông Nam,2025,Sổ hồng,20.71,30,2,Nội khu,Saigon Pearl,2027,1,15.8,1,Trung bình
-73,Nhà Bè,8,4,2,Tây Bắc,2015,Sổ hồng,3.48,30,17,Không view,Millennium,2017,1,11.2,1,Thô
-78,Quận 7,Tân Phú,2,2,Tây,2019,Sổ hồng,15.68,40,26,Không view,Charmington,2021,1,22.0,1,Cao cấp
-68,Bình Chánh,8,2,1,Tây Bắc,2023,Đang chờ sổ,2.66,20,23,Thành phố,Saigon Royal,2024,1,21.9,0,Thô
-84,Quận 5,12,2,1,Tây,2016,Sổ hồng,11.97,35,8,Không view,Midtown,2018,1,15.3,1,Trung bình
-53,Bình Chánh,4,3,2,Đông Bắc,2022,Sổ hồng,1.9,20,20,Thành phố,Vinci Grand Plaza,2023,1,23.1,0,Trung bình
-97,Bình Chánh,5,2,2,Tây Nam,2015,Sổ hồng,4.68,40,22,Không view,Vinci Grand Plaza,2017,1,20.4,1,Trung bình
-91,Quận 5,4,1,1,Đông Bắc,2020,Sổ hồng,16.47,30,27,Nội khu,Millennium,2021,1,16.1,0,Cao cấp
-115,Bình Chánh,1,2,2,Tây Bắc,2019,Sổ đỏ,4.83,20,14,Sông,D'Edge,2020,1,18.6,1,Trung bình
-105,Quận 10,2,4,3,Đông Bắc,2024,Giấy tờ tay,26.41,20,8,Thành phố,Icon 56,2025,1,18.4,1,Cao cấp
-145,Bình Chánh,3,2,1,Đông Nam,2023,Sổ hồng,5.2,35,29,Thành phố,Icon 56,2024,1,17.7,0,Trung bình
-60,Gò Vấp,1,3,1,Tây Bắc,2022,Sổ hồng,9.26,30,14,Không view,SC VivoCity,2024,1,13.8,1,Trung bình
-61,Quận 3,11,1,1,Đông Nam,2022,Sổ hồng,22.59,15,19,Không view,Saigon Pearl,2023,1,20.6,1,Thô
-64,Quận 3,Phú Nhuận,2,1,Bắc,2021,Giấy tờ tay,26.05,35,21,Nội khu,D'Edge,2022,1,15.2,0,Trung bình
-73,Quận 1,Nguyễn Thái Bình,1,1,Đông,2021,Sổ đỏ,36.97,30,11,Sông,Saigon Royal,2022,1,13.1,1,Cao cấp
-69,Thủ Đức,Linh Chiểu,4,1,Đông,2020,Sổ hồng,10.19,25,13,Không view,Centre Mall,2022,1,16.1,1,Trung bình
-55,Tân Phú,3,1,1,Tây,2017,Sổ đỏ,7.35,40,21,Nội khu,Saigon Pearl,2018,1,18.5,0,Cao cấp
-106,Thủ Đức,Hiệp Bình Chánh,1,1,Đông Nam,2022,Đang chờ sổ,16.69,25,2,Không view,Charmington,2023,1,19.9,1,Cao cấp
-141,Bình Chánh,2,3,1,Đông,2020,Sổ hồng,6.79,35,19,Nội khu,The Estella,2022,1,11.2,0,Thô
-69,Gò Vấp,14,2,2,Tây Bắc,2024,Sổ hồng,11.22,40,13,Nội khu,Charmington,2025,1,12.6,0,Thô
-132,Quận 7,Phú Thuận,1,1,Nam,2022,Sổ đỏ,36.53,30,19,Không view,City Garden,2023,1,22.4,1,Cao cấp
-139,Bình Chánh,5,2,1,Nam,2020,Đang chờ sổ,5.31,30,2,Không view,Millennium,2022,1,22.7,1,Thô
-55,Tân Bình,8,4,2,Đông,2016,Sổ đỏ,7.75,40,7,Không view,Millennium,2017,1,18.9,1,Trung bình
-95,Quận 7,Tân Phú,1,1,Bắc,2023,Sổ hồng,24.12,30,26,Thành phố,Masteri Thao Dien,2025,1,20.8,0,Trung bình
-95,Thủ Đức,Trường Thọ,3,1,Nam,2025,Sổ hồng,13.68,20,18,Không view,Vinci Grand Plaza,2026,1,17.2,0,Trung bình
-40,Quận 7,Tân Phú,4,2,Nam,2018,Sổ hồng,7.1,35,20,Không view,Sunrise City,2019,1,23.8,1,Thô
-103,Tân Phú,8,1,1,Nam,2021,Sổ đỏ,11.81,25,2,Không view,D'Edge,2023,1,24.9,0,Cao cấp
-55,Nhà Bè,9,2,1,Đông,2018,Sổ hồng,2.73,25,3,Không view,Millennium,2020,1,13.7,1,Trung bình
-100,Quận 7,Tân Phong,4,3,Nam,2021,Sổ hồng,28.03,15,24,Không view,Millennium,2022,1,9.2,1,Cao cấp
-38,Quận 3,14,4,3,Tây Bắc,2017,Sổ đỏ,18.42,35,28,Sông,Midtown,2019,1,11.8,0,Thô
-117,Quận 3,12,2,1,Tây Bắc,2018,Sổ đỏ,47.66,15,21,Thành phố,Vinci Grand Plaza,2020,1,19.7,0,Trung bình
-88,Gò Vấp,9,3,2,Tây,2020,Sổ hồng,11.69,40,13,Thành phố,Midtown,2022,1,21.8,0,Thô
-58,Thủ Đức,Tam Phú,4,3,Đông,2017,Sổ hồng,9.42,30,2,Không view,Icon 56,2018,1,21.4,1,Trung bình
-60,Phú Nhuận,10,1,1,Nam,2024,Sổ hồng,12.08,25,1,Không view,Vinhomes Grand Park,2026,1,23.0,0,Cao cấp
-74,Quận 7,Tân Kiểng,1,1,Tây Bắc,2022,Sổ hồng,13.94,40,5,Nội khu,Masteri Thao Dien,2023,1,12.6,0,Trung bình
-53,Quận 3,13,2,1,Bắc,2016,Đang chờ sổ,23.23,40,26,Thành phố,Sunrise City,2018,1,22.2,1,Cao cấp
-61,Gò Vấp,11,4,3,Nam,2024,Sổ hồng,6.81,30,3,Không view,Happy Valley,2025,1,24.7,0,Cao cấp
-109,Bình Thạnh,14,3,2,Đông Tây,2022,Sổ hồng,22.62,25,14,Thành phố,Vinhomes Grand Park,2023,1,13.9,0,Cao cấp
-109,Gò Vấp,17,1,1,Đông,2018,Sổ đỏ,13.16,35,21,Không view,Vinhomes Grand Park,2019,1,24.7,0,Thô
-121,Quận 7,Tân Phú,2,2,Đông Nam,2015,Sổ hồng,25.02,15,12,Sông,The Estella,2017,1,12.9,1,Trung bình
-142,Quận 7,Phú Thuận,2,2,Đông Tây,2025,Sổ đỏ,28.96,25,1,Không view,Happy Valley,2026,1,23.4,0,Trung bình
-77,Quận 10,4,2,1,Đông Nam,2018,Đang chờ sổ,15.14,15,26,Thành phố,Icon 56,2020,1,19.6,0,Thô
-46,Quận 1,Đa Kao,2,1,Tây Nam,2021,Sổ hồng,20.22,35,26,Không view,Vinhomes Grand Park,2022,1,8.1,1,Trung bình
-100,Quận 1,Nguyễn Thái Bình,1,1,Tây Bắc,2015,Sổ đỏ,63.38,25,24,Nội khu,City Garden,2017,1,23.7,0,Trung bình
-54,Thủ Đức,Linh Chiểu,4,3,Đông,2023,Sổ hồng,7.15,25,4,Thành phố,Centre Mall,2024,1,15.0,0,Trung bình
-103,Quận 3,Phú Nhuận,3,2,Đông Tây,2022,Đang chờ sổ,36.18,15,12,Nội khu,Midtown,2024,1,23.5,0,Thô
-126,Quận 3,11,3,2,Tây Bắc,2024,Sổ hồng,55.12,25,26,Thành phố,Centre Mall,2026,1,19.6,0,Trung bình
-90,Tân Bình,8,3,1,Tây Nam,2019,Sổ hồng,16.75,25,21,Không view,D'Edge,2020,1,10.4,0,Thô
-55,Nhà Bè,3,3,2,Tây Nam,2022,Đang chờ sổ,3.49,25,8,Sông,Midtown,2024,1,20.8,0,Thô
-104,Bình Chánh,11,1,1,Tây Bắc,2023,Đang chờ sổ,4.15,25,15,Không view,Midtown,2025,1,21.2,0,Cao cấp
-109,Tân Phú,11,1,1,Nam,2017,Sổ đỏ,12.21,40,18,Không view,Icon 56,2019,1,16.9,0,Cao cấp
-117,Thủ Đức,Tam Phú,1,1,Nam,2015,Sổ hồng,13.14,30,3,Nội khu,Centre Mall,2016,1,23.7,0,Cao cấp
-86,Bình Tân,8,2,1,Tây Bắc,2015,Sổ hồng,10.44,35,11,Thành phố,Vinci Grand Plaza,2017,1,19.8,0,Cao cấp
-121,Quận 7,Tân Hưng,3,3,Đông,2017,Giấy tờ tay,17.94,20,4,Thành phố,Masteri Thao Dien,2018,1,11.1,1,Thô
-41,Thủ Đức,Hiệp Bình Phước,2,2,Bắc,2024,Giấy tờ tay,4.35,40,20,Không view,D'Edge,2025,1,22.0,0,Trung bình
-69,Quận 4,Tân Hưng,4,3,Tây Bắc,2015,Đang chờ sổ,9.89,15,12,Không view,Midtown,2016,1,24.2,0,Trung bình
-59,Bình Chánh,7,4,1,Nam,2022,Sổ hồng,2.04,25,21,Không view,Centre Mall,2023,1,23.1,0,Trung bình
-124,Quận 12,8,4,2,Tây Bắc,2018,Sổ hồng,8.4,35,27,Không view,D'Edge,2020,1,21.7,1,Cao cấp
-107,Quận 1,Bến Nghé,4,2,Tây,2025,Sổ hồng,56.62,30,27,Thành phố,Happy Valley,2027,1,23.1,1,Thô
-63,Nhà Bè,3,1,1,Bắc,2024,Sổ hồng,3.29,20,3,Sông,Vinci Grand Plaza,2025,1,9.5,1,Thô
-124,Quận 1,Bến Nghé,2,2,Tây Bắc,2017,Sổ hồng,44.98,30,27,Thành phố,Centre Mall,2018,1,24.4,0,Trung bình
-109,Bình Thạnh,2,3,3,Tây Nam,2024,Giấy tờ tay,21.21,15,9,Nội khu,D'Edge,2026,1,20.4,1,Thô
-116,Nhà Bè,6,1,1,Bắc,2018,Sổ hồng,5.1,30,25,Không view,Vinci Grand Plaza,2019,1,18.6,0,Thô
-96,Quận 3,Phú Nhuận,3,1,Tây Nam,2019,Sổ hồng,28.76,15,6,Thành phố,Vinhomes Grand Park,2021,1,17.9,0,Trung bình
-87,Quận 1,Nguyễn Cư Trinh,1,1,Đông Tây,2017,Sổ đỏ,42.48,15,28,Không view,Centre Mall,2018,1,23.8,0,Trung bình
-63,Tân Phú,5,3,3,Tây,2024,Sổ đỏ,8.45,30,24,Thành phố,Vinhomes Grand Park,2026,1,18.7,0,Trung bình
-44,Bình Tân,14,2,1,Tây,2024,Giấy tờ tay,6.52,30,1,Nội khu,Icon 56,2026,1,15.0,1,Cao cấp
-111,Tân Phú,4,2,2,Tây Nam,2018,Sổ hồng,14.41,15,3,Không view,Midtown,2019,1,21.2,0,Trung bình
-85,Bình Thạnh,16,1,1,Tây Bắc,2021,Sổ hồng,20.53,35,22,Không view,Centre Mall,2022,1,20.5,0,Trung bình
-144,Thủ Đức,Trường Thọ,1,1,Bắc,2020,Sổ đỏ,20.66,40,19,Thành phố,Icon 56,2022,1,14.4,0,Thô
-140,Tân Bình,2,3,2,Bắc,2021,Sổ hồng,27.47,15,6,Thành phố,Millennium,2022,1,23.2,0,Cao cấp
-65,Quận 1,Nguyễn Thái Bình,1,1,Tây Bắc,2021,Sổ đỏ,25.79,35,1,Thành phố,The Estella,2022,1,22.3,0,Cao cấp
-134,Quận 5,14,2,1,Tây,2021,Đang chờ sổ,23.31,40,6,Không view,Charmington,2023,1,10.8,0,Cao cấp
-35,Tân Phú,3,3,2,Tây Bắc,2015,Sổ hồng,3.98,30,4,Thành phố,Midtown,2016,1,15.6,0,Trung bình
-41,Quận 1,Cầu Ông Lãnh,1,1,Nam,2024,Giấy tờ tay,14.03,30,11,Nội khu,Sunrise City,2025,1,16.2,0,Thô
-59,Phú Nhuận,11,3,3,Đông Nam,2022,Sổ hồng,16.77,35,5,Không view,Charmington,2024,1,24.8,0,Trung bình
-143,Quận 3,9,3,1,Tây Nam,2022,Đang chờ sổ,65.21,20,17,Sông,Saigon Royal,2023,1,21.4,0,Cao cấp
-123,Quận 1,Cầu Ông Lãnh,2,1,Tây Bắc,2020,Sổ hồng,45.31,35,4,Không view,Sunrise City,2022,1,10.6,0,Cao cấp
-42,Quận 7,Tân Phú,3,2,Tây Bắc,2019,Sổ hồng,7.15,25,29,Nội khu,Happy Valley,2021,1,17.3,0,Thô
-66,Phú Nhuận,14,3,3,Tây Bắc,2017,Sổ hồng,12.42,40,14,Không view,Millennium,2018,1,12.9,1,Trung bình
-138,Bình Chánh,10,4,1,Tây Bắc,2018,Sổ đỏ,6.79,15,15,Không view,City Garden,2020,1,8.5,1,Thô
-112,Quận 7,Bình Thuận,3,2,Tây,2024,Sổ hồng,24.87,35,10,Thành phố,Midtown,2025,1,10.6,0,Thô
-131,Phú Nhuận,2,4,1,Nam,2023,Giấy tờ tay,29.86,25,2,Sông,D'Edge,2025,1,14.3,0,Trung bình
-75,Bình Tân,4,2,2,Tây Bắc,2022,Sổ hồng,9.53,30,3,Nội khu,Vinci Grand Plaza,2024,1,23.7,0,Thô
-93,Quận 10,4,3,1,Tây Nam,2025,Sổ hồng,23.9,30,1,Không view,D'Edge,2026,1,19.0,0,Trung bình
-144,Phú Nhuận,16,4,3,Đông Bắc,2018,Đang chờ sổ,41.51,20,3,Không view,Vinci Grand Plaza,2020,1,23.9,1,Cao cấp
-124,Tân Bình,8,2,1,Tây Bắc,2025,Sổ đỏ,18.2,25,12,Không view,Happy Valley,2027,1,18.4,0,Thô
-76,Bình Chánh,7,3,2,Đông Tây,2019,Sổ hồng,2.12,30,26,Không view,Midtown,2020,1,14.9,0,Thô
-36,Bình Thạnh,2,1,1,Đông,2018,Sổ đỏ,6.7,30,10,Nội khu,SC VivoCity,2019,1,24.8,0,Trung bình
-65,Tân Phú,11,2,2,Tây Nam,2020,Giấy tờ tay,8.31,25,8,Thành phố,The Sun Avenue,2021,1,24.8,1,Cao cấp
-56,Quận 3,11,1,1,Tây Bắc,2023,Sổ hồng,20.25,30,21,Sông,Millennium,2024,1,18.3,0,Thô
-95,Quận 1,Đa Kao,1,1,Đông Bắc,2016,Đang chờ sổ,47.03,20,14,Thành phố,Saigon Pearl,2018,1,22.2,1,Cao cấp
-127,Quận 5,11,3,3,Tây Bắc,2015,Sổ hồng,24.7,40,27,Không view,City Garden,2016,1,21.3,0,Trung bình
-93,Gò Vấp,3,3,1,Bắc,2016,Sổ hồng,15.42,40,14,Không view,Sunrise City,2018,1,23.1,0,Cao cấp
-92,Quận 3,9,2,1,Đông,2021,Đang chờ sổ,22.68,40,7,Không view,Sunrise City,2022,1,24.8,0,Thô
-139,Thủ Đức,Trường Thọ,1,1,Đông Bắc,2018,Sổ hồng,17.06,30,6,Không view,Millennium,2020,1,19.5,0,Trung bình
-90,Tân Bình,14,2,2,Tây Bắc,2023,Giấy tờ tay,13.93,30,8,Không view,The Sun Avenue,2024,1,9.8,1,Trung bình
-48,Bình Tân,6,3,2,Tây Nam,2025,Sổ hồng,5.44,35,26,Thành phố,Sunrise City,2026,1,14.9,0,Trung bình
-84,Quận 5,10,2,2,Đông Nam,2022,Sổ đỏ,15.42,40,24,Nội khu,Midtown,2024,1,11.4,1,Cao cấp
-139,Quận 1,Bến Nghé,1,1,Tây,2022,Sổ hồng,71.57,20,15,Sông,Sunrise City,2023,1,24.9,0,Cao cấp
-81,Tân Bình,4,3,3,Tây Bắc,2017,Sổ hồng,15.0,35,16,Nội khu,Centre Mall,2018,1,21.6,1,Trung bình
-76,Quận 7,Tân Mỹ,2,2,Đông Tây,2021,Sổ hồng,13.4,20,1,Không view,The Estella,2022,1,18.5,0,Trung bình
-92,Phú Nhuận,9,4,1,Tây Bắc,2022,Sổ hồng,23.42,20,20,Không view,City Garden,2024,1,12.1,0,Cao cấp
-80,Bình Tân,13,1,1,Tây Nam,2024,Sổ hồng,11.45,30,11,Nội khu,Masteri Thao Dien,2026,1,8.1,0,Trung bình
-38,Bình Thạnh,12,3,3,Tây Nam,2016,Giấy tờ tay,8.75,25,14,Không view,Happy Valley,2018,1,16.0,0,Cao cấp
-107,Quận 5,15,4,3,Bắc,2025,Giấy tờ tay,27.51,30,18,Nội khu,Centre Mall,2027,1,20.9,1,Cao cấp
-53,Nhà Bè,5,1,1,Nam,2021,Sổ hồng,3.0,40,27,Nội khu,Vinhomes Grand Park,2022,1,23.0,0,Cao cấp
-106,Thủ Đức,Linh Đông,1,1,Tây Bắc,2019,Sổ hồng,13.71,20,18,Không view,Sunrise City,2020,1,16.4,0,Thô
-75,Tân Bình,7,2,1,Tây Bắc,2025,Sổ đỏ,13.64,35,24,Nội khu,Centre Mall,2026,1,18.9,0,Cao cấp
-132,Quận 3,9,4,1,Tây,2023,Sổ hồng,61.47,15,5,Không view,Midtown,2024,1,22.0,1,Trung bình
-108,Bình Tân,12,3,1,Tây,2018,Đang chờ sổ,15.16,15,7,Không view,D'Edge,2020,1,23.7,0,Cao cấp
-66,Bình Thạnh,12,4,3,Nam,2018,Sổ đỏ,12.7,15,10,Thành phố,Millennium,2019,1,17.0,0,Trung bình
-111,Thủ Đức,Hiệp Bình Phước,4,3,Bắc,2015,Giấy tờ tay,18.62,40,24,Sông,Midtown,2017,1,20.8,1,Trung bình
-90,Quận 12,8,1,1,Tây Bắc,2017,Sổ hồng,7.57,35,9,Nội khu,Midtown,2018,1,11.3,0,Cao cấp
-76,Quận 1,Đa Kao,2,2,Nam,2020,Sổ hồng,32.71,35,23,Không view,Happy Valley,2021,1,16.4,0,Trung bình
-56,Quận 3,14,4,2,Đông Bắc,2019,Đang chờ sổ,24.79,15,12,Không view,Vinhomes Grand Park,2020,1,10.4,0,Cao cấp
-118,Bình Thạnh,17,2,1,Đông Bắc,2018,Sổ hồng,24.19,30,11,Nội khu,SC VivoCity,2019,1,24.7,0,Thô
-100,Thủ Đức,Linh Tây,1,1,Tây,2025,Sổ hồng,14.42,20,3,Không view,Happy Valley,2027,1,15.1,1,Cao cấp
-80,Nhà Bè,1,2,1,Tây Nam,2018,Sổ hồng,3.78,35,15,Thành phố,City Garden,2019,1,17.4,1,Trung bình
-62,Bình Tân,10,1,1,Nam,2023,Sổ hồng,6.43,30,8,Không view,Vinhomes Grand Park,2025,1,20.8,0,Trung bình
-71,Bình Thạnh,11,2,2,Tây Bắc,2023,Sổ hồng,13.67,30,25,Không view,City Garden,2024,1,24.5,0,Thô
-45,Tân Phú,5,4,1,Bắc,2022,Sổ hồng,4.82,30,23,Nội khu,Vinhomes Grand Park,2024,1,22.6,1,Trung bình
-149,Bình Chánh,6,2,1,Nam,2018,Sổ hồng,6.86,25,3,Sông,Millennium,2019,1,15.2,1,Thô
-130,Bình Thạnh,4,4,1,Đông Bắc,2020,Đang chờ sổ,20.15,15,21,Thành phố,Saigon Pearl,2022,1,8.3,0,Trung bình
-97,Quận 1,Bến Thành,2,1,Tây Bắc,2021,Sổ hồng,36.95,40,13,Không view,Saigon Royal,2023,1,19.7,0,Trung bình
-127,Quận 4,Phú Thuận,2,2,Tây Nam,2025,Sổ hồng,29.47,15,29,Không view,Millennium,2027,1,23.8,0,Cao cấp
-114,Quận 1,Nguyễn Thái Bình,1,1,Tây Bắc,2017,Sổ hồng,38.93,20,7,Không view,City Garden,2018,1,21.5,0,Trung bình
-66,Quận 3,Võ Thị Sáu,4,1,Đông Tây,2015,Sổ hồng,27.49,20,24,Sông,Saigon Pearl,2017,1,10.2,1,Trung bình
-124,Phú Nhuận,6,2,1,Đông Tây,2019,Đang chờ sổ,34.11,15,15,Nội khu,Sunrise City,2020,1,14.4,0,Trung bình
-58,Quận 4,Tân Thuận Tây,4,3,Tây Bắc,2020,Giấy tờ tay,10.55,15,7,Nội khu,The Sun Avenue,2021,1,9.0,0,Cao cấp
-84,Quận 10,2,1,1,Tây,2025,Sổ hồng,27.0,25,8,Không view,Midtown,2026,1,24.0,1,Trung bình
-80,Quận 7,Tân Mỹ,1,1,Đông Nam,2015,Sổ hồng,17.67,20,25,Không view,D'Edge,2017,1,16.3,0,Cao cấp
-95,Thủ Đức,Hiệp Bình Chánh,3,1,Đông Nam,2020,Đang chờ sổ,13.64,20,8,Sông,Saigon Royal,2021,1,18.8,0,Trung bình
-115,Quận 5,1,1,1,Đông Nam,2017,Đang chờ sổ,17.88,30,8,Nội khu,Charmington,2018,1,22.1,1,Thô
-134,Quận 12,9,1,1,Bắc,2024,Sổ đỏ,8.83,20,2,Nội khu,Vinci Grand Plaza,2026,1,24.0,0,Trung bình
-128,Bình Thạnh,13,4,3,Đông Bắc,2023,Sổ hồng,25.17,15,18,Không view,The Sun Avenue,2024,1,24.6,0,Thô
-98,Phú Nhuận,2,4,1,Tây Bắc,2024,Sổ hồng,16.94,40,9,Nội khu,Centre Mall,2025,1,16.4,0,Thô
-118,Quận 1,Nguyễn Thái Bình,3,3,Đông,2021,Sổ hồng,72.84,30,18,Không view,Vinhomes Grand Park,2022,1,9.9,1,Cao cấp
-58,Gò Vấp,12,3,2,Đông Bắc,2018,Sổ hồng,9.83,20,25,Không view,Icon 56,2019,1,17.3,0,Cao cấp
-40,Nhà Bè,5,1,1,Đông Nam,2024,Sổ đỏ,2.84,40,29,Không view,Midtown,2025,1,11.2,0,Cao cấp
-54,Tân Phú,6,4,1,Tây Bắc,2019,Sổ hồng,4.83,15,23,Thành phố,Saigon Royal,2020,1,9.3,0,Thô
-96,Tân Bình,15,1,1,Tây Bắc,2015,Sổ hồng,19.46,40,15,Không view,Saigon Royal,2017,1,16.0,0,Trung bình
-135,Quận 12,5,3,1,Đông Nam,2023,Sổ hồng,8.12,25,20,Không view,Millennium,2025,1,11.8,0,Trung bình
-77,Tân Phú,9,4,3,Đông Nam,2023,Đang chờ sổ,8.72,15,3,Thành phố,Sunrise City,2025,1,22.2,0,Cao cấp
-45,Quận 1,Cầu Ông Lãnh,3,3,Đông,2023,Sổ đỏ,18.63,20,1,Thành phố,Centre Mall,2024,1,21.3,0,Cao cấp
-141,Phú Nhuận,11,4,2,Tây Nam,2022,Đang chờ sổ,23.71,20,25,Sông,Midtown,2024,1,21.9,0,Thô
-83,Bình Tân,2,4,3,Đông,2016,Sổ hồng,9.95,15,26,Không view,City Garden,2018,1,18.2,1,Trung bình
-140,Quận 1,Bến Thành,3,2,Tây Nam,2017,Sổ hồng,51.91,20,23,Không view,City Garden,2019,1,17.9,1,Thô
-95,Bình Chánh,8,4,1,Tây Bắc,2017,Sổ đỏ,4.13,40,5,Không view,Vinci Grand Plaza,2019,1,12.5,0,Trung bình
-93,Quận 1,Đa Kao,2,2,Nam,2023,Đang chờ sổ,54.14,40,19,Nội khu,Millennium,2024,1,12.5,0,Trung bình
-48,Quận 5,14,4,1,Đông Bắc,2025,Sổ hồng,8.98,35,26,Không view,Millennium,2027,1,15.3,0,Trung bình
-52,Quận 4,Tân Hưng,3,3,Tây Bắc,2020,Sổ hồng,6.21,20,10,Thành phố,Vinci Grand Plaza,2021,1,8.7,0,Trung bình
-133,Quận 3,Phú Nhuận,1,1,Tây Bắc,2021,Sổ hồng,48.94,30,3,Nội khu,Saigon Royal,2022,1,19.9,0,Cao cấp
-49,Quận 3,Phú Nhuận,4,3,Tây Nam,2020,Giấy tờ tay,22.01,20,25,Thành phố,Charmington,2021,1,20.6,0,Trung bình
-100,Quận 12,11,1,1,Tây,2023,Sổ hồng,7.52,40,12,Thành phố,Charmington,2024,1,20.6,0,Cao cấp
-79,Nhà Bè,5,2,1,Đông Nam,2019,Sổ hồng,4.42,30,3,Không view,Sunrise City,2021,1,15.1,0,Cao cấp
-75,Quận 7,Bình Thuận,3,2,Đông Tây,2021,Đang chờ sổ,15.51,40,12,Thành phố,The Sun Avenue,2022,1,14.1,0,Thô
-140,Bình Thạnh,18,2,1,Bắc,2017,Sổ hồng,25.53,30,2,Nội khu,Masteri Thao Dien,2018,1,8.4,0,Trung bình
-38,Quận 3,9,1,1,Tây Bắc,2021,Sổ hồng,15.61,40,26,Nội khu,Millennium,2023,1,17.0,1,Cao cấp
-69,Tân Bình,4,1,1,Bắc,2016,Sổ đỏ,10.22,20,5,Nội khu,Happy Valley,2018,1,12.8,0,Trung bình
-100,Tân Phú,12,1,1,Đông Nam,2020,Giấy tờ tay,12.0,40,24,Nội khu,Millennium,2021,1,22.4,1,Cao cấp
-130,Gò Vấp,11,2,1,Tây Bắc,2017,Sổ đỏ,19.94,30,1,Thành phố,Charmington,2018,1,17.8,0,Cao cấp
-60,Bình Thạnh,5,4,1,Bắc,2015,Giấy tờ tay,10.55,40,4,Thành phố,D'Edge,2016,1,16.4,1,Thô
-146,Quận 1,Bến Thành,4,3,Tây Bắc,2022,Sổ hồng,66.86,40,3,Thành phố,Charmington,2023,1,21.9,0,Trung bình
-102,Quận 4,Tân Kiểng,4,2,Tây,2016,Sổ hồng,15.63,35,12,Nội khu,Centre Mall,2017,1,12.1,0,Thô
-128,Bình Tân,14,2,2,Bắc,2024,Sổ hồng,12.51,35,19,Thành phố,Masteri Thao Dien,2025,1,15.8,0,Thô
-62,Nhà Bè,4,1,1,Nam,2024,Đang chờ sổ,4.5,40,1,Nội khu,Midtown,2026,1,22.1,0,Cao cấp
-106,Quận 1,Đa Kao,1,1,Đông,2021,Sổ hồng,49.44,40,22,Không view,Happy Valley,2022,1,21.5,0,Thô
-94,Gò Vấp,6,4,3,Đông Nam,2024,Sổ hồng,16.4,40,28,Không view,Centre Mall,2026,1,23.3,0,Trung bình
-63,Bình Chánh,5,1,1,Đông Nam,2023,Sổ hồng,2.23,30,3,Thành phố,The Sun Avenue,2024,1,17.7,0,Trung bình
-144,Bình Thạnh,20,1,1,Đông,2021,Sổ đỏ,34.15,25,24,Nội khu,D'Edge,2023,1,15.6,0,Trung bình
-87,Quận 3,12,4,3,Tây Bắc,2022,Sổ hồng,28.94,30,5,Không view,D'Edge,2024,1,15.2,1,Thô
-98,Quận 7,Tân Phong,4,3,Tây Bắc,2019,Sổ hồng,18.74,15,3,Không view,Charmington,2020,1,16.5,0,Trung bình
-109,Bình Tân,3,2,2,Đông Bắc,2015,Giấy tờ tay,12.2,20,18,Thành phố,Vinhomes Grand Park,2017,1,8.6,0,Cao cấp
-42,Quận 3,12,1,1,Tây Nam,2022,Sổ hồng,17.63,20,1,Không view,Vinhomes Grand Park,2024,1,12.5,0,Trung bình
-137,Tân Bình,10,4,3,Tây,2025,Sổ hồng,27.88,25,22,Không view,Midtown,2026,1,8.4,1,Cao cấp
-76,Thủ Đức,Hiệp Bình Phước,1,1,Đông Nam,2018,Giấy tờ tay,12.23,20,17,Không view,Midtown,2019,1,15.1,0,Trung bình
-114,Quận 3,11,4,1,Đông Bắc,2020,Sổ hồng,44.11,35,9,Nội khu,Vinhomes Grand Park,2022,1,23.9,0,Trung bình
-52,Thủ Đức,Bình Chiểu,4,3,Tây Bắc,2018,Sổ hồng,7.26,35,15,Không view,Centre Mall,2020,1,13.9,1,Thô
-50,Quận 12,3,4,3,Đông Nam,2020,Đang chờ sổ,2.23,15,3,Không view,Sunrise City,2021,1,23.7,0,Thô
-140,Bình Tân,1,2,1,Đông Nam,2019,Sổ hồng,16.8,15,11,Không view,Happy Valley,2020,1,18.9,0,Trung bình
-92,Quận 1,Cầu Ông Lãnh,2,2,Nam,2015,Sổ hồng,38.44,40,4,Thành phố,Millennium,2017,1,23.7,0,Cao cấp
-113,Phú Nhuận,2,3,2,Đông Tây,2025,Sổ hồng,27.45,35,12,Thành phố,The Estella,2027,1,8.6,1,Cao cấp
-82,Phú Nhuận,11,3,2,Tây,2023,Đang chờ sổ,21.43,35,29,Nội khu,The Estella,2024,1,21.5,1,Trung bình
-97,Quận 1,Nguyễn Thái Bình,1,1,Đông Tây,2021,Sổ hồng,41.46,25,18,Thành phố,Charmington,2023,1,11.9,1,Trung bình
-49,Quận 4,Phú Thuận,2,2,Đông Bắc,2019,Sổ hồng,7.06,40,6,Thành phố,Vinci Grand Plaza,2021,1,20.4,1,Cao cấp
-121,Phú Nhuận,14,2,2,Đông Nam,2023,Sổ hồng,28.2,20,29,Sông,The Estella,2025,1,17.0,1,Cao cấp
-113,Quận 1,Bến Thành,4,2,Đông Bắc,2018,Sổ hồng,62.3,35,12,Nội khu,Saigon Royal,2019,1,13.8,0,Cao cấp
-143,Gò Vấp,9,4,1,Tây Bắc,2024,Sổ hồng,22.24,15,14,Không view,Saigon Royal,2026,1,11.7,0,Cao cấp
-144,Bình Thạnh,5,1,1,Đông,2016,Đang chờ sổ,27.36,40,11,Không view,Charmington,2017,1,14.3,0,Trung bình
-134,Quận 7,Tân Phú,1,1,Đông Bắc,2019,Sổ hồng,21.05,35,13,Không view,City Garden,2020,1,23.8,0,Trung bình
-84,Tân Phú,7,1,1,Bắc,2021,Sổ đỏ,10.94,20,12,Không view,Vinci Grand Plaza,2023,1,13.4,0,Cao cấp
-128,Nhà Bè,9,4,3,Tây Bắc,2022,Sổ hồng,6.73,25,19,Thành phố,Saigon Royal,2023,1,20.7,0,Thô
-82,Quận 3,12,2,1,Tây Nam,2018,Sổ đỏ,29.12,35,24,Nội khu,The Sun Avenue,2020,1,18.3,0,Thô
-70,Tân Phú,13,1,1,Bắc,2020,Sổ hồng,7.53,20,13,Thành phố,Sunrise City,2021,1,19.1,0,Thô
-97,Tân Bình,13,2,1,Đông,2025,Sổ hồng,15.65,20,29,Sông,Centre Mall,2026,1,18.6,1,Thô
-138,Bình Tân,14,4,2,Bắc,2023,Sổ hồng,14.98,40,14,Không view,Vinci Grand Plaza,2024,1,15.7,0,Thô
-40,Quận 12,3,4,2,Tây Bắc,2020,Sổ hồng,2.26,15,3,Thành phố,Sunrise City,2021,1,21.5,0,Trung bình
-100,Quận 3,11,1,1,Tây Bắc,2020,Giấy tờ tay,46.9,15,18,Thành phố,Centre Mall,2022,1,22.8,0,Cao cấp
-36,Tân Phú,13,2,2,Tây Bắc,2023,Giấy tờ tay,3.61,40,7,Thành phố,Vinci Grand Plaza,2025,1,13.5,1,Cao cấp
-51,Thủ Đức,Linh Chiểu,2,2,Tây,2018,Sổ hồng,8.95,35,1,Thành phố,Saigon Pearl,2020,1,24.0,0,Trung bình
-38,Bình Chánh,6,4,1,Đông,2019,Sổ hồng,1.53,35,11,Thành phố,Sunrise City,2021,1,24.3,0,Trung bình
-67,Quận 1,Cầu Ông Lãnh,1,1,Tây Bắc,2017,Sổ đỏ,25.48,25,14,Thành phố,Midtown,2018,1,9.3,1,Thô
-70,Quận 1,Bến Nghé,4,2,Tây Nam,2025,Sổ hồng,35.73,25,24,Thành phố,Saigon Royal,2026,1,15.0,0,Cao cấp
-48,Tân Phú,12,1,1,Tây Bắc,2023,Sổ đỏ,5.44,15,4,Không view,The Estella,2024,1,12.2,0,Cao cấp
-68,Quận 1,Bến Thành,2,1,Tây,2024,Sổ hồng,28.91,35,2,Không view,SC VivoCity,2026,1,14.9,0,Trung bình
-51,Gò Vấp,10,1,1,Tây Nam,2016,Sổ hồng,9.61,15,16,Thành phố,City Garden,2018,1,21.8,1,Cao cấp
-89,Thủ Đức,Linh Tây,3,1,Tây,2022,Giấy tờ tay,16.46,35,25,Không view,Midtown,2023,1,12.5,1,Cao cấp
-87,Bình Tân,10,4,1,Đông,2024,Sổ đỏ,9.64,20,20,Nội khu,Saigon Pearl,2026,1,10.8,1,Cao cấp
-145,Bình Chánh,5,2,2,Đông,2015,Đang chờ sổ,5.88,15,24,Không view,SC VivoCity,2017,1,18.8,0,Trung bình
-101,Quận 1,Đa Kao,4,1,Đông Bắc,2022,Sổ hồng,50.24,35,4,Thành phố,The Sun Avenue,2023,1,22.1,0,Cao cấp
-94,Quận 1,Cầu Ông Lãnh,1,1,Đông Nam,2021,Sổ hồng,57.7,35,10,Sông,Sunrise City,2023,1,24.0,0,Trung bình
-88,Bình Tân,1,2,1,Đông Bắc,2015,Sổ hồng,13.91,35,24,Không view,Vinhomes Grand Park,2017,1,12.6,0,Cao cấp
-135,Quận 12,1,1,1,Bắc,2020,Sổ đỏ,8.0,30,20,Nội khu,Vinci Grand Plaza,2022,1,17.2,0,Trung bình
-105,Bình Thạnh,11,1,1,Tây Bắc,2024,Giấy tờ tay,16.35,15,7,Thành phố,Masteri Thao Dien,2026,1,20.2,0,Thô
-74,Tân Bình,9,3,3,Đông Bắc,2023,Sổ đỏ,11.69,20,18,Thành phố,The Estella,2025,1,18.4,0,Thô
-67,Thủ Đức,Linh Chiểu,1,1,Bắc,2015,Sổ hồng,10.61,25,13,Thành phố,Happy Valley,2017,1,16.1,1,Cao cấp
-109,Tân Phú,2,2,2,Đông Tây,2019,Sổ hồng,11.86,35,18,Không view,Saigon Royal,2021,1,8.7,0,Trung bình
-123,Quận 5,15,4,1,Đông Bắc,2016,Sổ đỏ,21.13,35,17,Không view,The Estella,2018,1,17.8,1,Trung bình
-50,Gò Vấp,14,2,1,Tây Bắc,2023,Sổ đỏ,7.25,15,22,Nội khu,Saigon Pearl,2024,1,21.9,0,Thô
-144,Quận 12,6,1,1,Đông,2015,Sổ đỏ,10.65,15,9,Nội khu,Sunrise City,2016,1,17.0,0,Thô
-131,Tân Bình,5,1,1,Bắc,2024,Đang chờ sổ,21.93,25,13,Nội khu,Midtown,2025,1,13.5,1,Cao cấp
-66,Quận 12,4,3,1,Tây Bắc,2019,Sổ hồng,3.52,40,25,Không view,Saigon Pearl,2021,1,19.9,1,Trung bình
-62,Quận 3,Phú Nhuận,4,1,Đông Bắc,2017,Sổ hồng,30.34,25,3,Không view,Millennium,2019,1,16.8,0,Cao cấp
-126,Quận 1,Nguyễn Cư Trinh,1,1,Đông Tây,2022,Sổ hồng,57.34,15,9,Nội khu,Saigon Pearl,2023,1,20.0,0,Trung bình
-138,Phú Nhuận,17,2,1,Tây Nam,2017,Sổ đỏ,27.68,40,23,Thành phố,SC VivoCity,2018,1,18.0,0,Trung bình
-104,Bình Tân,8,1,1,Tây Bắc,2023,Sổ hồng,14.85,35,29,Không view,Midtown,2025,1,17.1,1,Cao cấp
-69,Bình Tân,6,2,1,Đông Bắc,2023,Giấy tờ tay,9.7,40,24,Không view,Icon 56,2024,1,21.5,0,Cao cấp
-149,Quận 5,7,2,2,Tây Bắc,2025,Sổ đỏ,23.32,30,5,Không view,The Estella,2027,1,20.3,0,Cao cấp
-64,Bình Tân,10,4,3,Nam,2023,Sổ hồng,7.61,15,1,Thành phố,Midtown,2024,1,24.7,1,Trung bình
-149,Quận 5,12,3,3,Đông,2015,Đang chờ sổ,22.93,35,9,Không view,City Garden,2017,1,16.8,0,Cao cấp
-131,Bình Chánh,7,2,1,Tây Bắc,2023,Sổ hồng,6.87,20,29,Thành phố,Icon 56,2025,1,8.9,0,Cao cấp
-141,Phú Nhuận,11,2,2,Đông Tây,2018,Giấy tờ tay,43.59,20,4,Nội khu,City Garden,2019,1,8.1,0,Cao cấp
-123,Tân Phú,13,1,1,Đông Tây,2020,Sổ hồng,15.7,35,13,Thành phố,Masteri Thao Dien,2021,1,9.4,0,Cao cấp
-36,Quận 3,12,1,1,Đông Nam,2021,Sổ đỏ,14.06,35,27,Không view,SC VivoCity,2023,1,18.7,1,Trung bình
-108,Phú Nhuận,8,1,1,Tây Nam,2016,Sổ hồng,18.68,15,2,Không view,The Estella,2018,1,20.0,0,Trung bình
-35,Tân Bình,6,3,1,Đông,2025,Sổ hồng,7.3,20,23,Nội khu,The Estella,2026,1,15.4,1,Trung bình
-97,Quận 7,Tân Phong,4,1,Bắc,2019,Sổ hồng,20.6,25,19,Không view,Masteri Thao Dien,2021,1,14.8,0,Thô
-65,Bình Tân,3,2,1,Tây,2024,Sổ hồng,8.17,35,29,Không view,Midtown,2026,1,22.0,0,Cao cấp
-117,Tân Phú,11,2,2,Đông Bắc,2025,Sổ hồng,12.49,25,13,Không view,Midtown,2027,1,21.7,0,Trung bình
-120,Quận 3,10,4,1,Bắc,2023,Sổ hồng,41.34,25,18,Nội khu,City Garden,2025,1,19.5,0,Trung bình
-87,Quận 12,6,3,3,Tây,2016,Sổ đỏ,4.81,35,8,Không view,The Estella,2018,1,8.4,0,Trung bình
-139,Quận 3,10,2,1,Bắc,2017,Sổ đỏ,52.93,20,3,Không view,Vinhomes Grand Park,2019,1,17.6,1,Cao cấp
-44,Nhà Bè,3,2,1,Tây Nam,2021,Sổ đỏ,2.15,30,20,Nội khu,Midtown,2022,1,16.2,0,Trung bình
-96,Nhà Bè,6,3,1,Tây Bắc,2021,Giấy tờ tay,4.3,20,13,Thành phố,The Sun Avenue,2023,1,11.1,0,Thô
-35,Quận 1,Cầu Ông Lãnh,3,1,Đông Tây,2025,Đang chờ sổ,13.85,25,22,Không view,SC VivoCity,2027,1,16.7,0,Trung bình
-113,Tân Phú,5,4,1,Đông Nam,2018,Sổ hồng,17.58,20,26,Thành phố,Charmington,2020,1,17.0,0,Trung bình
-75,Phú Nhuận,8,3,2,Đông Bắc,2017,Sổ hồng,17.51,40,28,Không view,Happy Valley,2018,1,9.5,1,Cao cấp
+63,Quận 12,3,1,1,Tây Bắc,2020,Sổ hồng,2.85,15,27,Sông,Centre Mall,2021,1,20.3,1,Thô
+127,Quận 1,Đa Kao,1,1,Bắc,2019,Sổ hồng,29.02,40,5,Không view,Midtown,2020,1,15.7,0,Cao cấp
+101,Thủ Đức,Hiệp Bình Phước,4,2,Tây Nam,2023,Sổ đỏ,7.26,40,19,Nội khu,Happy Valley,2025,1,18.3,0,Trung bình
+145,Nhà Bè,1,2,2,Tây Nam,2021,Sổ hồng,7.38,35,28,Nội khu,Charmington,2022,1,8.1,0,Thô
+85,Thủ Đức,Linh Trung,2,2,Tây Bắc,2023,Sổ hồng,4.86,25,29,Thành phố,The Sun Avenue,2024,1,14.7,1,Cao cấp
+47,Thủ Đức,Linh Chiểu,3,3,Nam,2020,Sổ hồng,2.09,15,4,Không view,Icon 56,2021,1,16.7,1,Thô
+63,Quận 12,12,1,1,Đông Tây,2023,Sổ hồng,2.6,20,8,Nội khu,Vinhomes Grand Park,2025,1,23.5,0,Trung bình
+105,Thủ Đức,Linh Chiểu,1,1,Đông Bắc,2022,Giấy tờ tay,5.54,30,19,Thành phố,Saigon Royal,2023,1,19.9,0,Trung bình
+73,Quận 3,12,3,2,Đông,2015,Sổ hồng,10.78,15,3,Không view,The Estella,2016,1,19.2,0,Trung bình
+103,Quận 10,2,4,3,Tây Bắc,2017,Sổ hồng,15.77,25,16,Không view,Vinci Grand Plaza,2018,1,22.4,1,Trung bình
+132,Quận 3,14,1,1,Nam,2018,Sổ hồng,21.22,25,11,Không view,Icon 56,2019,1,15.4,0,Cao cấp
+91,Quận 12,2,3,1,Đông Tây,2017,Sổ hồng,6.42,15,24,Không view,Millennium,2018,1,16.1,0,Cao cấp
+37,Bình Thạnh,12,2,2,Đông Nam,2016,Sổ đỏ,3.35,30,10,Thành phố,D'Edge,2017,1,24.6,1,Trung bình
+102,Phú Nhuận,11,3,2,Tây,2016,Đang chờ sổ,10.94,40,5,Không view,Vinci Grand Plaza,2017,1,22.3,0,Thô
+37,Quận 10,10,2,1,Đông,2016,Sổ hồng,5.12,15,13,Sông,The Sun Avenue,2017,1,20.8,0,Thô
+88,Bình Tân,5,1,1,Tây Bắc,2016,Sổ hồng,3.97,15,18,Không view,The Sun Avenue,2017,1,18.2,0,Cao cấp
+105,Quận 1,Cầu Kho,1,1,Tây Bắc,2020,Sổ đỏ,27.9,20,16,Thành phố,Vinhomes Grand Park,2021,1,23.5,0,Cao cấp
+138,Bình Thạnh,16,1,1,Đông,2017,Đang chờ sổ,15.56,30,29,Không view,Midtown,2018,1,18.9,0,Trung bình
+102,Quận 7,Tân Phong,4,2,Tây Bắc,2015,Sổ hồng,11.34,30,27,Thành phố,Vinhomes Grand Park,2017,1,14.0,0,Trung bình
+110,Quận 1,Đa Kao,1,1,Đông,2019,Sổ đỏ,22.37,35,15,Không view,Charmington,2020,1,13.6,0,Trung bình
+147,Bình Tân,6,1,1,Đông Tây,2025,Sổ hồng,10.58,15,4,Không view,Vinci Grand Plaza,2026,1,14.5,0,Trung bình
+125,Bình Thạnh,18,4,1,Nam,2015,Sổ hồng,19.02,25,19,Nội khu,The Sun Avenue,2016,1,18.8,1,Cao cấp
+91,Bình Chánh,4,2,1,Đông Tây,2019,Sổ hồng,5.93,30,23,Không view,Charmington,2021,1,20.7,0,Trung bình
+53,Bình Thạnh,19,2,1,Tây Nam,2018,Đang chờ sổ,3.7,40,7,Không view,Saigon Royal,2020,1,20.3,0,Trung bình
+58,Bình Thạnh,12,2,2,Tây Bắc,2024,Sổ đỏ,4.48,25,11,Nội khu,Vinci Grand Plaza,2025,1,13.7,1,Trung bình
+139,Quận 3,13,2,1,Bắc,2020,Sổ hồng,21.44,30,3,Nội khu,Midtown,2021,1,19.0,0,Trung bình
+61,Quận 7,Tân Phú,2,2,Đông,2024,Sổ đỏ,8.34,20,28,Thành phố,Millennium,2025,1,19.1,0,Thô
+65,Bình Thạnh,15,4,2,Tây Nam,2018,Sổ hồng,4.83,30,13,Sông,Charmington,2019,1,10.6,1,Thô
+76,Bình Chánh,5,4,2,Tây Nam,2024,Sổ hồng,5.71,20,21,Không view,Saigon Pearl,2026,1,21.7,0,Trung bình
+120,Gò Vấp,8,1,1,Đông Bắc,2024,Sổ hồng,8.67,15,22,Thành phố,Midtown,2026,1,20.8,0,Trung bình
+74,Quận 3,11,2,2,Tây,2018,Đang chờ sổ,13.73,35,27,Không view,Saigon Pearl,2020,1,19.8,0,Trung bình
+135,Quận 1,Đa Kao,2,1,Tây Bắc,2020,Sổ hồng,31.72,20,21,Thành phố,City Garden,2022,1,20.3,0,Trung bình
+78,Nhà Bè,7,1,1,Tây Nam,2019,Sổ hồng,3.79,35,26,Thành phố,Millennium,2021,1,14.2,0,Trung bình
+46,Quận 10,11,4,2,Đông Tây,2024,Sổ hồng,4.75,20,7,Nội khu,Charmington,2026,1,14.1,1,Thô
+57,Tân Phú,14,4,3,Tây Bắc,2021,Đang chờ sổ,2.28,40,1,Thành phố,The Sun Avenue,2023,1,13.4,0,Trung bình
+49,Quận 1,Tân Định,1,1,Tây Bắc,2024,Sổ hồng,10.95,35,8,Không view,SC VivoCity,2026,1,14.7,0,Trung bình
+56,Tân Bình,12,3,1,Tây Bắc,2019,Giấy tờ tay,6.27,15,26,Sông,Vinhomes Grand Park,2021,1,9.3,0,Cao cấp
+93,Nhà Bè,5,2,2,Đông Tây,2015,Sổ hồng,5.14,30,1,Không view,Millennium,2017,1,16.2,1,Trung bình
+148,Gò Vấp,6,4,3,Tây Nam,2017,Sổ hồng,12.15,25,1,Thành phố,The Estella,2019,1,9.7,0,Thô
+81,Quận 3,12,1,1,Nam,2016,Đang chờ sổ,9.05,40,14,Thành phố,Vinci Grand Plaza,2017,1,16.7,1,Thô
+49,Bình Thạnh,1,1,1,Bắc,2024,Sổ hồng,5.56,40,12,Nội khu,D'Edge,2025,1,8.2,1,Cao cấp
+95,Thủ Đức,Linh Tây,4,2,Đông,2022,Sổ đỏ,7.46,35,13,Thành phố,Masteri Thao Dien,2023,1,21.5,0,Cao cấp
+122,Nhà Bè,5,4,1,Bắc,2023,Sổ hồng,7.34,40,25,Không view,City Garden,2024,1,12.6,1,Trung bình
+92,Tân Phú,12,4,3,Đông,2017,Sổ hồng,4.37,20,20,Thành phố,Vinci Grand Plaza,2019,1,13.8,1,Trung bình
+144,Quận 1,Bến Nghé,3,3,Tây,2018,Sổ hồng,25.77,40,17,Nội khu,Millennium,2020,1,17.0,0,Thô
+68,Quận 4,Bình Thuận,3,3,Tây Nam,2015,Đang chờ sổ,5.93,30,12,Thành phố,Centre Mall,2017,1,13.4,0,Thô
+142,Gò Vấp,17,1,1,Đông Nam,2015,Sổ đỏ,13.41,20,29,Thành phố,Saigon Royal,2016,1,20.1,1,Trung bình
+132,Quận 1,Nguyễn Thái Bình,3,3,Bắc,2018,Sổ đỏ,29.87,35,5,Không view,Masteri Thao Dien,2020,1,20.5,0,Trung bình
+144,Quận 12,11,2,1,Tây,2025,Sổ hồng,5.65,30,4,Nội khu,Icon 56,2027,1,23.8,0,Trung bình
+92,Quận 1,Bến Thành,2,2,Tây Bắc,2017,Sổ hồng,16.43,30,5,Sông,The Sun Avenue,2018,1,24.5,0,Trung bình
+76,Thủ Đức,Linh Trung,1,1,Đông,2019,Sổ hồng,5.31,30,2,Thành phố,Vinci Grand Plaza,2021,1,17.0,1,Trung bình
+105,Nhà Bè,6,1,1,Đông Bắc,2017,Sổ đỏ,5.54,35,12,Thành phố,Vinci Grand Plaza,2018,1,8.1,0,Trung bình
+54,Quận 1,Tân Định,2,2,Đông Tây,2025,Sổ đỏ,8.35,35,17,Không view,D'Edge,2027,1,9.2,0,Trung bình
+57,Quận 3,10,1,1,Tây Bắc,2016,Sổ đỏ,7.51,35,16,Sông,Sunrise City,2017,1,11.3,0,Trung bình
+123,Quận 10,5,3,2,Tây Bắc,2019,Sổ đỏ,15.71,35,23,Không view,Saigon Royal,2021,1,12.9,0,Thô
+35,Quận 12,7,1,1,Tây Bắc,2025,Sổ hồng,2.03,30,25,Nội khu,Saigon Pearl,2027,1,18.4,0,Cao cấp
+40,Thủ Đức,Linh Trung,4,3,Đông Bắc,2025,Sổ hồng,2.53,30,15,Nội khu,The Estella,2026,1,13.4,0,Thô
+37,Bình Chánh,4,4,1,Tây Bắc,2017,Sổ hồng,1.91,35,25,Không view,D'Edge,2019,1,20.6,0,Cao cấp
+140,Bình Chánh,2,2,2,Tây,2018,Sổ hồng,12.27,30,28,Thành phố,Masteri Thao Dien,2019,1,22.1,1,Trung bình
+139,Quận 1,Đa Kao,2,2,Đông Nam,2023,Đang chờ sổ,21.85,30,7,Nội khu,Vinci Grand Plaza,2025,1,15.7,1,Trung bình
+67,Quận 10,9,1,1,Tây Bắc,2021,Sổ hồng,6.46,30,12,Không view,The Estella,2022,1,15.8,0,Cao cấp
+129,Bình Chánh,11,3,2,Tây,2025,Sổ hồng,8.86,15,11,Nội khu,Saigon Pearl,2027,1,23.1,0,Trung bình
+146,Gò Vấp,4,2,1,Tây Nam,2024,Sổ hồng,9.37,25,4,Không view,Saigon Pearl,2025,1,13.3,0,Trung bình
+44,Quận 3,Phú Nhuận,1,1,Tây,2021,Sổ hồng,8.61,40,19,Nội khu,Happy Valley,2022,1,20.0,1,Cao cấp
+138,Bình Tân,11,2,2,Tây,2016,Sổ hồng,9.22,15,13,Không view,Icon 56,2018,1,23.7,1,Thô
+51,Tân Bình,10,1,1,Tây Bắc,2025,Sổ hồng,5.96,25,3,Thành phố,Vinci Grand Plaza,2027,1,24.1,1,Cao cấp
+90,Quận 3,10,1,1,Nam,2025,Sổ hồng,14.82,20,15,Thành phố,Masteri Thao Dien,2027,1,22.5,0,Trung bình
+96,Bình Tân,15,2,1,Bắc,2023,Sổ hồng,8.77,30,5,Sông,Vinhomes Grand Park,2025,1,17.8,0,Cao cấp
+103,Quận 1,Bến Thành,3,2,Đông Bắc,2019,Đang chờ sổ,23.23,20,11,Nội khu,Masteri Thao Dien,2020,1,9.8,1,Cao cấp
+149,Quận 3,12,3,1,Đông Tây,2025,Giấy tờ tay,17.08,40,9,Không view,Charmington,2027,1,10.3,1,Trung bình
+140,Quận 4,Tân Kiểng,2,2,Đông Bắc,2024,Sổ hồng,16.3,35,22,Sông,Charmington,2026,1,18.9,0,Trung bình
+83,Quận 7,Tân Kiểng,1,1,Tây Bắc,2025,Sổ hồng,8.48,30,18,Không view,Charmington,2027,1,19.1,0,Trung bình
+75,Nhà Bè,2,1,1,Nam,2015,Giấy tờ tay,4.42,20,20,Nội khu,Vinci Grand Plaza,2016,1,21.8,0,Trung bình
+66,Phú Nhuận,8,2,1,Tây Bắc,2020,Đang chờ sổ,5.46,30,11,Nội khu,The Estella,2022,1,13.0,0,Cao cấp
+143,Quận 1,Bến Thành,2,2,Tây Bắc,2015,Đang chờ sổ,29.76,15,8,Không view,Happy Valley,2016,1,16.5,0,Cao cấp
+86,Quận 3,9,4,2,Tây Bắc,2018,Giấy tờ tay,16.5,40,19,Không view,Vinhomes Grand Park,2020,1,18.3,0,Cao cấp
+135,Phú Nhuận,1,2,2,Bắc,2021,Sổ hồng,21.63,15,27,Thành phố,Vinhomes Grand Park,2022,1,10.8,1,Cao cấp
+54,Quận 10,14,3,1,Đông,2017,Sổ hồng,7.37,25,23,Thành phố,Charmington,2019,1,16.6,0,Cao cấp
+109,Quận 10,4,2,2,Đông Tây,2024,Sổ hồng,11.85,20,14,Sông,Saigon Pearl,2025,1,8.1,0,Trung bình
+140,Thủ Đức,Tam Phú,1,1,Đông Tây,2018,Đang chờ sổ,9.89,20,9,Không view,Happy Valley,2019,1,10.0,0,Cao cấp
+50,Gò Vấp,5,4,2,Tây,2022,Đang chờ sổ,2.84,30,29,Thành phố,Sunrise City,2023,1,24.7,0,Cao cấp
+113,Quận 4,Tân Thuận Đông,4,2,Tây Bắc,2023,Sổ hồng,16.64,40,5,Thành phố,The Sun Avenue,2025,1,18.5,0,Trung bình
+60,Tân Phú,15,3,3,Tây Nam,2018,Sổ đỏ,5.96,30,26,Nội khu,The Sun Avenue,2019,1,24.7,0,Trung bình
+51,Bình Tân,15,1,1,Bắc,2023,Giấy tờ tay,2.68,40,12,Không view,Sunrise City,2025,1,15.1,0,Thô
+132,Thủ Đức,Trường Thọ,3,1,Tây Bắc,2020,Sổ hồng,11.49,15,10,Nội khu,Vinci Grand Plaza,2021,1,24.1,0,Cao cấp
+136,Thủ Đức,Trường Thọ,3,2,Tây,2022,Sổ hồng,7.55,15,11,Không view,D'Edge,2024,1,14.3,1,Thô
+64,Thủ Đức,Linh Chiểu,2,1,Bắc,2025,Sổ đỏ,5.55,20,10,Không view,Centre Mall,2026,1,17.0,1,Cao cấp
+51,Bình Tân,3,2,2,Đông Nam,2016,Sổ đỏ,3.61,40,23,Không view,Saigon Royal,2017,1,15.7,0,Trung bình
+54,Nhà Bè,3,4,3,Đông Nam,2018,Sổ hồng,3.11,25,18,Thành phố,D'Edge,2020,1,23.5,0,Thô
+37,Quận 12,10,3,3,Đông Nam,2018,Sổ hồng,1.61,35,22,Thành phố,Vinhomes Grand Park,2019,1,15.2,0,Cao cấp
+130,Quận 7,Phú Thuận,1,1,Nam,2021,Sổ hồng,15.01,15,4,Nội khu,Saigon Royal,2023,1,15.3,0,Cao cấp
+35,Gò Vấp,11,2,1,Tây Bắc,2019,Sổ hồng,2.67,20,23,Sông,Saigon Pearl,2020,1,22.1,0,Trung bình
+99,Quận 1,Đa Kao,2,2,Tây Bắc,2019,Sổ hồng,18.16,25,25,Không view,Saigon Pearl,2020,1,19.1,0,Trung bình
+98,Quận 10,3,3,1,Nam,2016,Sổ hồng,13.55,30,13,Nội khu,Saigon Royal,2018,1,23.5,0,Trung bình
+100,Quận 5,13,4,2,Tây Bắc,2017,Đang chờ sổ,11.28,30,25,Nội khu,Centre Mall,2018,1,10.0,1,Trung bình
+121,Bình Chánh,10,2,2,Đông Nam,2021,Sổ hồng,7.28,40,9,Thành phố,Charmington,2022,1,19.8,1,Cao cấp
+136,Thủ Đức,Trường Thọ,2,1,Đông Nam,2024,Sổ hồng,11.67,30,6,Không view,Charmington,2025,1,16.6,1,Trung bình
+113,Tân Phú,5,3,3,Bắc,2022,Sổ hồng,6.15,40,7,Nội khu,Masteri Thao Dien,2024,1,20.5,1,Thô
+108,Quận 3,12,4,3,Tây Nam,2020,Sổ hồng,19.84,35,11,Không view,Midtown,2022,1,24.1,1,Cao cấp
+127,Quận 4,Tân Kiểng,3,2,Đông,2021,Sổ đỏ,18.29,25,10,Nội khu,Millennium,2023,1,17.8,0,Cao cấp
+85,Bình Tân,10,1,1,Đông Bắc,2021,Đang chờ sổ,4.9,20,12,Không view,The Sun Avenue,2022,1,19.8,0,Trung bình
+72,Thủ Đức,Linh Đông,4,3,Nam,2022,Sổ hồng,5.65,15,12,Thành phố,Vinhomes Grand Park,2023,1,16.6,1,Cao cấp
+101,Tân Phú,3,4,2,Nam,2023,Sổ hồng,5.56,35,2,Thành phố,Charmington,2025,1,20.6,0,Cao cấp
+88,Thủ Đức,Hiệp Bình Phước,2,1,Tây,2024,Sổ đỏ,5.39,30,27,Sông,Millennium,2025,1,12.4,1,Trung bình
+146,Bình Tân,1,3,3,Nam,2020,Sổ hồng,11.86,15,4,Không view,Sunrise City,2021,1,14.1,1,Cao cấp
+139,Phú Nhuận,8,2,1,Tây,2024,Sổ đỏ,21.01,25,21,Nội khu,Masteri Thao Dien,2025,1,24.3,0,Trung bình
+144,Gò Vấp,9,2,1,Tây Nam,2025,Sổ hồng,12.75,35,11,Thành phố,Millennium,2027,1,10.4,0,Thô
+40,Quận 12,7,4,3,Đông Nam,2021,Sổ hồng,1.69,30,10,Không view,Millennium,2023,1,22.4,1,Cao cấp
+69,Thủ Đức,Tam Phú,1,1,Tây Bắc,2015,Sổ hồng,3.64,20,17,Thành phố,City Garden,2016,1,11.9,1,Trung bình
+59,Thủ Đức,Linh Tây,3,2,Tây,2017,Đang chờ sổ,2.89,15,18,Thành phố,Icon 56,2018,1,19.1,0,Thô
+78,Thủ Đức,Trường Thọ,2,1,Đông Nam,2016,Đang chờ sổ,5.17,35,8,Thành phố,The Estella,2017,1,20.1,1,Thô
+80,Quận 1,Nguyễn Cư Trinh,1,1,Tây Nam,2017,Sổ hồng,17.02,15,12,Sông,Saigon Pearl,2019,1,23.3,0,Thô
+138,Quận 10,3,2,2,Tây Bắc,2021,Sổ hồng,17.77,35,12,Không view,Midtown,2023,1,19.3,0,Trung bình
+41,Quận 12,7,1,1,Bắc,2016,Sổ hồng,2.65,20,10,Không view,Masteri Thao Dien,2018,1,23.3,1,Cao cấp
+60,Tân Bình,9,4,2,Tây,2021,Đang chờ sổ,5.97,30,25,Không view,Charmington,2022,1,8.0,1,Trung bình
+110,Gò Vấp,7,1,1,Nam,2018,Sổ hồng,7.87,40,17,Thành phố,SC VivoCity,2019,1,14.6,0,Thô
+99,Quận 7,Tân Phú,4,1,Đông,2022,Sổ hồng,13.37,40,14,Nội khu,Happy Valley,2023,1,22.2,1,Trung bình
+59,Bình Chánh,9,3,3,Tây Bắc,2018,Sổ đỏ,3.51,30,7,Thành phố,The Sun Avenue,2020,1,23.5,0,Thô
+116,Quận 5,14,3,3,Tây Nam,2016,Sổ hồng,10.6,20,3,Không view,Icon 56,2018,1,10.7,1,Trung bình
+96,Bình Thạnh,4,4,1,Đông Nam,2023,Sổ hồng,10.33,40,11,Sông,SC VivoCity,2024,1,24.6,0,Cao cấp
+49,Tân Bình,12,3,3,Tây Bắc,2017,Sổ hồng,3.54,20,26,Thành phố,The Estella,2018,1,9.1,1,Thô
+95,Quận 1,Nguyễn Thái Bình,2,1,Tây Bắc,2023,Sổ hồng,22.56,20,7,Không view,Vinhomes Grand Park,2025,1,19.9,1,Cao cấp
+69,Tân Bình,9,3,1,Tây Bắc,2016,Sổ hồng,6.08,35,27,Không view,Masteri Thao Dien,2018,1,13.7,0,Trung bình
+57,Thủ Đức,Tam Phú,4,3,Bắc,2019,Sổ đỏ,3.51,25,2,Không view,Millennium,2020,1,19.0,0,Thô
+98,Bình Thạnh,7,1,1,Đông Nam,2023,Sổ hồng,7.4,15,2,Thành phố,Saigon Pearl,2024,1,13.7,0,Trung bình
+138,Tân Phú,5,1,1,Đông Tây,2017,Sổ hồng,8.21,30,18,Không view,Masteri Thao Dien,2019,1,24.6,0,Cao cấp
+98,Quận 10,9,1,1,Bắc,2017,Sổ hồng,11.91,25,7,Không view,Midtown,2019,1,11.4,0,Thô
+57,Phú Nhuận,17,1,1,Đông Bắc,2022,Sổ hồng,5.0,30,29,Nội khu,Saigon Pearl,2023,1,12.3,0,Trung bình
+77,Bình Chánh,11,3,2,Tây Nam,2019,Sổ đỏ,4.85,35,15,Không view,Vinhomes Grand Park,2020,1,23.7,0,Trung bình
+58,Bình Thạnh,19,2,1,Tây Bắc,2024,Sổ hồng,6.7,20,5,Thành phố,Millennium,2025,1,14.8,0,Trung bình
+111,Nhà Bè,7,4,2,Nam,2015,Đang chờ sổ,6.74,15,7,Nội khu,The Estella,2016,1,21.8,0,Trung bình
+50,Quận 5,7,4,3,Tây,2015,Sổ đỏ,4.0,40,5,Thành phố,D'Edge,2016,1,23.7,0,Thô
+111,Phú Nhuận,10,4,2,Đông,2015,Đang chờ sổ,11.61,40,26,Thành phố,Vinhomes Grand Park,2017,1,10.9,1,Cao cấp
+50,Quận 10,2,4,3,Đông Bắc,2015,Sổ hồng,5.64,35,18,Không view,City Garden,2016,1,20.9,0,Trung bình
+111,Bình Chánh,11,3,3,Tây Bắc,2025,Sổ đỏ,5.94,20,18,Thành phố,Centre Mall,2026,1,10.7,0,Trung bình
+120,Bình Thạnh,18,4,3,Bắc,2020,Sổ hồng,14.34,25,23,Thành phố,Sunrise City,2022,1,9.8,1,Trung bình
+120,Quận 4,Phú Thuận,4,3,Đông Nam,2023,Sổ đỏ,15.36,15,4,Nội khu,Centre Mall,2025,1,12.7,1,Trung bình
+88,Quận 3,11,4,3,Tây,2019,Sổ đỏ,12.33,35,25,Thành phố,Sunrise City,2021,1,23.2,0,Cao cấp
+140,Tân Bình,6,1,1,Tây Bắc,2018,Sổ hồng,16.9,40,26,Nội khu,Vinhomes Grand Park,2020,1,24.0,0,Cao cấp
+123,Tân Phú,1,2,1,Đông,2022,Sổ hồng,8.29,35,6,Thành phố,D'Edge,2023,1,22.1,1,Trung bình
+73,Tân Bình,11,3,3,Đông Tây,2024,Sổ hồng,6.06,20,11,Thành phố,City Garden,2025,1,8.9,0,Thô
+108,Phú Nhuận,1,4,1,Đông Bắc,2016,Đang chờ sổ,13.95,15,20,Thành phố,The Estella,2018,1,16.2,0,Trung bình
+97,Bình Tân,14,2,1,Bắc,2019,Sổ hồng,5.31,20,4,Nội khu,Masteri Thao Dien,2020,1,17.8,0,Thô
+49,Phú Nhuận,11,3,1,Đông Bắc,2018,Sổ hồng,5.12,25,4,Không view,The Sun Avenue,2019,1,15.3,0,Trung bình
+83,Thủ Đức,Hiệp Bình Chánh,1,1,Đông Tây,2022,Giấy tờ tay,7.17,30,1,Không view,Happy Valley,2024,1,16.6,1,Trung bình
+56,Tân Phú,5,2,2,Đông Bắc,2022,Sổ đỏ,4.94,35,26,Nội khu,The Sun Avenue,2024,1,13.0,1,Thô
+45,Quận 7,Tân Phong,1,1,Đông,2024,Sổ đỏ,4.09,30,9,Thành phố,Millennium,2025,1,21.4,1,Thô
+87,Quận 1,Đa Kao,4,2,Đông Bắc,2023,Giấy tờ tay,14.74,20,19,Không view,Icon 56,2024,1,10.9,0,Trung bình
+124,Quận 12,12,1,1,Đông Nam,2021,Sổ hồng,3.61,35,4,Không view,Millennium,2023,1,9.5,1,Thô
+137,Nhà Bè,3,3,2,Đông Tây,2015,Sổ đỏ,7.98,40,21,Không view,The Sun Avenue,2017,1,19.1,0,Trung bình
+86,Quận 7,Tân Kiểng,1,1,Đông Bắc,2019,Sổ hồng,6.49,15,24,Thành phố,Saigon Pearl,2021,1,15.6,1,Thô
+125,Tân Phú,12,3,2,Tây Nam,2024,Đang chờ sổ,10.3,35,23,Không view,Sunrise City,2025,1,11.5,0,Trung bình
+36,Phú Nhuận,13,1,1,Tây Bắc,2015,Sổ hồng,3.91,30,5,Sông,Centre Mall,2017,1,10.8,0,Trung bình
+143,Quận 4,Tân Thuận Tây,3,3,Nam,2018,Sổ hồng,15.39,30,10,Không view,D'Edge,2019,1,17.6,0,Cao cấp
+77,Gò Vấp,5,3,3,Đông Nam,2018,Giấy tờ tay,4.02,15,15,Không view,Saigon Pearl,2020,1,20.7,1,Trung bình
+120,Bình Chánh,1,3,1,Tây,2017,Sổ hồng,6.27,40,24,Thành phố,Sunrise City,2018,1,8.1,0,Thô
+98,Thủ Đức,Trường Thọ,4,3,Tây Nam,2018,Sổ đỏ,7.26,30,22,Không view,D'Edge,2020,1,21.5,1,Trung bình
+70,Quận 12,11,2,1,Đông Bắc,2016,Sổ hồng,4.07,20,28,Thành phố,Midtown,2018,1,15.7,0,Trung bình
+81,Tân Phú,8,2,2,Đông Tây,2022,Sổ hồng,4.03,15,6,Không view,Vinhomes Grand Park,2023,1,17.9,0,Trung bình
+51,Quận 7,Tân Hưng,1,1,Đông Tây,2020,Sổ đỏ,6.93,15,13,Sông,Saigon Royal,2021,1,15.8,1,Trung bình
+42,Bình Thạnh,18,2,2,Tây Bắc,2015,Sổ hồng,3.34,25,16,Không view,Millennium,2017,1,11.8,0,Cao cấp
+115,Thủ Đức,Linh Trung,3,3,Tây Nam,2016,Sổ đỏ,6.47,35,3,Không view,D'Edge,2018,1,20.4,0,Trung bình
+129,Quận 7,Tân Phú,1,1,Bắc,2021,Sổ hồng,12.46,40,25,Không view,Masteri Thao Dien,2023,1,16.8,1,Trung bình
+80,Quận 5,12,1,1,Tây,2015,Sổ hồng,7.75,30,16,Sông,Millennium,2016,1,13.5,0,Trung bình
+69,Gò Vấp,6,2,2,Đông Bắc,2025,Sổ hồng,4.12,20,28,Thành phố,Vinci Grand Plaza,2026,1,16.3,0,Trung bình
+74,Nhà Bè,2,4,3,Đông Nam,2022,Sổ hồng,2.82,25,3,Nội khu,Midtown,2023,1,9.1,0,Thô
+39,Thủ Đức,Trường Thọ,4,1,Đông Bắc,2023,Sổ đỏ,3.15,20,20,Không view,The Estella,2025,1,22.7,1,Cao cấp
+45,Quận 1,Nguyễn Thái Bình,4,3,Đông Tây,2018,Sổ hồng,7.09,35,15,Không view,Vinhomes Grand Park,2020,1,10.5,0,Cao cấp
+92,Tân Bình,8,1,1,Bắc,2018,Sổ hồng,7.44,25,21,Thành phố,D'Edge,2019,1,8.6,0,Trung bình
+35,Thủ Đức,Linh Trung,3,1,Tây,2021,Sổ hồng,2.72,15,11,Sông,Icon 56,2023,1,16.4,0,Trung bình
+76,Nhà Bè,7,1,1,Tây Bắc,2018,Sổ hồng,4.38,15,4,Thành phố,D'Edge,2020,1,21.0,1,Trung bình
+81,Gò Vấp,9,1,1,Tây Nam,2022,Sổ đỏ,6.84,20,22,Nội khu,Charmington,2023,1,19.8,0,Trung bình
+125,Bình Thạnh,17,1,1,Bắc,2016,Sổ hồng,12.42,20,25,Thành phố,Saigon Pearl,2017,1,11.3,0,Cao cấp
+120,Quận 10,6,2,1,Tây Bắc,2025,Sổ hồng,12.5,30,24,Thành phố,Sunrise City,2026,1,19.5,0,Trung bình
+69,Bình Tân,15,4,1,Nam,2021,Sổ hồng,4.27,30,7,Thành phố,Millennium,2022,1,11.9,0,Trung bình
+61,Quận 12,9,4,1,Đông Tây,2023,Sổ hồng,2.36,25,10,Nội khu,City Garden,2025,1,10.3,0,Cao cấp
+80,Quận 3,11,4,1,Tây Bắc,2015,Giấy tờ tay,12.97,20,16,Không view,Happy Valley,2017,1,24.9,0,Thô
+98,Quận 12,10,4,1,Tây Bắc,2024,Sổ hồng,5.62,15,23,Không view,The Sun Avenue,2026,1,23.0,0,Trung bình
+36,Nhà Bè,7,1,1,Đông Tây,2021,Sổ hồng,2.24,15,20,Thành phố,Vinci Grand Plaza,2022,1,19.0,0,Cao cấp
+51,Quận 3,9,4,2,Tây Bắc,2015,Giấy tờ tay,7.33,30,10,Nội khu,SC VivoCity,2017,1,24.6,0,Cao cấp
+56,Tân Bình,10,2,2,Tây Bắc,2025,Sổ hồng,4.71,20,1,Thành phố,SC VivoCity,2026,1,22.5,0,Cao cấp
+81,Bình Thạnh,10,2,2,Đông Tây,2016,Sổ hồng,6.67,40,23,Không view,The Sun Avenue,2017,1,13.2,0,Trung bình
+142,Thủ Đức,Linh Đông,4,2,Đông,2016,Sổ hồng,12.43,25,4,Sông,Saigon Pearl,2018,1,21.2,1,Trung bình
+80,Quận 4,Tân Thuận Tây,3,1,Nam,2021,Sổ hồng,10.91,20,17,Thành phố,Sunrise City,2022,1,23.3,0,Trung bình
+128,Bình Thạnh,2,4,2,Nam,2024,Sổ hồng,12.45,25,21,Không view,Charmington,2025,1,15.3,1,Trung bình
+82,Thủ Đức,Bình Chiểu,3,3,Đông,2015,Sổ hồng,5.5,25,9,Nội khu,Saigon Pearl,2017,1,24.4,0,Trung bình
+145,Quận 3,11,3,3,Tây Bắc,2025,Sổ hồng,30.08,20,14,Nội khu,Vinci Grand Plaza,2027,1,10.4,1,Cao cấp
+41,Thủ Đức,Trường Thọ,4,3,Đông Nam,2019,Sổ hồng,3.18,15,12,Nội khu,Saigon Royal,2020,1,24.5,0,Trung bình
+106,Quận 1,Nguyễn Cư Trinh,2,1,Bắc,2017,Sổ hồng,20.32,35,29,Thành phố,The Estella,2018,1,16.6,0,Thô
+130,Quận 10,15,4,1,Nam,2023,Sổ hồng,18.32,15,4,Không view,Charmington,2025,1,18.6,0,Trung bình
+121,Tân Bình,15,3,1,Tây Bắc,2015,Sổ hồng,14.97,15,27,Không view,Happy Valley,2016,1,10.4,0,Trung bình
+146,Bình Thạnh,3,4,2,Đông Bắc,2016,Sổ hồng,16.12,20,22,Sông,Midtown,2017,1,20.0,1,Trung bình
+113,Bình Thạnh,17,1,1,Đông,2018,Đang chờ sổ,16.41,15,26,Không view,Centre Mall,2019,1,20.1,0,Trung bình
+129,Phú Nhuận,7,3,1,Nam,2023,Giấy tờ tay,13.94,40,16,Sông,Vinhomes Grand Park,2024,1,23.6,0,Thô
+72,Bình Chánh,4,3,3,Nam,2015,Sổ hồng,5.26,20,11,Thành phố,The Estella,2017,1,13.2,1,Cao cấp
+89,Quận 10,10,1,1,Đông Tây,2015,Giấy tờ tay,14.91,40,12,Không view,The Sun Avenue,2017,1,18.8,0,Cao cấp
+89,Bình Chánh,6,1,1,Bắc,2017,Sổ đỏ,6.91,20,23,Nội khu,The Sun Avenue,2019,1,13.9,1,Trung bình
+100,Thủ Đức,Hiệp Bình Phước,1,1,Đông Bắc,2019,Sổ hồng,4.48,35,11,Thành phố,SC VivoCity,2020,1,14.1,1,Cao cấp
+129,Quận 5,9,1,1,Tây Bắc,2019,Sổ đỏ,12.85,15,16,Thành phố,D'Edge,2021,1,11.8,0,Trung bình
+78,Nhà Bè,3,2,2,Tây,2020,Sổ đỏ,5.46,30,16,Không view,Charmington,2021,1,15.6,0,Trung bình

@@ -1,501 +1,201 @@
 ﻿dien_tich,quan,phuong,so_phong_ngu,so_phong_tam,so_tang,huong_nha,nam_xay_dung,mat_tien,khoang_cach_trung_tam,phap_ly,gia,do_sau,do_rong_duong,vi_tri_mat_tien,co_kinh_doanh,chat_luong_xay_dung,tuoi_nha,co_san_thuong
-110,Bình Tân,10,3,3,1,Tây Nam,2005,11.8,9.3,Giấy tờ tay,13.0,9.5,16.8,Mặt tiền đường lớn,0,Trung bình,21,0
-182,Tân Bình,2,2,2,4,Nam,2016,9.8,4.5,Đang chờ sổ,50.02,18.7,24.7,Mặt tiền đường lớn,0,Cao cấp,10,1
-92,Nhà Bè,4,5,2,1,Đông Nam,2020,4.2,11.3,Sổ hồng,5.26,16.0,16.5,Mặt tiền ngã tư,0,Trung bình,6,0
-78,Quận 5,3,4,3,1,Đông Bắc,2005,3.1,6.5,Sổ đỏ,14.45,16.5,24.7,Mặt tiền đường lớn,0,Cao cấp,21,1
-162,Tân Bình,2,4,3,3,Đông Tây,2002,5.7,2.2,Sổ hồng,34.96,10.6,15.8,Mặt tiền ngã tư,1,Cao cấp,24,1
-120,Tân Bình,9,5,4,3,Đông Nam,2010,10.3,3.2,Sổ hồng,28.37,9.1,23.3,Mặt tiền đường lớn,1,Trung bình,16,1
-88,Quận 10,4,4,3,3,Bắc,2024,4.1,8.2,Đang chờ sổ,17.18,16.4,12.4,Mặt tiền ngã tư,0,Trung bình,2,0
-60,Bình Chánh,1,3,3,1,Tây Bắc,2007,8.2,11.2,Đang chờ sổ,2.13,17.1,23.3,Mặt tiền đường lớn,0,Trung bình,19,0
-119,Quận 1,Bến Thành,2,1,3,Tây,2017,8.3,-0.8,Đang chờ sổ,53.66,15.0,14.3,Mặt tiền hẻm,1,Thô,9,0
-147,Phú Nhuận,2,3,2,4,Tây,2014,7.3,2.4,Sổ hồng,32.88,14.2,16.5,Mặt tiền đường lớn,0,Thô,12,1
-84,Thủ Đức,Linh Tây,2,2,3,Tây Bắc,2024,4.0,11.4,Sổ hồng,14.09,8.4,19.3,Mặt tiền đường lớn,0,Thô,2,1
-184,Phú Nhuận,14,3,3,4,Tây,2004,3.4,3.5,Đang chờ sổ,44.93,18.7,24.0,Mặt tiền ngã tư,0,Trung bình,22,1
-55,Quận 10,14,4,3,2,Nam,2000,5.2,2.4,Giấy tờ tay,18.57,9.8,10.3,Mặt tiền hẻm,0,Cao cấp,26,1
-109,Phú Nhuận,16,2,2,1,Tây,2005,4.2,5.2,Sổ hồng,19.08,14.1,22.7,Mặt tiền hẻm,1,Thô,21,0
-188,Quận 3,11,2,1,4,Bắc,2003,9.0,6.2,Sổ hồng,86.18,19.1,6.6,Mặt tiền hẻm,0,Cao cấp,23,1
-69,Tân Bình,8,5,3,4,Đông Nam,2012,10.1,2.1,Sổ hồng,14.43,18.0,25.1,Mặt tiền đường lớn,0,Trung bình,14,0
-108,Quận 10,14,2,2,4,Đông Bắc,2007,5.2,3.2,Giấy tờ tay,25.79,17.8,8.5,Mặt tiền đường lớn,0,Cao cấp,19,0
-135,Bình Chánh,5,2,1,2,Đông Tây,2003,4.0,10.1,Sổ hồng,5.48,10.1,7.3,Mặt tiền hẻm,0,Trung bình,23,1
-46,Quận 12,7,3,1,4,Nam,2005,8.1,8.9,Sổ hồng,3.09,12.5,18.6,Mặt tiền đường lớn,0,Cao cấp,21,0
-78,Bình Chánh,3,5,2,4,Đông Tây,2020,8.8,15.5,Sổ hồng,2.94,14.4,18.3,Mặt tiền ngã tư,0,Trung bình,6,0
-106,Bình Thạnh,4,4,1,2,Bắc,2013,5.9,3.7,Sổ đỏ,24.91,11.6,28.8,Mặt tiền ngã tư,0,Trung bình,13,0
-128,Tân Phú,6,4,4,3,Đông,2007,9.6,4.9,Sổ đỏ,18.65,18.3,9.2,Mặt tiền hẻm,1,Trung bình,19,1
-168,Nhà Bè,2,3,2,2,Tây Bắc,2025,11.5,9.8,Sổ đỏ,11.42,9.1,20.8,Mặt tiền đường lớn,0,Trung bình,1,0
-122,Bình Tân,12,3,1,3,Tây,2024,4.1,4.8,Sổ hồng,14.44,15.9,16.0,Mặt tiền hẻm,0,Trung bình,2,0
-90,Quận 7,Bình Thuận,3,1,4,Tây,2002,6.9,5.7,Giấy tờ tay,21.12,14.6,28.5,Mặt tiền hẻm,0,Trung bình,24,0
-83,Quận 1,Tân Định,5,4,3,Tây,2003,8.3,2.8,Sổ hồng,55.44,13.5,25.8,Mặt tiền đường lớn,0,Trung bình,23,1
-199,Quận 1,Cầu Ông Lãnh,2,2,3,Nam,2020,4.0,5.0,Sổ đỏ,113.76,15.8,8.2,Mặt tiền ngã tư,1,Cao cấp,6,1
-86,Bình Chánh,10,4,4,1,Đông,2000,3.5,14.2,Giấy tờ tay,3.54,10.9,26.4,Mặt tiền đường lớn,0,Thô,26,0
-72,Quận 1,Cầu Ông Lãnh,2,1,3,Đông Tây,2014,8.7,4.0,Sổ hồng,26.85,16.8,10.6,Mặt tiền đường lớn,0,Thô,12,0
-75,Quận 1,Nguyễn Cư Trinh,5,2,3,Đông Nam,2004,3.8,-0.7,Đang chờ sổ,28.76,13.5,24.8,Mặt tiền hẻm,0,Cao cấp,22,0
-143,Thủ Đức,Linh Đông,3,3,1,Tây,2012,6.6,8.3,Sổ hồng,21.83,9.6,12.7,Mặt tiền đường lớn,0,Trung bình,14,0
-191,Quận 3,11,4,3,2,Tây Bắc,2000,6.8,2.8,Sổ hồng,86.93,14.9,19.6,Mặt tiền hẻm,0,Trung bình,26,1
-140,Bình Thạnh,11,4,2,4,Đông Tây,2021,11.0,7.4,Sổ đỏ,27.4,14.2,25.2,Mặt tiền đường lớn,0,Trung bình,5,1
-52,Quận 1,Nguyễn Cư Trinh,3,2,2,Đông Nam,2004,5.8,3.2,Sổ hồng,29.41,17.9,26.6,Mặt tiền đường lớn,1,Trung bình,22,1
-163,Nhà Bè,5,3,1,4,Tây Nam,2003,6.5,12.5,Sổ hồng,9.76,10.5,18.6,Mặt tiền đường lớn,1,Thô,23,0
-144,Nhà Bè,7,2,2,2,Đông Bắc,2010,3.7,13.3,Sổ hồng,7.73,13.6,9.6,Mặt tiền đường lớn,0,Cao cấp,16,1
-118,Tân Bình,11,2,1,2,Nam,2021,8.7,6.5,Sổ đỏ,26.26,17.2,7.4,Mặt tiền đường lớn,0,Trung bình,5,0
-99,Quận 12,11,4,2,4,Bắc,2015,10.7,8.4,Sổ hồng,6.89,14.4,8.5,Mặt tiền đường lớn,0,Trung bình,11,1
-188,Quận 1,Đa Kao,4,2,2,Bắc,2003,3.1,-0.1,Giấy tờ tay,86.05,15.6,29.6,Mặt tiền hẻm,0,Trung bình,23,0
-113,Bình Tân,9,5,1,1,Đông Tây,2019,7.0,7.9,Sổ đỏ,12.3,19.6,29.6,Mặt tiền đường lớn,0,Trung bình,7,1
-118,Bình Tân,15,5,4,4,Đông Nam,2008,6.7,9.6,Sổ hồng,11.64,14.7,25.2,Mặt tiền ngã tư,0,Cao cấp,18,0
-162,Thủ Đức,Trường Thọ,4,3,4,Đông,2022,9.7,10.6,Sổ hồng,21.26,10.8,20.9,Mặt tiền ngã tư,1,Trung bình,4,0
-147,Quận 12,8,3,1,2,Đông Bắc,2013,10.7,8.1,Sổ đỏ,15.41,12.8,12.6,Mặt tiền ngã tư,1,Cao cấp,13,1
-142,Nhà Bè,4,3,3,2,Đông Tây,2003,8.2,15.0,Giấy tờ tay,6.5,15.1,15.4,Mặt tiền ngã tư,0,Cao cấp,23,0
-112,Quận 1,Cầu Kho,5,3,4,Bắc,2011,11.6,3.3,Sổ đỏ,58.68,11.4,27.5,Mặt tiền đường lớn,1,Thô,15,0
-44,Gò Vấp,8,3,3,1,Nam,2008,4.4,9.1,Sổ hồng,6.57,14.7,25.0,Mặt tiền hẻm,0,Trung bình,18,0
-166,Bình Chánh,3,3,1,1,Đông Tây,2008,8.9,16.7,Sổ đỏ,7.06,13.2,6.9,Mặt tiền ngã tư,1,Cao cấp,18,1
-166,Phú Nhuận,2,3,1,1,Đông Bắc,2002,6.5,0.9,Sổ đỏ,48.15,10.5,13.2,Mặt tiền đường lớn,0,Cao cấp,24,1
-118,Phú Nhuận,5,2,1,2,Đông Nam,2014,10.6,2.3,Sổ hồng,20.97,10.9,17.5,Mặt tiền hẻm,1,Trung bình,12,0
-70,Thủ Đức,Tam Phú,2,2,1,Bắc,2003,11.3,5.1,Sổ hồng,10.63,8.4,8.7,Mặt tiền hẻm,1,Trung bình,23,0
-139,Quận 12,7,3,1,4,Tây Bắc,2025,5.3,12.4,Sổ hồng,10.73,15.2,29.6,Mặt tiền đường lớn,0,Trung bình,1,0
-141,Bình Thạnh,18,3,3,1,Đông Bắc,2000,6.1,1.1,Sổ hồng,17.5,16.7,23.0,Mặt tiền hẻm,1,Thô,26,0
-67,Thủ Đức,Linh Chiểu,5,3,1,Tây Bắc,2006,3.1,12.0,Sổ đỏ,7.49,9.5,27.5,Mặt tiền ngã tư,0,Trung bình,20,1
-94,Quận 5,1,4,4,4,Tây,2000,8.4,2.6,Đang chờ sổ,15.97,11.0,20.7,Mặt tiền hẻm,1,Trung bình,26,0
-107,Nhà Bè,2,5,3,4,Đông,2000,7.7,10.9,Sổ hồng,5.18,18.7,15.5,Mặt tiền hẻm,1,Thô,26,1
-79,Bình Chánh,9,2,1,2,Đông Bắc,2019,10.9,12.7,Sổ đỏ,4.57,16.9,23.5,Mặt tiền hẻm,0,Cao cấp,7,0
-72,Quận 1,Bến Nghé,3,3,2,Đông,2005,6.4,3.0,Đang chờ sổ,37.65,12.7,13.7,Mặt tiền hẻm,0,Trung bình,21,0
-94,Quận 3,14,3,2,2,Tây Bắc,2003,4.5,4.3,Sổ hồng,26.27,19.5,11.8,Mặt tiền đường lớn,0,Thô,23,1
-114,Phú Nhuận,1,3,1,1,Đông,2000,11.6,5.1,Sổ hồng,32.02,9.3,12.1,Mặt tiền đường lớn,0,Thô,26,0
-134,Nhà Bè,5,2,1,1,Tây Bắc,2007,8.0,8.7,Giấy tờ tay,9.74,15.4,19.0,Mặt tiền đường lớn,1,Cao cấp,19,0
-99,Quận 5,13,5,2,1,Tây Bắc,2000,4.9,7.6,Sổ hồng,14.65,18.8,8.4,Mặt tiền đường lớn,0,Cao cấp,26,0
-61,Thủ Đức,Hiệp Bình Phước,5,3,4,Tây Bắc,2008,7.8,6.7,Sổ hồng,9.26,9.9,28.6,Mặt tiền ngã tư,0,Trung bình,18,0
-61,Bình Thạnh,8,3,1,1,Tây Bắc,2002,11.6,2.1,Sổ đỏ,12.53,10.5,12.1,Mặt tiền đường lớn,1,Thô,24,1
-124,Bình Thạnh,10,4,3,1,Đông Bắc,2025,10.4,6.2,Sổ hồng,30.83,9.8,28.1,Mặt tiền đường lớn,1,Trung bình,1,0
-73,Bình Tân,13,2,2,3,Đông Nam,2007,3.0,11.0,Sổ hồng,9.91,8.7,17.0,Mặt tiền đường lớn,1,Trung bình,19,0
-155,Thủ Đức,Hiệp Bình Chánh,3,1,3,Tây Nam,2015,7.3,11.7,Sổ hồng,31.3,10.1,22.3,Mặt tiền ngã tư,1,Trung bình,11,0
-145,Phú Nhuận,13,2,1,2,Tây Bắc,2018,9.6,3.3,Sổ đỏ,34.73,16.6,18.2,Mặt tiền ngã tư,0,Trung bình,8,1
-172,Quận 3,9,2,1,3,Tây,2017,9.0,-0.4,Sổ hồng,67.43,10.4,24.7,Mặt tiền ngã tư,1,Trung bình,9,1
-147,Quận 5,5,5,4,3,Nam,2024,9.3,7.7,Sổ đỏ,20.56,11.1,21.0,Mặt tiền đường lớn,0,Trung bình,2,0
-193,Quận 12,7,4,2,2,Tây,2024,10.7,8.3,Sổ đỏ,18.16,13.9,21.2,Mặt tiền đường lớn,1,Thô,2,0
-162,Thủ Đức,Trường Thọ,2,2,1,Đông Nam,2016,5.2,9.5,Sổ hồng,18.85,11.1,20.1,Mặt tiền đường lớn,1,Thô,10,0
-112,Quận 7,Tân Hưng,5,1,4,Nam,2003,10.0,3.8,Sổ hồng,27.48,20.0,10.6,Mặt tiền đường lớn,0,Trung bình,23,0
-166,Quận 3,11,2,1,2,Đông Bắc,2005,4.0,5.3,Sổ hồng,65.8,13.1,19.3,Mặt tiền hẻm,0,Trung bình,21,0
-149,Quận 1,Nguyễn Cư Trinh,4,1,4,Bắc,2008,7.2,1.0,Sổ hồng,56.15,16.1,14.5,Mặt tiền hẻm,0,Thô,18,0
-118,Tân Phú,3,2,2,2,Tây,2014,3.9,4.6,Sổ đỏ,17.11,8.8,7.3,Mặt tiền đường lớn,0,Trung bình,12,1
-44,Quận 3,14,2,1,4,Nam,2021,7.9,5.2,Sổ hồng,19.14,12.7,23.7,Mặt tiền đường lớn,0,Trung bình,5,0
-73,Quận 3,12,4,4,4,Tây,2019,4.6,0.7,Giấy tờ tay,35.46,12.8,29.8,Mặt tiền đường lớn,0,Trung bình,7,0
-112,Quận 12,2,2,2,1,Đông Nam,2017,5.6,11.1,Sổ đỏ,8.13,14.6,25.9,Mặt tiền hẻm,1,Cao cấp,9,0
-161,Bình Thạnh,6,2,2,2,Đông Tây,2004,5.4,4.7,Sổ hồng,35.82,14.8,22.2,Mặt tiền đường lớn,1,Cao cấp,22,0
-55,Quận 12,5,3,3,2,Đông Bắc,2024,3.5,7.5,Sổ đỏ,3.38,10.3,22.3,Mặt tiền đường lớn,1,Cao cấp,2,0
-91,Quận 12,3,3,2,1,Đông,2013,5.4,10.3,Sổ hồng,6.86,18.7,28.3,Mặt tiền đường lớn,1,Cao cấp,13,0
-56,Bình Tân,6,5,3,3,Tây,2025,3.4,6.8,Sổ hồng,6.87,19.4,19.8,Mặt tiền ngã tư,1,Thô,1,0
-103,Quận 10,13,5,3,2,Tây,2017,4.7,2.2,Đang chờ sổ,28.58,15.1,14.6,Mặt tiền đường lớn,0,Trung bình,9,0
-83,Quận 7,Tân Kiểng,3,3,3,Bắc,2012,8.9,6.9,Sổ hồng,17.53,12.1,15.1,Mặt tiền đường lớn,1,Trung bình,14,0
-81,Bình Tân,8,4,4,4,Tây Bắc,2004,9.0,4.4,Đang chờ sổ,10.01,12.7,28.2,Mặt tiền hẻm,1,Cao cấp,22,0
-64,Thủ Đức,Hiệp Bình Chánh,5,1,2,Nam,2012,3.0,10.5,Sổ hồng,9.37,18.5,15.0,Mặt tiền hẻm,1,Cao cấp,14,0
-194,Nhà Bè,1,5,4,4,Tây,2024,10.9,10.6,Sổ hồng,10.21,17.7,17.6,Mặt tiền hẻm,0,Trung bình,2,0
-180,Quận 1,Đa Kao,5,1,4,Đông,2007,5.7,4.1,Sổ hồng,79.04,14.2,17.1,Mặt tiền hẻm,1,Trung bình,19,0
-123,Bình Thạnh,20,5,1,2,Tây,2014,6.1,1.7,Đang chờ sổ,26.5,12.9,25.4,Mặt tiền ngã tư,1,Trung bình,12,0
-98,Bình Thạnh,4,2,1,3,Bắc,2025,11.6,1.3,Giấy tờ tay,17.11,11.6,27.7,Mặt tiền đường lớn,0,Thô,1,1
-125,Quận 3,12,2,2,4,Đông Tây,2018,7.0,-0.1,Đang chờ sổ,69.71,11.7,10.5,Mặt tiền đường lớn,0,Cao cấp,8,0
-139,Nhà Bè,4,5,2,4,Tây Nam,2003,10.2,11.8,Sổ đỏ,6.56,18.8,29.3,Mặt tiền hẻm,0,Trung bình,23,0
-52,Quận 1,Nguyễn Cư Trinh,4,4,3,Đông Nam,2005,8.5,-1.8,Sổ hồng,18.18,10.5,29.4,Mặt tiền đường lớn,0,Thô,21,0
-189,Quận 3,14,2,1,1,Tây,2014,11.2,3.3,Sổ đỏ,54.01,10.4,25.2,Mặt tiền hẻm,0,Thô,12,1
-191,Bình Thạnh,13,5,2,2,Tây Bắc,2003,4.6,3.2,Sổ đỏ,27.62,16.1,16.4,Mặt tiền đường lớn,0,Cao cấp,23,0
-124,Phú Nhuận,10,4,1,3,Tây Bắc,2011,12.0,3.9,Sổ hồng,35.47,13.1,7.6,Mặt tiền hẻm,1,Trung bình,15,1
-116,Quận 12,4,4,1,4,Đông Bắc,2018,10.0,9.0,Sổ đỏ,7.98,18.3,21.1,Mặt tiền đường lớn,0,Trung bình,8,0
-99,Tân Phú,10,4,1,3,Đông Nam,2011,4.9,8.7,Sổ hồng,13.29,10.4,21.0,Mặt tiền hẻm,0,Cao cấp,15,1
-86,Quận 3,10,3,2,1,Đông Bắc,2018,9.4,0.7,Sổ hồng,43.13,13.7,9.5,Mặt tiền đường lớn,1,Cao cấp,8,0
-78,Phú Nhuận,13,5,3,3,Tây,2021,7.0,6.2,Sổ hồng,20.03,12.3,10.2,Mặt tiền đường lớn,1,Cao cấp,5,0
-110,Quận 3,Phú Nhuận,4,2,4,Bắc,2023,9.9,6.0,Sổ hồng,49.01,15.7,26.8,Mặt tiền ngã tư,0,Thô,3,0
-153,Quận 1,Bến Thành,2,2,2,Đông Nam,2012,6.7,2.0,Sổ đỏ,89.83,18.0,8.6,Mặt tiền đường lớn,0,Thô,14,0
-104,Quận 7,Tân Phú,4,2,4,Tây Nam,2016,6.1,6.9,Sổ hồng,24.37,10.0,10.7,Mặt tiền đường lớn,0,Trung bình,10,0
-76,Quận 3,14,5,4,2,Tây Bắc,2023,4.3,4.2,Giấy tờ tay,28.31,10.8,12.6,Mặt tiền ngã tư,1,Trung bình,3,0
-100,Bình Tân,9,4,4,4,Nam,2017,8.1,11.0,Sổ hồng,12.06,10.5,18.5,Mặt tiền ngã tư,1,Trung bình,9,0
-130,Quận 3,Phú Nhuận,3,2,2,Tây Bắc,2022,8.8,4.3,Đang chờ sổ,48.05,12.9,15.7,Mặt tiền ngã tư,1,Trung bình,4,0
-69,Quận 3,Võ Thị Sáu,3,2,1,Nam,2004,11.2,5.1,Sổ hồng,34.98,11.3,12.1,Mặt tiền đường lớn,0,Trung bình,22,1
-53,Quận 1,Nguyễn Thái Bình,2,2,3,Đông Nam,2020,4.9,4.4,Đang chờ sổ,24.64,18.2,11.5,Mặt tiền đường lớn,0,Trung bình,6,0
-190,Bình Tân,3,2,2,4,Đông Nam,2001,7.7,9.2,Giấy tờ tay,26.08,17.0,12.9,Mặt tiền đường lớn,1,Trung bình,25,0
-193,Bình Tân,14,5,4,1,Tây Bắc,2019,9.1,7.7,Sổ hồng,22.24,17.5,29.1,Mặt tiền hẻm,0,Thô,7,0
-55,Nhà Bè,2,4,2,3,Đông Bắc,2002,10.1,10.7,Đang chờ sổ,3.12,18.6,13.2,Mặt tiền hẻm,1,Trung bình,24,0
-186,Quận 4,Tân Thuận Tây,4,2,3,Tây Nam,2012,3.5,2.4,Đang chờ sổ,44.22,8.4,15.5,Mặt tiền ngã tư,1,Trung bình,14,1
-74,Quận 12,4,4,3,2,Tây Bắc,2020,5.1,6.2,Đang chờ sổ,4.93,16.5,21.3,Mặt tiền hẻm,0,Trung bình,6,0
-173,Quận 12,3,5,1,2,Tây Bắc,2015,4.3,12.8,Đang chờ sổ,12.2,19.1,14.0,Mặt tiền đường lớn,1,Cao cấp,11,1
-61,Quận 1,Bến Nghé,4,4,3,Đông Tây,2002,8.7,4.2,Sổ đỏ,36.7,14.3,23.1,Mặt tiền đường lớn,1,Trung bình,24,1
-160,Quận 3,13,2,2,4,Tây Nam,2008,9.2,5.5,Sổ hồng,63.26,17.2,13.4,Mặt tiền đường lớn,0,Thô,18,1
-139,Tân Bình,5,3,2,1,Tây Nam,2024,9.2,6.7,Sổ đỏ,36.15,8.9,16.7,Mặt tiền đường lớn,1,Cao cấp,2,0
-114,Tân Phú,3,4,1,4,Tây Bắc,2012,7.5,7.8,Đang chờ sổ,16.28,13.9,18.7,Mặt tiền hẻm,0,Cao cấp,14,0
-114,Phú Nhuận,10,5,4,3,Đông Nam,2015,5.0,1.2,Sổ hồng,31.74,13.2,24.5,Mặt tiền hẻm,1,Trung bình,11,1
-71,Gò Vấp,4,3,2,3,Bắc,2010,9.8,4.6,Đang chờ sổ,11.4,14.0,24.1,Mặt tiền ngã tư,0,Cao cấp,16,1
-198,Tân Bình,12,2,2,1,Đông Tây,2008,10.7,8.5,Sổ hồng,43.43,14.3,26.0,Mặt tiền đường lớn,0,Thô,18,0
-46,Quận 5,10,3,2,3,Đông,2014,7.5,5.5,Sổ hồng,8.61,17.0,14.0,Mặt tiền đường lớn,1,Cao cấp,12,0
-128,Bình Tân,15,2,1,4,Bắc,2002,8.9,5.9,Sổ hồng,17.41,8.7,20.0,Mặt tiền đường lớn,0,Cao cấp,24,0
-112,Quận 1,Bến Thành,5,3,4,Tây,2000,4.6,4.3,Sổ đỏ,40.64,9.8,10.9,Mặt tiền hẻm,0,Trung bình,26,0
-97,Bình Thạnh,16,4,1,3,Đông,2002,9.4,1.1,Sổ hồng,18.18,15.7,20.6,Mặt tiền hẻm,0,Trung bình,24,1
-68,Quận 4,Tân Kiểng,2,2,1,Đông Tây,2011,6.7,1.2,Giấy tờ tay,9.65,19.1,10.8,Mặt tiền ngã tư,1,Thô,15,0
-184,Nhà Bè,2,2,2,1,Đông Tây,2020,10.6,12.3,Sổ đỏ,14.29,13.0,19.7,Mặt tiền đường lớn,0,Cao cấp,6,0
-127,Phú Nhuận,2,3,3,4,Tây,2019,6.3,1.7,Sổ hồng,28.88,13.6,28.6,Mặt tiền hẻm,1,Thô,7,0
-188,Gò Vấp,9,2,1,1,Tây Nam,2016,4.4,3.6,Sổ đỏ,39.93,12.1,7.7,Mặt tiền đường lớn,0,Cao cấp,10,1
-45,Tân Phú,15,3,3,4,Nam,2016,4.0,9.7,Sổ hồng,5.63,9.7,9.7,Mặt tiền hẻm,1,Cao cấp,10,1
-84,Phú Nhuận,5,3,1,3,Tây Nam,2007,8.9,1.3,Sổ hồng,18.35,11.0,17.0,Mặt tiền đường lớn,0,Trung bình,19,0
-161,Phú Nhuận,7,3,3,2,Tây Bắc,2002,10.0,7.1,Sổ hồng,41.57,15.2,24.3,Mặt tiền đường lớn,0,Trung bình,24,0
-127,Bình Thạnh,20,4,1,4,Bắc,2002,3.1,4.2,Giấy tờ tay,28.17,11.9,17.5,Mặt tiền ngã tư,0,Cao cấp,24,1
-47,Phú Nhuận,17,2,2,2,Đông,2024,7.5,7.3,Sổ hồng,12.62,14.1,26.6,Mặt tiền đường lớn,1,Thô,2,0
-88,Quận 3,12,2,1,2,Bắc,2014,9.1,0.8,Sổ đỏ,45.12,11.2,14.5,Mặt tiền đường lớn,0,Trung bình,12,0
-46,Quận 3,Võ Thị Sáu,5,2,2,Tây Bắc,2001,7.5,0.4,Sổ hồng,22.07,17.0,9.1,Mặt tiền ngã tư,0,Trung bình,25,0
-66,Quận 7,Bình Thuận,2,2,4,Đông Tây,2020,8.5,3.1,Đang chờ sổ,15.9,11.2,6.9,Mặt tiền đường lớn,1,Cao cấp,6,1
-106,Quận 10,3,3,3,2,Bắc,2008,3.8,1.7,Sổ hồng,29.36,17.1,29.8,Mặt tiền ngã tư,0,Trung bình,18,1
-183,Tân Phú,8,2,1,1,Tây Bắc,2018,5.8,10.0,Sổ hồng,31.74,19.9,24.5,Mặt tiền đường lớn,0,Cao cấp,8,0
-95,Quận 12,10,2,2,2,Tây Bắc,2010,3.4,9.1,Sổ hồng,4.89,12.7,16.2,Mặt tiền ngã tư,1,Thô,16,0
-81,Bình Thạnh,10,3,2,1,Tây,2019,8.1,3.9,Giấy tờ tay,13.49,11.1,29.3,Mặt tiền hẻm,0,Thô,7,1
-88,Tân Phú,6,4,2,2,Tây,2024,4.0,7.4,Giấy tờ tay,11.83,8.7,20.3,Mặt tiền ngã tư,1,Trung bình,2,1
-183,Bình Chánh,3,3,1,2,Bắc,2003,9.5,13.1,Sổ hồng,6.1,9.2,30.0,Mặt tiền đường lớn,0,Trung bình,23,0
-144,Bình Chánh,7,5,2,2,Bắc,2009,7.1,12.9,Sổ hồng,6.36,18.8,12.1,Mặt tiền hẻm,1,Cao cấp,17,0
-191,Quận 1,Nguyễn Thái Bình,5,3,2,Đông Bắc,2012,5.9,0.6,Sổ đỏ,101.2,11.6,7.5,Mặt tiền đường lớn,1,Trung bình,14,1
-79,Quận 10,3,3,3,3,Tây Bắc,2020,6.4,5.6,Đang chờ sổ,24.47,14.3,27.8,Mặt tiền hẻm,1,Trung bình,6,0
-129,Quận 1,Cầu Ông Lãnh,2,1,3,Tây Bắc,2000,9.5,4.1,Sổ đỏ,61.94,15.3,24.1,Mặt tiền ngã tư,0,Cao cấp,26,0
-118,Gò Vấp,9,3,1,1,Đông Bắc,2008,9.3,4.4,Sổ hồng,18.85,18.7,24.3,Mặt tiền đường lớn,1,Thô,18,0
-46,Quận 5,11,2,2,3,Đông,2023,9.6,7.6,Giấy tờ tay,10.08,13.7,17.7,Mặt tiền đường lớn,1,Trung bình,3,0
-172,Nhà Bè,1,2,1,2,Đông,2004,6.2,10.0,Sổ hồng,8.44,17.2,17.9,Mặt tiền ngã tư,1,Cao cấp,22,0
-73,Nhà Bè,3,2,1,1,Đông Tây,2010,8.2,10.6,Giấy tờ tay,2.8,9.7,16.3,Mặt tiền hẻm,0,Trung bình,16,0
-122,Quận 1,Cầu Ông Lãnh,4,4,2,Đông,2018,3.6,4.0,Giấy tờ tay,61.29,9.1,6.6,Mặt tiền đường lớn,0,Cao cấp,8,0
-120,Phú Nhuận,1,5,4,2,Tây,2014,3.5,3.8,Đang chờ sổ,24.08,16.0,22.4,Mặt tiền đường lớn,0,Trung bình,12,0
-162,Quận 5,13,3,3,2,Đông,2003,10.8,5.2,Sổ hồng,41.67,16.3,26.3,Mặt tiền đường lớn,1,Cao cấp,23,1
-159,Quận 1,Cầu Kho,2,1,4,Đông Tây,2008,6.2,-1.9,Sổ đỏ,97.55,19.9,12.2,Mặt tiền đường lớn,1,Trung bình,18,0
-102,Quận 12,10,5,1,1,Đông Tây,2014,5.7,8.3,Đang chờ sổ,7.21,16.2,29.4,Mặt tiền đường lớn,0,Trung bình,12,1
-189,Quận 1,Nguyễn Thái Bình,5,1,1,Tây,2019,3.9,4.3,Giấy tờ tay,68.15,8.8,22.6,Mặt tiền hẻm,0,Thô,7,0
-70,Thủ Đức,Hiệp Bình Phước,5,1,3,Tây,2017,6.9,10.3,Đang chờ sổ,10.63,9.9,10.9,Mặt tiền hẻm,0,Trung bình,9,1
-145,Tân Bình,6,4,3,1,Tây Nam,2007,8.6,5.8,Sổ đỏ,26.56,9.2,12.6,Mặt tiền hẻm,0,Trung bình,19,1
-183,Thủ Đức,Tam Phú,5,2,3,Tây Bắc,2015,6.0,8.1,Đang chờ sổ,37.9,16.7,18.5,Mặt tiền đường lớn,1,Cao cấp,11,1
-77,Phú Nhuận,17,5,1,1,Bắc,2000,6.5,5.9,Giấy tờ tay,22.44,9.3,20.6,Mặt tiền ngã tư,0,Cao cấp,26,0
-142,Tân Bình,13,2,2,4,Tây Nam,2012,3.3,6.8,Đang chờ sổ,23.89,17.9,12.7,Mặt tiền đường lớn,0,Thô,14,0
-59,Bình Thạnh,18,3,1,3,Nam,2008,4.3,2.6,Sổ đỏ,8.37,10.6,9.9,Mặt tiền hẻm,1,Trung bình,18,0
-191,Bình Chánh,10,5,2,3,Đông Tây,2016,8.8,14.8,Sổ hồng,9.24,19.5,20.1,Mặt tiền hẻm,1,Cao cấp,10,0
-79,Quận 7,Tân Quy,2,2,4,Bắc,2001,4.6,5.2,Sổ hồng,10.86,14.5,18.0,Mặt tiền hẻm,0,Cao cấp,25,0
-179,Bình Thạnh,20,2,2,3,Tây Nam,2017,9.7,4.6,Sổ đỏ,38.08,12.8,7.0,Mặt tiền đường lớn,0,Thô,9,1
-127,Tân Phú,6,2,2,2,Tây Nam,2020,4.1,10.0,Sổ hồng,14.1,18.0,7.8,Mặt tiền đường lớn,1,Trung bình,6,1
-176,Bình Thạnh,18,5,3,4,Tây Bắc,2016,4.1,3.1,Đang chờ sổ,30.81,9.1,15.8,Mặt tiền ngã tư,0,Trung bình,10,0
-63,Quận 1,Bến Nghé,3,2,4,Nam,2020,6.2,4.2,Giấy tờ tay,44.4,13.9,24.5,Mặt tiền đường lớn,0,Cao cấp,6,0
-185,Quận 12,8,5,2,1,Đông Tây,2024,8.1,9.0,Sổ đỏ,16.18,12.1,12.9,Mặt tiền đường lớn,1,Trung bình,2,0
-114,Bình Thạnh,5,4,1,1,Đông Bắc,2009,9.4,6.3,Sổ đỏ,27.11,18.4,13.0,Mặt tiền ngã tư,0,Trung bình,17,0
-77,Bình Thạnh,4,5,2,3,Đông,2011,11.3,3.8,Sổ đỏ,17.15,9.3,11.4,Mặt tiền ngã tư,1,Trung bình,15,1
-51,Quận 12,8,4,3,2,Đông Nam,2007,7.0,8.8,Sổ hồng,4.76,15.0,18.0,Mặt tiền đường lớn,0,Trung bình,19,1
-53,Quận 3,11,4,3,2,Tây Bắc,2019,5.1,4.2,Sổ hồng,18.47,14.1,28.8,Mặt tiền đường lớn,0,Thô,7,0
-102,Quận 1,Tân Định,5,4,4,Tây Nam,2017,6.5,3.7,Giấy tờ tay,45.99,13.6,27.4,Mặt tiền đường lớn,1,Trung bình,9,0
-44,Quận 3,11,5,4,1,Bắc,2013,11.9,-0.4,Sổ đỏ,22.06,14.1,25.4,Mặt tiền đường lớn,0,Cao cấp,13,0
-182,Quận 10,8,5,1,3,Nam,2005,6.0,3.4,Sổ hồng,40.88,10.2,18.7,Mặt tiền hẻm,0,Cao cấp,21,0
-115,Quận 7,Bình Thuận,5,1,1,Tây Bắc,2004,7.5,3.2,Sổ hồng,28.45,16.7,26.1,Mặt tiền đường lớn,0,Trung bình,22,0
-144,Phú Nhuận,8,5,4,3,Tây,2015,3.7,7.1,Sổ hồng,25.46,16.1,26.2,Mặt tiền ngã tư,1,Trung bình,11,0
-144,Quận 7,Tân Kiểng,4,3,3,Tây,2006,4.2,3.8,Sổ hồng,32.26,15.7,14.4,Mặt tiền đường lớn,0,Trung bình,20,0
-52,Tân Phú,11,3,3,1,Tây Bắc,2021,8.2,7.9,Sổ hồng,6.08,16.2,24.5,Mặt tiền ngã tư,0,Cao cấp,5,0
-131,Quận 7,Tân Quy,4,4,1,Tây Bắc,2004,3.4,9.1,Sổ đỏ,26.84,8.5,6.7,Mặt tiền hẻm,1,Trung bình,22,0
-48,Thủ Đức,Hiệp Bình Chánh,5,4,4,Tây Bắc,2024,7.2,6.5,Giấy tờ tay,8.1,16.8,11.3,Mặt tiền đường lớn,0,Thô,2,0
-123,Quận 5,12,3,2,1,Tây,2020,6.9,4.1,Sổ hồng,21.12,10.5,20.1,Mặt tiền đường lớn,1,Trung bình,6,0
-91,Tân Phú,7,4,4,2,Tây Bắc,2012,6.9,8.7,Sổ hồng,13.51,13.0,18.6,Mặt tiền đường lớn,1,Trung bình,14,1
-75,Bình Chánh,8,2,2,3,Đông Bắc,2011,3.2,11.7,Sổ hồng,2.84,10.6,12.6,Mặt tiền đường lớn,0,Cao cấp,15,1
-127,Quận 7,Tân Hưng,3,1,2,Đông,2012,4.0,3.9,Sổ hồng,21.95,19.8,20.8,Mặt tiền hẻm,0,Cao cấp,14,0
-59,Bình Thạnh,19,3,2,4,Bắc,2003,12.0,3.7,Sổ đỏ,12.45,19.6,7.4,Mặt tiền ngã tư,0,Trung bình,23,1
-64,Bình Thạnh,7,5,1,2,Đông Bắc,2022,9.4,8.0,Sổ hồng,13.26,9.9,22.2,Mặt tiền đường lớn,0,Trung bình,4,0
-132,Tân Bình,1,2,2,3,Tây Bắc,2022,9.0,5.3,Sổ hồng,24.92,9.0,11.9,Mặt tiền đường lớn,0,Cao cấp,4,0
-91,Bình Thạnh,3,4,4,1,Tây Bắc,2016,4.4,6.4,Sổ hồng,25.4,19.0,18.4,Mặt tiền đường lớn,1,Cao cấp,10,1
-185,Nhà Bè,8,2,2,3,Tây,2006,7.9,10.2,Sổ hồng,12.55,14.9,10.4,Mặt tiền đường lớn,0,Cao cấp,20,0
-153,Gò Vấp,12,2,2,3,Đông Bắc,2004,5.5,3.7,Sổ đỏ,34.06,8.8,11.8,Mặt tiền đường lớn,0,Cao cấp,22,0
-186,Quận 5,10,4,4,3,Đông,2012,8.9,2.5,Đang chờ sổ,38.11,9.2,25.9,Mặt tiền hẻm,1,Trung bình,14,1
-52,Quận 1,Cầu Kho,5,4,2,Nam,2008,9.9,2.9,Sổ hồng,32.54,16.5,28.8,Mặt tiền đường lớn,1,Cao cấp,18,0
-68,Tân Bình,14,3,2,1,Bắc,2006,10.7,6.2,Sổ hồng,11.78,17.5,7.5,Mặt tiền đường lớn,1,Thô,20,0
-141,Quận 3,11,5,2,1,Tây Bắc,2017,7.0,4.7,Đang chờ sổ,67.94,13.5,21.4,Mặt tiền ngã tư,1,Thô,9,1
-178,Gò Vấp,14,3,2,3,Tây,2003,4.9,4.9,Sổ đỏ,23.24,13.3,11.9,Mặt tiền ngã tư,1,Trung bình,23,0
-42,Bình Thạnh,7,4,4,1,Đông Bắc,2014,10.8,7.3,Sổ hồng,11.74,15.3,20.6,Mặt tiền đường lớn,1,Cao cấp,12,0
-188,Quận 7,Phú Thuận,2,1,2,Tây Bắc,2014,11.3,9.1,Đang chờ sổ,41.25,18.2,29.1,Mặt tiền đường lớn,1,Cao cấp,12,0
-71,Nhà Bè,2,2,2,3,Tây Bắc,2007,9.1,10.3,Sổ đỏ,4.32,10.2,28.5,Mặt tiền đường lớn,1,Trung bình,19,0
-161,Quận 3,12,4,4,2,Tây Bắc,2007,4.5,1.8,Sổ hồng,75.58,13.5,10.6,Mặt tiền đường lớn,0,Cao cấp,19,0
-55,Bình Chánh,6,4,1,2,Tây Bắc,2013,10.6,10.4,Giấy tờ tay,3.2,12.5,13.3,Mặt tiền đường lớn,0,Cao cấp,13,0
-63,Thủ Đức,Hiệp Bình Phước,5,2,1,Bắc,2000,8.4,7.5,Sổ hồng,13.32,10.2,14.0,Mặt tiền đường lớn,1,Thô,26,1
-154,Quận 3,Phú Nhuận,2,2,1,Tây Nam,2006,4.7,0.0,Sổ đỏ,60.68,19.8,22.1,Mặt tiền hẻm,0,Trung bình,20,1
-45,Quận 1,Bến Nghé,4,3,4,Tây Bắc,2006,7.4,-0.8,Sổ hồng,20.69,9.0,23.4,Mặt tiền ngã tư,1,Cao cấp,20,1
-143,Thủ Đức,Linh Tây,5,2,2,Đông Tây,2015,4.4,11.5,Giấy tờ tay,14.2,19.1,28.0,Mặt tiền hẻm,0,Trung bình,11,1
-140,Quận 1,Bến Nghé,3,1,3,Tây Bắc,2020,8.3,-1.0,Giấy tờ tay,97.04,12.3,6.3,Mặt tiền đường lớn,1,Cao cấp,6,0
-169,Quận 3,13,5,3,2,Tây,2007,7.4,2.6,Sổ hồng,63.67,14.2,8.4,Mặt tiền đường lớn,1,Thô,19,1
-191,Quận 12,8,4,3,4,Tây Bắc,2007,4.0,9.9,Sổ hồng,11.44,17.6,27.1,Mặt tiền đường lớn,0,Trung bình,19,1
-56,Tân Phú,2,5,2,2,Đông Tây,2005,3.7,8.4,Sổ hồng,5.94,13.7,14.1,Mặt tiền đường lớn,1,Trung bình,21,0
-67,Tân Bình,1,4,3,3,Đông Tây,2018,10.4,5.4,Sổ đỏ,13.27,11.9,8.5,Mặt tiền hẻm,1,Cao cấp,8,1
-107,Gò Vấp,3,2,1,1,Đông Nam,2012,9.5,7.1,Sổ hồng,21.17,13.8,29.2,Mặt tiền hẻm,0,Trung bình,14,1
-179,Quận 4,Tân Kiểng,5,1,3,Bắc,2001,3.6,0.2,Sổ đỏ,25.93,8.9,28.4,Mặt tiền ngã tư,0,Trung bình,25,1
-53,Quận 1,Bến Nghé,5,2,2,Đông,2025,9.4,3.6,Sổ đỏ,24.52,18.2,15.8,Mặt tiền ngã tư,0,Cao cấp,1,0
-112,Quận 4,Tân Kiểng,3,1,2,Bắc,2013,10.9,2.0,Sổ đỏ,27.7,12.1,25.7,Mặt tiền đường lớn,1,Trung bình,13,0
-102,Bình Tân,5,5,1,3,Tây,2023,6.0,7.5,Sổ hồng,14.81,14.7,17.5,Mặt tiền hẻm,0,Trung bình,3,1
-150,Quận 7,Tân Phong,3,2,3,Bắc,2016,4.2,6.1,Đang chờ sổ,38.44,8.4,26.5,Mặt tiền đường lớn,0,Trung bình,10,1
-85,Nhà Bè,1,2,2,2,Tây Bắc,2017,4.8,12.8,Sổ đỏ,3.84,19.3,16.5,Mặt tiền đường lớn,1,Trung bình,9,0
-176,Bình Chánh,7,2,2,1,Đông,2017,8.8,10.5,Giấy tờ tay,8.01,14.3,27.8,Mặt tiền ngã tư,0,Trung bình,9,1
-61,Gò Vấp,17,4,3,3,Đông,2012,5.1,7.3,Giấy tờ tay,9.12,8.7,26.4,Mặt tiền ngã tư,1,Trung bình,14,0
-179,Quận 1,Cầu Kho,5,3,4,Đông Nam,2021,8.1,1.9,Đang chờ sổ,97.45,11.0,7.8,Mặt tiền hẻm,1,Trung bình,5,1
-46,Quận 3,Phú Nhuận,5,2,1,Đông Bắc,2003,9.1,4.8,Sổ hồng,24.06,17.9,22.6,Mặt tiền hẻm,1,Cao cấp,23,0
-44,Bình Chánh,4,2,1,4,Nam,2011,10.1,10.0,Sổ hồng,1.78,17.0,25.0,Mặt tiền hẻm,1,Trung bình,15,0
-105,Tân Bình,8,3,2,3,Đông Nam,2020,11.2,8.5,Sổ đỏ,23.36,13.3,22.9,Mặt tiền ngã tư,0,Trung bình,6,0
-138,Quận 3,13,3,1,3,Tây Bắc,2000,10.7,3.8,Sổ hồng,44.54,17.8,23.2,Mặt tiền hẻm,1,Thô,26,0
-154,Gò Vấp,17,2,2,3,Đông Nam,2011,9.1,4.9,Đang chờ sổ,21.11,16.5,29.7,Mặt tiền ngã tư,0,Trung bình,15,0
-124,Bình Tân,13,4,3,4,Đông Bắc,2002,6.4,7.5,Sổ hồng,16.81,9.3,9.7,Mặt tiền ngã tư,0,Cao cấp,24,1
-167,Thủ Đức,Linh Đông,4,1,3,Đông Tây,2021,5.7,11.2,Sổ đỏ,24.87,18.6,11.4,Mặt tiền đường lớn,0,Trung bình,5,0
-143,Quận 12,2,4,2,2,Tây,2013,5.6,11.6,Sổ hồng,8.83,19.1,20.9,Mặt tiền hẻm,0,Trung bình,13,0
-177,Tân Phú,12,2,1,3,Đông Bắc,2005,9.9,4.5,Sổ hồng,21.0,13.3,13.7,Mặt tiền đường lớn,0,Cao cấp,21,0
-140,Bình Tân,5,3,2,3,Bắc,2023,10.2,6.7,Sổ hồng,16.85,17.4,13.0,Mặt tiền ngã tư,1,Thô,3,1
-181,Quận 12,9,3,3,1,Đông Nam,2017,4.2,9.5,Sổ hồng,15.15,19.2,6.1,Mặt tiền đường lớn,1,Cao cấp,9,1
-42,Gò Vấp,5,5,4,3,Đông Tây,2018,6.3,4.1,Sổ hồng,7.36,19.6,20.9,Mặt tiền đường lớn,0,Thô,8,0
-142,Thủ Đức,Trường Thọ,2,1,1,Tây,2019,8.4,7.9,Sổ đỏ,20.54,8.7,25.7,Mặt tiền đường lớn,0,Trung bình,7,1
-110,Quận 3,14,2,2,4,Nam,2009,6.5,1.2,Đang chờ sổ,42.23,11.6,11.0,Mặt tiền đường lớn,1,Trung bình,17,1
-49,Quận 12,7,2,1,4,Tây Bắc,2012,9.1,7.7,Sổ hồng,3.19,10.5,9.1,Mặt tiền đường lớn,0,Trung bình,14,0
-165,Bình Tân,14,5,2,2,Tây Bắc,2014,5.5,4.4,Giấy tờ tay,34.61,10.1,16.2,Mặt tiền đường lớn,1,Cao cấp,12,1
-46,Quận 10,11,2,2,3,Đông,2020,9.8,4.5,Sổ hồng,13.58,8.6,6.6,Mặt tiền đường lớn,0,Cao cấp,6,0
-145,Quận 3,11,3,1,3,Đông Bắc,2011,9.6,5.6,Giấy tờ tay,69.04,19.9,24.1,Mặt tiền ngã tư,0,Trung bình,15,0
-122,Gò Vấp,10,4,4,1,Đông Nam,2018,10.2,9.7,Sổ hồng,19.06,16.5,24.2,Mặt tiền ngã tư,0,Trung bình,8,0
-116,Quận 4,Bình Thuận,4,4,4,Tây Bắc,2011,4.9,1.3,Đang chờ sổ,13.92,14.1,8.2,Mặt tiền hẻm,1,Thô,15,1
-112,Phú Nhuận,13,2,2,3,Đông Nam,2009,5.4,2.4,Đang chờ sổ,36.86,10.0,29.7,Mặt tiền đường lớn,1,Cao cấp,17,1
-75,Quận 7,Tân Kiểng,4,2,3,Tây Nam,2024,11.7,7.8,Giấy tờ tay,14.53,17.5,17.8,Mặt tiền hẻm,1,Trung bình,2,0
-76,Bình Chánh,5,3,2,3,Tây Bắc,2005,4.2,12.4,Sổ đỏ,3.53,10.7,13.8,Mặt tiền đường lớn,1,Trung bình,21,0
-42,Bình Thạnh,20,3,1,1,Nam,2005,5.8,2.2,Sổ hồng,6.06,9.9,22.0,Mặt tiền hẻm,0,Trung bình,21,0
-108,Quận 1,Nguyễn Cư Trinh,3,2,4,Đông Nam,2002,9.2,3.9,Giấy tờ tay,56.83,15.5,18.9,Mặt tiền đường lớn,0,Trung bình,24,1
-138,Gò Vấp,5,3,2,3,Tây Bắc,2010,7.2,5.0,Sổ hồng,23.68,16.2,7.0,Mặt tiền hẻm,1,Trung bình,16,0
-121,Nhà Bè,9,3,3,3,Tây Bắc,2013,5.5,11.0,Sổ hồng,6.25,12.4,15.4,Mặt tiền hẻm,1,Thô,13,0
-169,Bình Thạnh,5,2,2,3,Đông,2008,11.5,3.3,Sổ đỏ,36.59,11.1,20.9,Mặt tiền đường lớn,1,Cao cấp,18,1
-40,Bình Thạnh,5,2,2,1,Đông,2021,9.5,7.4,Giấy tờ tay,6.29,13.6,29.4,Mặt tiền đường lớn,0,Thô,5,0
-117,Gò Vấp,8,4,3,3,Đông Bắc,2024,8.6,5.2,Sổ hồng,20.99,9.6,10.6,Mặt tiền đường lớn,0,Trung bình,2,0
-180,Tân Phú,7,4,3,3,Đông Bắc,2004,7.3,9.6,Sổ hồng,19.19,12.8,13.3,Mặt tiền hẻm,0,Trung bình,22,0
-83,Quận 7,Bình Thuận,5,1,1,Bắc,2014,7.8,8.8,Sổ hồng,16.11,18.9,18.8,Mặt tiền hẻm,0,Cao cấp,12,0
-119,Gò Vấp,7,5,1,2,Đông,2024,4.7,7.3,Sổ hồng,27.88,18.6,11.0,Mặt tiền đường lớn,0,Cao cấp,2,0
-57,Thủ Đức,Linh Tây,2,1,3,Nam,2025,11.5,5.7,Sổ hồng,9.15,11.8,9.1,Mặt tiền hẻm,1,Trung bình,1,1
-62,Bình Thạnh,2,4,4,3,Tây,2025,4.8,1.5,Sổ hồng,12.42,8.7,9.3,Mặt tiền đường lớn,0,Cao cấp,1,0
-74,Quận 10,8,2,1,1,Tây,2012,11.9,8.5,Đang chờ sổ,23.63,13.1,7.9,Mặt tiền đường lớn,1,Cao cấp,14,1
-154,Quận 3,12,3,2,4,Đông Bắc,2010,7.8,0.8,Sổ hồng,51.75,9.8,9.9,Mặt tiền hẻm,1,Cao cấp,16,0
-143,Tân Bình,4,3,3,2,Tây Bắc,2002,9.5,3.6,Sổ hồng,26.35,11.8,27.7,Mặt tiền hẻm,0,Trung bình,24,0
-96,Phú Nhuận,4,5,3,1,Đông Tây,2021,6.5,2.7,Giấy tờ tay,25.46,12.5,25.7,Mặt tiền đường lớn,0,Cao cấp,5,0
-94,Quận 4,Tân Thuận Đông,3,2,2,Đông,2018,11.5,4.7,Sổ đỏ,21.71,13.4,25.9,Mặt tiền ngã tư,1,Thô,8,0
-65,Thủ Đức,Hiệp Bình Phước,3,2,1,Tây,2003,5.5,9.9,Đang chờ sổ,10.46,10.2,15.4,Mặt tiền hẻm,0,Cao cấp,23,1
-49,Tân Bình,12,2,2,2,Tây,2009,5.5,7.1,Sổ hồng,8.54,14.5,28.2,Mặt tiền hẻm,0,Cao cấp,17,1
-69,Tân Phú,7,2,1,1,Bắc,2005,8.6,8.3,Đang chờ sổ,9.3,11.5,21.8,Mặt tiền hẻm,1,Thô,21,1
-118,Bình Chánh,7,4,2,2,Tây Nam,2021,9.9,13.5,Giấy tờ tay,7.31,11.2,20.1,Mặt tiền ngã tư,1,Trung bình,5,0
-199,Quận 10,7,4,1,1,Đông Tây,2020,10.2,7.9,Giấy tờ tay,64.41,15.5,16.3,Mặt tiền hẻm,0,Cao cấp,6,0
-141,Bình Tân,8,3,1,3,Tây Bắc,2000,6.4,7.3,Sổ hồng,19.24,8.4,22.6,Mặt tiền đường lớn,0,Cao cấp,26,0
-41,Tân Bình,1,3,3,1,Đông,2017,4.9,5.7,Sổ hồng,7.53,18.3,15.5,Mặt tiền hẻm,1,Cao cấp,9,0
-72,Nhà Bè,5,4,2,4,Nam,2007,10.1,11.9,Sổ đỏ,4.75,19.8,21.7,Mặt tiền ngã tư,0,Cao cấp,19,0
-56,Tân Phú,10,5,1,1,Đông,2024,3.7,8.6,Sổ đỏ,4.81,18.0,12.7,Mặt tiền hẻm,1,Thô,2,1
-175,Tân Phú,8,2,1,3,Đông,2019,9.8,4.8,Sổ hồng,23.18,13.4,10.9,Mặt tiền hẻm,1,Trung bình,7,1
-51,Thủ Đức,Linh Trung,2,2,2,Tây Nam,2012,3.1,7.3,Sổ hồng,8.1,10.6,26.9,Mặt tiền hẻm,1,Trung bình,14,1
-103,Thủ Đức,Linh Tây,5,3,1,Đông Tây,2004,6.5,11.1,Sổ đỏ,14.55,15.9,24.8,Mặt tiền ngã tư,0,Trung bình,22,0
-71,Quận 1,Tân Định,4,4,2,Bắc,2007,4.7,1.7,Giấy tờ tay,37.57,8.8,6.7,Mặt tiền đường lớn,0,Cao cấp,19,0
-188,Tân Phú,3,4,3,3,Bắc,2010,10.3,9.1,Giấy tờ tay,28.3,20.0,17.5,Mặt tiền ngã tư,0,Cao cấp,16,1
-152,Quận 5,9,5,1,4,Bắc,2003,4.2,7.3,Sổ hồng,20.53,18.9,11.2,Mặt tiền ngã tư,0,Cao cấp,23,1
-105,Tân Phú,10,3,1,2,Tây,2015,7.8,8.3,Sổ hồng,16.52,16.6,29.9,Mặt tiền đường lớn,1,Cao cấp,11,0
-123,Gò Vấp,1,5,4,1,Nam,2020,3.0,7.3,Đang chờ sổ,13.97,17.5,26.5,Mặt tiền đường lớn,0,Trung bình,6,0
-91,Tân Bình,13,2,1,3,Bắc,2021,11.3,2.7,Đang chờ sổ,24.9,8.8,17.4,Mặt tiền ngã tư,1,Cao cấp,5,1
-59,Quận 3,Phú Nhuận,4,3,1,Nam,2013,11.5,4.9,Đang chờ sổ,35.68,14.2,26.0,Mặt tiền đường lớn,1,Trung bình,13,1
-122,Nhà Bè,7,3,3,2,Tây Nam,2019,5.2,11.8,Sổ đỏ,7.42,19.7,23.9,Mặt tiền đường lớn,0,Trung bình,7,1
-121,Quận 1,Cầu Ông Lãnh,2,1,4,Đông Tây,2005,9.5,-0.6,Đang chờ sổ,71.37,8.3,18.5,Mặt tiền đường lớn,1,Trung bình,21,0
-171,Quận 3,Võ Thị Sáu,4,1,3,Đông Tây,2005,9.8,3.1,Sổ đỏ,92.66,12.3,16.5,Mặt tiền đường lớn,0,Cao cấp,21,0
-83,Quận 1,Đa Kao,5,2,4,Đông Tây,2014,6.4,4.1,Sổ hồng,40.37,12.5,7.3,Mặt tiền hẻm,1,Cao cấp,12,0
-148,Quận 1,Tân Định,4,2,2,Tây Nam,2004,8.5,-0.4,Sổ đỏ,114.5,12.6,10.5,Mặt tiền đường lớn,1,Cao cấp,22,1
-132,Quận 10,12,2,2,4,Đông Bắc,2009,5.7,3.6,Sổ hồng,34.54,11.8,27.1,Mặt tiền ngã tư,1,Trung bình,17,0
-60,Quận 1,Bến Thành,5,3,4,Tây Nam,2016,8.9,1.7,Sổ hồng,30.95,9.8,20.0,Mặt tiền đường lớn,0,Trung bình,10,0
-64,Quận 3,13,4,1,2,Tây Nam,2025,5.1,5.8,Sổ hồng,39.74,15.8,7.0,Mặt tiền đường lớn,0,Trung bình,1,1
-181,Bình Thạnh,20,4,4,4,Tây Bắc,2006,10.8,3.0,Giấy tờ tay,21.75,9.3,12.9,Mặt tiền hẻm,0,Thô,20,0
-116,Quận 7,Tân Mỹ,2,1,1,Đông Bắc,2002,3.2,6.2,Sổ đỏ,22.57,13.5,9.1,Mặt tiền đường lớn,0,Cao cấp,24,0
-177,Phú Nhuận,14,5,4,1,Đông Tây,2002,5.7,3.5,Sổ hồng,46.01,17.2,11.9,Mặt tiền đường lớn,0,Trung bình,24,0
-149,Thủ Đức,Trường Thọ,5,1,4,Đông Tây,2017,5.9,9.6,Sổ hồng,16.89,14.0,8.2,Mặt tiền hẻm,0,Cao cấp,9,0
-149,Nhà Bè,7,3,1,2,Đông Tây,2007,11.8,9.8,Giấy tờ tay,10.27,11.4,7.7,Mặt tiền hẻm,1,Trung bình,19,1
-43,Thủ Đức,Linh Trung,3,3,3,Tây Bắc,2025,5.5,10.7,Sổ hồng,8.7,15.9,24.1,Mặt tiền đường lớn,0,Trung bình,1,1
-109,Quận 7,Tân Phú,5,4,1,Bắc,2021,3.7,6.4,Sổ hồng,23.95,16.1,25.0,Mặt tiền ngã tư,0,Trung bình,5,0
-181,Gò Vấp,4,5,1,4,Đông Nam,2025,4.8,4.5,Đang chờ sổ,38.72,13.2,10.4,Mặt tiền đường lớn,1,Trung bình,1,0
-159,Thủ Đức,Hiệp Bình Phước,3,3,4,Đông Bắc,2005,4.0,11.8,Đang chờ sổ,26.92,11.6,22.2,Mặt tiền đường lớn,1,Cao cấp,21,1
-74,Phú Nhuận,5,4,4,4,Tây Nam,2023,4.0,4.9,Giấy tờ tay,17.11,12.0,10.7,Mặt tiền đường lớn,1,Trung bình,3,1
-176,Quận 1,Tân Định,3,1,3,Tây,2004,5.0,-0.6,Sổ hồng,75.41,13.7,6.9,Mặt tiền đường lớn,0,Thô,22,1
-168,Tân Phú,9,3,1,3,Tây,2017,10.8,9.7,Sổ hồng,22.32,14.9,9.7,Mặt tiền hẻm,0,Trung bình,9,1
-190,Tân Phú,7,3,2,4,Tây Nam,2007,4.4,5.6,Sổ hồng,33.97,11.4,21.8,Mặt tiền đường lớn,1,Cao cấp,19,1
-161,Quận 1,Cầu Kho,3,3,4,Tây Bắc,2008,5.6,1.2,Đang chờ sổ,74.9,16.7,17.3,Mặt tiền đường lớn,0,Thô,18,0
-77,Bình Thạnh,7,4,4,4,Đông Nam,2025,7.0,3.4,Sổ hồng,21.08,9.6,13.1,Mặt tiền đường lớn,0,Cao cấp,1,1
-184,Gò Vấp,8,3,2,1,Tây,2022,8.3,6.5,Sổ hồng,43.98,13.4,19.0,Mặt tiền đường lớn,0,Cao cấp,4,1
-163,Tân Bình,6,3,1,2,Đông Nam,2023,6.1,3.7,Đang chờ sổ,36.14,17.0,22.4,Mặt tiền đường lớn,1,Trung bình,3,1
-51,Quận 5,9,2,1,3,Đông Nam,2015,10.8,1.8,Sổ hồng,10.09,14.4,14.7,Mặt tiền đường lớn,0,Trung bình,11,0
-91,Bình Chánh,7,4,4,3,Đông Nam,2023,7.6,13.1,Sổ hồng,3.42,15.9,19.7,Mặt tiền đường lớn,0,Trung bình,3,0
-51,Quận 1,Nguyễn Thái Bình,3,2,2,Đông,2019,8.9,0.2,Đang chờ sổ,21.67,19.0,20.0,Mặt tiền ngã tư,0,Trung bình,7,0
-170,Phú Nhuận,5,2,2,2,Tây Bắc,2024,5.8,1.8,Sổ hồng,48.12,13.8,26.2,Mặt tiền hẻm,0,Cao cấp,2,1
-105,Thủ Đức,Linh Chiểu,4,3,2,Đông Nam,2010,7.7,9.8,Sổ đỏ,18.17,19.3,16.3,Mặt tiền đường lớn,1,Trung bình,16,0
-115,Quận 5,9,4,2,3,Tây Bắc,2010,6.6,2.3,Sổ hồng,17.65,17.4,27.8,Mặt tiền hẻm,1,Trung bình,16,0
-41,Quận 1,Cầu Ông Lãnh,5,1,4,Tây,2000,6.8,-0.1,Sổ hồng,19.76,12.7,13.2,Mặt tiền đường lớn,0,Cao cấp,26,0
-91,Tân Phú,14,2,2,1,Tây,2024,7.2,7.9,Sổ hồng,10.25,11.3,18.1,Mặt tiền ngã tư,1,Trung bình,2,0
-110,Quận 4,Tân Thuận Tây,5,3,2,Đông Nam,2013,9.3,4.1,Sổ đỏ,24.12,14.7,11.3,Mặt tiền hẻm,1,Trung bình,13,1
-152,Quận 7,Tân Phú,5,1,4,Đông Bắc,2002,9.3,5.8,Đang chờ sổ,30.26,10.7,12.7,Mặt tiền đường lớn,1,Trung bình,24,0
-166,Quận 12,9,4,2,3,Nam,2023,10.9,11.0,Sổ đỏ,13.77,18.6,8.9,Mặt tiền hẻm,1,Cao cấp,3,0
-50,Quận 7,Tân Phú,5,2,3,Tây,2017,11.3,5.9,Sổ hồng,12.4,9.9,12.6,Mặt tiền ngã tư,0,Trung bình,9,1
-161,Quận 5,8,5,3,3,Tây Bắc,2007,8.7,2.1,Sổ hồng,36.62,16.7,21.2,Mặt tiền đường lớn,0,Cao cấp,19,0
-47,Tân Phú,4,4,2,4,Đông Bắc,2017,9.2,5.1,Giấy tờ tay,6.32,10.9,29.5,Mặt tiền đường lớn,1,Thô,9,1
-65,Quận 3,12,2,1,3,Nam,2005,3.1,2.1,Sổ hồng,22.24,8.4,20.9,Mặt tiền hẻm,1,Trung bình,21,0
-122,Bình Thạnh,5,2,2,4,Bắc,2023,11.2,2.6,Sổ hồng,20.9,9.9,13.4,Mặt tiền đường lớn,0,Cao cấp,3,0
-152,Quận 12,4,3,2,3,Đông Tây,2008,4.5,9.3,Sổ hồng,10.15,15.4,11.2,Mặt tiền hẻm,0,Cao cấp,18,1
-174,Gò Vấp,4,4,4,2,Nam,2006,7.8,4.4,Giấy tờ tay,33.25,10.4,13.0,Mặt tiền hẻm,0,Trung bình,20,0
-140,Quận 12,6,3,2,2,Tây Nam,2020,5.9,10.1,Sổ hồng,12.54,8.1,26.4,Mặt tiền đường lớn,0,Trung bình,6,1
-192,Quận 12,6,5,1,1,Nam,2003,5.8,8.8,Sổ hồng,13.0,20.0,11.5,Mặt tiền ngã tư,1,Thô,23,1
-170,Quận 3,11,4,2,1,Đông Tây,2018,8.4,-0.1,Sổ hồng,65.51,9.9,13.2,Mặt tiền đường lớn,0,Trung bình,8,0
-100,Phú Nhuận,10,3,2,2,Nam,2011,7.6,7.4,Sổ hồng,22.24,13.9,9.6,Mặt tiền đường lớn,0,Cao cấp,15,0
-106,Bình Chánh,1,4,4,4,Đông Nam,2019,5.6,12.9,Giấy tờ tay,6.0,12.1,14.7,Mặt tiền ngã tư,0,Trung bình,7,0
-171,Tân Bình,15,3,3,1,Đông Bắc,2015,10.4,5.2,Sổ hồng,39.16,11.5,18.2,Mặt tiền ngã tư,1,Trung bình,11,0
-136,Bình Chánh,2,5,4,4,Đông,2010,8.6,12.1,Sổ hồng,7.92,14.7,19.3,Mặt tiền đường lớn,0,Cao cấp,16,0
-145,Quận 3,11,2,1,2,Bắc,2022,7.5,-0.1,Sổ hồng,57.72,10.7,26.2,Mặt tiền hẻm,0,Trung bình,4,0
-117,Quận 12,10,4,4,4,Nam,2001,3.8,9.3,Sổ hồng,10.42,8.8,6.1,Mặt tiền đường lớn,0,Trung bình,25,1
-178,Quận 3,12,3,2,3,Bắc,2019,6.3,4.7,Sổ hồng,60.19,12.0,23.2,Mặt tiền hẻm,0,Cao cấp,7,1
-120,Quận 1,Bến Nghé,5,3,2,Tây Nam,2014,3.0,2.7,Sổ hồng,48.09,18.4,6.5,Mặt tiền hẻm,0,Trung bình,12,0
-59,Thủ Đức,Linh Trung,5,1,4,Tây Nam,2011,6.1,10.3,Sổ đỏ,9.23,11.1,10.1,Mặt tiền đường lớn,0,Cao cấp,15,1
-51,Quận 1,Nguyễn Cư Trinh,5,2,4,Nam,2003,11.2,0.8,Sổ hồng,21.42,12.5,6.9,Mặt tiền đường lớn,1,Cao cấp,23,0
-167,Phú Nhuận,17,3,3,1,Đông,2000,4.7,2.2,Giấy tờ tay,29.13,19.0,15.7,Mặt tiền đường lớn,0,Trung bình,26,1
-62,Tân Bình,5,5,2,1,Bắc,2023,7.1,6.6,Sổ đỏ,18.19,10.4,8.5,Mặt tiền ngã tư,0,Cao cấp,3,1
-199,Quận 12,4,4,2,2,Đông Bắc,2011,4.7,10.6,Sổ đỏ,15.36,9.9,27.3,Mặt tiền đường lớn,1,Trung bình,15,0
-180,Nhà Bè,6,4,4,4,Đông Bắc,2010,9.8,12.0,Giấy tờ tay,7.5,10.1,23.6,Mặt tiền ngã tư,1,Thô,16,0
-137,Bình Tân,6,4,4,2,Đông Tây,2015,6.0,7.1,Đang chờ sổ,16.01,16.0,24.3,Mặt tiền hẻm,0,Cao cấp,11,1
-156,Gò Vấp,13,4,2,1,Đông,2009,12.0,5.1,Sổ hồng,25.5,11.4,16.2,Mặt tiền đường lớn,1,Trung bình,17,1
-45,Bình Chánh,7,3,3,2,Đông Nam,2002,8.7,16.0,Sổ hồng,2.3,9.7,9.5,Mặt tiền hẻm,0,Trung bình,24,1
-65,Quận 4,Tân Kiểng,3,2,2,Tây Bắc,2008,9.0,5.8,Sổ hồng,16.67,12.1,7.0,Mặt tiền ngã tư,0,Cao cấp,18,1
-162,Gò Vấp,12,2,1,4,Đông Nam,2019,8.9,7.6,Đang chờ sổ,19.96,19.1,20.3,Mặt tiền đường lớn,1,Thô,7,0
-181,Bình Chánh,6,3,3,1,Đông Nam,2010,10.5,12.2,Sổ hồng,8.18,20.0,6.7,Mặt tiền hẻm,0,Trung bình,16,1
-72,Tân Phú,12,2,2,3,Tây Bắc,2020,4.7,5.2,Giấy tờ tay,10.32,9.0,10.6,Mặt tiền đường lớn,0,Trung bình,6,0
-105,Bình Thạnh,13,3,1,2,Bắc,2009,3.4,5.8,Sổ hồng,15.7,12.6,9.5,Mặt tiền hẻm,0,Trung bình,17,1
-57,Quận 5,11,5,3,2,Đông Tây,2004,9.5,4.3,Sổ hồng,8.31,19.5,9.5,Mặt tiền đường lớn,1,Trung bình,22,0
-192,Gò Vấp,16,3,3,3,Tây Bắc,2003,6.2,6.1,Sổ đỏ,27.3,13.1,23.6,Mặt tiền đường lớn,0,Cao cấp,23,0
-65,Tân Phú,10,5,1,3,Nam,2024,5.4,9.3,Sổ hồng,12.09,14.4,16.7,Mặt tiền đường lớn,0,Trung bình,2,1
-143,Quận 3,Phú Nhuận,3,1,1,Đông,2016,4.0,0.2,Giấy tờ tay,52.86,8.7,25.4,Mặt tiền hẻm,1,Trung bình,10,1
-165,Bình Chánh,8,2,2,3,Đông,2003,4.9,13.2,Sổ đỏ,8.72,20.0,6.6,Mặt tiền đường lớn,1,Trung bình,23,0
-105,Quận 3,12,4,3,3,Bắc,2023,5.1,1.8,Đang chờ sổ,55.09,11.0,29.1,Mặt tiền đường lớn,1,Cao cấp,3,1
-94,Gò Vấp,12,5,3,2,Đông,2004,6.6,8.5,Sổ đỏ,14.39,9.2,18.9,Mặt tiền đường lớn,1,Cao cấp,22,0
-131,Quận 3,11,4,2,2,Nam,2005,9.1,1.5,Đang chờ sổ,50.79,11.7,10.8,Mặt tiền ngã tư,0,Trung bình,21,0
-100,Tân Phú,7,5,2,2,Nam,2015,6.3,3.5,Đang chờ sổ,14.53,14.6,20.4,Mặt tiền hẻm,0,Cao cấp,11,0
-86,Bình Thạnh,18,5,1,2,Bắc,2016,9.0,7.2,Sổ hồng,17.3,12.0,22.1,Mặt tiền đường lớn,0,Trung bình,10,1
-138,Quận 4,Tân Thuận Tây,4,4,1,Tây Bắc,2005,10.9,1.0,Sổ hồng,30.81,14.0,26.7,Mặt tiền đường lớn,1,Thô,21,0
-101,Thủ Đức,Bình Chiểu,4,2,4,Tây Bắc,2019,11.6,9.0,Sổ hồng,18.78,13.9,20.7,Mặt tiền đường lớn,0,Trung bình,7,1
-45,Bình Chánh,8,3,1,3,Đông Tây,2012,7.8,10.5,Đang chờ sổ,2.0,18.9,19.2,Mặt tiền hẻm,1,Trung bình,14,0
-85,Thủ Đức,Tam Phú,5,3,2,Tây Nam,2022,7.0,10.8,Sổ đỏ,17.22,8.8,16.6,Mặt tiền đường lớn,0,Trung bình,4,1
-53,Bình Tân,4,2,2,2,Nam,2010,4.6,6.9,Sổ hồng,6.54,9.4,22.0,Mặt tiền đường lớn,0,Cao cấp,16,0
-100,Bình Tân,1,3,2,4,Nam,2020,3.7,7.0,Sổ hồng,16.6,18.6,16.7,Mặt tiền hẻm,1,Cao cấp,6,1
-165,Quận 3,11,4,3,2,Đông Tây,2000,7.8,0.4,Sổ hồng,67.3,16.4,12.2,Mặt tiền ngã tư,0,Thô,26,0
-122,Tân Bình,4,4,4,3,Tây,2025,9.8,4.6,Đang chờ sổ,24.83,12.5,10.2,Mặt tiền hẻm,0,Cao cấp,1,1
-80,Quận 12,7,4,1,1,Nam,2013,10.7,11.2,Sổ hồng,4.88,9.5,27.6,Mặt tiền ngã tư,1,Thô,13,1
-106,Phú Nhuận,2,5,4,2,Đông Bắc,2020,8.5,5.9,Sổ đỏ,18.14,19.8,22.5,Mặt tiền đường lớn,1,Thô,6,0
-92,Bình Tân,1,2,1,1,Tây Nam,2023,10.2,10.2,Sổ đỏ,13.66,11.9,27.8,Mặt tiền đường lớn,1,Thô,3,0
-138,Nhà Bè,9,5,3,1,Tây Bắc,2004,9.5,12.5,Giấy tờ tay,8.36,18.8,22.3,Mặt tiền đường lớn,1,Thô,22,0
-86,Quận 10,6,5,2,4,Tây,2002,8.5,2.5,Sổ hồng,21.4,10.9,7.3,Mặt tiền đường lớn,0,Trung bình,24,0
-138,Quận 7,Tân Quy,4,2,4,Tây Bắc,2021,10.9,4.7,Sổ đỏ,43.63,10.7,6.9,Mặt tiền hẻm,0,Trung bình,5,1
-60,Bình Thạnh,17,5,3,1,Đông,2019,10.9,6.7,Giấy tờ tay,13.35,13.6,25.7,Mặt tiền hẻm,1,Cao cấp,7,0
-145,Bình Chánh,6,4,2,4,Đông Nam,2020,9.8,14.0,Sổ đỏ,5.74,16.7,22.9,Mặt tiền ngã tư,1,Trung bình,6,0
-118,Thủ Đức,Hiệp Bình Chánh,4,3,4,Nam,2007,4.8,7.5,Sổ hồng,16.56,16.4,26.3,Mặt tiền hẻm,1,Trung bình,19,1
-166,Phú Nhuận,9,3,3,4,Nam,2021,8.9,4.3,Sổ hồng,43.44,18.5,18.3,Mặt tiền đường lớn,1,Trung bình,5,1
-56,Bình Thạnh,7,5,3,4,Đông Bắc,2005,3.9,6.5,Đang chờ sổ,9.02,18.4,6.6,Mặt tiền đường lớn,1,Thô,21,0
-136,Quận 4,Tân Kiểng,4,1,2,Tây Nam,2018,9.1,2.3,Giấy tờ tay,25.56,16.6,9.1,Mặt tiền đường lớn,0,Cao cấp,8,1
-127,Bình Thạnh,15,4,2,1,Đông,2018,5.5,3.2,Sổ hồng,34.28,17.4,29.0,Mặt tiền đường lớn,1,Cao cấp,8,1
-134,Nhà Bè,8,3,2,3,Đông Bắc,2013,10.0,8.8,Giấy tờ tay,9.61,14.4,7.5,Mặt tiền ngã tư,1,Cao cấp,13,0
-61,Gò Vấp,1,4,3,2,Tây Bắc,2003,11.7,3.7,Sổ đỏ,8.14,11.3,12.3,Mặt tiền hẻm,0,Trung bình,23,0
-159,Quận 1,Bến Thành,5,2,2,Đông Tây,2012,10.4,3.7,Đang chờ sổ,99.05,8.6,29.8,Mặt tiền đường lớn,1,Cao cấp,14,1
-141,Quận 10,3,4,4,4,Nam,2018,8.3,2.5,Giấy tờ tay,35.05,8.4,12.3,Mặt tiền đường lớn,0,Trung bình,8,0
-47,Bình Thạnh,17,4,2,1,Tây Nam,2020,3.7,5.7,Sổ hồng,10.17,8.2,9.7,Mặt tiền đường lớn,1,Trung bình,6,1
-137,Gò Vấp,10,5,2,2,Bắc,2001,7.8,10.0,Đang chờ sổ,26.08,10.7,24.1,Mặt tiền đường lớn,1,Trung bình,25,0
-146,Quận 7,Bình Thuận,4,2,3,Đông,2010,11.6,6.4,Sổ hồng,37.93,16.3,29.1,Mặt tiền ngã tư,0,Trung bình,16,0
-121,Tân Phú,6,3,1,1,Đông Tây,2014,4.4,3.9,Sổ hồng,9.99,15.9,26.5,Mặt tiền hẻm,0,Trung bình,12,0
-49,Quận 3,12,5,1,2,Đông Bắc,2013,11.5,6.4,Đang chờ sổ,27.29,9.6,27.1,Mặt tiền ngã tư,0,Cao cấp,13,1
-47,Quận 7,Phú Thuận,3,1,1,Nam,2000,11.9,9.1,Đang chờ sổ,14.04,11.4,11.3,Mặt tiền đường lớn,0,Cao cấp,26,0
-102,Quận 10,13,4,1,2,Nam,2011,6.9,5.3,Giấy tờ tay,33.47,10.7,6.7,Mặt tiền đường lớn,1,Trung bình,15,0
-85,Bình Thạnh,11,2,2,2,Đông Bắc,2008,10.8,4.4,Sổ hồng,22.73,11.5,9.3,Mặt tiền ngã tư,1,Cao cấp,18,1
-97,Gò Vấp,12,5,1,1,Đông Bắc,2001,3.3,7.0,Sổ hồng,10.84,9.1,25.2,Mặt tiền đường lớn,1,Trung bình,25,0
-61,Gò Vấp,4,4,1,4,Tây Bắc,2009,3.6,6.8,Sổ đỏ,10.68,9.7,19.3,Mặt tiền đường lớn,0,Thô,17,0
-98,Quận 3,Phú Nhuận,5,3,3,Đông,2013,5.4,6.2,Sổ hồng,48.89,17.2,15.3,Mặt tiền đường lớn,0,Cao cấp,13,1
-198,Quận 7,Tân Hưng,2,1,2,Đông Tây,2006,3.0,6.7,Sổ hồng,43.49,11.4,21.4,Mặt tiền hẻm,1,Trung bình,20,1
-111,Quận 3,Võ Thị Sáu,4,1,4,Tây,2020,8.8,3.8,Sổ đỏ,37.19,17.3,13.8,Mặt tiền ngã tư,0,Thô,6,0
-73,Bình Thạnh,2,2,2,2,Đông Tây,2001,3.0,7.5,Sổ đỏ,10.38,14.7,14.2,Mặt tiền hẻm,0,Trung bình,25,0
-196,Thủ Đức,Hiệp Bình Chánh,3,2,3,Bắc,2020,6.8,11.9,Giấy tờ tay,33.78,12.3,14.9,Mặt tiền đường lớn,1,Trung bình,6,0
-43,Thủ Đức,Linh Trung,4,1,2,Tây Bắc,2016,8.5,10.9,Sổ hồng,8.12,10.3,17.7,Mặt tiền đường lớn,0,Trung bình,10,1
-119,Phú Nhuận,8,3,2,2,Tây,2007,9.1,3.3,Sổ hồng,22.54,8.4,26.3,Mặt tiền đường lớn,0,Trung bình,19,0
-95,Phú Nhuận,3,4,2,1,Đông Tây,2011,7.0,2.0,Sổ đỏ,23.01,9.8,18.2,Mặt tiền đường lớn,0,Trung bình,15,0
-170,Phú Nhuận,17,5,1,2,Bắc,2002,6.8,5.2,Giấy tờ tay,39.04,14.8,21.4,Mặt tiền đường lớn,1,Trung bình,24,1
-96,Nhà Bè,1,4,1,2,Tây,2021,4.8,11.0,Sổ hồng,5.93,19.0,28.1,Mặt tiền hẻm,1,Trung bình,5,1
-152,Quận 1,Cầu Ông Lãnh,4,2,2,Đông Bắc,2004,10.2,-1.7,Sổ hồng,68.03,13.5,11.3,Mặt tiền hẻm,1,Cao cấp,22,0
-107,Thủ Đức,Linh Chiểu,2,1,4,Tây Nam,2006,6.5,5.6,Giấy tờ tay,19.58,14.7,18.1,Mặt tiền ngã tư,1,Thô,20,0
-61,Nhà Bè,6,2,2,2,Đông Bắc,2024,5.5,14.8,Sổ hồng,4.85,14.0,18.5,Mặt tiền đường lớn,0,Cao cấp,2,0
-177,Thủ Đức,Hiệp Bình Chánh,2,1,4,Đông,2024,4.4,9.8,Sổ đỏ,31.23,14.4,23.0,Mặt tiền đường lớn,0,Cao cấp,2,0
-69,Tân Bình,6,5,4,3,Đông Tây,2006,5.2,5.1,Đang chờ sổ,11.71,14.1,17.3,Mặt tiền hẻm,1,Trung bình,20,1
-199,Quận 12,5,5,1,4,Bắc,2011,5.6,10.5,Đang chờ sổ,10.44,16.7,17.9,Mặt tiền hẻm,0,Thô,15,0
-92,Phú Nhuận,6,3,3,1,Đông Tây,2021,6.1,5.0,Sổ đỏ,30.52,9.5,26.9,Mặt tiền đường lớn,0,Cao cấp,5,0
-89,Quận 1,Cầu Ông Lãnh,5,2,3,Đông Bắc,2007,4.8,0.1,Đang chờ sổ,30.64,11.5,17.1,Mặt tiền hẻm,0,Trung bình,19,0
-60,Quận 5,3,5,4,2,Nam,2010,8.6,3.2,Sổ hồng,7.42,15.2,24.2,Mặt tiền hẻm,1,Trung bình,16,0
-53,Quận 1,Bến Thành,4,1,1,Tây,2018,11.7,-0.5,Sổ đỏ,18.13,10.5,6.4,Mặt tiền hẻm,0,Thô,8,0
-180,Quận 3,Phú Nhuận,4,3,1,Bắc,2016,9.0,5.0,Sổ hồng,76.79,8.3,8.7,Mặt tiền đường lớn,0,Cao cấp,10,0
-123,Bình Chánh,6,4,3,2,Tây,2013,5.8,16.0,Sổ đỏ,7.23,13.9,27.9,Mặt tiền ngã tư,0,Cao cấp,13,1
-161,Thủ Đức,Linh Trung,2,1,1,Nam,2024,5.5,9.7,Giấy tờ tay,28.32,13.7,23.4,Mặt tiền hẻm,0,Cao cấp,2,0
-105,Tân Bình,8,5,2,1,Đông Bắc,2019,11.6,8.1,Sổ hồng,20.1,15.3,29.8,Mặt tiền hẻm,1,Cao cấp,7,0
-161,Quận 7,Phú Thuận,2,1,4,Đông Bắc,2020,11.8,9.2,Sổ hồng,33.6,15.9,6.5,Mặt tiền ngã tư,1,Trung bình,6,0
-145,Quận 1,Nguyễn Cư Trinh,3,1,2,Tây,2009,8.3,4.4,Sổ hồng,68.25,15.0,27.1,Mặt tiền hẻm,1,Thô,17,1
-63,Bình Tân,1,5,1,1,Tây Bắc,2005,7.2,9.1,Sổ đỏ,9.43,10.5,13.3,Mặt tiền ngã tư,0,Cao cấp,21,1
-83,Quận 5,3,2,1,3,Nam,2002,5.5,7.9,Giấy tờ tay,17.51,8.6,16.8,Mặt tiền đường lớn,1,Trung bình,24,0
-187,Quận 4,Tân Thuận Đông,4,3,3,Nam,2001,3.3,3.9,Giấy tờ tay,37.61,11.4,26.7,Mặt tiền đường lớn,0,Cao cấp,25,1
-133,Quận 3,13,5,3,1,Tây,2011,6.2,0.3,Đang chờ sổ,53.8,13.3,22.6,Mặt tiền hẻm,0,Trung bình,15,0
-137,Gò Vấp,5,3,2,1,Tây Nam,2005,9.8,9.8,Đang chờ sổ,19.34,17.8,20.4,Mặt tiền hẻm,1,Trung bình,21,1
-92,Quận 12,6,4,3,2,Tây Bắc,2018,6.9,11.6,Đang chờ sổ,6.05,12.2,11.9,Mặt tiền đường lớn,1,Trung bình,8,1
-157,Quận 3,13,2,1,3,Đông Bắc,2002,4.0,-0.4,Giấy tờ tay,68.4,11.1,18.2,Mặt tiền đường lớn,0,Cao cấp,24,0
-133,Quận 5,4,5,2,2,Nam,2000,6.9,1.1,Đang chờ sổ,28.79,15.7,20.0,Mặt tiền đường lớn,0,Trung bình,26,1
-82,Bình Tân,7,3,1,4,Tây Bắc,2008,6.5,4.2,Giấy tờ tay,13.53,10.5,14.1,Mặt tiền hẻm,1,Cao cấp,18,1
-133,Gò Vấp,14,5,3,3,Đông Tây,2013,7.7,5.6,Sổ đỏ,26.47,19.5,24.9,Mặt tiền đường lớn,1,Thô,13,1
-168,Thủ Đức,Tam Phú,5,2,1,Tây,2023,6.3,7.2,Sổ đỏ,28.14,13.2,22.4,Mặt tiền đường lớn,0,Thô,3,1
-118,Quận 12,11,4,1,4,Đông Tây,2005,6.2,12.6,Đang chờ sổ,7.38,14.7,17.4,Mặt tiền đường lớn,1,Thô,21,0
-59,Quận 7,Tân Hưng,3,3,3,Đông Tây,2023,8.6,9.9,Sổ hồng,13.77,13.5,17.9,Mặt tiền đường lớn,0,Trung bình,3,1
-52,Quận 7,Tân Phú,4,1,3,Bắc,2021,9.7,8.9,Sổ đỏ,11.86,13.4,15.4,Mặt tiền đường lớn,0,Cao cấp,5,0
-160,Quận 5,3,2,2,3,Đông Bắc,2014,10.7,6.6,Sổ hồng,21.4,19.7,6.4,Mặt tiền hẻm,0,Trung bình,12,0
-193,Quận 1,Đa Kao,2,1,1,Bắc,2015,7.7,1.2,Sổ đỏ,117.66,8.2,12.5,Mặt tiền hẻm,0,Trung bình,11,1
-78,Bình Thạnh,18,5,1,2,Đông Tây,2015,9.1,3.2,Sổ đỏ,17.25,18.0,17.4,Mặt tiền ngã tư,1,Trung bình,11,0
-124,Phú Nhuận,16,3,3,2,Đông,2014,6.2,5.6,Sổ hồng,35.06,12.6,20.8,Mặt tiền đường lớn,0,Trung bình,12,0
-99,Tân Phú,6,5,2,1,Tây Bắc,2017,8.7,7.4,Giấy tờ tay,13.59,10.3,19.3,Mặt tiền đường lớn,0,Trung bình,9,0
-162,Bình Tân,9,4,1,4,Tây Nam,2011,10.1,5.2,Sổ hồng,18.92,12.1,8.5,Mặt tiền hẻm,1,Trung bình,15,1
-189,Gò Vấp,17,3,2,2,Đông,2019,8.0,3.1,Đang chờ sổ,32.47,15.4,23.9,Mặt tiền đường lớn,0,Cao cấp,7,0
-77,Quận 1,Đa Kao,4,2,4,Đông Bắc,2023,9.3,4.9,Giấy tờ tay,62.97,12.1,20.4,Mặt tiền đường lớn,1,Trung bình,3,1
-153,Quận 10,9,3,2,2,Tây,2000,5.1,3.8,Sổ hồng,37.18,9.3,11.2,Mặt tiền ngã tư,1,Trung bình,26,0
-116,Quận 1,Cầu Kho,4,3,3,Đông Tây,2017,8.1,1.1,Sổ hồng,55.16,10.7,18.0,Mặt tiền đường lớn,1,Trung bình,9,1
-168,Quận 10,2,4,4,3,Tây Bắc,2023,5.4,5.8,Sổ đỏ,64.64,15.5,13.7,Mặt tiền đường lớn,1,Cao cấp,3,1
-123,Tân Bình,7,5,2,2,Tây Bắc,2013,9.3,4.2,Sổ hồng,26.08,17.8,23.9,Mặt tiền ngã tư,0,Trung bình,13,0
-159,Thủ Đức,Linh Chiểu,5,4,4,Bắc,2001,5.5,9.2,Giấy tờ tay,31.41,17.5,16.1,Mặt tiền hẻm,1,Cao cấp,25,1
-152,Nhà Bè,6,2,1,3,Tây Bắc,2014,9.3,12.5,Giấy tờ tay,10.13,18.9,19.5,Mặt tiền đường lớn,1,Trung bình,12,0
-163,Quận 10,12,5,3,4,Tây Bắc,2025,11.0,5.7,Đang chờ sổ,46.02,9.4,21.2,Mặt tiền hẻm,0,Cao cấp,1,0
-93,Quận 7,Phú Thuận,2,2,3,Đông Nam,2010,3.9,7.0,Sổ đỏ,20.95,10.1,20.3,Mặt tiền hẻm,0,Trung bình,16,1
-171,Quận 1,Nguyễn Cư Trinh,5,1,4,Tây Bắc,2000,11.7,4.8,Sổ hồng,64.7,17.2,13.6,Mặt tiền hẻm,0,Cao cấp,26,1
-162,Quận 4,Bình Thuận,5,2,3,Tây Bắc,2020,10.5,5.1,Sổ hồng,34.48,18.4,23.8,Mặt tiền hẻm,0,Trung bình,6,0
-48,Tân Phú,2,3,1,3,Đông Tây,2013,11.8,3.5,Giấy tờ tay,10.12,10.9,29.2,Mặt tiền đường lớn,1,Cao cấp,13,0
-188,Quận 7,Tân Phong,3,2,1,Nam,2013,8.4,4.8,Sổ đỏ,52.61,18.8,6.0,Mặt tiền đường lớn,1,Cao cấp,13,1
-181,Thủ Đức,Linh Đông,2,2,1,Tây Nam,2000,3.8,6.6,Đang chờ sổ,22.54,19.5,15.2,Mặt tiền đường lớn,0,Cao cấp,26,0
-46,Bình Thạnh,4,2,1,2,Bắc,2022,4.3,5.1,Sổ hồng,10.77,10.0,6.3,Mặt tiền đường lớn,1,Trung bình,4,0
-153,Bình Thạnh,1,2,2,4,Nam,2015,7.8,6.6,Sổ hồng,30.0,10.7,29.8,Mặt tiền đường lớn,0,Thô,11,0
-156,Gò Vấp,6,5,1,3,Nam,2007,4.6,5.3,Sổ hồng,19.42,14.9,26.1,Mặt tiền hẻm,0,Cao cấp,19,0
-94,Quận 1,Nguyễn Thái Bình,5,2,4,Đông Tây,2022,5.4,-1.7,Sổ đỏ,54.64,14.8,14.1,Mặt tiền đường lớn,0,Trung bình,4,0
-133,Quận 12,1,3,2,3,Đông Bắc,2005,8.9,8.8,Sổ hồng,10.54,19.5,26.8,Mặt tiền đường lớn,0,Trung bình,21,0
-146,Bình Thạnh,9,5,1,4,Đông Nam,2000,9.1,2.0,Sổ hồng,37.07,16.5,9.7,Mặt tiền đường lớn,0,Trung bình,26,1
-95,Quận 7,Tân Kiểng,5,2,3,Bắc,2015,8.0,8.1,Đang chờ sổ,16.21,14.9,25.4,Mặt tiền hẻm,0,Thô,11,1
-131,Bình Thạnh,4,3,3,1,Tây Bắc,2001,9.5,2.4,Sổ đỏ,15.91,8.3,18.1,Mặt tiền hẻm,0,Trung bình,25,0
-196,Nhà Bè,4,5,3,2,Đông Nam,2006,6.9,12.8,Sổ hồng,12.65,8.8,15.7,Mặt tiền đường lớn,1,Cao cấp,20,0
-118,Tân Bình,1,3,3,2,Tây Bắc,2015,11.0,6.9,Sổ đỏ,22.19,12.5,14.3,Mặt tiền đường lớn,0,Trung bình,11,0
-96,Quận 3,Võ Thị Sáu,4,3,3,Tây Bắc,2020,8.9,3.7,Giấy tờ tay,39.81,8.8,22.6,Mặt tiền hẻm,1,Cao cấp,6,1
-145,Quận 3,11,4,1,3,Đông,2006,4.7,6.4,Sổ hồng,54.75,10.7,10.7,Mặt tiền đường lớn,0,Trung bình,20,0
-192,Tân Phú,5,4,1,2,Đông Nam,2018,10.4,6.8,Đang chờ sổ,27.69,18.5,10.7,Mặt tiền hẻm,0,Trung bình,8,0
-47,Phú Nhuận,11,3,2,2,Tây Bắc,2023,3.5,6.7,Giấy tờ tay,11.39,14.6,6.5,Mặt tiền hẻm,1,Trung bình,3,0
-134,Quận 12,9,5,2,1,Đông Bắc,2006,9.4,11.3,Sổ hồng,9.0,15.9,20.7,Mặt tiền hẻm,0,Cao cấp,20,1
-167,Bình Chánh,4,5,1,2,Đông Tây,2022,6.3,11.9,Giấy tờ tay,9.32,9.7,21.5,Mặt tiền ngã tư,0,Cao cấp,4,0
-58,Gò Vấp,4,5,4,2,Bắc,2013,7.1,3.5,Giấy tờ tay,9.11,9.5,15.5,Mặt tiền đường lớn,1,Trung bình,13,0
-195,Quận 12,1,2,1,3,Bắc,2005,3.3,8.8,Đang chờ sổ,11.81,16.8,14.4,Mặt tiền ngã tư,0,Cao cấp,21,0
-85,Quận 7,Tân Phong,4,3,2,Tây Bắc,2023,8.8,6.4,Sổ hồng,24.01,18.8,19.1,Mặt tiền đường lớn,0,Cao cấp,3,1
-82,Bình Thạnh,12,3,1,1,Đông,2016,11.6,5.0,Sổ hồng,21.28,12.6,23.0,Mặt tiền đường lớn,1,Trung bình,10,0
-107,Tân Phú,3,2,1,1,Tây Bắc,2004,10.1,9.9,Đang chờ sổ,11.57,11.6,26.2,Mặt tiền hẻm,0,Trung bình,22,1
-96,Bình Thạnh,9,4,2,3,Bắc,2016,3.6,1.8,Giấy tờ tay,19.14,14.6,9.1,Mặt tiền đường lớn,1,Cao cấp,10,1
-193,Quận 12,12,5,2,2,Tây Nam,2008,12.0,11.4,Sổ đỏ,14.12,11.1,13.7,Mặt tiền hẻm,0,Cao cấp,18,0
-162,Quận 3,13,3,3,3,Đông,2004,8.9,5.3,Sổ hồng,87.06,18.5,17.1,Mặt tiền đường lớn,1,Cao cấp,22,1
-150,Quận 3,11,5,3,1,Bắc,2015,11.4,5.3,Sổ đỏ,67.18,16.6,9.2,Mặt tiền đường lớn,0,Cao cấp,11,0
-171,Quận 12,9,5,3,3,Tây,2018,8.9,10.5,Sổ hồng,16.38,13.7,17.7,Mặt tiền đường lớn,1,Trung bình,8,0
-139,Thủ Đức,Linh Chiểu,5,4,1,Bắc,2016,7.3,9.0,Sổ hồng,25.51,18.9,28.9,Mặt tiền đường lớn,1,Cao cấp,10,0
-96,Tân Phú,6,5,2,2,Bắc,2011,7.3,5.4,Sổ hồng,13.93,18.9,18.1,Mặt tiền ngã tư,0,Trung bình,15,1
-115,Quận 1,Đa Kao,2,1,1,Tây,2024,12.0,3.3,Sổ hồng,70.19,18.8,23.9,Mặt tiền đường lớn,0,Trung bình,2,1
-111,Quận 3,9,5,3,3,Tây Bắc,2009,10.6,3.9,Sổ đỏ,55.54,15.2,19.1,Mặt tiền đường lớn,0,Trung bình,17,0
-139,Quận 7,Tân Mỹ,2,2,1,Đông Tây,2009,7.2,4.2,Sổ hồng,26.57,10.8,24.7,Mặt tiền hẻm,1,Cao cấp,17,1
-93,Quận 1,Cầu Kho,4,4,3,Đông Tây,2008,4.2,-0.1,Đang chờ sổ,27.67,12.6,21.6,Mặt tiền ngã tư,0,Trung bình,18,0
-90,Quận 1,Nguyễn Thái Bình,5,3,3,Tây Nam,2007,5.0,2.8,Đang chờ sổ,33.33,11.6,13.7,Mặt tiền ngã tư,0,Thô,19,1
-181,Quận 5,15,5,1,3,Tây Nam,2003,11.8,5.6,Đang chờ sổ,22.04,8.9,14.6,Mặt tiền đường lớn,0,Thô,23,1
-149,Quận 4,Phú Thuận,5,3,1,Tây Bắc,2020,8.0,2.6,Sổ hồng,33.56,20.0,20.8,Mặt tiền đường lớn,1,Thô,6,0
-87,Quận 12,8,4,3,3,Đông Nam,2010,12.0,12.9,Sổ đỏ,8.82,14.9,27.5,Mặt tiền ngã tư,0,Cao cấp,16,1
-55,Thủ Đức,Hiệp Bình Chánh,4,2,2,Nam,2010,10.3,7.1,Sổ đỏ,8.82,16.7,26.3,Mặt tiền đường lớn,0,Cao cấp,16,1
-184,Bình Chánh,6,5,1,2,Đông Bắc,2012,9.3,16.2,Sổ đỏ,7.33,9.4,6.1,Mặt tiền đường lớn,0,Trung bình,14,0
-137,Quận 7,Bình Thuận,4,3,3,Đông,2006,3.6,5.7,Sổ hồng,36.8,16.4,25.7,Mặt tiền đường lớn,0,Cao cấp,20,1
-62,Bình Tân,3,3,2,4,Đông Nam,2004,8.9,10.5,Sổ hồng,7.31,13.4,24.5,Mặt tiền đường lớn,0,Trung bình,22,0
-95,Bình Thạnh,20,3,1,3,Nam,2006,11.7,7.4,Đang chờ sổ,20.81,20.0,22.1,Mặt tiền đường lớn,0,Cao cấp,20,0
-98,Quận 10,7,2,1,1,Đông Nam,2013,5.0,3.2,Sổ đỏ,30.74,11.8,25.9,Mặt tiền đường lớn,0,Cao cấp,13,0
-163,Bình Thạnh,9,4,1,1,Tây Nam,2012,6.4,5.7,Sổ hồng,46.59,17.4,16.2,Mặt tiền đường lớn,1,Cao cấp,14,0
-71,Bình Thạnh,9,4,4,2,Đông,2014,10.7,3.8,Sổ hồng,14.52,11.2,20.4,Mặt tiền đường lớn,0,Trung bình,12,1
-128,Quận 10,6,4,1,2,Nam,2002,7.0,5.1,Sổ hồng,28.05,17.8,27.9,Mặt tiền hẻm,0,Trung bình,24,0
+110,Bình Tân,10,3,3,1,Tây Nam,2005,11.8,9.3,Giấy tờ tay,16.68,9.5,16.8,Mặt tiền đường lớn,0,Trung bình,21,0
+182,Tân Bình,2,2,2,4,Nam,2016,9.8,4.5,Đang chờ sổ,66.69,18.7,24.7,Mặt tiền đường lớn,0,Cao cấp,10,1
+92,Nhà Bè,4,5,2,1,Đông Nam,2020,4.2,11.3,Sổ hồng,11.49,16.0,16.5,Mặt tiền ngã tư,0,Trung bình,6,0
+78,Quận 5,3,4,3,1,Đông Bắc,2005,3.1,6.5,Sổ đỏ,24.2,16.5,24.7,Mặt tiền đường lớn,0,Cao cấp,21,1
+162,Tân Bình,2,4,3,3,Đông Tây,2002,5.7,2.2,Sổ hồng,46.61,10.6,15.8,Mặt tiền ngã tư,1,Cao cấp,24,1
+120,Tân Bình,9,5,4,3,Đông Nam,2010,10.3,3.2,Sổ hồng,37.82,9.1,23.3,Mặt tiền đường lớn,1,Trung bình,16,1
+88,Quận 10,4,4,3,3,Bắc,2024,4.1,8.2,Đang chờ sổ,20.84,16.4,12.4,Mặt tiền ngã tư,0,Trung bình,2,0
+60,Bình Chánh,1,3,3,1,Tây Bắc,2007,8.2,11.2,Đang chờ sổ,6.14,17.1,23.3,Mặt tiền đường lớn,0,Trung bình,19,0
+119,Quận 1,Bến Thành,2,1,3,Tây,2017,8.3,-0.8,Đang chờ sổ,58.03,15.0,14.3,Mặt tiền hẻm,1,Thô,9,0
+147,Phú Nhuận,2,3,2,4,Tây,2014,7.3,2.4,Sổ hồng,45.2,14.2,16.5,Mặt tiền đường lớn,0,Thô,12,1
+84,Thủ Đức,Linh Tây,2,2,3,Tây Bắc,2024,4.0,11.4,Sổ hồng,16.21,8.4,19.3,Mặt tiền đường lớn,0,Thô,2,1
+184,Phú Nhuận,14,3,3,4,Tây,2004,3.4,3.5,Đang chờ sổ,61.59,18.7,24.0,Mặt tiền ngã tư,0,Trung bình,22,1
+55,Quận 10,14,4,3,2,Nam,2000,5.2,2.4,Giấy tờ tay,21.7,9.8,10.3,Mặt tiền hẻm,0,Cao cấp,26,1
+109,Phú Nhuận,16,2,2,1,Tây,2005,4.2,5.2,Sổ hồng,26.16,14.1,22.7,Mặt tiền hẻm,1,Thô,21,0
+188,Quận 3,11,2,1,4,Bắc,2003,9.0,6.2,Sổ hồng,82.77,19.1,6.6,Mặt tiền hẻm,0,Cao cấp,23,1
+69,Tân Bình,8,5,3,4,Đông Nam,2012,10.1,2.1,Sổ hồng,19.24,18.0,25.1,Mặt tiền đường lớn,0,Trung bình,14,0
+108,Quận 10,14,2,2,4,Đông Bắc,2007,5.2,3.2,Giấy tờ tay,31.19,17.8,8.5,Mặt tiền đường lớn,0,Cao cấp,19,0
+135,Bình Chánh,5,2,1,2,Đông Tây,2003,4.0,10.1,Sổ hồng,16.42,10.1,7.3,Mặt tiền hẻm,0,Trung bình,23,1
+46,Quận 12,7,3,1,4,Nam,2005,8.1,8.9,Sổ hồng,4.3,12.5,18.6,Mặt tiền đường lớn,0,Cao cấp,21,0
+78,Bình Chánh,3,5,2,4,Đông Tây,2020,8.8,15.5,Sổ hồng,8.63,14.4,18.3,Mặt tiền ngã tư,0,Trung bình,6,0
+106,Bình Thạnh,4,4,1,2,Bắc,2013,5.9,3.7,Sổ đỏ,34.58,11.6,28.8,Mặt tiền ngã tư,0,Trung bình,13,0
+128,Tân Phú,6,4,4,3,Đông,2007,9.6,4.9,Sổ đỏ,24.34,18.3,9.2,Mặt tiền hẻm,1,Trung bình,19,1
+168,Nhà Bè,2,3,2,2,Tây Bắc,2025,11.5,9.8,Sổ đỏ,24.24,9.1,20.8,Mặt tiền đường lớn,0,Trung bình,1,0
+122,Bình Tân,12,3,1,3,Tây,2024,4.1,4.8,Sổ hồng,18.75,15.9,16.0,Mặt tiền hẻm,0,Trung bình,2,0
+90,Quận 7,Bình Thuận,3,1,4,Tây,2002,6.9,5.7,Giấy tờ tay,26.99,14.6,28.5,Mặt tiền hẻm,0,Trung bình,24,0
+83,Quận 1,Tân Định,5,4,3,Tây,2003,8.3,2.8,Sổ hồng,58.92,13.5,25.8,Mặt tiền đường lớn,0,Trung bình,23,1
+199,Quận 1,Cầu Ông Lãnh,2,2,3,Nam,2020,4.0,5.0,Sổ đỏ,123.12,15.8,8.2,Mặt tiền ngã tư,1,Cao cấp,6,1
+86,Bình Chánh,10,4,4,1,Đông,2000,3.5,14.2,Giấy tờ tay,10.72,10.9,26.4,Mặt tiền đường lớn,0,Thô,26,0
+72,Quận 1,Cầu Ông Lãnh,2,1,3,Đông Tây,2014,8.7,4.0,Sổ hồng,33.11,16.8,10.6,Mặt tiền đường lớn,0,Thô,12,0
+75,Quận 1,Nguyễn Cư Trinh,5,2,3,Đông Nam,2004,3.8,-0.7,Đang chờ sổ,33.61,13.5,24.8,Mặt tiền hẻm,0,Cao cấp,22,0
+143,Thủ Đức,Linh Đông,3,3,1,Tây,2012,6.6,8.3,Sổ hồng,24.04,9.6,12.7,Mặt tiền đường lớn,0,Trung bình,14,0
+191,Quận 3,11,4,3,2,Tây Bắc,2000,6.8,2.8,Sổ hồng,80.67,14.9,19.6,Mặt tiền hẻm,0,Trung bình,26,1
+140,Bình Thạnh,11,4,2,4,Đông Tây,2021,11.0,7.4,Sổ đỏ,38.71,14.2,25.2,Mặt tiền đường lớn,0,Trung bình,5,1
+52,Quận 1,Nguyễn Cư Trinh,3,2,2,Đông Nam,2004,5.8,3.2,Sổ hồng,33.96,17.9,26.6,Mặt tiền đường lớn,1,Trung bình,22,1
+163,Nhà Bè,5,3,1,4,Tây Nam,2003,6.5,12.5,Sổ hồng,20.8,10.5,18.6,Mặt tiền đường lớn,1,Thô,23,0
+144,Nhà Bè,7,2,2,2,Đông Bắc,2010,3.7,13.3,Sổ hồng,15.9,13.6,9.6,Mặt tiền đường lớn,0,Cao cấp,16,1
+118,Tân Bình,11,2,1,2,Nam,2021,8.7,6.5,Sổ đỏ,35.02,17.2,7.4,Mặt tiền đường lớn,0,Trung bình,5,0
+99,Quận 12,11,4,2,4,Bắc,2015,10.7,8.4,Sổ hồng,9.94,14.4,8.5,Mặt tiền đường lớn,0,Trung bình,11,1
+188,Quận 1,Đa Kao,4,2,2,Bắc,2003,3.1,-0.1,Giấy tờ tay,93.85,15.6,29.6,Mặt tiền hẻm,0,Trung bình,23,0
+113,Bình Tân,9,5,1,1,Đông Tây,2019,7.0,7.9,Sổ đỏ,15.51,19.6,29.6,Mặt tiền đường lớn,0,Trung bình,7,1
+118,Bình Tân,15,5,4,4,Đông Nam,2008,6.7,9.6,Sổ hồng,14.6,14.7,25.2,Mặt tiền ngã tư,0,Cao cấp,18,0
+162,Thủ Đức,Trường Thọ,4,3,4,Đông,2022,9.7,10.6,Sổ hồng,22.26,10.8,20.9,Mặt tiền ngã tư,1,Trung bình,4,0
+147,Quận 12,8,3,1,2,Đông Bắc,2013,10.7,8.1,Sổ đỏ,23.18,12.8,12.6,Mặt tiền ngã tư,1,Cao cấp,13,1
+142,Nhà Bè,4,3,3,2,Đông Tây,2003,8.2,15.0,Giấy tờ tay,12.83,15.1,15.4,Mặt tiền ngã tư,0,Cao cấp,23,0
+112,Quận 1,Cầu Kho,5,3,4,Bắc,2011,11.6,3.3,Sổ đỏ,63.81,11.4,27.5,Mặt tiền đường lớn,1,Thô,15,0
+44,Gò Vấp,8,3,3,1,Nam,2008,4.4,9.1,Sổ hồng,7.73,14.7,25.0,Mặt tiền hẻm,0,Trung bình,18,0
+166,Bình Chánh,3,3,1,1,Đông Tây,2008,8.9,16.7,Sổ đỏ,20.32,13.2,6.9,Mặt tiền ngã tư,1,Cao cấp,18,1
+166,Phú Nhuận,2,3,1,1,Đông Bắc,2002,6.5,0.9,Sổ đỏ,65.94,10.5,13.2,Mặt tiền đường lớn,0,Cao cấp,24,1
+118,Phú Nhuận,5,2,1,2,Đông Nam,2014,10.6,2.3,Sổ hồng,29.1,10.9,17.5,Mặt tiền hẻm,1,Trung bình,12,0
+70,Thủ Đức,Tam Phú,2,2,1,Bắc,2003,11.3,5.1,Sổ hồng,12.15,8.4,8.7,Mặt tiền hẻm,1,Trung bình,23,0
+139,Quận 12,7,3,1,4,Tây Bắc,2025,5.3,12.4,Sổ hồng,15.97,15.2,29.6,Mặt tiền đường lớn,0,Trung bình,1,0
+141,Bình Thạnh,18,3,3,1,Đông Bắc,2000,6.1,1.1,Sổ hồng,24.69,16.7,23.0,Mặt tiền hẻm,1,Thô,26,0
+67,Thủ Đức,Linh Chiểu,5,3,1,Tây Bắc,2006,3.1,12.0,Sổ đỏ,7.87,9.5,27.5,Mặt tiền ngã tư,0,Trung bình,20,1
+94,Quận 5,1,4,4,4,Tây,2000,8.4,2.6,Đang chờ sổ,26.84,11.0,20.7,Mặt tiền hẻm,1,Trung bình,26,0
+107,Nhà Bè,2,5,3,4,Đông,2000,7.7,10.9,Sổ hồng,10.48,18.7,15.5,Mặt tiền hẻm,1,Thô,26,1
+79,Bình Chánh,9,2,1,2,Đông Bắc,2019,10.9,12.7,Sổ đỏ,13.97,16.9,23.5,Mặt tiền hẻm,0,Cao cấp,7,0
+72,Quận 1,Bến Nghé,3,3,2,Đông,2005,6.4,3.0,Đang chờ sổ,39.93,12.7,13.7,Mặt tiền hẻm,0,Trung bình,21,0
+94,Quận 3,14,3,2,2,Tây Bắc,2003,4.5,4.3,Sổ hồng,25.9,19.5,11.8,Mặt tiền đường lớn,0,Thô,23,1
+114,Phú Nhuận,1,3,1,1,Đông,2000,11.6,5.1,Sổ hồng,43.79,9.3,12.1,Mặt tiền đường lớn,0,Thô,26,0
+134,Nhà Bè,5,2,1,1,Tây Bắc,2007,8.0,8.7,Giấy tờ tay,20.83,15.4,19.0,Mặt tiền đường lớn,1,Cao cấp,19,0
+99,Quận 5,13,5,2,1,Tây Bắc,2000,4.9,7.6,Sổ hồng,24.74,18.8,8.4,Mặt tiền đường lớn,0,Cao cấp,26,0
+61,Thủ Đức,Hiệp Bình Phước,5,3,4,Tây Bắc,2008,7.8,6.7,Sổ hồng,10.32,9.9,28.6,Mặt tiền ngã tư,0,Trung bình,18,0
+61,Bình Thạnh,8,3,1,1,Tây Bắc,2002,11.6,2.1,Sổ đỏ,17.46,10.5,12.1,Mặt tiền đường lớn,1,Thô,24,1
+124,Bình Thạnh,10,4,3,1,Đông Bắc,2025,10.4,6.2,Sổ hồng,42.95,9.8,28.1,Mặt tiền đường lớn,1,Trung bình,1,0
+73,Bình Tân,13,2,2,3,Đông Nam,2007,3.0,11.0,Sổ hồng,12.93,8.7,17.0,Mặt tiền đường lớn,1,Trung bình,19,0
+155,Thủ Đức,Hiệp Bình Chánh,3,1,3,Tây Nam,2015,7.3,11.7,Sổ hồng,35.52,10.1,22.3,Mặt tiền ngã tư,1,Trung bình,11,0
+145,Phú Nhuận,13,2,1,2,Tây Bắc,2018,9.6,3.3,Sổ đỏ,47.85,16.6,18.2,Mặt tiền ngã tư,0,Trung bình,8,1
+172,Quận 3,9,2,1,3,Tây,2017,9.0,-0.4,Sổ hồng,65.85,10.4,24.7,Mặt tiền ngã tư,1,Trung bình,9,1
+147,Quận 5,5,5,4,3,Nam,2024,9.3,7.7,Sổ đỏ,35.52,11.1,21.0,Mặt tiền đường lớn,0,Trung bình,2,0
+193,Quận 12,7,4,2,2,Tây,2024,10.7,8.3,Sổ đỏ,27.61,13.9,21.2,Mặt tiền đường lớn,1,Thô,2,0
+162,Thủ Đức,Trường Thọ,2,2,1,Đông Nam,2016,5.2,9.5,Sổ hồng,20.16,11.1,20.1,Mặt tiền đường lớn,1,Thô,10,0
+112,Quận 7,Tân Hưng,5,1,4,Nam,2003,10.0,3.8,Sổ hồng,34.83,20.0,10.6,Mặt tiền đường lớn,0,Trung bình,23,0
+166,Quận 3,11,2,1,2,Đông Bắc,2005,4.0,5.3,Sổ hồng,60.11,13.1,19.3,Mặt tiền hẻm,0,Trung bình,21,0
+149,Quận 1,Nguyễn Cư Trinh,4,1,4,Bắc,2008,7.2,1.0,Sổ hồng,65.37,16.1,14.5,Mặt tiền hẻm,0,Thô,18,0
+118,Tân Phú,3,2,2,2,Tây,2014,3.9,4.6,Sổ đỏ,22.13,8.8,7.3,Mặt tiền đường lớn,0,Trung bình,12,1
+44,Quận 3,14,2,1,4,Nam,2021,7.9,5.2,Sổ hồng,18.29,12.7,23.7,Mặt tiền đường lớn,0,Trung bình,5,0
+73,Quận 3,12,4,4,4,Tây,2019,4.6,0.7,Giấy tờ tay,32.68,12.8,29.8,Mặt tiền đường lớn,0,Trung bình,7,0
+112,Quận 12,2,2,2,1,Đông Nam,2017,5.6,11.1,Sổ đỏ,11.94,14.6,25.9,Mặt tiền hẻm,1,Cao cấp,9,0
+161,Bình Thạnh,6,2,2,2,Đông Tây,2004,5.4,4.7,Sổ hồng,49.88,14.8,22.2,Mặt tiền đường lớn,1,Cao cấp,22,0
+55,Quận 12,5,3,3,2,Đông Bắc,2024,3.5,7.5,Sổ đỏ,4.76,10.3,22.3,Mặt tiền đường lớn,1,Cao cấp,2,0
+91,Quận 12,3,3,2,1,Đông,2013,5.4,10.3,Sổ hồng,9.58,18.7,28.3,Mặt tiền đường lớn,1,Cao cấp,13,0
+56,Bình Tân,6,5,3,3,Tây,2025,3.4,6.8,Sổ hồng,8.84,19.4,19.8,Mặt tiền ngã tư,1,Thô,1,0
+103,Quận 10,13,5,3,2,Tây,2017,4.7,2.2,Đang chờ sổ,33.1,15.1,14.6,Mặt tiền đường lớn,0,Trung bình,9,0
+83,Quận 7,Tân Kiểng,3,3,3,Bắc,2012,8.9,6.9,Sổ hồng,22.9,12.1,15.1,Mặt tiền đường lớn,1,Trung bình,14,0
+81,Bình Tân,8,4,4,4,Tây Bắc,2004,9.0,4.4,Đang chờ sổ,12.9,12.7,28.2,Mặt tiền hẻm,1,Cao cấp,22,0
+64,Thủ Đức,Hiệp Bình Chánh,5,1,2,Nam,2012,3.0,10.5,Sổ hồng,10.4,18.5,15.0,Mặt tiền hẻm,1,Cao cấp,14,0
+194,Nhà Bè,1,5,4,4,Tây,2024,10.9,10.6,Sổ hồng,21.24,17.7,17.6,Mặt tiền hẻm,0,Trung bình,2,0
+180,Quận 1,Đa Kao,5,1,4,Đông,2007,5.7,4.1,Sổ hồng,87.49,14.2,17.1,Mặt tiền hẻm,1,Trung bình,19,0
+123,Bình Thạnh,20,5,1,2,Tây,2014,6.1,1.7,Đang chờ sổ,36.91,12.9,25.4,Mặt tiền ngã tư,1,Trung bình,12,0
+98,Bình Thạnh,4,2,1,3,Bắc,2025,11.6,1.3,Giấy tờ tay,24.19,11.6,27.7,Mặt tiền đường lớn,0,Thô,1,1
+125,Quận 3,12,2,2,4,Đông Tây,2018,7.0,-0.1,Đang chờ sổ,65.12,11.7,10.5,Mặt tiền đường lớn,0,Cao cấp,8,0
+139,Nhà Bè,4,5,2,4,Tây Nam,2003,10.2,11.8,Sổ đỏ,13.62,18.8,29.3,Mặt tiền hẻm,0,Trung bình,23,0
+52,Quận 1,Nguyễn Cư Trinh,4,4,3,Đông Nam,2005,8.5,-1.8,Sổ hồng,21.52,10.5,29.4,Mặt tiền đường lớn,0,Thô,21,0
+189,Quận 3,14,2,1,1,Tây,2014,11.2,3.3,Sổ đỏ,54.09,10.4,25.2,Mặt tiền hẻm,0,Thô,12,1
+191,Bình Thạnh,13,5,2,2,Tây Bắc,2003,4.6,3.2,Sổ đỏ,38.89,16.1,16.4,Mặt tiền đường lớn,0,Cao cấp,23,0
+124,Phú Nhuận,10,4,1,3,Tây Bắc,2011,12.0,3.9,Sổ hồng,48.51,13.1,7.6,Mặt tiền hẻm,1,Trung bình,15,1
+116,Quận 12,4,4,1,4,Đông Bắc,2018,10.0,9.0,Sổ đỏ,11.56,18.3,21.1,Mặt tiền đường lớn,0,Trung bình,8,0
+99,Tân Phú,10,4,1,3,Đông Nam,2011,4.9,8.7,Sổ hồng,17.36,10.4,21.0,Mặt tiền hẻm,0,Cao cấp,15,1
+86,Quận 3,10,3,2,1,Đông Bắc,2018,9.4,0.7,Sổ hồng,40.3,13.7,9.5,Mặt tiền đường lớn,1,Cao cấp,8,0
+78,Phú Nhuận,13,5,3,3,Tây,2021,7.0,6.2,Sổ hồng,27.64,12.3,10.2,Mặt tiền đường lớn,1,Cao cấp,5,0
+110,Quận 3,Phú Nhuận,4,2,4,Bắc,2023,9.9,6.0,Sổ hồng,45.47,15.7,26.8,Mặt tiền ngã tư,0,Thô,3,0
+153,Quận 1,Bến Thành,2,2,2,Đông Nam,2012,6.7,2.0,Sổ đỏ,96.02,18.0,8.6,Mặt tiền đường lớn,0,Thô,14,0
+104,Quận 7,Tân Phú,4,2,4,Tây Nam,2016,6.1,6.9,Sổ hồng,31.19,10.0,10.7,Mặt tiền đường lớn,0,Trung bình,10,0
+76,Quận 3,14,5,4,2,Tây Bắc,2023,4.3,4.2,Giấy tờ tay,27.73,10.8,12.6,Mặt tiền ngã tư,1,Trung bình,3,0
+100,Bình Tân,9,4,4,4,Nam,2017,8.1,11.0,Sổ hồng,15.41,10.5,18.5,Mặt tiền ngã tư,1,Trung bình,9,0
+130,Quận 3,Phú Nhuận,3,2,2,Tây Bắc,2022,8.8,4.3,Đang chờ sổ,48.06,12.9,15.7,Mặt tiền ngã tư,1,Trung bình,4,0
+69,Quận 3,Võ Thị Sáu,3,2,1,Nam,2004,11.2,5.1,Sổ hồng,32.31,11.3,12.1,Mặt tiền đường lớn,0,Trung bình,22,1
+53,Quận 1,Nguyễn Thái Bình,2,2,3,Đông Nam,2020,4.9,4.4,Đang chờ sổ,26.73,18.2,11.5,Mặt tiền đường lớn,0,Trung bình,6,0
+190,Bình Tân,3,2,2,4,Đông Nam,2001,7.7,9.2,Giấy tờ tay,33.65,17.0,12.9,Mặt tiền đường lớn,1,Trung bình,25,0
+193,Bình Tân,14,5,4,1,Tây Bắc,2019,9.1,7.7,Sổ hồng,28.75,17.5,29.1,Mặt tiền hẻm,0,Thô,7,0
+55,Nhà Bè,2,4,2,3,Đông Bắc,2002,10.1,10.7,Đang chờ sổ,6.84,18.6,13.2,Mặt tiền hẻm,1,Trung bình,24,0
+186,Quận 4,Tân Thuận Tây,4,2,3,Tây Nam,2012,3.5,2.4,Đang chờ sổ,68.51,8.4,15.5,Mặt tiền ngã tư,1,Trung bình,14,1
+74,Quận 12,4,4,3,2,Tây Bắc,2020,5.1,6.2,Đang chờ sổ,7.36,16.5,21.3,Mặt tiền hẻm,0,Trung bình,6,0
+173,Quận 12,3,5,1,2,Tây Bắc,2015,4.3,12.8,Đang chờ sổ,16.87,19.1,14.0,Mặt tiền đường lớn,1,Cao cấp,11,1
+61,Quận 1,Bến Nghé,4,4,3,Đông Tây,2002,8.7,4.2,Sổ đỏ,39.61,14.3,23.1,Mặt tiền đường lớn,1,Trung bình,24,1
+160,Quận 3,13,2,2,4,Tây Nam,2008,9.2,5.5,Sổ hồng,59.84,17.2,13.4,Mặt tiền đường lớn,0,Thô,18,1
+139,Tân Bình,5,3,2,1,Tây Nam,2024,9.2,6.7,Sổ đỏ,48.19,8.9,16.7,Mặt tiền đường lớn,1,Cao cấp,2,0
+114,Tân Phú,3,4,1,4,Tây Bắc,2012,7.5,7.8,Đang chờ sổ,20.91,13.9,18.7,Mặt tiền hẻm,0,Cao cấp,14,0
+114,Phú Nhuận,10,5,4,3,Đông Nam,2015,5.0,1.2,Sổ hồng,43.43,13.2,24.5,Mặt tiền hẻm,1,Trung bình,11,1
+71,Gò Vấp,4,3,2,3,Bắc,2010,9.8,4.6,Đang chờ sổ,13.28,14.0,24.1,Mặt tiền ngã tư,0,Cao cấp,16,1
+198,Tân Bình,12,2,2,1,Đông Tây,2008,10.7,8.5,Sổ hồng,57.91,14.3,26.0,Mặt tiền đường lớn,0,Thô,18,0
+46,Quận 5,10,3,2,3,Đông,2014,7.5,5.5,Sổ hồng,14.54,17.0,14.0,Mặt tiền đường lớn,1,Cao cấp,12,0
+128,Bình Tân,15,2,1,4,Bắc,2002,8.9,5.9,Sổ hồng,22.33,8.7,20.0,Mặt tiền đường lớn,0,Cao cấp,24,0
+112,Quận 1,Bến Thành,5,3,4,Tây,2000,4.6,4.3,Sổ đỏ,45.88,9.8,10.9,Mặt tiền hẻm,0,Trung bình,26,0
+97,Bình Thạnh,16,4,1,3,Đông,2002,9.4,1.1,Sổ hồng,25.41,15.7,20.6,Mặt tiền hẻm,0,Trung bình,24,1
+68,Quận 4,Tân Kiểng,2,2,1,Đông Tây,2011,6.7,1.2,Giấy tờ tay,16.06,19.1,10.8,Mặt tiền ngã tư,1,Thô,15,0
+184,Nhà Bè,2,2,2,1,Đông Tây,2020,10.6,12.3,Sổ đỏ,31.35,13.0,19.7,Mặt tiền đường lớn,0,Cao cấp,6,0
+127,Phú Nhuận,2,3,3,4,Tây,2019,6.3,1.7,Sổ hồng,39.56,13.6,28.6,Mặt tiền hẻm,1,Thô,7,0
+188,Gò Vấp,9,2,1,1,Tây Nam,2016,4.4,3.6,Sổ đỏ,47.13,12.1,7.7,Mặt tiền đường lớn,0,Cao cấp,10,1
+45,Tân Phú,15,3,3,4,Nam,2016,4.0,9.7,Sổ hồng,7.22,9.7,9.7,Mặt tiền hẻm,1,Cao cấp,10,1
+84,Phú Nhuận,5,3,1,3,Tây Nam,2007,8.9,1.3,Sổ hồng,25.21,11.0,17.0,Mặt tiền đường lớn,0,Trung bình,19,0
+161,Phú Nhuận,7,3,3,2,Tây Bắc,2002,10.0,7.1,Sổ hồng,56.86,15.2,24.3,Mặt tiền đường lớn,0,Trung bình,24,0
+127,Bình Thạnh,20,4,1,4,Bắc,2002,3.1,4.2,Giấy tờ tay,39.03,11.9,17.5,Mặt tiền ngã tư,0,Cao cấp,24,1
+47,Phú Nhuận,17,2,2,2,Đông,2024,7.5,7.3,Sổ hồng,17.35,14.1,26.6,Mặt tiền đường lớn,1,Thô,2,0
+88,Quận 3,12,2,1,2,Bắc,2014,9.1,0.8,Sổ đỏ,41.66,11.2,14.5,Mặt tiền đường lớn,0,Trung bình,12,0
+46,Quận 3,Võ Thị Sáu,5,2,2,Tây Bắc,2001,7.5,0.4,Sổ hồng,20.61,17.0,9.1,Mặt tiền ngã tư,0,Trung bình,25,0
+66,Quận 7,Bình Thuận,2,2,4,Đông Tây,2020,8.5,3.1,Đang chờ sổ,20.7,11.2,6.9,Mặt tiền đường lớn,1,Cao cấp,6,1
+106,Quận 10,3,3,3,2,Bắc,2008,3.8,1.7,Sổ hồng,34.31,17.1,29.8,Mặt tiền ngã tư,0,Trung bình,18,1
+183,Tân Phú,8,2,1,1,Tây Bắc,2018,5.8,10.0,Sổ hồng,41.26,19.9,24.5,Mặt tiền đường lớn,0,Cao cấp,8,0
+95,Quận 12,10,2,2,2,Tây Bắc,2010,3.4,9.1,Sổ hồng,7.04,12.7,16.2,Mặt tiền ngã tư,1,Thô,16,0
+81,Bình Thạnh,10,3,2,1,Tây,2019,8.1,3.9,Giấy tờ tay,18.83,11.1,29.3,Mặt tiền hẻm,0,Thô,7,1
+88,Tân Phú,6,4,2,2,Tây,2024,4.0,7.4,Giấy tờ tay,15.3,8.7,20.3,Mặt tiền ngã tư,1,Trung bình,2,1
+183,Bình Chánh,3,3,1,2,Bắc,2003,9.5,13.1,Sổ hồng,17.62,9.2,30.0,Mặt tiền đường lớn,0,Trung bình,23,0
+144,Bình Chánh,7,5,2,2,Bắc,2009,7.1,12.9,Sổ hồng,18.8,18.8,12.1,Mặt tiền hẻm,1,Cao cấp,17,0
+191,Quận 1,Nguyễn Thái Bình,5,3,2,Đông Bắc,2012,5.9,0.6,Sổ đỏ,119.19,11.6,7.5,Mặt tiền đường lớn,1,Trung bình,14,1
+79,Quận 10,3,3,3,3,Tây Bắc,2020,6.4,5.6,Đang chờ sổ,28.25,14.3,27.8,Mặt tiền hẻm,1,Trung bình,6,0
+129,Quận 1,Cầu Ông Lãnh,2,1,3,Tây Bắc,2000,9.5,4.1,Sổ đỏ,73.64,15.3,24.1,Mặt tiền ngã tư,0,Cao cấp,26,0
+118,Gò Vấp,9,3,1,1,Đông Bắc,2008,9.3,4.4,Sổ hồng,22.15,18.7,24.3,Mặt tiền đường lớn,1,Thô,18,0
+46,Quận 5,11,2,2,3,Đông,2023,9.6,7.6,Giấy tờ tay,16.91,13.7,17.7,Mặt tiền đường lớn,1,Trung bình,3,0
+172,Nhà Bè,1,2,1,2,Đông,2004,6.2,10.0,Sổ hồng,16.7,17.2,17.9,Mặt tiền ngã tư,1,Cao cấp,22,0
+73,Nhà Bè,3,2,1,1,Đông Tây,2010,8.2,10.6,Giấy tờ tay,5.52,9.7,16.3,Mặt tiền hẻm,0,Trung bình,16,0
+122,Quận 1,Cầu Ông Lãnh,4,4,2,Đông,2018,3.6,4.0,Giấy tờ tay,69.99,9.1,6.6,Mặt tiền đường lớn,0,Cao cấp,8,0
+120,Phú Nhuận,1,5,4,2,Tây,2014,3.5,3.8,Đang chờ sổ,33.15,16.0,22.4,Mặt tiền đường lớn,0,Trung bình,12,0
+162,Quận 5,13,3,3,2,Đông,2003,10.8,5.2,Sổ hồng,69.53,16.3,26.3,Mặt tiền đường lớn,1,Cao cấp,23,1
+159,Quận 1,Cầu Kho,2,1,4,Đông Tây,2008,6.2,-1.9,Sổ đỏ,105.36,19.9,12.2,Mặt tiền đường lớn,1,Trung bình,18,0
+102,Quận 12,10,5,1,1,Đông Tây,2014,5.7,8.3,Đang chờ sổ,10.25,16.2,29.4,Mặt tiền đường lớn,0,Trung bình,12,1
+189,Quận 1,Nguyễn Thái Bình,5,1,1,Tây,2019,3.9,4.3,Giấy tờ tay,75.81,8.8,22.6,Mặt tiền hẻm,0,Thô,7,0
+70,Thủ Đức,Hiệp Bình Phước,5,1,3,Tây,2017,6.9,10.3,Đang chờ sổ,11.7,9.9,10.9,Mặt tiền hẻm,0,Trung bình,9,1
+145,Tân Bình,6,4,3,1,Tây Nam,2007,8.6,5.8,Sổ đỏ,35.42,9.2,12.6,Mặt tiền hẻm,0,Trung bình,19,1
+183,Thủ Đức,Tam Phú,5,2,3,Tây Bắc,2015,6.0,8.1,Đang chờ sổ,41.58,16.7,18.5,Mặt tiền đường lớn,1,Cao cấp,11,1
+77,Phú Nhuận,17,5,1,1,Bắc,2000,6.5,5.9,Giấy tờ tay,30.72,9.3,20.6,Mặt tiền ngã tư,0,Cao cấp,26,0
+142,Tân Bình,13,2,2,4,Tây Nam,2012,3.3,6.8,Đang chờ sổ,31.86,17.9,12.7,Mặt tiền đường lớn,0,Thô,14,0
+59,Bình Thạnh,18,3,1,3,Nam,2008,4.3,2.6,Sổ đỏ,11.79,10.6,9.9,Mặt tiền hẻm,1,Trung bình,18,0
+191,Bình Chánh,10,5,2,3,Đông Tây,2016,8.8,14.8,Sổ hồng,27.66,19.5,20.1,Mặt tiền hẻm,1,Cao cấp,10,0
+79,Quận 7,Tân Quy,2,2,4,Bắc,2001,4.6,5.2,Sổ hồng,14.35,14.5,18.0,Mặt tiền hẻm,0,Cao cấp,25,0
+179,Bình Thạnh,20,2,2,3,Tây Nam,2017,9.7,4.6,Sổ đỏ,53.13,12.8,7.0,Mặt tiền đường lớn,0,Thô,9,1
+127,Tân Phú,6,2,2,2,Tây Nam,2020,4.1,10.0,Sổ hồng,17.83,18.0,7.8,Mặt tiền đường lớn,1,Trung bình,6,1
+176,Bình Thạnh,18,5,3,4,Tây Bắc,2016,4.1,3.1,Đang chờ sổ,43.07,9.1,15.8,Mặt tiền ngã tư,0,Trung bình,10,0
+63,Quận 1,Bến Nghé,3,2,4,Nam,2020,6.2,4.2,Giấy tờ tay,47.76,13.9,24.5,Mặt tiền đường lớn,0,Cao cấp,6,0
+185,Quận 12,8,5,2,1,Đông Tây,2024,8.1,9.0,Sổ đỏ,24.14,12.1,12.9,Mặt tiền đường lớn,1,Trung bình,2,0
+114,Bình Thạnh,5,4,1,1,Đông Bắc,2009,9.4,6.3,Sổ đỏ,37.63,18.4,13.0,Mặt tiền ngã tư,0,Trung bình,17,0
+77,Bình Thạnh,4,5,2,3,Đông,2011,11.3,3.8,Sổ đỏ,23.96,9.3,11.4,Mặt tiền ngã tư,1,Trung bình,15,1
+51,Quận 12,8,4,3,2,Đông Nam,2007,7.0,8.8,Sổ hồng,7.22,15.0,18.0,Mặt tiền đường lớn,0,Trung bình,19,1
+53,Quận 3,11,4,3,2,Tây Bắc,2019,5.1,4.2,Sổ hồng,18.3,14.1,28.8,Mặt tiền đường lớn,0,Thô,7,0
+102,Quận 1,Tân Định,5,4,4,Tây Nam,2017,6.5,3.7,Giấy tờ tay,54.33,13.6,27.4,Mặt tiền đường lớn,1,Trung bình,9,0
+44,Quận 3,11,5,4,1,Bắc,2013,11.9,-0.4,Sổ đỏ,20.47,14.1,25.4,Mặt tiền đường lớn,0,Cao cấp,13,0
+182,Quận 10,8,5,1,3,Nam,2005,6.0,3.4,Sổ hồng,50.09,10.2,18.7,Mặt tiền hẻm,0,Cao cấp,21,0
+115,Quận 7,Bình Thuận,5,1,1,Tây Bắc,2004,7.5,3.2,Sổ hồng,36.38,16.7,26.1,Mặt tiền đường lớn,0,Trung bình,22,0
+144,Phú Nhuận,8,5,4,3,Tây,2015,3.7,7.1,Sổ hồng,35.33,16.1,26.2,Mặt tiền ngã tư,1,Trung bình,11,0
+144,Quận 7,Tân Kiểng,4,3,3,Tây,2006,4.2,3.8,Sổ hồng,40.94,15.7,14.4,Mặt tiền đường lớn,0,Trung bình,20,0
+52,Tân Phú,11,3,3,1,Tây Bắc,2021,8.2,7.9,Sổ hồng,7.67,16.2,24.5,Mặt tiền ngã tư,0,Cao cấp,5,0
+131,Quận 7,Tân Quy,4,4,1,Tây Bắc,2004,3.4,9.1,Sổ đỏ,34.08,8.5,6.7,Mặt tiền hẻm,1,Trung bình,22,0
+48,Thủ Đức,Hiệp Bình Chánh,5,4,4,Tây Bắc,2024,7.2,6.5,Giấy tờ tay,9.11,16.8,11.3,Mặt tiền đường lớn,0,Thô,2,0
+123,Quận 5,12,3,2,1,Tây,2020,6.9,4.1,Sổ hồng,35.77,10.5,20.1,Mặt tiền đường lớn,1,Trung bình,6,0
+91,Tân Phú,7,4,4,2,Tây Bắc,2012,6.9,8.7,Sổ hồng,17.3,13.0,18.6,Mặt tiền đường lớn,1,Trung bình,14,1
+75,Bình Chánh,8,2,2,3,Đông Bắc,2011,3.2,11.7,Sổ hồng,8.2,10.6,12.6,Mặt tiền đường lớn,0,Cao cấp,15,1
+127,Quận 7,Tân Hưng,3,1,2,Đông,2012,4.0,3.9,Sổ hồng,28.69,19.8,20.8,Mặt tiền hẻm,0,Cao cấp,14,0
+59,Bình Thạnh,19,3,2,4,Bắc,2003,12.0,3.7,Sổ đỏ,17.37,19.6,7.4,Mặt tiền ngã tư,0,Trung bình,23,1
+64,Bình Thạnh,7,5,1,2,Đông Bắc,2022,9.4,8.0,Sổ hồng,18.58,9.9,22.2,Mặt tiền đường lớn,0,Trung bình,4,0
+132,Tân Bình,1,2,2,3,Tây Bắc,2022,9.0,5.3,Sổ hồng,33.23,9.0,11.9,Mặt tiền đường lớn,0,Cao cấp,4,0
+91,Bình Thạnh,3,4,4,1,Tây Bắc,2016,4.4,6.4,Sổ hồng,35.21,19.0,18.4,Mặt tiền đường lớn,1,Cao cấp,10,1
+185,Nhà Bè,8,2,2,3,Tây,2006,7.9,10.2,Sổ hồng,26.58,14.9,10.4,Mặt tiền đường lớn,0,Cao cấp,20,0
+153,Gò Vấp,12,2,2,3,Đông Bắc,2004,5.5,3.7,Sổ đỏ,40.17,8.8,11.8,Mặt tiền đường lớn,0,Cao cấp,22,0
+186,Quận 5,10,4,4,3,Đông,2012,8.9,2.5,Đang chờ sổ,63.57,9.2,25.9,Mặt tiền hẻm,1,Trung bình,14,1
+52,Quận 1,Cầu Kho,5,4,2,Nam,2008,9.9,2.9,Sổ hồng,35.38,16.5,28.8,Mặt tiền đường lớn,1,Cao cấp,18,0
+68,Tân Bình,14,3,2,1,Bắc,2006,10.7,6.2,Sổ hồng,15.71,17.5,7.5,Mặt tiền đường lớn,1,Thô,20,0
+141,Quận 3,11,5,2,1,Tây Bắc,2017,7.0,4.7,Đang chờ sổ,63.79,13.5,21.4,Mặt tiền ngã tư,1,Thô,9,1
+178,Gò Vấp,14,3,2,3,Tây,2003,4.9,4.9,Sổ đỏ,27.0,13.3,11.9,Mặt tiền ngã tư,1,Trung bình,23,0
+42,Bình Thạnh,7,4,4,1,Đông Bắc,2014,10.8,7.3,Sổ hồng,16.31,15.3,20.6,Mặt tiền đường lớn,1,Cao cấp,12,0
+188,Quận 7,Phú Thuận,2,1,2,Tây Bắc,2014,11.3,9.1,Đang chờ sổ,53.75,18.2,29.1,Mặt tiền đường lớn,1,Cao cấp,12,0

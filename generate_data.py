@@ -89,10 +89,30 @@ DU_AN_CAN_HO = [
 ]
 
 DISTRICT_PRICE = {
-    "Quận 1": 380, "Quận 3": 320, "Quận 4": 150, "Quận 5": 130,
-    "Quận 7": 170, "Quận 10": 200, "Bình Thạnh": 150, "Phú Nhuận": 180,
-    "Tân Bình": 150, "Gò Vấp": 130, "Thủ Đức": 120, "Bình Tân": 100,
-    "Tân Phú": 100, "Quận 12": 55, "Bình Chánh": 35, "Nhà Bè": 45,
+    "Nha pho": {
+        "Quận 1": (380, 520), "Quận 3": (260, 380), "Quận 4": (200, 300), "Quận 5": (180, 280),
+        "Quận 7": (180, 280), "Quận 10": (200, 300), "Bình Thạnh": (170, 270), "Phú Nhuận": (200, 320),
+        "Tân Bình": (160, 260), "Gò Vấp": (120, 200), "Thủ Đức": (100, 180), "Bình Tân": (100, 170),
+        "Tân Phú": (100, 170), "Quận 12": (60, 110), "Bình Chánh": (80, 140), "Nhà Bè": (70, 130),
+    },
+    "Biet thu": {
+        "Quận 1": (550, 750), "Quận 3": (380, 550), "Quận 4": (300, 450), "Quận 5": (280, 420),
+        "Quận 7": (280, 420), "Quận 10": (320, 480), "Bình Thạnh": (270, 420), "Phú Nhuận": (300, 460),
+        "Tân Bình": (250, 400), "Gò Vấp": (180, 300), "Thủ Đức": (150, 260), "Bình Tân": (150, 250),
+        "Tân Phú": (150, 250), "Quận 12": (90, 160), "Bình Chánh": (120, 220), "Nhà Bè": (100, 190),
+    },
+    "Can ho chung cu": {
+        "Quận 1": (140, 220), "Quận 3": (110, 180), "Quận 4": (80, 140), "Quận 5": (70, 130),
+        "Quận 7": (85, 130), "Quận 10": (90, 150), "Bình Thạnh": (70, 120), "Phú Nhuận": (80, 140),
+        "Tân Bình": (65, 110), "Gò Vấp": (50, 90), "Thủ Đức": (45, 80), "Bình Tân": (45, 80),
+        "Tân Phú": (45, 80), "Quận 12": (30, 60), "Bình Chánh": (45, 75), "Nhà Bè": (40, 70),
+    },
+    "Nha hem": {
+        "Quận 1": (220, 320), "Quận 3": (160, 250), "Quận 4": (120, 200), "Quận 5": (100, 180),
+        "Quận 7": (110, 180), "Quận 10": (120, 200), "Bình Thạnh": (100, 170), "Phú Nhuận": (110, 190),
+        "Tân Bình": (90, 160), "Gò Vấp": (70, 130), "Thủ Đức": (60, 120), "Bình Tân": (60, 110),
+        "Tân Phú": (60, 110), "Quận 12": (45, 85), "Bình Chánh": (55, 100), "Nhà Bè": (50, 90),
+    },
 }
 
 DISTRICT_CENTER_DIST = {
@@ -131,7 +151,8 @@ def generate_nha_pho(n, rng):
         tuoi_nha = 2026 - nam_xay_dung
         co_san_thuong = int(rng.random() < 0.35)
 
-        gia_m2 = DISTRICT_PRICE[district] * rng.uniform(0.8, 1.3)
+        gia_min, gia_max = DISTRICT_PRICE["Nha pho"][district]
+        gia_m2 = rng.uniform(gia_min, gia_max)
         if mat_tien >= 5:
             gia_m2 *= 1.15
         if vi_tri_mat_tien == "Mặt tiền đường lớn":
@@ -192,7 +213,8 @@ def generate_biet_thu(n, rng):
         chat_luong_xay_dung = rng.choice(CHAT_LUONG_XAY_DUNG, p=[0.4, 0.4, 0.2])
         tuoi_nha = 2026 - nam_xay_dung
 
-        gia_m2 = DISTRICT_PRICE[district] * rng.uniform(1.0, 1.5)
+        gia_min, gia_max = DISTRICT_PRICE["Biet thu"][district]
+        gia_m2 = rng.uniform(gia_min, gia_max)
         if mat_tien >= 10:
             gia_m2 *= 1.1
         if co_be_boi:
@@ -255,7 +277,8 @@ def generate_can_ho(n, rng):
         co_ham = int(rng.random() < 0.3)
         chat_luong_xay_dung = rng.choice(CHAT_LUONG_XAY_DUNG, p=[0.3, 0.5, 0.2])
 
-        gia_m2 = DISTRICT_PRICE[district] * rng.uniform(0.9, 1.4)
+        gia_min, gia_max = DISTRICT_PRICE["Can ho chung cu"][district]
+        gia_m2 = rng.uniform(gia_min, gia_max)
         if tang >= 15:
             gia_m2 *= 1.05
         if view == "Sông":
@@ -309,7 +332,8 @@ def generate_nha_hem(n, rng):
         co_oto_vao_hem = int(do_rong_hem >= 3.5)  # Oto vao duoc neu hem >= 3.5m
         khoang_cach_ra_duong = round(rng.uniform(10, 200), 0)
 
-        gia_m2 = DISTRICT_PRICE[district] * rng.uniform(0.7, 1.1)
+        gia_min, gia_max = DISTRICT_PRICE["Nha hem"][district]
+        gia_m2 = rng.uniform(gia_min, gia_max)
         if do_rong_hem >= 5:
             gia_m2 *= 1.15
         elif do_rong_hem >= 3.5:

@@ -1,501 +1,201 @@
 ﻿dien_tich_dat,quan,phuong,so_phong_ngu,so_phong_tam,so_tang,huong_nha,nam_xay_dung,mat_tien,khoang_cach_trung_tam,phap_ly,gia,dien_tich_san_vuon,co_be_boi,co_gara,loai_biet_thu,view,chat_luong_xay_dung,tuoi_nha
-243,Quận 12,10,3,5,2,Đông Bắc,2024,18.9,6.3,Sổ hồng,25.13,89.7,0,1,Đơn lập,Không view,Cao cấp,2
-479,Nhà Bè,4,5,3,1,Nam,2006,9.1,14.8,Sổ hồng,24.02,178.5,1,1,Hàng kề,Thành phố,Trung bình,20
-392,Nhà Bè,5,6,5,2,Đông Tây,2025,16.6,9.8,Sổ hồng,33.63,155.0,1,0,Song lập,Thành phố,Cao cấp,1
-187,Phú Nhuận,5,3,4,2,Đông Tây,2021,12.1,0.8,Sổ hồng,66.9,149.2,1,1,Đơn lập,Nội khu,Trung bình,5
-352,Gò Vấp,11,6,3,1,Nam,2016,10.5,4.5,Giấy tờ tay,70.65,194.4,0,1,Song lập,Không view,Cao cấp,10
-258,Thủ Đức,Trường Thọ,4,5,2,Đông Nam,2010,8.8,6.1,Sổ hồng,39.49,78.7,1,1,Song lập,Không view,Trung bình,16
-218,Bình Tân,5,4,2,2,Đông Bắc,2005,15.4,5.3,Sổ hồng,23.41,0.0,0,1,Đơn lập,Nội khu,Trung bình,21
-446,Quận 5,12,3,3,2,Tây Bắc,2007,15.8,10.7,Đang chờ sổ,89.95,35.0,1,1,Đơn lập,Nội khu,Cao cấp,19
-337,Gò Vấp,2,4,5,1,Tây,2019,12.6,8.8,Sổ hồng,75.8,0.0,1,1,Song lập,Không view,Trung bình,7
-483,Gò Vấp,3,6,2,2,Tây,2012,19.8,7.1,Giấy tờ tay,96.81,0.0,0,0,Đơn lập,Không view,Trung bình,14
-351,Tân Phú,15,3,5,1,Tây,2010,13.3,10.4,Sổ hồng,53.47,41.9,1,1,Đơn lập,Thành phố,Cao cấp,16
-405,Quận 3,Võ Thị Sáu,4,2,2,Nam,2015,15.2,8.8,Sổ hồng,189.19,183.7,0,1,Hàng kề,Sông,Thô,11
-186,Quận 4,Tân Kiểng,4,5,2,Tây,2011,16.3,1.6,Giấy tờ tay,35.21,174.2,1,1,Song lập,Thành phố,Trung bình,15
-435,Quận 12,4,6,4,2,Đông Nam,2023,13.3,15.0,Đang chờ sổ,41.16,0.0,0,1,Hàng kề,Không view,Trung bình,3
-182,Bình Chánh,3,4,5,2,Đông,2007,9.6,12.3,Đang chờ sổ,9.84,182.6,1,1,Hàng kề,Không view,Trung bình,19
-258,Tân Bình,6,6,4,2,Đông,2019,12.3,4.4,Sổ đỏ,51.24,0.0,1,1,Đơn lập,Thành phố,Thô,7
-285,Phú Nhuận,13,6,4,1,Tây Bắc,2023,15.1,6.1,Sổ hồng,93.34,177.2,0,1,Đơn lập,Không view,Cao cấp,3
-297,Bình Thạnh,12,6,5,1,Tây Nam,2020,19.7,7.9,Sổ hồng,60.6,0.0,0,1,Hàng kề,Nội khu,Trung bình,6
-376,Quận 12,2,3,2,1,Đông Tây,2018,19.3,7.3,Sổ hồng,25.56,196.7,0,1,Đơn lập,Nội khu,Thô,8
-331,Quận 4,Bình Thuận,6,4,2,Tây Nam,2009,15.4,5.8,Sổ hồng,66.81,0.0,0,1,Song lập,Sông,Cao cấp,17
-165,Nhà Bè,4,3,5,1,Đông,2022,13.4,10.0,Sổ hồng,11.39,0.0,0,1,Đơn lập,Thành phố,Thô,4
-377,Quận 5,8,4,5,2,Tây,2020,9.5,6.8,Sổ hồng,55.29,153.3,1,1,Hàng kề,Thành phố,Thô,6
-363,Thủ Đức,Linh Tây,6,3,2,Tây Nam,2024,17.6,7.6,Sổ hồng,73.48,37.5,0,1,Đơn lập,Thành phố,Cao cấp,2
-473,Tân Bình,14,4,5,1,Tây,2022,9.1,7.2,Sổ hồng,93.99,0.0,0,0,Hàng kề,Thành phố,Cao cấp,4
-231,Tân Bình,3,4,2,2,Bắc,2013,16.3,4.0,Sổ hồng,54.34,0.0,0,1,Song lập,Sông,Thô,13
-248,Phú Nhuận,12,4,5,1,Tây Bắc,2020,14.1,4.5,Đang chờ sổ,89.63,100.2,0,0,Song lập,Không view,Cao cấp,6
-368,Phú Nhuận,13,6,2,1,Đông Nam,2024,8.3,3.1,Sổ hồng,121.36,93.0,1,1,Song lập,Không view,Trung bình,2
-231,Tân Bình,4,3,2,1,Tây Bắc,2022,14.9,10.1,Sổ hồng,58.84,0.0,1,0,Đơn lập,Sông,Trung bình,4
-230,Gò Vấp,3,5,2,2,Tây Bắc,2011,18.7,12.3,Sổ hồng,29.79,93.4,1,0,Hàng kề,Nội khu,Thô,15
-324,Quận 1,Đa Kao,4,2,1,Đông Tây,2013,9.7,6.3,Sổ đỏ,236.54,160.4,1,1,Song lập,Nội khu,Cao cấp,13
-487,Gò Vấp,10,5,5,2,Tây,2018,12.2,4.6,Đang chờ sổ,82.16,0.0,1,1,Song lập,Không view,Thô,8
-303,Tân Bình,11,4,2,2,Đông Tây,2007,10.0,11.1,Sổ hồng,67.49,156.3,0,1,Đơn lập,Không view,Trung bình,19
-270,Quận 1,Bến Nghé,6,4,1,Bắc,2024,13.6,-0.8,Sổ đỏ,172.32,93.0,0,0,Đơn lập,Sông,Cao cấp,2
-182,Bình Chánh,3,6,4,1,Tây Bắc,2014,8.4,10.6,Đang chờ sổ,8.15,0.0,1,1,Song lập,Không view,Trung bình,12
-354,Quận 1,Nguyễn Cư Trinh,3,2,1,Tây Nam,2011,9.3,5.3,Sổ hồng,142.69,144.2,1,0,Song lập,Không view,Cao cấp,15
-293,Bình Chánh,10,6,4,2,Tây Bắc,2009,14.3,16.7,Sổ hồng,17.85,0.0,1,1,Hàng kề,Nội khu,Cao cấp,17
-414,Quận 1,Cầu Kho,5,3,1,Tây,2011,14.6,2.1,Sổ đỏ,180.4,152.9,0,1,Song lập,Nội khu,Trung bình,15
-268,Quận 3,10,4,2,2,Bắc,2017,13.2,6.2,Sổ hồng,134.88,149.2,1,1,Song lập,Không view,Thô,9
-355,Quận 3,12,5,5,2,Tây Bắc,2025,10.3,8.3,Sổ đỏ,181.4,115.0,0,1,Đơn lập,Không view,Thô,1
-230,Quận 1,Nguyễn Thái Bình,4,2,2,Đông Tây,2018,19.6,3.5,Sổ đỏ,156.14,193.9,0,1,Đơn lập,Không view,Trung bình,8
-429,Bình Thạnh,8,4,5,1,Tây,2020,11.7,5.1,Giấy tờ tay,94.52,103.8,0,1,Hàng kề,Không view,Cao cấp,6
-325,Quận 3,13,3,3,2,Nam,2023,15.9,8.7,Sổ đỏ,151.76,173.4,0,1,Song lập,Nội khu,Trung bình,3
-295,Tân Phú,13,6,2,1,Nam,2013,17.5,6.3,Giấy tờ tay,32.89,59.6,0,1,Hàng kề,Không view,Thô,13
-269,Thủ Đức,Linh Đông,3,4,2,Đông Bắc,2013,18.7,10.3,Sổ hồng,58.5,0.0,0,1,Đơn lập,Không view,Cao cấp,13
-349,Quận 5,5,5,2,1,Tây Bắc,2015,11.5,6.0,Đang chờ sổ,76.8,125.6,0,1,Song lập,Sông,Trung bình,11
-276,Bình Thạnh,18,3,2,2,Đông,2022,16.3,3.6,Sổ đỏ,52.91,63.5,0,1,Đơn lập,Sông,Thô,4
-152,Quận 3,11,4,3,2,Tây Bắc,2022,14.1,5.0,Sổ đỏ,89.26,133.5,0,1,Hàng kề,Không view,Cao cấp,4
-468,Quận 5,6,6,5,1,Đông Nam,2010,18.4,5.2,Sổ hồng,80.94,0.0,0,1,Hàng kề,Không view,Thô,16
-333,Nhà Bè,2,5,2,2,Nam,2010,9.9,11.6,Sổ hồng,18.54,174.2,1,1,Song lập,Nội khu,Trung bình,16
-274,Quận 12,8,4,2,1,Bắc,2021,15.9,10.3,Sổ hồng,27.59,38.6,1,0,Song lập,Nội khu,Cao cấp,5
-204,Quận 3,9,3,4,2,Tây Nam,2023,9.4,5.2,Sổ đỏ,82.54,153.5,0,1,Đơn lập,Không view,Cao cấp,3
-239,Bình Chánh,1,4,5,2,Nam,2015,14.2,16.4,Sổ hồng,9.59,74.3,1,1,Đơn lập,Thành phố,Thô,11
-282,Quận 7,Tân Mỹ,5,4,1,Nam,2013,15.7,12.5,Đang chờ sổ,65.03,88.4,1,1,Song lập,Nội khu,Trung bình,13
-270,Nhà Bè,5,6,5,1,Đông Nam,2018,13.5,14.0,Giấy tờ tay,20.96,89.4,0,1,Đơn lập,Không view,Trung bình,8
-197,Thủ Đức,Linh Tây,4,4,2,Tây Bắc,2011,11.0,12.8,Sổ hồng,34.99,170.3,0,1,Đơn lập,Sông,Trung bình,15
-336,Quận 7,Tân Quy,3,2,1,Đông Nam,2010,14.6,6.4,Sổ hồng,108.38,51.9,1,1,Song lập,Không view,Cao cấp,16
-159,Quận 1,Nguyễn Cư Trinh,4,2,2,Đông,2006,8.5,2.9,Sổ đỏ,70.48,0.0,0,0,Hàng kề,Nội khu,Cao cấp,20
-356,Phú Nhuận,10,4,4,1,Tây Bắc,2021,11.3,3.9,Sổ đỏ,110.01,31.4,0,1,Hàng kề,Nội khu,Trung bình,5
-340,Bình Tân,12,5,4,1,Đông Nam,2021,17.9,6.4,Sổ hồng,54.14,96.7,1,1,Đơn lập,Thành phố,Trung bình,5
-471,Bình Tân,12,6,2,2,Tây Nam,2006,9.2,10.8,Sổ đỏ,54.26,60.5,0,1,Hàng kề,Thành phố,Trung bình,20
-404,Quận 4,Tân Kiểng,3,2,1,Tây Nam,2006,11.9,8.9,Giấy tờ tay,84.89,156.5,0,1,Song lập,Không view,Cao cấp,20
-408,Quận 5,10,3,5,1,Bắc,2021,14.6,8.9,Đang chờ sổ,71.83,0.0,0,0,Song lập,Không view,Thô,5
-421,Bình Tân,4,5,5,1,Bắc,2006,15.7,12.8,Giấy tờ tay,52.8,0.0,0,1,Hàng kề,Sông,Trung bình,20
-271,Quận 10,7,3,4,2,Nam,2020,10.1,3.3,Sổ hồng,89.4,131.8,0,1,Hàng kề,Nội khu,Trung bình,6
-197,Quận 3,9,5,4,1,Đông Tây,2017,18.6,2.0,Sổ hồng,100.12,95.9,0,1,Đơn lập,Nội khu,Cao cấp,9
-417,Gò Vấp,4,5,2,2,Nam,2005,17.3,6.0,Giấy tờ tay,74.65,59.2,0,1,Hàng kề,Không view,Cao cấp,21
-359,Quận 1,Cầu Kho,6,5,2,Đông,2011,16.5,0.4,Sổ hồng,202.11,70.6,1,1,Đơn lập,Thành phố,Thô,15
-400,Bình Chánh,9,3,5,1,Đông,2022,13.3,13.7,Sổ hồng,21.23,99.0,0,1,Song lập,Thành phố,Thô,4
-152,Thủ Đức,Linh Đông,3,3,2,Đông Nam,2017,17.0,8.8,Sổ hồng,23.09,77.8,1,0,Hàng kề,Không view,Cao cấp,9
-381,Bình Chánh,6,3,2,1,Bắc,2006,17.2,17.0,Sổ hồng,25.19,0.0,0,1,Đơn lập,Nội khu,Cao cấp,20
-385,Quận 10,4,6,4,2,Đông,2018,10.9,8.6,Sổ hồng,99.98,58.5,0,1,Hàng kề,Nội khu,Thô,8
-195,Quận 1,Đa Kao,4,5,1,Đông,2005,19.0,4.3,Sổ hồng,71.27,138.6,0,1,Hàng kề,Thành phố,Thô,21
-213,Quận 12,11,6,2,2,Bắc,2005,19.2,10.6,Đang chờ sổ,16.82,178.5,1,1,Đơn lập,Sông,Trung bình,21
-379,Thủ Đức,Linh Trung,3,4,1,Đông Bắc,2019,18.7,14.7,Giấy tờ tay,63.12,96.6,0,0,Đơn lập,Không view,Thô,7
-416,Phú Nhuận,4,3,5,2,Đông,2018,12.0,4.5,Giấy tờ tay,112.18,79.1,0,1,Song lập,Sông,Cao cấp,8
-155,Tân Bình,2,4,2,1,Đông Nam,2010,12.9,5.9,Sổ hồng,23.72,186.3,0,0,Hàng kề,Không view,Thô,16
-470,Quận 12,7,4,3,1,Tây Bắc,2011,15.2,12.0,Sổ đỏ,49.34,66.8,1,1,Song lập,Không view,Cao cấp,15
-476,Quận 1,Bến Thành,4,5,1,Đông Tây,2012,9.4,-1.8,Sổ hồng,225.87,169.4,0,1,Song lập,Nội khu,Cao cấp,14
-311,Tân Bình,13,3,3,1,Đông Tây,2010,11.8,6.8,Sổ đỏ,84.2,0.0,0,1,Song lập,Không view,Cao cấp,16
-427,Phú Nhuận,17,4,2,1,Đông Nam,2022,9.9,6.7,Giấy tờ tay,114.13,193.2,0,1,Hàng kề,Không view,Cao cấp,4
-182,Gò Vấp,1,3,4,1,Đông Nam,2007,8.3,8.0,Sổ đỏ,34.39,54.8,0,0,Đơn lập,Không view,Cao cấp,19
-170,Bình Thạnh,12,4,2,1,Tây,2012,12.2,10.7,Sổ hồng,50.94,0.0,0,1,Đơn lập,Nội khu,Cao cấp,14
-321,Tân Bình,6,3,3,2,Tây Nam,2014,10.0,3.7,Sổ đỏ,55.79,57.2,0,0,Song lập,Nội khu,Trung bình,12
-364,Quận 1,Bến Nghé,4,4,2,Nam,2020,19.8,4.1,Sổ đỏ,237.98,108.9,1,1,Đơn lập,Nội khu,Cao cấp,6
-324,Quận 5,12,4,2,2,Tây Bắc,2020,12.2,9.4,Sổ đỏ,61.93,71.7,0,0,Song lập,Sông,Cao cấp,6
-487,Nhà Bè,5,6,2,2,Tây Bắc,2008,19.7,11.3,Sổ đỏ,36.93,170.4,0,1,Hàng kề,Nội khu,Cao cấp,18
-190,Bình Chánh,9,3,3,1,Bắc,2009,17.5,13.0,Sổ hồng,10.58,73.0,1,1,Song lập,Nội khu,Trung bình,17
-353,Quận 7,Phú Thuận,5,5,2,Bắc,2022,10.5,12.0,Sổ hồng,99.1,197.4,1,1,Hàng kề,Thành phố,Trung bình,4
-455,Bình Chánh,4,4,2,2,Tây Bắc,2024,15.5,10.5,Giấy tờ tay,23.17,83.3,0,0,Hàng kề,Nội khu,Cao cấp,2
-174,Quận 12,12,5,5,1,Tây,2006,12.9,13.0,Sổ hồng,13.63,96.7,1,0,Song lập,Sông,Trung bình,20
-154,Tân Bình,7,6,3,2,Đông Bắc,2016,12.1,4.3,Sổ hồng,29.3,127.1,1,0,Hàng kề,Nội khu,Trung bình,10
-302,Quận 5,14,3,3,2,Tây Bắc,2014,14.4,1.6,Sổ hồng,53.94,136.1,1,1,Song lập,Không view,Thô,12
-259,Tân Bình,10,3,2,2,Đông,2017,10.4,7.8,Sổ hồng,68.47,0.0,0,1,Hàng kề,Nội khu,Cao cấp,9
-423,Quận 7,Tân Quy,6,2,2,Đông Tây,2017,8.8,7.5,Sổ đỏ,102.98,159.7,1,1,Hàng kề,Không view,Trung bình,9
-489,Thủ Đức,Linh Tây,5,4,2,Nam,2016,10.1,6.7,Sổ hồng,63.5,113.5,0,1,Song lập,Không view,Thô,10
-294,Gò Vấp,17,6,3,2,Tây,2009,16.9,8.7,Giấy tờ tay,59.81,0.0,0,1,Song lập,Nội khu,Trung bình,17
-194,Phú Nhuận,13,4,4,2,Tây Nam,2018,12.3,10.1,Giấy tờ tay,57.83,98.3,0,1,Hàng kề,Sông,Cao cấp,8
-482,Tân Bình,6,6,4,1,Nam,2014,16.3,7.0,Sổ hồng,97.54,107.3,0,1,Đơn lập,Không view,Trung bình,12
-396,Bình Chánh,6,4,3,1,Tây Bắc,2013,14.5,12.5,Sổ hồng,19.07,0.0,1,0,Song lập,Nội khu,Cao cấp,13
-283,Tân Bình,5,6,3,2,Bắc,2005,11.3,11.8,Sổ hồng,58.81,135.5,0,1,Song lập,Sông,Cao cấp,21
-341,Nhà Bè,7,6,5,2,Bắc,2025,19.6,18.0,Sổ đỏ,23.65,0.0,1,1,Song lập,Không view,Thô,1
-297,Quận 12,9,5,4,1,Tây,2008,8.9,15.8,Sổ hồng,19.16,138.2,0,1,Song lập,Không view,Trung bình,18
-356,Quận 1,Bến Thành,3,3,1,Nam,2005,10.1,6.8,Sổ hồng,223.01,53.4,0,1,Đơn lập,Nội khu,Cao cấp,21
-336,Quận 1,Nguyễn Thái Bình,6,2,1,Bắc,2016,15.7,2.9,Đang chờ sổ,181.15,175.8,1,1,Đơn lập,Không view,Thô,10
-246,Tân Bình,1,4,4,2,Tây Nam,2014,9.8,3.2,Sổ đỏ,52.01,54.8,1,1,Song lập,Nội khu,Trung bình,12
-308,Quận 1,Đa Kao,5,5,2,Tây Bắc,2016,10.9,-1.2,Sổ đỏ,195.23,141.3,0,1,Đơn lập,Nội khu,Cao cấp,10
-399,Quận 1,Bến Thành,3,2,2,Nam,2015,17.7,1.3,Sổ hồng,242.11,0.0,1,1,Đơn lập,Không view,Trung bình,11
-433,Quận 3,13,4,4,2,Đông Tây,2016,14.4,6.4,Sổ hồng,195.45,190.4,0,1,Hàng kề,Nội khu,Thô,10
-168,Quận 4,Tân Thuận Tây,3,3,1,Đông,2019,15.1,1.7,Sổ đỏ,47.81,0.0,0,1,Hàng kề,Thành phố,Cao cấp,7
-412,Bình Tân,2,6,4,1,Tây Bắc,2011,15.7,9.7,Giấy tờ tay,54.05,80.2,0,1,Hàng kề,Sông,Thô,15
-220,Phú Nhuận,5,3,3,1,Đông Bắc,2023,10.0,9.1,Giấy tờ tay,70.58,38.2,0,1,Song lập,Không view,Cao cấp,3
-243,Thủ Đức,Tam Phú,6,5,2,Bắc,2024,18.4,14.7,Đang chờ sổ,42.44,98.4,1,1,Hàng kề,Nội khu,Trung bình,2
-251,Nhà Bè,9,5,2,2,Đông,2014,18.4,9.5,Sổ hồng,14.34,155.1,1,1,Song lập,Nội khu,Trung bình,12
-363,Quận 1,Nguyễn Thái Bình,3,2,2,Đông,2010,11.7,5.6,Đang chờ sổ,151.12,0.0,0,0,Song lập,Không view,Trung bình,16
-180,Quận 5,10,5,5,1,Đông,2006,19.9,4.7,Sổ đỏ,39.88,0.0,1,1,Song lập,Không view,Cao cấp,20
-151,Quận 3,12,3,4,2,Tây Nam,2005,10.2,6.1,Sổ hồng,59.76,128.0,0,0,Hàng kề,Không view,Thô,21
-462,Nhà Bè,9,4,3,2,Đông,2023,13.3,13.2,Sổ hồng,32.51,180.0,1,1,Đơn lập,Nội khu,Trung bình,3
-290,Thủ Đức,Hiệp Bình Chánh,3,5,1,Đông Tây,2020,16.7,12.8,Sổ hồng,46.12,141.8,0,0,Đơn lập,Nội khu,Trung bình,6
-225,Gò Vấp,8,5,3,1,Nam,2019,10.8,3.4,Sổ hồng,55.93,133.4,1,1,Đơn lập,Nội khu,Cao cấp,7
-240,Thủ Đức,Trường Thọ,3,2,2,Đông Tây,2019,8.7,12.7,Sổ hồng,51.06,137.0,1,0,Đơn lập,Sông,Cao cấp,7
-469,Tân Phú,15,5,4,2,Đông Nam,2008,8.6,8.5,Sổ hồng,57.19,165.0,1,1,Hàng kề,Không view,Cao cấp,18
-328,Quận 12,5,6,3,2,Đông Bắc,2009,10.2,8.1,Sổ hồng,24.21,0.0,1,1,Đơn lập,Thành phố,Trung bình,17
-183,Quận 1,Đa Kao,6,4,1,Tây Nam,2012,14.0,3.0,Sổ hồng,130.62,0.0,1,1,Đơn lập,Không view,Cao cấp,14
-275,Tân Phú,8,5,3,1,Tây Bắc,2009,12.3,12.1,Sổ hồng,43.79,70.4,1,1,Đơn lập,Thành phố,Thô,17
-470,Quận 1,Bến Nghé,3,4,2,Đông Tây,2005,18.8,6.3,Sổ đỏ,257.1,0.0,0,0,Đơn lập,Thành phố,Trung bình,21
-158,Thủ Đức,Linh Chiểu,5,5,2,Đông Tây,2011,18.3,11.3,Giấy tờ tay,24.72,85.6,1,1,Song lập,Sông,Thô,15
-164,Tân Bình,11,3,2,1,Tây Bắc,2020,8.4,7.1,Sổ hồng,44.21,114.9,1,0,Đơn lập,Thành phố,Cao cấp,6
-431,Bình Chánh,8,3,4,2,Bắc,2017,11.7,18.2,Sổ hồng,22.63,123.3,1,0,Hàng kề,Nội khu,Trung bình,9
-306,Quận 3,Phú Nhuận,3,3,1,Đông Nam,2021,9.7,-0.3,Sổ hồng,132.28,135.5,1,1,Hàng kề,Sông,Thô,5
-330,Quận 1,Cầu Ông Lãnh,5,3,2,Đông,2007,9.5,-1.9,Đang chờ sổ,145.55,133.3,0,0,Hàng kề,Nội khu,Cao cấp,19
-199,Quận 7,Tân Hưng,4,3,2,Đông Nam,2005,10.0,7.8,Sổ đỏ,63.35,0.0,1,1,Đơn lập,Thành phố,Cao cấp,21
-308,Quận 7,Tân Kiểng,5,2,2,Đông,2005,9.9,4.0,Sổ đỏ,90.28,0.0,1,1,Đơn lập,Thành phố,Cao cấp,21
-473,Quận 3,Võ Thị Sáu,3,2,2,Đông Bắc,2009,14.9,6.8,Sổ hồng,167.3,0.0,0,0,Song lập,Nội khu,Trung bình,17
-276,Gò Vấp,12,5,2,1,Tây Nam,2014,15.6,12.6,Sổ đỏ,55.92,34.0,0,1,Hàng kề,Thành phố,Cao cấp,12
-459,Nhà Bè,8,3,3,2,Đông Bắc,2014,14.9,12.0,Đang chờ sổ,37.48,48.0,0,0,Đơn lập,Không view,Cao cấp,12
-153,Quận 3,Phú Nhuận,5,4,2,Bắc,2015,10.7,9.1,Sổ đỏ,56.89,0.0,0,0,Đơn lập,Nội khu,Trung bình,11
-454,Gò Vấp,2,4,4,2,Đông,2023,9.7,12.7,Sổ đỏ,86.25,0.0,0,1,Đơn lập,Nội khu,Thô,3
-303,Quận 10,15,4,5,1,Đông Nam,2023,8.1,10.9,Sổ hồng,93.39,83.1,1,1,Đơn lập,Sông,Cao cấp,3
-193,Nhà Bè,7,4,3,2,Đông Bắc,2021,13.8,13.6,Sổ hồng,11.89,0.0,0,1,Đơn lập,Sông,Thô,5
-222,Phú Nhuận,2,6,5,1,Đông,2006,13.0,5.3,Giấy tờ tay,66.52,87.8,1,1,Song lập,Không view,Cao cấp,20
-281,Tân Bình,6,5,4,1,Tây,2021,18.9,10.9,Sổ hồng,77.61,84.0,0,1,Đơn lập,Không view,Cao cấp,5
-356,Gò Vấp,17,6,3,2,Đông Bắc,2009,8.6,3.9,Sổ hồng,54.07,71.3,1,0,Đơn lập,Nội khu,Trung bình,17
-388,Quận 1,Cầu Ông Lãnh,6,4,1,Đông Bắc,2021,17.2,2.9,Sổ đỏ,215.78,117.0,1,1,Song lập,Sông,Trung bình,5
-247,Thủ Đức,Hiệp Bình Chánh,5,2,2,Đông Tây,2005,8.7,13.0,Sổ đỏ,41.66,150.3,0,1,Hàng kề,Sông,Cao cấp,21
-267,Bình Tân,7,5,3,2,Tây Bắc,2019,17.9,7.6,Sổ hồng,40.9,30.6,1,1,Đơn lập,Không view,Cao cấp,7
-163,Bình Chánh,3,6,2,2,Tây Bắc,2024,11.8,13.1,Giấy tờ tay,9.03,93.9,0,0,Hàng kề,Sông,Cao cấp,2
-252,Bình Thạnh,5,5,5,2,Nam,2020,18.2,4.5,Sổ hồng,51.27,156.5,0,1,Hàng kề,Không view,Thô,6
-265,Quận 3,12,3,3,2,Tây,2023,14.0,2.6,Sổ đỏ,157.65,0.0,1,1,Song lập,Không view,Trung bình,3
-350,Quận 4,Tân Thuận Tây,4,4,2,Đông Tây,2012,15.3,1.2,Sổ đỏ,62.92,34.5,0,1,Hàng kề,Không view,Thô,14
-212,Nhà Bè,8,4,5,2,Tây Bắc,2016,10.7,10.2,Sổ hồng,10.89,62.8,1,0,Song lập,Không view,Trung bình,10
-361,Bình Chánh,6,5,5,1,Bắc,2010,17.3,10.2,Đang chờ sổ,19.81,172.5,0,1,Song lập,Không view,Cao cấp,16
-230,Thủ Đức,Hiệp Bình Phước,4,4,2,Tây Bắc,2015,15.9,12.1,Giấy tờ tay,46.29,62.9,0,1,Đơn lập,Không view,Trung bình,11
-156,Quận 4,Bình Thuận,5,2,1,Nam,2011,17.3,2.6,Sổ hồng,37.25,145.9,0,1,Hàng kề,Không view,Cao cấp,15
-476,Quận 3,12,3,4,2,Đông Bắc,2024,14.9,6.0,Sổ hồng,214.17,97.4,0,0,Hàng kề,Thành phố,Trung bình,2
-423,Quận 3,Phú Nhuận,4,4,2,Tây Nam,2015,14.1,0.8,Sổ hồng,196.27,194.2,0,1,Đơn lập,Không view,Cao cấp,11
-490,Quận 5,5,5,3,1,Đông Nam,2007,17.4,7.1,Sổ hồng,88.61,78.1,0,1,Hàng kề,Thành phố,Thô,19
-283,Quận 5,9,3,5,1,Tây Nam,2024,8.4,1.8,Sổ hồng,50.76,110.9,0,1,Đơn lập,Nội khu,Trung bình,2
-417,Quận 10,9,5,5,2,Tây Bắc,2018,8.2,4.0,Giấy tờ tay,128.81,63.9,0,1,Đơn lập,Nội khu,Trung bình,8
-319,Quận 1,Cầu Ông Lãnh,4,3,2,Tây,2023,19.7,6.0,Sổ đỏ,222.41,138.0,1,1,Hàng kề,Không view,Cao cấp,3
-434,Bình Thạnh,18,6,5,2,Bắc,2012,16.4,8.7,Sổ hồng,86.45,59.1,0,1,Hàng kề,Nội khu,Cao cấp,14
-423,Tân Bình,7,3,2,1,Đông Nam,2015,10.1,8.5,Sổ hồng,92.89,0.0,0,1,Đơn lập,Nội khu,Thô,11
-188,Gò Vấp,16,3,4,2,Tây,2019,8.8,10.2,Sổ hồng,28.67,147.3,0,1,Hàng kề,Không view,Trung bình,7
-444,Quận 4,Bình Thuận,4,4,1,Bắc,2008,14.4,2.1,Đang chờ sổ,81.7,160.8,0,1,Đơn lập,Không view,Thô,18
-400,Tân Phú,9,3,4,2,Nam,2014,10.1,6.7,Đang chờ sổ,52.24,117.5,0,1,Hàng kề,Không view,Trung bình,12
-421,Quận 1,Bến Thành,6,3,1,Đông Tây,2021,13.2,4.1,Đang chờ sổ,212.8,127.5,1,0,Song lập,Nội khu,Thô,5
-176,Bình Thạnh,10,3,3,2,Nam,2020,17.1,8.9,Sổ hồng,42.7,93.5,0,0,Hàng kề,Thành phố,Cao cấp,6
-282,Tân Bình,1,3,3,1,Tây Nam,2014,17.3,6.4,Đang chờ sổ,53.76,114.4,0,1,Đơn lập,Không view,Trung bình,12
-234,Nhà Bè,9,5,2,2,Đông Nam,2006,19.6,13.5,Sổ hồng,15.51,171.7,0,0,Song lập,Nội khu,Trung bình,20
-403,Quận 4,Tân Hưng,4,3,1,Đông Bắc,2016,12.0,7.0,Sổ đỏ,99.5,111.3,1,1,Hàng kề,Không view,Cao cấp,10
-190,Quận 1,Bến Thành,3,4,1,Tây Bắc,2009,17.5,5.6,Đang chờ sổ,110.53,112.5,0,1,Song lập,Nội khu,Thô,17
-335,Thủ Đức,Hiệp Bình Chánh,3,5,2,Đông Bắc,2019,19.8,10.1,Sổ hồng,61.31,162.0,1,1,Song lập,Không view,Thô,7
-268,Quận 3,10,5,4,1,Đông,2016,19.8,6.0,Sổ đỏ,152.45,0.0,0,1,Đơn lập,Không view,Cao cấp,10
-347,Quận 1,Cầu Ông Lãnh,3,2,1,Nam,2019,10.0,8.0,Sổ đỏ,162.75,162.1,0,1,Đơn lập,Không view,Thô,7
-453,Quận 7,Tân Phong,4,2,2,Tây Nam,2012,19.3,3.3,Giấy tờ tay,105.78,0.0,0,1,Hàng kề,Nội khu,Cao cấp,14
-212,Thủ Đức,Bình Chiểu,6,4,2,Đông Nam,2016,13.8,14.0,Sổ hồng,46.17,66.5,0,1,Đơn lập,Thành phố,Trung bình,10
-306,Quận 1,Nguyễn Thái Bình,4,2,1,Đông Bắc,2017,9.8,6.9,Sổ hồng,222.02,0.0,0,1,Song lập,Thành phố,Cao cấp,9
-198,Thủ Đức,Linh Chiểu,3,2,2,Tây,2005,17.8,14.7,Sổ hồng,37.33,61.1,1,0,Hàng kề,Sông,Cao cấp,21
-334,Tân Bình,15,5,2,1,Bắc,2011,10.7,5.9,Sổ hồng,80.05,149.5,1,1,Hàng kề,Không view,Cao cấp,15
-214,Quận 1,Bến Thành,5,3,2,Nam,2009,16.3,4.1,Sổ hồng,129.73,0.0,1,1,Song lập,Nội khu,Cao cấp,17
-480,Quận 3,12,5,3,2,Đông Nam,2018,10.9,1.6,Đang chờ sổ,261.29,0.0,1,1,Song lập,Nội khu,Trung bình,8
-245,Quận 12,3,3,4,1,Tây Nam,2022,13.9,13.6,Sổ hồng,18.66,122.8,1,1,Đơn lập,Không view,Thô,4
-325,Tân Phú,11,4,4,2,Nam,2016,10.8,6.9,Sổ đỏ,49.69,175.7,0,0,Hàng kề,Thành phố,Trung bình,10
-252,Quận 1,Nguyễn Cư Trinh,3,2,2,Đông Bắc,2006,16.2,1.0,Sổ đỏ,133.72,47.7,1,1,Song lập,Nội khu,Cao cấp,20
-426,Quận 1,Cầu Ông Lãnh,6,5,2,Nam,2019,15.2,4.5,Đang chờ sổ,279.24,0.0,0,1,Hàng kề,Sông,Trung bình,7
-253,Quận 7,Tân Quy,5,2,1,Đông Tây,2018,18.8,5.6,Sổ đỏ,67.78,0.0,0,1,Đơn lập,Không view,Trung bình,8
-243,Gò Vấp,16,6,5,1,Đông Tây,2014,19.2,12.6,Giấy tờ tay,55.79,65.8,1,0,Song lập,Không view,Thô,12
-322,Tân Bình,3,4,5,1,Nam,2024,19.6,7.4,Sổ hồng,66.57,190.5,0,1,Song lập,Không view,Thô,2
-397,Quận 5,3,4,5,1,Đông Nam,2016,14.9,3.7,Sổ hồng,75.19,150.9,1,1,Hàng kề,Thành phố,Thô,10
-213,Tân Bình,8,4,5,1,Đông Bắc,2016,17.2,11.1,Giấy tờ tay,49.23,179.5,0,1,Đơn lập,Không view,Trung bình,10
-350,Tân Bình,6,6,5,2,Tây Bắc,2011,19.7,7.2,Sổ hồng,74.09,146.7,0,0,Hàng kề,Không view,Cao cấp,15
-322,Tân Phú,6,3,5,1,Bắc,2013,19.9,12.1,Đang chờ sổ,41.37,107.5,0,0,Hàng kề,Nội khu,Trung bình,13
-420,Tân Phú,4,6,4,1,Tây,2012,11.0,7.1,Giấy tờ tay,69.3,83.9,0,1,Đơn lập,Không view,Cao cấp,14
-248,Quận 4,Tân Hưng,4,2,1,Bắc,2011,13.2,3.9,Đang chờ sổ,56.75,178.2,1,0,Đơn lập,Sông,Trung bình,15
-496,Gò Vấp,16,5,4,1,Tây Nam,2019,11.7,10.3,Sổ hồng,94.26,0.0,0,1,Đơn lập,Không view,Cao cấp,7
-385,Quận 1,Nguyễn Cư Trinh,5,2,2,Đông Nam,2020,9.1,4.1,Giấy tờ tay,164.17,166.0,0,1,Song lập,Nội khu,Trung bình,6
-197,Gò Vấp,15,4,3,1,Tây Bắc,2012,13.3,12.0,Sổ hồng,44.33,43.1,0,1,Song lập,Thành phố,Cao cấp,14
-213,Quận 5,9,3,5,1,Tây Bắc,2009,18.3,5.8,Sổ hồng,33.43,79.7,0,1,Đơn lập,Không view,Cao cấp,17
-377,Thủ Đức,Trường Thọ,3,3,1,Bắc,2009,17.0,5.4,Đang chờ sổ,94.86,0.0,1,1,Đơn lập,Không view,Cao cấp,17
-153,Tân Bình,13,3,5,1,Tây Bắc,2013,8.9,10.0,Đang chờ sổ,26.86,116.4,0,1,Hàng kề,Nội khu,Cao cấp,13
-332,Quận 12,10,3,3,1,Nam,2024,14.0,9.5,Sổ hồng,27.48,142.3,0,1,Song lập,Sông,Cao cấp,2
-192,Thủ Đức,Linh Tây,6,4,2,Tây,2012,10.0,11.5,Giấy tờ tay,43.67,134.8,0,1,Đơn lập,Thành phố,Cao cấp,14
-437,Phú Nhuận,3,6,4,1,Bắc,2018,8.9,1.5,Sổ hồng,142.53,152.0,0,1,Đơn lập,Không view,Cao cấp,8
-303,Tân Bình,14,3,5,2,Tây Bắc,2018,17.5,7.0,Sổ đỏ,70.31,0.0,0,1,Song lập,Thành phố,Trung bình,8
-423,Quận 4,Tân Thuận Đông,3,4,1,Tây Bắc,2006,10.8,4.9,Sổ hồng,99.06,179.3,0,1,Đơn lập,Sông,Trung bình,20
-261,Quận 3,9,6,3,1,Tây Bắc,2006,8.8,0.8,Sổ hồng,111.3,82.1,1,1,Song lập,Sông,Thô,20
-469,Bình Chánh,3,4,2,1,Nam,2022,12.3,15.5,Sổ hồng,30.92,0.0,0,0,Hàng kề,Không view,Trung bình,4
-421,Tân Phú,3,4,4,1,Nam,2025,8.1,7.5,Sổ hồng,61.93,59.9,1,1,Đơn lập,Sông,Trung bình,1
-462,Quận 7,Tân Mỹ,5,4,2,Tây Nam,2008,12.1,3.4,Giấy tờ tay,91.55,0.0,0,0,Song lập,Nội khu,Cao cấp,18
-327,Bình Thạnh,11,6,2,1,Tây Nam,2010,11.9,8.0,Sổ hồng,57.81,0.0,1,1,Hàng kề,Sông,Trung bình,16
-407,Bình Thạnh,4,3,5,2,Đông Nam,2024,10.4,9.3,Sổ hồng,95.96,0.0,1,1,Hàng kề,Thành phố,Thô,2
-301,Quận 3,12,6,2,1,Tây Bắc,2022,8.8,2.5,Sổ hồng,140.76,140.3,1,1,Song lập,Nội khu,Cao cấp,4
-308,Quận 3,Phú Nhuận,4,5,1,Đông Nam,2014,16.4,8.2,Sổ đỏ,112.98,0.0,0,1,Hàng kề,Không view,Trung bình,12
-295,Gò Vấp,16,4,4,2,Bắc,2011,10.3,3.8,Giấy tờ tay,48.9,191.0,0,1,Song lập,Không view,Thô,15
-474,Gò Vấp,9,3,5,1,Bắc,2019,18.0,3.7,Giấy tờ tay,92.1,36.0,0,0,Song lập,Nội khu,Cao cấp,7
-262,Tân Phú,5,3,3,2,Nam,2020,11.4,11.4,Sổ hồng,31.78,122.3,0,0,Song lập,Sông,Trung bình,6
-171,Quận 1,Bến Nghé,6,4,1,Tây,2015,13.1,0.9,Giấy tờ tay,86.06,0.0,0,1,Hàng kề,Không view,Cao cấp,11
-168,Quận 1,Cầu Kho,4,2,2,Tây,2025,17.6,4.2,Sổ đỏ,110.52,148.8,1,1,Hàng kề,Không view,Cao cấp,1
-421,Quận 1,Nguyễn Thái Bình,3,5,1,Đông Nam,2019,12.4,7.9,Sổ hồng,234.48,118.2,0,1,Song lập,Không view,Cao cấp,7
-257,Quận 12,8,6,3,1,Tây Bắc,2024,9.5,9.5,Đang chờ sổ,27.86,69.1,0,1,Đơn lập,Không view,Cao cấp,2
-230,Quận 1,Đa Kao,5,5,2,Đông Tây,2017,14.9,-1.4,Sổ đỏ,90.01,71.1,0,1,Hàng kề,Không view,Thô,9
-277,Tân Phú,10,6,4,2,Đông Tây,2018,11.3,4.8,Giấy tờ tay,47.01,49.0,0,1,Đơn lập,Không view,Trung bình,8
-190,Tân Bình,6,4,3,1,Đông Nam,2008,13.2,9.3,Sổ hồng,37.17,171.5,0,1,Hàng kề,Không view,Cao cấp,18
-344,Gò Vấp,10,4,3,2,Tây Bắc,2025,12.6,12.7,Sổ đỏ,69.6,49.2,1,1,Đơn lập,Không view,Trung bình,1
-269,Quận 10,5,4,4,2,Tây Bắc,2006,18.2,4.1,Đang chờ sổ,90.31,47.2,0,1,Đơn lập,Sông,Cao cấp,20
-450,Bình Tân,2,4,2,2,Bắc,2011,11.4,11.9,Sổ hồng,79.58,144.6,0,1,Đơn lập,Không view,Cao cấp,15
-223,Phú Nhuận,3,3,5,1,Đông,2015,14.1,7.6,Đang chờ sổ,52.95,0.0,0,1,Song lập,Không view,Trung bình,11
-268,Quận 7,Tân Kiểng,4,5,2,Đông Nam,2020,14.8,5.1,Sổ hồng,72.17,141.4,1,0,Hàng kề,Nội khu,Cao cấp,6
-433,Gò Vấp,9,5,4,2,Bắc,2014,16.0,9.4,Sổ hồng,83.86,0.0,1,1,Đơn lập,Không view,Trung bình,12
-453,Bình Thạnh,1,6,5,1,Đông Bắc,2012,10.4,7.0,Sổ đỏ,117.53,156.9,1,1,Đơn lập,Không view,Trung bình,14
-499,Tân Phú,13,4,4,2,Tây Bắc,2009,14.0,7.8,Sổ hồng,107.14,108.6,0,1,Đơn lập,Sông,Cao cấp,17
-401,Quận 5,7,3,4,2,Tây Bắc,2006,14.6,4.1,Sổ hồng,91.26,107.1,0,1,Đơn lập,Không view,Cao cấp,20
-464,Tân Phú,2,6,2,2,Tây,2021,12.3,9.3,Sổ hồng,77.46,0.0,1,1,Hàng kề,Thành phố,Cao cấp,5
-190,Quận 12,1,5,4,2,Đông Tây,2013,16.1,9.5,Sổ hồng,19.14,103.0,0,1,Đơn lập,Không view,Cao cấp,13
-366,Quận 1,Nguyễn Cư Trinh,3,4,1,Nam,2015,12.1,0.3,Sổ hồng,240.64,88.7,1,0,Đơn lập,Nội khu,Trung bình,11
-371,Quận 1,Bến Nghé,5,3,1,Tây Bắc,2008,16.6,4.5,Sổ hồng,205.43,155.3,0,1,Đơn lập,Thành phố,Trung bình,18
-342,Thủ Đức,Linh Tây,5,3,2,Tây Bắc,2017,14.2,13.4,Đang chờ sổ,51.86,188.7,0,1,Hàng kề,Không view,Cao cấp,9
-263,Bình Tân,1,3,5,1,Tây Nam,2006,11.4,5.8,Sổ hồng,38.46,51.6,1,1,Song lập,Thành phố,Thô,20
-420,Gò Vấp,12,3,4,2,Nam,2023,15.6,7.5,Sổ hồng,108.38,0.0,0,1,Đơn lập,Sông,Cao cấp,3
-261,Quận 4,Tân Kiểng,6,2,1,Đông Tây,2013,14.4,10.0,Giấy tờ tay,54.12,0.0,1,1,Song lập,Không view,Cao cấp,13
-340,Tân Bình,10,5,3,1,Tây Nam,2015,12.5,2.4,Sổ hồng,87.2,130.6,0,1,Hàng kề,Nội khu,Cao cấp,11
-154,Bình Tân,2,4,3,1,Tây,2012,17.6,5.6,Sổ hồng,23.95,95.1,0,1,Song lập,Nội khu,Cao cấp,14
-463,Gò Vấp,11,6,2,1,Đông,2017,18.7,12.2,Sổ hồng,102.06,0.0,0,1,Song lập,Không view,Trung bình,9
-413,Thủ Đức,Trường Thọ,6,2,2,Bắc,2021,17.0,13.3,Sổ đỏ,66.66,53.8,0,0,Song lập,Không view,Thô,5
-375,Phú Nhuận,7,4,3,1,Đông Nam,2010,10.2,1.9,Sổ hồng,98.74,104.5,0,1,Đơn lập,Không view,Thô,16
-418,Quận 3,Võ Thị Sáu,4,2,1,Đông Nam,2013,17.0,2.0,Sổ hồng,268.04,0.0,1,1,Đơn lập,Không view,Cao cấp,13
-499,Quận 1,Bến Thành,3,2,1,Tây Bắc,2014,11.0,3.2,Sổ hồng,316.99,63.3,1,1,Đơn lập,Thành phố,Thô,12
-449,Quận 4,Tân Hưng,5,3,1,Tây,2012,8.7,8.2,Sổ đỏ,128.59,90.1,1,0,Đơn lập,Thành phố,Cao cấp,14
-383,Bình Thạnh,17,6,3,1,Tây Bắc,2023,8.7,1.5,Đang chờ sổ,76.93,0.0,0,1,Đơn lập,Nội khu,Cao cấp,3
-466,Gò Vấp,13,3,3,2,Bắc,2025,10.3,10.7,Sổ hồng,120.54,177.5,0,1,Hàng kề,Nội khu,Cao cấp,1
-371,Quận 1,Đa Kao,3,2,2,Đông Nam,2017,12.6,5.0,Sổ hồng,175.35,45.2,0,0,Song lập,Nội khu,Thô,9
-408,Quận 1,Bến Nghé,3,4,1,Tây Bắc,2007,13.2,7.6,Sổ hồng,227.2,149.9,1,1,Đơn lập,Nội khu,Thô,19
-327,Quận 3,9,4,3,2,Nam,2023,11.9,8.4,Sổ đỏ,180.4,55.9,1,1,Song lập,Thành phố,Cao cấp,3
-285,Quận 10,10,5,2,1,Đông Bắc,2014,9.8,5.7,Sổ đỏ,88.69,139.7,0,1,Đơn lập,Sông,Trung bình,12
-485,Quận 3,11,5,5,1,Tây,2013,16.6,2.9,Sổ hồng,240.74,0.0,1,0,Hàng kề,Không view,Cao cấp,13
-330,Quận 12,1,3,2,1,Bắc,2006,18.4,10.8,Sổ đỏ,24.55,0.0,0,1,Song lập,Không view,Cao cấp,20
-401,Bình Thạnh,17,6,5,1,Nam,2016,8.4,9.2,Sổ hồng,64.86,0.0,1,0,Hàng kề,Sông,Thô,10
-401,Quận 3,13,3,2,1,Đông,2007,19.9,5.6,Sổ hồng,202.45,0.0,1,1,Hàng kề,Nội khu,Trung bình,19
-229,Quận 10,7,4,2,2,Tây Nam,2024,15.6,5.4,Sổ hồng,78.12,55.1,1,1,Đơn lập,Sông,Cao cấp,2
-239,Quận 3,12,5,4,2,Tây Bắc,2016,17.0,8.6,Sổ hồng,155.09,100.0,1,1,Đơn lập,Không view,Cao cấp,10
-207,Phú Nhuận,15,3,5,1,Đông Nam,2012,19.8,7.7,Sổ hồng,73.69,0.0,0,1,Đơn lập,Sông,Trung bình,14
-474,Phú Nhuận,12,5,2,2,Đông,2011,18.8,3.0,Đang chờ sổ,111.65,0.0,0,1,Song lập,Không view,Thô,15
-315,Thủ Đức,Trường Thọ,5,4,1,Đông Tây,2006,9.5,5.2,Sổ hồng,48.9,0.0,0,1,Đơn lập,Không view,Trung bình,20
-402,Quận 3,10,6,2,1,Đông Tây,2019,8.6,8.2,Sổ hồng,159.82,53.5,0,1,Hàng kề,Không view,Trung bình,7
-383,Nhà Bè,2,6,4,1,Tây Nam,2018,10.4,15.7,Đang chờ sổ,27.93,147.9,0,1,Song lập,Không view,Trung bình,8
-200,Quận 3,10,5,2,2,Đông Nam,2025,13.4,3.3,Sổ hồng,107.62,0.0,0,1,Hàng kề,Nội khu,Cao cấp,1
-208,Quận 7,Tân Mỹ,6,5,2,Đông,2014,18.3,7.1,Sổ hồng,52.98,97.5,1,1,Đơn lập,Thành phố,Trung bình,12
-255,Thủ Đức,Linh Tây,3,2,1,Đông Nam,2008,14.2,11.2,Sổ hồng,43.17,0.0,1,0,Hàng kề,Nội khu,Cao cấp,18
-404,Quận 4,Tân Thuận Đông,6,5,2,Tây,2014,15.4,4.3,Đang chờ sổ,116.32,186.7,0,1,Song lập,Thành phố,Trung bình,12
-224,Bình Chánh,9,3,4,2,Nam,2010,10.3,10.1,Sổ hồng,12.2,43.2,0,1,Đơn lập,Không view,Trung bình,16
-325,Tân Bình,14,4,3,1,Nam,2017,17.0,5.6,Sổ hồng,71.42,0.0,1,1,Song lập,Thành phố,Cao cấp,9
-427,Thủ Đức,Linh Chiểu,4,4,1,Bắc,2019,16.7,7.1,Sổ đỏ,66.5,146.2,0,0,Hàng kề,Không view,Thô,7
-350,Gò Vấp,16,3,5,1,Đông Nam,2011,13.8,5.4,Sổ hồng,90.24,181.2,0,1,Đơn lập,Không view,Cao cấp,15
-183,Phú Nhuận,17,6,2,2,Đông Tây,2023,18.1,4.8,Sổ hồng,63.47,57.7,0,1,Hàng kề,Nội khu,Cao cấp,3
-399,Thủ Đức,Linh Trung,5,5,2,Tây,2009,12.8,6.3,Giấy tờ tay,61.21,51.3,1,0,Hàng kề,Thành phố,Cao cấp,17
-225,Thủ Đức,Bình Chiểu,5,2,2,Đông,2017,16.3,10.7,Đang chờ sổ,32.93,176.2,0,1,Hàng kề,Nội khu,Trung bình,9
-445,Quận 12,8,3,3,1,Tây Bắc,2010,13.9,12.4,Đang chờ sổ,49.04,96.4,1,1,Hàng kề,Sông,Cao cấp,16
-396,Quận 1,Đa Kao,6,4,1,Đông Bắc,2010,8.1,0.6,Sổ đỏ,220.67,157.1,0,1,Đơn lập,Thành phố,Trung bình,16
-248,Quận 4,Bình Thuận,5,2,1,Đông,2019,8.1,1.6,Sổ hồng,56.48,93.8,0,1,Hàng kề,Thành phố,Trung bình,7
-343,Quận 7,Tân Phú,3,2,2,Đông Tây,2011,17.1,5.0,Sổ hồng,69.2,120.8,1,1,Song lập,Không view,Trung bình,15
-315,Tân Bình,7,4,4,1,Đông Nam,2012,17.0,5.5,Sổ hồng,64.58,89.8,0,1,Song lập,Không view,Trung bình,14
-297,Bình Thạnh,15,3,5,1,Nam,2006,9.9,7.0,Sổ đỏ,72.9,86.0,1,1,Song lập,Không view,Trung bình,20
-454,Quận 7,Tân Hưng,5,5,2,Tây Bắc,2025,13.1,6.9,Sổ đỏ,138.67,0.0,0,1,Đơn lập,Không view,Trung bình,1
-389,Tân Phú,9,6,2,2,Tây,2020,9.9,9.1,Sổ hồng,46.77,197.3,0,1,Hàng kề,Nội khu,Thô,6
-439,Quận 5,11,4,2,2,Tây Bắc,2012,16.7,5.4,Sổ hồng,75.44,31.6,0,1,Song lập,Nội khu,Trung bình,14
-463,Bình Thạnh,15,5,2,2,Bắc,2006,13.1,8.6,Sổ hồng,117.17,75.5,0,1,Hàng kề,Không view,Cao cấp,20
-190,Tân Bình,3,5,2,1,Tây Bắc,2014,8.8,6.2,Giấy tờ tay,46.03,187.0,1,1,Đơn lập,Thành phố,Cao cấp,12
-492,Tân Bình,11,6,3,2,Đông,2025,9.4,9.4,Sổ hồng,122.12,138.9,1,1,Hàng kề,Thành phố,Trung bình,1
-464,Bình Tân,3,6,5,2,Đông,2016,16.6,10.7,Sổ hồng,68.58,0.0,1,1,Đơn lập,Thành phố,Trung bình,10
-203,Phú Nhuận,12,6,3,1,Đông Tây,2023,12.8,3.5,Sổ hồng,65.71,195.4,1,1,Hàng kề,Không view,Trung bình,3
-287,Quận 1,Nguyễn Cư Trinh,3,4,2,Đông,2021,19.9,7.4,Sổ hồng,140.29,0.0,0,1,Đơn lập,Nội khu,Thô,5
-292,Quận 7,Tân Quy,3,3,1,Tây Bắc,2008,14.9,12.3,Sổ đỏ,75.64,80.6,1,1,Hàng kề,Nội khu,Trung bình,18
-188,Quận 3,Võ Thị Sáu,3,4,1,Nam,2017,9.6,2.2,Sổ đỏ,77.26,109.7,1,1,Đơn lập,Nội khu,Trung bình,9
-326,Tân Bình,8,6,4,2,Bắc,2015,17.4,4.7,Sổ đỏ,88.31,114.2,1,1,Song lập,Không view,Cao cấp,11
-212,Bình Chánh,8,5,4,1,Tây Nam,2008,15.6,19.3,Đang chờ sổ,11.45,0.0,1,1,Song lập,Sông,Cao cấp,18
-445,Nhà Bè,7,6,3,2,Đông Tây,2012,11.3,14.4,Sổ đỏ,31.42,0.0,0,1,Hàng kề,Sông,Cao cấp,14
-456,Quận 3,Võ Thị Sáu,4,4,1,Đông Nam,2024,11.5,9.5,Sổ hồng,200.01,188.1,1,1,Song lập,Nội khu,Trung bình,2
-490,Thủ Đức,Linh Tây,6,2,1,Nam,2025,15.6,5.8,Sổ đỏ,79.8,126.1,0,1,Đơn lập,Không view,Thô,1
-319,Quận 3,14,3,4,2,Tây,2007,8.3,3.1,Sổ hồng,155.04,0.0,1,1,Đơn lập,Sông,Trung bình,19
-447,Bình Chánh,1,3,3,1,Nam,2025,13.4,18.3,Sổ hồng,25.19,136.2,0,1,Song lập,Không view,Cao cấp,1
-347,Bình Tân,14,6,5,1,Tây,2023,17.2,7.1,Sổ hồng,61.71,78.6,1,0,Đơn lập,Không view,Trung bình,3
-344,Gò Vấp,17,3,5,2,Tây,2008,19.4,9.3,Sổ hồng,49.93,131.5,0,1,Song lập,Không view,Thô,18
-302,Quận 7,Tân Phú,6,5,1,Nam,2019,13.4,11.3,Sổ hồng,72.16,75.4,0,1,Hàng kề,Nội khu,Cao cấp,7
-255,Bình Chánh,9,3,3,1,Đông Nam,2022,18.1,16.1,Sổ đỏ,13.26,0.0,0,1,Song lập,Thành phố,Cao cấp,4
-180,Quận 10,15,6,4,2,Đông Bắc,2005,8.8,6.5,Sổ hồng,59.29,0.0,1,1,Hàng kề,Không view,Cao cấp,21
-369,Quận 1,Bến Thành,5,2,2,Đông Nam,2019,12.7,6.0,Sổ hồng,236.12,0.0,1,0,Song lập,Nội khu,Trung bình,7
-443,Bình Thạnh,9,5,3,2,Nam,2013,17.1,5.5,Sổ đỏ,95.93,0.0,1,1,Đơn lập,Không view,Trung bình,13
-305,Quận 12,9,6,4,2,Tây,2016,8.8,10.7,Sổ hồng,32.36,31.1,1,1,Đơn lập,Sông,Trung bình,10
-375,Quận 1,Bến Nghé,6,3,2,Đông Tây,2014,9.3,7.6,Sổ đỏ,198.71,133.8,0,1,Đơn lập,Không view,Cao cấp,12
-159,Quận 4,Bình Thuận,3,4,2,Đông Nam,2006,11.7,5.9,Đang chờ sổ,29.18,30.4,0,0,Đơn lập,Không view,Trung bình,20
-229,Quận 4,Tân Hưng,3,4,2,Đông,2015,17.4,9.9,Sổ hồng,65.29,77.9,0,1,Hàng kề,Nội khu,Cao cấp,11
-391,Quận 7,Tân Hưng,6,3,1,Tây Bắc,2016,14.4,4.7,Sổ đỏ,109.41,36.0,1,1,Hàng kề,Nội khu,Trung bình,10
-382,Tân Phú,6,3,5,1,Bắc,2007,8.6,4.5,Giấy tờ tay,70.73,191.1,0,1,Đơn lập,Nội khu,Cao cấp,19
-367,Quận 3,13,6,4,1,Đông Tây,2020,15.8,3.0,Sổ hồng,141.84,188.2,1,1,Đơn lập,Không view,Trung bình,6
-445,Bình Tân,2,4,4,1,Đông Nam,2025,9.8,6.5,Sổ đỏ,66.46,0.0,1,1,Hàng kề,Không view,Trung bình,1
-157,Quận 1,Bến Nghé,5,2,1,Đông Bắc,2007,11.4,-0.2,Sổ hồng,74.83,68.8,0,1,Hàng kề,Nội khu,Cao cấp,19
-239,Quận 7,Tân Phú,3,5,2,Tây Nam,2014,19.1,4.8,Sổ hồng,46.1,61.4,1,1,Hàng kề,Thành phố,Thô,12
-325,Quận 10,13,6,5,1,Đông Bắc,2014,12.9,1.5,Sổ hồng,87.67,100.2,0,1,Hàng kề,Nội khu,Thô,12
-380,Phú Nhuận,1,4,2,2,Nam,2008,19.2,6.6,Sổ hồng,92.17,143.5,0,1,Song lập,Nội khu,Trung bình,18
-309,Thủ Đức,Hiệp Bình Phước,5,4,2,Tây Nam,2014,17.0,6.1,Sổ đỏ,77.43,49.5,1,1,Hàng kề,Thành phố,Cao cấp,12
-327,Quận 4,Tân Hưng,6,4,1,Nam,2020,8.2,2.5,Sổ đỏ,59.85,109.0,0,1,Hàng kề,Nội khu,Cao cấp,6
-328,Quận 3,Phú Nhuận,6,4,2,Đông Nam,2007,17.4,5.7,Giấy tờ tay,117.59,135.4,0,1,Hàng kề,Nội khu,Trung bình,19
-253,Nhà Bè,4,3,3,2,Tây Nam,2018,18.8,13.7,Đang chờ sổ,19.41,0.0,0,1,Đơn lập,Sông,Cao cấp,8
-380,Phú Nhuận,8,6,4,1,Đông Bắc,2023,18.7,2.6,Đang chờ sổ,102.95,55.7,1,1,Song lập,Sông,Trung bình,3
-484,Quận 7,Tân Mỹ,4,3,2,Tây Nam,2005,10.4,10.8,Đang chờ sổ,127.81,130.3,0,1,Đơn lập,Nội khu,Cao cấp,21
-320,Quận 7,Tân Phú,4,3,2,Tây,2024,16.4,4.2,Sổ hồng,94.12,40.0,1,0,Hàng kề,Không view,Trung bình,2
-408,Quận 12,11,5,5,2,Tây,2021,14.7,6.8,Sổ hồng,35.58,58.8,1,1,Hàng kề,Nội khu,Cao cấp,5
-372,Thủ Đức,Hiệp Bình Chánh,5,2,2,Đông Tây,2019,16.1,14.1,Sổ hồng,60.92,0.0,0,0,Đơn lập,Nội khu,Cao cấp,7
-362,Bình Thạnh,1,3,5,2,Tây Bắc,2015,19.9,9.7,Sổ đỏ,78.53,41.1,0,1,Song lập,Không view,Cao cấp,11
-386,Quận 7,Tân Phong,4,2,1,Đông Nam,2017,15.3,5.0,Giấy tờ tay,104.81,155.3,1,1,Đơn lập,Không view,Cao cấp,9
-429,Quận 10,3,6,2,2,Tây,2016,13.4,11.2,Sổ hồng,114.05,194.8,0,1,Đơn lập,Không view,Thô,10
-264,Quận 5,5,5,2,1,Tây Bắc,2009,12.8,5.0,Sổ hồng,48.53,0.0,1,0,Đơn lập,Nội khu,Trung bình,17
-435,Quận 3,Phú Nhuận,5,3,1,Đông,2021,15.0,0.0,Sổ hồng,227.55,75.2,0,1,Đơn lập,Không view,Cao cấp,5
-168,Thủ Đức,Hiệp Bình Phước,6,2,1,Đông Nam,2011,13.4,12.6,Đang chờ sổ,28.4,57.7,1,1,Song lập,Không view,Cao cấp,15
-466,Nhà Bè,6,3,2,2,Đông Tây,2022,12.8,12.3,Sổ hồng,31.61,46.2,0,0,Đơn lập,Nội khu,Cao cấp,4
-423,Quận 3,10,4,3,1,Đông Bắc,2014,12.4,4.6,Sổ hồng,241.71,0.0,1,1,Song lập,Nội khu,Trung bình,12
-491,Quận 4,Tân Kiểng,4,5,1,Tây Nam,2020,9.3,6.0,Sổ đỏ,87.63,64.5,0,1,Song lập,Không view,Thô,6
-492,Quận 1,Nguyễn Thái Bình,4,2,1,Nam,2019,17.6,1.0,Sổ hồng,323.75,56.3,0,1,Hàng kề,Không view,Cao cấp,7
-240,Quận 12,2,5,2,1,Tây Nam,2006,17.5,12.7,Sổ đỏ,20.93,54.4,1,0,Đơn lập,Sông,Thô,20
-293,Tân Phú,13,3,5,2,Đông Bắc,2015,12.5,10.1,Sổ đỏ,52.4,194.2,0,1,Song lập,Nội khu,Cao cấp,11
-349,Quận 3,9,6,5,1,Tây Bắc,2011,17.9,5.7,Sổ đỏ,150.82,101.9,1,1,Song lập,Sông,Thô,15
-320,Bình Chánh,3,3,4,1,Tây Nam,2025,9.6,19.9,Sổ hồng,18.17,0.0,0,1,Hàng kề,Không view,Cao cấp,1
-183,Quận 5,14,6,4,1,Tây Bắc,2008,18.3,2.0,Sổ đỏ,34.69,31.1,1,0,Đơn lập,Sông,Trung bình,18
-428,Quận 4,Tân Thuận Đông,6,4,2,Tây Bắc,2023,13.5,2.7,Sổ hồng,118.65,86.7,1,0,Song lập,Không view,Cao cấp,3
-218,Bình Chánh,2,4,5,2,Đông Tây,2011,14.9,16.3,Sổ đỏ,9.6,0.0,0,1,Đơn lập,Nội khu,Thô,15
-172,Phú Nhuận,15,3,2,1,Tây,2007,16.7,2.2,Sổ hồng,47.04,96.8,1,1,Song lập,Sông,Cao cấp,19
-382,Quận 3,Phú Nhuận,4,4,1,Đông,2006,18.4,0.5,Sổ hồng,216.56,161.4,1,1,Hàng kề,Thành phố,Cao cấp,20
-377,Quận 10,3,4,2,1,Tây Nam,2024,15.4,6.7,Sổ hồng,149.49,157.1,0,0,Song lập,Không view,Cao cấp,2
-287,Bình Thạnh,6,4,4,2,Bắc,2022,17.7,4.7,Đang chờ sổ,65.15,122.4,0,1,Hàng kề,Nội khu,Thô,4
-351,Quận 3,12,6,4,2,Đông Tây,2016,9.1,8.2,Đang chờ sổ,181.74,62.7,0,1,Song lập,Thành phố,Cao cấp,10
-186,Gò Vấp,16,4,5,1,Tây Nam,2012,19.4,9.1,Sổ hồng,37.87,0.0,1,1,Hàng kề,Thành phố,Trung bình,14
-153,Thủ Đức,Bình Chiểu,4,5,2,Tây Bắc,2020,10.8,11.3,Sổ hồng,29.0,0.0,1,1,Đơn lập,Không view,Cao cấp,6
-193,Tân Bình,9,4,4,2,Bắc,2007,14.7,2.2,Sổ hồng,42.86,133.5,0,1,Hàng kề,Không view,Trung bình,19
-443,Phú Nhuận,9,6,3,1,Đông Bắc,2009,18.9,9.0,Sổ hồng,132.16,88.2,0,1,Đơn lập,Thành phố,Cao cấp,17
-266,Thủ Đức,Trường Thọ,6,5,2,Tây Bắc,2012,14.1,6.1,Sổ hồng,58.65,0.0,0,1,Đơn lập,Không view,Cao cấp,14
-320,Phú Nhuận,10,5,3,2,Bắc,2015,14.8,3.7,Sổ hồng,79.49,0.0,0,0,Song lập,Nội khu,Cao cấp,11
-390,Tân Phú,3,3,5,2,Nam,2012,13.1,12.5,Sổ hồng,66.29,59.2,1,1,Đơn lập,Không view,Cao cấp,14
-349,Phú Nhuận,1,5,5,2,Đông Bắc,2012,9.8,9.4,Giấy tờ tay,84.63,59.0,0,1,Đơn lập,Nội khu,Trung bình,14
-340,Gò Vấp,12,5,5,1,Đông,2024,12.9,7.6,Sổ hồng,71.61,32.4,0,1,Hàng kề,Không view,Cao cấp,2
-414,Nhà Bè,6,4,4,1,Đông Nam,2019,16.0,12.0,Sổ hồng,29.22,0.0,0,0,Song lập,Nội khu,Trung bình,7
-320,Quận 12,12,4,4,2,Tây Bắc,2023,17.2,13.1,Sổ hồng,28.38,164.5,0,1,Hàng kề,Nội khu,Thô,3
-490,Tân Phú,13,4,4,2,Nam,2009,17.0,12.8,Sổ hồng,60.44,0.0,0,0,Hàng kề,Nội khu,Trung bình,17
-186,Tân Phú,6,4,3,1,Nam,2014,10.0,6.1,Đang chờ sổ,33.05,0.0,0,1,Đơn lập,Không view,Trung bình,12
-499,Quận 1,Bến Thành,6,5,2,Nam,2007,8.0,1.6,Sổ hồng,247.32,76.7,0,1,Song lập,Nội khu,Trung bình,19
-444,Quận 1,Nguyễn Cư Trinh,6,3,2,Tây Nam,2025,19.5,6.9,Sổ hồng,291.97,0.0,0,1,Song lập,Nội khu,Cao cấp,1
-237,Thủ Đức,Linh Chiểu,3,4,2,Bắc,2011,12.4,12.3,Sổ đỏ,50.47,0.0,1,1,Đơn lập,Nội khu,Trung bình,15
-209,Quận 5,9,6,3,1,Tây,2016,17.9,9.6,Giấy tờ tay,47.08,198.8,0,1,Đơn lập,Nội khu,Thô,10
-169,Quận 10,3,6,4,1,Bắc,2010,9.3,3.6,Sổ đỏ,45.32,104.3,0,0,Hàng kề,Không view,Trung bình,16
-162,Phú Nhuận,3,5,5,1,Đông,2013,11.2,4.8,Sổ hồng,39.74,48.4,1,1,Hàng kề,Nội khu,Cao cấp,13
-323,Quận 3,9,4,4,1,Tây Bắc,2025,8.4,7.4,Sổ hồng,149.96,0.0,0,1,Đơn lập,Không view,Thô,1
-329,Bình Tân,10,3,2,1,Tây,2019,19.6,9.0,Sổ hồng,43.76,40.7,0,1,Song lập,Thành phố,Trung bình,7
-374,Tân Bình,5,4,5,2,Bắc,2005,18.8,10.7,Đang chờ sổ,67.98,0.0,0,1,Song lập,Nội khu,Thô,21
-159,Phú Nhuận,10,3,5,2,Đông,2021,14.8,4.2,Đang chờ sổ,57.33,166.5,1,1,Hàng kề,Sông,Trung bình,5
-408,Quận 12,6,6,5,1,Đông Nam,2015,18.2,7.0,Sổ hồng,30.73,158.3,0,1,Hàng kề,Thành phố,Trung bình,11
-445,Phú Nhuận,11,5,4,2,Đông Bắc,2014,9.0,8.9,Sổ hồng,89.18,186.6,1,1,Song lập,Không view,Thô,12
-463,Thủ Đức,Bình Chiểu,5,5,1,Tây Bắc,2016,11.8,11.0,Sổ hồng,93.42,0.0,0,1,Hàng kề,Sông,Trung bình,10
-232,Quận 4,Tân Thuận Tây,6,4,2,Tây Bắc,2006,11.2,3.2,Giấy tờ tay,50.7,154.9,1,1,Đơn lập,Không view,Thô,20
-264,Quận 1,Nguyễn Cư Trinh,6,5,1,Bắc,2022,10.6,0.0,Sổ hồng,208.3,190.6,0,1,Đơn lập,Sông,Cao cấp,4
-260,Quận 7,Tân Mỹ,5,4,2,Đông,2013,8.1,10.4,Sổ hồng,65.83,0.0,1,0,Hàng kề,Sông,Trung bình,13
-363,Tân Bình,5,4,2,2,Đông,2013,15.4,10.4,Sổ đỏ,75.25,185.4,0,0,Hàng kề,Nội khu,Trung bình,13
-383,Gò Vấp,12,4,5,1,Tây,2008,16.9,8.3,Sổ hồng,79.68,47.0,1,1,Hàng kề,Nội khu,Trung bình,18
-197,Quận 12,6,3,3,2,Đông,2007,19.5,12.3,Sổ hồng,12.21,0.0,0,1,Hàng kề,Nội khu,Cao cấp,19
-221,Tân Phú,9,4,5,2,Đông Nam,2006,15.4,9.7,Sổ hồng,32.72,147.2,0,1,Song lập,Không view,Cao cấp,20
-231,Quận 3,10,3,4,2,Đông,2018,8.8,3.8,Giấy tờ tay,94.75,102.7,0,1,Song lập,Nội khu,Cao cấp,8
-462,Quận 12,1,6,2,2,Nam,2005,17.0,6.9,Đang chờ sổ,38.94,0.0,1,0,Đơn lập,Nội khu,Cao cấp,21
-240,Tân Bình,7,5,5,1,Đông Bắc,2008,19.2,8.4,Sổ hồng,61.95,0.0,1,1,Song lập,Thành phố,Trung bình,18
-432,Tân Bình,14,4,5,2,Đông Tây,2007,8.6,7.3,Sổ hồng,76.2,38.8,0,1,Song lập,Không view,Trung bình,19
-217,Quận 3,13,4,4,1,Tây,2019,18.8,8.8,Giấy tờ tay,137.13,137.5,1,1,Đơn lập,Sông,Cao cấp,7
-427,Tân Bình,5,6,3,2,Tây Nam,2013,10.5,7.7,Sổ hồng,130.08,0.0,1,1,Đơn lập,Sông,Cao cấp,13
-431,Thủ Đức,Bình Chiểu,3,5,1,Đông,2025,9.8,8.7,Sổ đỏ,84.81,139.6,1,1,Song lập,Nội khu,Trung bình,1
-427,Thủ Đức,Hiệp Bình Phước,6,2,2,Đông Nam,2006,14.9,7.2,Sổ hồng,95.59,127.3,1,1,Song lập,Không view,Cao cấp,20
-220,Quận 3,12,5,3,2,Tây Bắc,2009,8.2,-0.2,Sổ hồng,103.41,0.0,0,0,Đơn lập,Nội khu,Trung bình,17
-231,Quận 5,5,5,3,2,Đông Nam,2008,17.8,1.9,Sổ đỏ,34.04,0.0,0,0,Đơn lập,Không view,Thô,18
-186,Bình Chánh,3,5,5,1,Đông Nam,2024,15.5,17.7,Sổ hồng,10.52,187.1,0,0,Song lập,Không view,Trung bình,2
-373,Quận 1,Tân Định,3,3,2,Đông Bắc,2011,11.6,6.0,Đang chờ sổ,223.89,190.7,0,1,Đơn lập,Thành phố,Cao cấp,15
-364,Bình Chánh,2,4,3,2,Tây Bắc,2017,17.3,19.8,Sổ đỏ,18.66,0.0,1,1,Song lập,Sông,Cao cấp,9
-161,Quận 1,Tân Định,4,5,2,Đông Tây,2017,16.1,6.4,Sổ hồng,83.32,117.9,0,0,Hàng kề,Không view,Trung bình,9
-494,Quận 5,15,3,5,2,Bắc,2024,10.8,3.2,Sổ đỏ,116.14,47.6,1,1,Đơn lập,Nội khu,Trung bình,2
-199,Thủ Đức,Linh Đông,4,3,2,Tây,2014,19.1,12.7,Đang chờ sổ,43.3,141.3,1,1,Song lập,Không view,Trung bình,12
-460,Bình Chánh,11,5,5,2,Nam,2010,16.8,10.1,Sổ hồng,19.94,79.1,0,1,Song lập,Không view,Trung bình,16
-171,Phú Nhuận,10,6,3,2,Đông Bắc,2025,10.2,6.0,Sổ đỏ,51.69,66.1,1,0,Hàng kề,Thành phố,Trung bình,1
-458,Quận 7,Tân Hưng,6,4,1,Tây Bắc,2014,16.7,12.2,Sổ hồng,121.92,0.0,0,1,Song lập,Sông,Trung bình,12
-456,Quận 1,Nguyễn Cư Trinh,6,5,1,Nam,2012,11.0,2.7,Sổ đỏ,274.38,32.6,0,1,Hàng kề,Sông,Cao cấp,14
-311,Phú Nhuận,6,5,5,1,Đông,2023,16.6,6.9,Giấy tờ tay,104.65,0.0,0,1,Song lập,Không view,Cao cấp,3
-309,Quận 12,7,6,3,1,Tây Bắc,2020,10.4,13.0,Sổ hồng,18.25,0.0,0,1,Hàng kề,Không view,Trung bình,6
-266,Quận 1,Nguyễn Thái Bình,4,3,1,Đông Tây,2018,10.2,7.2,Sổ hồng,129.39,37.8,0,1,Đơn lập,Nội khu,Thô,8
-169,Gò Vấp,12,3,4,2,Đông Bắc,2016,9.3,7.9,Sổ đỏ,30.35,53.3,0,1,Đơn lập,Không view,Trung bình,10
-327,Gò Vấp,3,6,5,1,Đông Tây,2018,17.8,7.6,Đang chờ sổ,63.96,0.0,1,1,Song lập,Không view,Thô,8
-349,Quận 12,12,3,2,1,Đông Bắc,2012,14.4,8.3,Sổ hồng,36.42,0.0,1,1,Đơn lập,Nội khu,Cao cấp,14
-440,Quận 5,12,6,2,1,Tây Bắc,2012,19.0,6.6,Sổ đỏ,91.63,168.6,1,1,Hàng kề,Không view,Trung bình,14
-348,Bình Tân,4,6,5,2,Đông Nam,2013,15.8,5.2,Giấy tờ tay,48.3,39.9,0,1,Đơn lập,Không view,Trung bình,13
-152,Tân Bình,6,6,5,1,Nam,2018,8.1,6.5,Sổ đỏ,40.42,0.0,0,1,Đơn lập,Nội khu,Cao cấp,8
-432,Bình Tân,14,6,2,1,Bắc,2014,18.7,9.7,Giấy tờ tay,61.97,182.1,1,1,Đơn lập,Nội khu,Cao cấp,12
-365,Quận 7,Tân Kiểng,5,2,1,Tây,2021,13.3,4.4,Sổ hồng,77.46,0.0,0,1,Hàng kề,Không view,Trung bình,5
-367,Bình Thạnh,5,3,3,2,Tây,2011,9.8,2.3,Sổ hồng,71.1,122.2,1,1,Hàng kề,Không view,Trung bình,15
-321,Bình Chánh,8,3,2,2,Tây Bắc,2010,17.2,11.1,Sổ đỏ,15.74,125.5,0,0,Song lập,Không view,Cao cấp,16
-286,Bình Thạnh,1,6,2,1,Đông,2007,8.5,9.3,Sổ hồng,64.02,93.5,1,1,Song lập,Sông,Trung bình,19
-364,Bình Thạnh,3,4,3,2,Đông,2024,17.3,9.2,Sổ hồng,102.59,161.0,1,1,Đơn lập,Không view,Trung bình,2
-304,Bình Thạnh,5,4,2,1,Tây Nam,2022,9.1,1.3,Sổ hồng,78.72,162.5,1,1,Hàng kề,Không view,Cao cấp,4
-320,Quận 1,Cầu Ông Lãnh,4,5,1,Đông Nam,2008,16.5,1.2,Sổ đỏ,178.41,58.9,1,0,Đơn lập,Thành phố,Cao cấp,18
-175,Phú Nhuận,13,5,5,2,Tây,2012,17.6,7.9,Sổ đỏ,41.75,173.0,1,1,Song lập,Nội khu,Thô,14
-475,Thủ Đức,Linh Đông,6,4,2,Đông Bắc,2020,18.3,9.7,Giấy tờ tay,78.46,0.0,1,1,Đơn lập,Không view,Thô,6
-409,Quận 5,13,6,2,1,Đông Bắc,2007,11.6,5.9,Sổ hồng,76.49,192.1,0,1,Đơn lập,Nội khu,Thô,19
-283,Quận 12,10,4,5,1,Đông,2020,18.3,13.6,Sổ đỏ,26.57,0.0,0,1,Song lập,Không view,Trung bình,6
-499,Quận 3,9,3,5,2,Tây,2005,18.4,3.4,Giấy tờ tay,251.49,169.8,1,1,Song lập,Không view,Cao cấp,21
-446,Nhà Bè,4,3,5,2,Đông Tây,2015,18.3,16.0,Giấy tờ tay,33.83,0.0,1,1,Hàng kề,Nội khu,Cao cấp,11
-445,Tân Phú,9,6,3,1,Tây Bắc,2014,8.2,5.2,Sổ đỏ,71.56,136.3,0,1,Song lập,Sông,Cao cấp,12
-261,Bình Tân,10,4,5,2,Tây,2013,10.2,7.2,Sổ đỏ,29.44,165.2,0,0,Hàng kề,Không view,Thô,13
-322,Quận 10,12,5,4,1,Tây Nam,2013,15.8,3.9,Sổ hồng,97.35,0.0,1,1,Hàng kề,Không view,Cao cấp,13
-304,Bình Chánh,8,4,3,1,Nam,2007,9.7,14.9,Sổ hồng,17.65,0.0,1,1,Song lập,Không view,Cao cấp,19
-230,Tân Bình,9,5,4,1,Tây Nam,2010,17.1,7.6,Đang chờ sổ,57.32,106.4,1,1,Hàng kề,Không view,Cao cấp,16
-442,Nhà Bè,2,6,2,2,Đông Tây,2021,11.8,14.3,Sổ hồng,33.38,72.5,0,1,Song lập,Thành phố,Cao cấp,5
-249,Gò Vấp,14,4,4,2,Tây Bắc,2013,18.2,11.9,Sổ hồng,56.92,125.6,1,1,Hàng kề,Không view,Trung bình,13
-436,Quận 1,Tân Định,5,2,2,Tây,2010,11.9,1.0,Sổ hồng,257.39,0.0,0,1,Đơn lập,Nội khu,Cao cấp,16
-242,Bình Tân,2,3,5,2,Nam,2018,18.3,11.5,Sổ đỏ,28.81,135.6,0,1,Song lập,Nội khu,Trung bình,8
-376,Quận 3,10,5,4,2,Đông Tây,2014,11.8,7.0,Sổ hồng,237.0,0.0,0,0,Đơn lập,Nội khu,Cao cấp,12
-279,Gò Vấp,10,5,2,1,Tây Nam,2017,17.6,12.6,Giấy tờ tay,54.86,0.0,0,1,Song lập,Sông,Trung bình,9
-206,Quận 4,Bình Thuận,3,2,1,Tây Bắc,2009,10.4,3.1,Đang chờ sổ,44.96,74.3,1,1,Song lập,Sông,Cao cấp,17
-167,Bình Tân,3,3,2,2,Tây Bắc,2018,18.6,11.9,Giấy tờ tay,24.5,0.0,0,1,Hàng kề,Không view,Cao cấp,8
-421,Quận 3,14,4,3,2,Tây Bắc,2024,16.7,8.5,Sổ hồng,168.49,63.4,1,0,Đơn lập,Thành phố,Thô,2
-332,Thủ Đức,Linh Chiểu,4,2,2,Tây Nam,2018,11.5,13.7,Sổ hồng,54.36,0.0,0,1,Hàng kề,Sông,Trung bình,8
-264,Tân Bình,7,4,2,2,Tây Bắc,2023,11.3,7.8,Sổ hồng,67.06,0.0,0,1,Song lập,Thành phố,Cao cấp,3
-342,Quận 12,4,5,2,1,Đông,2025,14.6,11.2,Đang chờ sổ,27.35,102.3,0,1,Đơn lập,Nội khu,Thô,1
-151,Bình Thạnh,20,5,3,2,Tây Nam,2021,18.1,7.7,Giấy tờ tay,29.27,182.5,0,1,Đơn lập,Thành phố,Thô,5
-450,Quận 7,Tân Kiểng,5,3,1,Tây Bắc,2025,8.4,11.7,Sổ hồng,115.56,182.8,0,1,Song lập,Thành phố,Cao cấp,1
-239,Bình Thạnh,6,3,5,2,Đông Tây,2012,19.1,3.7,Đang chờ sổ,42.18,79.7,1,1,Song lập,Nội khu,Thô,14
-265,Quận 7,Tân Phú,3,2,2,Tây Nam,2020,17.6,5.4,Sổ hồng,56.79,170.9,1,1,Song lập,Thành phố,Trung bình,6
-458,Quận 10,2,4,4,1,Đông,2005,17.5,10.8,Giấy tờ tay,174.19,94.9,1,1,Hàng kề,Không view,Cao cấp,21
-294,Quận 5,12,6,5,1,Đông Nam,2015,13.8,3.7,Sổ hồng,58.6,180.7,1,1,Hàng kề,Không view,Cao cấp,11
-346,Thủ Đức,Linh Tây,6,5,1,Đông,2009,8.7,5.4,Sổ hồng,49.95,67.9,0,1,Hàng kề,Nội khu,Trung bình,17
-376,Quận 1,Nguyễn Thái Bình,4,3,1,Nam,2009,15.0,-1.0,Giấy tờ tay,179.77,133.4,1,0,Hàng kề,Sông,Thô,17
-401,Thủ Đức,Linh Chiểu,3,3,1,Bắc,2019,15.1,9.2,Đang chờ sổ,92.65,165.3,0,1,Đơn lập,Nội khu,Cao cấp,7
-393,Quận 10,3,3,3,1,Nam,2016,14.8,9.0,Sổ hồng,117.91,102.4,1,1,Song lập,Nội khu,Trung bình,10
-480,Nhà Bè,2,3,2,2,Tây Bắc,2023,9.3,8.3,Sổ hồng,26.69,0.0,1,1,Đơn lập,Nội khu,Thô,3
-471,Quận 7,Tân Quy,5,4,2,Tây Bắc,2019,12.5,9.5,Sổ đỏ,133.49,177.4,1,1,Hàng kề,Sông,Thô,7
-437,Tân Bình,11,5,4,2,Đông Tây,2020,8.0,11.5,Sổ hồng,83.66,0.0,0,1,Hàng kề,Sông,Trung bình,6
-309,Quận 3,9,5,2,1,Đông,2021,15.5,2.4,Sổ hồng,113.99,0.0,0,1,Song lập,Nội khu,Trung bình,5
-390,Quận 7,Tân Phong,5,4,1,Nam,2018,16.2,8.6,Sổ hồng,88.45,118.5,1,1,Đơn lập,Nội khu,Trung bình,8
-445,Bình Tân,4,6,5,1,Tây,2009,11.7,8.1,Sổ hồng,63.06,0.0,1,1,Song lập,Không view,Trung bình,17
-196,Phú Nhuận,6,4,5,2,Tây Bắc,2020,16.6,4.8,Sổ hồng,65.62,99.8,1,1,Hàng kề,Sông,Trung bình,6
-414,Quận 3,14,5,2,2,Tây Nam,2022,11.8,5.6,Sổ hồng,175.44,0.0,0,1,Hàng kề,Nội khu,Thô,4
-392,Bình Tân,5,5,5,1,Nam,2023,17.9,10.3,Sổ hồng,50.88,58.1,0,1,Hàng kề,Không view,Trung bình,3
-227,Tân Phú,5,3,4,1,Tây Bắc,2024,11.6,13.2,Sổ hồng,34.88,104.5,0,0,Hàng kề,Không view,Cao cấp,2
-477,Bình Chánh,4,6,3,1,Đông Bắc,2020,9.2,19.8,Sổ hồng,21.16,196.1,0,1,Hàng kề,Không view,Cao cấp,6
-364,Phú Nhuận,11,5,2,2,Đông Nam,2005,18.3,10.0,Sổ hồng,113.71,142.5,0,0,Song lập,Nội khu,Cao cấp,21
-271,Bình Tân,12,6,5,2,Tây,2005,14.7,11.6,Sổ đỏ,46.9,60.6,0,1,Song lập,Nội khu,Cao cấp,21
-375,Phú Nhuận,9,4,5,1,Đông Tây,2010,8.8,3.2,Sổ hồng,113.73,0.0,1,1,Song lập,Thành phố,Cao cấp,16
-485,Thủ Đức,Hiệp Bình Chánh,5,2,2,Tây Nam,2021,13.5,5.7,Đang chờ sổ,84.5,97.1,1,1,Song lập,Thành phố,Trung bình,5
-408,Quận 7,Tân Phong,4,3,2,Đông,2019,18.7,4.9,Sổ hồng,104.75,37.7,0,1,Hàng kề,Không view,Trung bình,7
-432,Thủ Đức,Tam Phú,5,5,1,Đông,2014,10.4,11.2,Sổ hồng,102.43,0.0,1,1,Song lập,Nội khu,Cao cấp,12
-309,Quận 7,Tân Phong,5,2,2,Tây Nam,2012,15.4,11.8,Sổ đỏ,80.29,165.9,1,0,Song lập,Sông,Trung bình,14
-393,Bình Chánh,2,6,4,2,Tây Nam,2005,9.0,13.3,Sổ hồng,23.3,198.7,0,1,Đơn lập,Không view,Trung bình,21
-205,Bình Tân,7,3,2,2,Bắc,2025,12.5,8.1,Đang chờ sổ,38.23,46.4,0,1,Song lập,Không view,Cao cấp,1
-487,Gò Vấp,16,5,4,1,Đông Bắc,2024,15.7,3.3,Sổ hồng,75.92,170.1,0,1,Hàng kề,Sông,Thô,2
-490,Gò Vấp,17,4,4,2,Tây,2021,17.9,4.8,Sổ hồng,101.84,53.4,1,0,Hàng kề,Không view,Cao cấp,5
-299,Quận 10,7,6,5,2,Tây Nam,2023,15.7,2.1,Giấy tờ tay,109.99,56.0,0,1,Hàng kề,Sông,Trung bình,3
-478,Tân Phú,5,5,3,1,Đông Nam,2008,15.6,4.3,Đang chờ sổ,64.65,30.4,0,1,Hàng kề,Thành phố,Trung bình,18
-231,Thủ Đức,Hiệp Bình Phước,3,2,2,Đông,2022,11.0,10.7,Sổ hồng,39.3,68.3,0,0,Hàng kề,Không view,Cao cấp,4
-376,Tân Bình,5,5,4,2,Tây Nam,2012,17.6,4.4,Sổ hồng,89.07,80.6,0,1,Song lập,Nội khu,Trung bình,14
-492,Quận 1,Nguyễn Thái Bình,5,2,2,Nam,2010,9.0,-0.5,Sổ đỏ,253.62,41.0,0,1,Hàng kề,Sông,Trung bình,16
-478,Nhà Bè,7,4,3,2,Đông Tây,2014,15.9,10.3,Sổ hồng,35.84,193.1,0,1,Song lập,Không view,Cao cấp,12
-334,Quận 4,Tân Thuận Đông,5,2,2,Đông,2023,16.5,1.8,Sổ đỏ,68.33,0.0,0,0,Hàng kề,Không view,Thô,3
-282,Bình Chánh,8,6,5,1,Tây Bắc,2011,11.1,12.3,Sổ hồng,15.0,42.9,0,1,Đơn lập,Thành phố,Trung bình,15
-465,Quận 7,Tân Phú,5,5,1,Tây Bắc,2011,19.8,7.2,Đang chờ sổ,124.21,0.0,0,1,Song lập,Nội khu,Cao cấp,15
-161,Quận 7,Tân Hưng,6,3,1,Nam,2022,11.4,3.4,Sổ hồng,37.57,84.4,0,1,Đơn lập,Nội khu,Cao cấp,4
-393,Thủ Đức,Linh Trung,3,5,1,Tây Bắc,2024,11.8,11.5,Sổ hồng,66.13,195.7,1,1,Hàng kề,Nội khu,Cao cấp,2
-462,Nhà Bè,5,5,4,1,Đông,2011,12.4,10.5,Sổ hồng,20.41,177.8,0,0,Song lập,Không view,Thô,15
-498,Quận 3,Phú Nhuận,6,5,1,Đông Bắc,2016,19.4,1.4,Sổ đỏ,288.95,0.0,0,1,Song lập,Nội khu,Cao cấp,10
-371,Quận 3,9,4,5,2,Đông,2023,10.6,8.9,Sổ hồng,191.29,63.9,0,1,Đơn lập,Sông,Cao cấp,3
-190,Quận 4,Tân Hưng,6,3,2,Đông Nam,2017,18.0,8.9,Đang chờ sổ,45.61,0.0,1,1,Song lập,Sông,Cao cấp,9
-333,Tân Phú,7,4,5,2,Tây Bắc,2021,8.9,4.2,Đang chờ sổ,47.65,0.0,0,1,Đơn lập,Không view,Thô,5
-159,Quận 1,Tân Định,4,2,2,Đông Tây,2018,19.4,0.8,Sổ hồng,82.89,0.0,0,1,Song lập,Nội khu,Cao cấp,8
-349,Quận 4,Bình Thuận,5,4,1,Đông Tây,2020,14.8,9.5,Sổ hồng,96.91,30.0,0,1,Đơn lập,Sông,Trung bình,6
-373,Bình Thạnh,13,5,4,2,Nam,2011,14.2,5.3,Sổ hồng,64.12,0.0,0,1,Hàng kề,Sông,Thô,15
-361,Nhà Bè,5,3,3,2,Đông Nam,2015,9.3,13.5,Giấy tờ tay,26.5,0.0,1,1,Đơn lập,Nội khu,Cao cấp,11
-395,Quận 3,13,5,3,1,Đông,2005,9.7,0.4,Giấy tờ tay,146.95,0.0,1,0,Hàng kề,Sông,Thô,21
-491,Quận 3,Võ Thị Sáu,6,2,2,Tây Nam,2025,19.9,6.1,Sổ hồng,208.55,55.3,0,1,Đơn lập,Không view,Thô,1
-386,Thủ Đức,Hiệp Bình Phước,6,3,1,Đông Tây,2011,14.0,7.9,Sổ hồng,56.82,103.0,0,1,Hàng kề,Thành phố,Trung bình,15
-176,Bình Thạnh,1,4,4,2,Đông Bắc,2020,14.2,10.6,Đang chờ sổ,39.58,0.0,0,0,Hàng kề,Sông,Thô,6
-267,Bình Thạnh,2,5,5,1,Tây Nam,2009,15.3,6.0,Sổ hồng,63.03,54.7,1,1,Song lập,Không view,Trung bình,17
-255,Quận 1,Bến Thành,6,2,2,Bắc,2007,14.4,1.2,Sổ hồng,132.63,36.8,0,0,Hàng kề,Nội khu,Cao cấp,19
+218,Nhà Bè,2,3,5,2,Tây Bắc,2011,16.1,14.5,Sổ hồng,36.03,0.0,1,1,Hàng kề,Không view,Trung bình,15
+433,Thủ Đức,Hiệp Bình Chánh,4,5,1,Tây Nam,2008,12.0,9.5,Sổ hồng,64.35,122.1,1,1,Hàng kề,Nội khu,Thô,18
+416,Thủ Đức,Bình Chiểu,5,5,2,Đông,2006,12.5,6.7,Đang chờ sổ,75.38,170.6,0,1,Hàng kề,Không view,Cao cấp,20
+432,Quận 7,Tân Quy,3,3,1,Đông Nam,2011,8.8,12.2,Sổ hồng,116.32,0.0,0,1,Hàng kề,Không view,Trung bình,15
+361,Quận 1,Nguyễn Thái Bình,4,5,2,Tây Nam,2008,19.8,-1.6,Giấy tờ tay,230.55,30.7,0,0,Đơn lập,Nội khu,Cao cấp,18
+201,Thủ Đức,Hiệp Bình Phước,6,2,1,Đông Tây,2011,10.3,10.5,Sổ đỏ,63.66,96.0,0,1,Đơn lập,Không view,Trung bình,15
+474,Gò Vấp,9,6,3,1,Đông,2009,9.3,6.5,Sổ đỏ,105.32,0.0,0,1,Hàng kề,Nội khu,Cao cấp,17
+338,Quận 5,1,6,2,2,Nam,2019,9.7,7.8,Sổ hồng,144.05,112.2,0,1,Song lập,Sông,Cao cấp,7
+274,Quận 5,4,5,3,2,Đông Bắc,2024,19.0,2.1,Sổ hồng,113.38,166.3,0,1,Hàng kề,Nội khu,Cao cấp,2
+180,Tân Phú,9,3,5,1,Nam,2016,8.5,10.5,Sổ hồng,53.67,87.6,1,1,Hàng kề,Không view,Cao cấp,10
+398,Gò Vấp,12,5,4,2,Đông Bắc,2008,14.4,4.1,Sổ đỏ,88.92,76.9,1,1,Song lập,Không view,Trung bình,18
+367,Quận 7,Tân Hưng,5,4,2,Đông Tây,2015,13.8,10.6,Sổ hồng,117.44,34.5,0,1,Đơn lập,Không view,Trung bình,11
+359,Quận 1,Cầu Ông Lãnh,4,2,1,Tây Bắc,2021,14.6,0.9,Sổ hồng,390.62,0.0,1,1,Đơn lập,Sông,Trung bình,5
+220,Tân Bình,15,6,5,1,Đông,2022,14.1,11.4,Sổ hồng,100.82,71.3,1,1,Song lập,Không view,Cao cấp,4
+205,Tân Phú,6,3,2,2,Đông Tây,2014,17.5,11.2,Sổ hồng,52.52,49.7,1,1,Song lập,Nội khu,Trung bình,12
+451,Gò Vấp,12,4,2,1,Nam,2017,15.2,6.3,Sổ đỏ,139.81,53.0,0,0,Đơn lập,Không view,Cao cấp,9
+470,Quận 1,Nguyễn Cư Trinh,5,3,1,Tây Bắc,2005,18.4,3.6,Sổ hồng,405.41,123.3,0,1,Đơn lập,Sông,Trung bình,21
+452,Thủ Đức,Linh Đông,6,5,1,Tây Bắc,2007,16.3,5.7,Giấy tờ tay,82.43,184.2,0,0,Song lập,Thành phố,Trung bình,19
+328,Quận 3,11,5,2,1,Nam,2017,15.4,0.1,Giấy tờ tay,173.95,0.0,1,1,Song lập,Thành phố,Trung bình,9
+299,Bình Chánh,3,6,4,2,Tây,2016,19.8,10.8,Sổ hồng,71.12,84.8,1,1,Đơn lập,Thành phố,Cao cấp,10
+387,Quận 7,Tân Phong,5,5,1,Bắc,2024,16.3,3.0,Sổ hồng,178.5,0.0,0,0,Hàng kề,Sông,Trung bình,2
+285,Quận 1,Nguyễn Thái Bình,4,4,2,Đông,2021,15.4,1.1,Đang chờ sổ,254.74,106.0,0,1,Song lập,Nội khu,Thô,5
+304,Tân Bình,5,4,4,1,Đông Bắc,2023,16.4,8.8,Sổ đỏ,154.6,114.7,0,1,Hàng kề,Không view,Cao cấp,3
+269,Bình Tân,9,4,3,2,Tây Bắc,2013,14.8,10.4,Sổ đỏ,89.61,114.4,0,1,Đơn lập,Không view,Trung bình,13
+414,Bình Chánh,10,6,4,2,Tây,2006,17.2,18.7,Sổ hồng,54.28,116.0,0,1,Đơn lập,Không view,Trung bình,20
+151,Bình Thạnh,11,3,4,2,Nam,2021,10.7,2.5,Sổ hồng,70.83,0.0,0,0,Đơn lập,Nội khu,Trung bình,5
+448,Quận 1,Bến Thành,4,5,2,Đông Tây,2010,14.2,6.0,Sổ hồng,278.81,0.0,0,1,Hàng kề,Nội khu,Thô,16
+425,Tân Phú,6,6,2,1,Đông Tây,2022,11.7,4.9,Sổ hồng,146.84,84.8,1,0,Đơn lập,Không view,Cao cấp,4
+402,Bình Thạnh,12,4,5,2,Đông Bắc,2025,13.8,3.9,Giấy tờ tay,184.21,167.0,1,1,Hàng kề,Không view,Thô,1
+242,Quận 5,6,3,2,2,Tây Bắc,2009,19.2,2.4,Sổ hồng,100.4,68.4,0,1,Song lập,Không view,Trung bình,17
+262,Quận 3,13,4,5,2,Tây Nam,2010,13.4,6.2,Sổ hồng,142.82,0.0,0,1,Đơn lập,Sông,Thô,16
+256,Tân Bình,5,3,4,2,Đông,2009,17.7,4.8,Sổ hồng,97.92,0.0,1,1,Hàng kề,Nội khu,Cao cấp,17
+223,Quận 5,15,6,3,2,Nam,2021,9.0,5.2,Giấy tờ tay,70.46,66.2,0,0,Song lập,Thành phố,Trung bình,5
+187,Quận 10,5,5,5,1,Đông Bắc,2017,11.6,9.4,Giấy tờ tay,82.94,127.2,1,1,Hàng kề,Thành phố,Trung bình,9
+271,Quận 1,Đa Kao,4,5,2,Tây Nam,2012,8.5,-1.1,Sổ hồng,228.63,0.0,0,1,Đơn lập,Sông,Trung bình,14
+495,Tân Bình,6,5,4,1,Đông,2008,12.0,6.4,Sổ đỏ,177.49,0.0,0,0,Hàng kề,Không view,Thô,18
+316,Bình Chánh,7,3,4,2,Đông Tây,2019,13.2,18.0,Đang chờ sổ,52.04,150.6,0,0,Hàng kề,Nội khu,Trung bình,7
+316,Quận 4,Phú Thuận,5,5,2,Tây Bắc,2014,10.5,8.6,Sổ hồng,161.74,151.9,1,0,Đơn lập,Thành phố,Cao cấp,12
+312,Bình Tân,10,4,3,1,Nam,2010,19.1,13.9,Sổ hồng,85.83,72.3,1,1,Song lập,Nội khu,Trung bình,16
+290,Nhà Bè,3,5,4,2,Đông Nam,2021,13.9,8.8,Sổ đỏ,70.48,0.0,1,0,Hàng kề,Thành phố,Trung bình,5
+272,Quận 3,14,5,4,1,Nam,2019,8.3,5.1,Sổ đỏ,123.45,162.3,0,1,Đơn lập,Thành phố,Cao cấp,7
+308,Quận 3,9,5,5,2,Tây Nam,2024,17.6,0.9,Sổ hồng,195.84,103.3,1,1,Đơn lập,Không view,Thô,2
+160,Phú Nhuận,10,5,4,1,Đông Tây,2011,11.9,6.7,Sổ hồng,81.29,100.3,0,1,Song lập,Không view,Cao cấp,15
+451,Thủ Đức,Linh Đông,5,4,2,Đông,2017,19.5,12.3,Sổ đỏ,99.15,78.2,0,1,Song lập,Nội khu,Trung bình,9
+397,Bình Thạnh,14,4,2,1,Đông Nam,2022,16.1,10.5,Sổ hồng,172.77,73.8,0,1,Song lập,Thành phố,Cao cấp,4
+222,Bình Thạnh,1,3,2,2,Tây,2005,13.0,10.1,Sổ đỏ,80.62,195.7,1,0,Hàng kề,Không view,Cao cấp,21
+333,Phú Nhuận,13,6,5,2,Tây Nam,2020,12.8,2.4,Sổ hồng,158.71,0.0,0,1,Song lập,Không view,Thô,6
+205,Tân Phú,5,5,2,1,Đông Bắc,2023,12.6,6.5,Sổ hồng,37.92,142.3,0,1,Hàng kề,Nội khu,Thô,3
+440,Phú Nhuận,13,3,2,1,Tây Bắc,2018,15.0,0.9,Sổ hồng,220.0,88.3,0,1,Đơn lập,Sông,Cao cấp,8
+224,Quận 3,11,6,3,1,Tây Bắc,2006,18.5,3.8,Đang chờ sổ,88.8,0.0,0,1,Song lập,Không view,Thô,20
+195,Quận 7,Bình Thuận,3,4,2,Nam,2024,9.1,4.6,Sổ hồng,77.24,192.2,1,1,Đơn lập,Sông,Cao cấp,2
+488,Phú Nhuận,6,5,3,1,Đông Tây,2014,15.0,4.2,Sổ hồng,196.82,109.3,0,0,Hàng kề,Nội khu,Cao cấp,12
+183,Quận 1,Nguyễn Cư Trinh,6,3,2,Bắc,2007,16.6,6.5,Sổ hồng,148.52,61.3,0,1,Đơn lập,Không view,Cao cấp,19
+298,Quận 1,Bến Thành,5,3,2,Tây Nam,2010,13.4,5.2,Sổ hồng,224.0,83.5,0,1,Hàng kề,Không view,Trung bình,16
+274,Phú Nhuận,4,6,4,1,Đông Tây,2022,12.7,9.0,Sổ hồng,114.03,0.0,0,1,Đơn lập,Không view,Trung bình,4
+267,Quận 5,2,4,2,2,Đông Nam,2024,16.0,5.5,Giấy tờ tay,107.98,0.0,1,0,Song lập,Không view,Thô,2
+191,Tân Bình,4,3,5,2,Nam,2020,18.9,5.9,Sổ đỏ,81.18,59.7,1,1,Song lập,Nội khu,Cao cấp,6
+252,Quận 5,11,5,2,1,Đông Nam,2016,19.1,7.2,Sổ hồng,122.37,47.2,0,0,Đơn lập,Thành phố,Cao cấp,10
+466,Thủ Đức,Bình Chiểu,4,3,2,Tây Nam,2014,11.7,6.0,Sổ đỏ,123.18,0.0,0,1,Đơn lập,Không view,Trung bình,12
+453,Quận 5,9,5,3,2,Tây Bắc,2011,13.8,9.0,Giấy tờ tay,189.68,199.4,1,1,Song lập,Không view,Thô,15
+328,Bình Thạnh,3,3,4,1,Đông,2007,18.3,9.0,Sổ hồng,145.16,35.7,1,1,Đơn lập,Sông,Trung bình,19
+321,Quận 4,Tân Hưng,5,3,1,Đông Nam,2014,15.0,9.1,Sổ hồng,110.89,65.3,0,1,Hàng kề,Nội khu,Trung bình,12
+337,Bình Thạnh,8,5,3,2,Tây Bắc,2009,19.9,8.9,Sổ hồng,143.85,197.6,0,0,Hàng kề,Sông,Trung bình,17
+378,Tân Phú,11,3,5,1,Tây,2006,13.9,10.7,Sổ hồng,76.53,0.0,1,1,Đơn lập,Không view,Cao cấp,20
+187,Tân Phú,13,3,4,1,Tây Bắc,2024,10.3,8.0,Sổ hồng,40.19,90.6,0,1,Song lập,Thành phố,Trung bình,2
+313,Thủ Đức,Hiệp Bình Phước,3,3,1,Tây Bắc,2012,9.8,13.7,Sổ đỏ,52.2,124.6,1,0,Đơn lập,Không view,Trung bình,14
+453,Quận 10,13,4,4,2,Tây Nam,2018,17.9,6.6,Sổ đỏ,208.69,175.3,1,1,Hàng kề,Nội khu,Cao cấp,8
+386,Tân Phú,12,3,5,1,Đông Tây,2014,19.5,13.1,Giấy tờ tay,113.97,168.9,0,1,Song lập,Không view,Trung bình,12
+432,Bình Thạnh,3,5,5,1,Nam,2023,12.9,3.9,Sổ đỏ,153.73,90.4,0,1,Hàng kề,Thành phố,Thô,3
+218,Tân Bình,1,3,3,1,Tây,2006,15.1,6.0,Sổ hồng,60.13,120.6,0,1,Hàng kề,Không view,Cao cấp,20
+270,Tân Bình,3,6,5,1,Tây Nam,2005,17.6,10.2,Sổ hồng,92.59,188.9,0,0,Song lập,Không view,Trung bình,21
+461,Quận 3,11,5,3,1,Đông,2020,18.1,0.5,Đang chờ sổ,297.46,110.6,0,1,Đơn lập,Sông,Trung bình,6
+348,Quận 3,12,3,2,2,Tây Bắc,2012,17.2,4.7,Giấy tờ tay,153.35,41.6,0,1,Hàng kề,Không view,Thô,14
+398,Thủ Đức,Trường Thọ,3,5,2,Tây Bắc,2018,19.7,6.2,Sổ hồng,107.55,54.9,0,1,Đơn lập,Nội khu,Cao cấp,8
+218,Thủ Đức,Hiệp Bình Phước,5,5,1,Đông,2025,11.8,9.7,Giấy tờ tay,70.25,0.0,1,1,Hàng kề,Nội khu,Cao cấp,1
+167,Gò Vấp,9,4,4,1,Tây Nam,2008,17.1,10.8,Sổ đỏ,43.15,0.0,1,1,Song lập,Nội khu,Thô,18
+279,Quận 3,10,5,2,2,Tây Bắc,2009,11.1,4.8,Sổ hồng,137.94,116.8,1,1,Song lập,Thành phố,Trung bình,17
+199,Quận 3,Võ Thị Sáu,3,3,1,Tây Bắc,2011,18.8,3.2,Sổ hồng,168.36,170.9,1,1,Đơn lập,Sông,Cao cấp,15
+310,Quận 1,Tân Định,5,3,1,Đông Nam,2010,8.2,7.7,Sổ đỏ,206.39,119.8,1,1,Song lập,Sông,Thô,16
+223,Quận 7,Bình Thuận,6,4,1,Đông Bắc,2008,10.0,12.9,Sổ hồng,91.58,0.0,1,1,Đơn lập,Nội khu,Trung bình,18
+489,Tân Phú,7,4,3,2,Tây Nam,2023,10.9,6.3,Sổ đỏ,110.13,79.0,0,1,Hàng kề,Không view,Cao cấp,3
+158,Bình Thạnh,16,4,2,2,Đông,2021,8.2,7.2,Sổ hồng,63.84,97.6,0,1,Hàng kề,Nội khu,Trung bình,5
+189,Quận 3,11,3,3,2,Đông Nam,2023,17.2,0.3,Sổ hồng,100.13,0.0,0,1,Song lập,Không view,Trung bình,3
+373,Bình Tân,5,4,4,2,Đông Bắc,2015,14.0,10.7,Giấy tờ tay,94.95,92.2,1,1,Hàng kề,Nội khu,Cao cấp,11
+403,Quận 4,Tân Thuận Đông,4,3,1,Đông,2014,8.0,2.5,Sổ đỏ,165.53,0.0,0,1,Hàng kề,Không view,Cao cấp,12
+347,Quận 3,12,5,5,2,Nam,2005,14.6,2.5,Giấy tờ tay,167.12,91.9,0,1,Hàng kề,Sông,Trung bình,21
+447,Bình Tân,15,5,5,2,Tây Nam,2016,14.1,10.4,Giấy tờ tay,88.89,114.4,0,1,Đơn lập,Không view,Trung bình,10
+309,Quận 10,12,5,3,2,Tây Nam,2025,15.8,4.7,Giấy tờ tay,137.16,48.1,0,0,Đơn lập,Không view,Trung bình,1
+342,Quận 3,10,5,3,2,Đông Tây,2010,19.3,8.5,Sổ hồng,173.44,174.4,1,1,Đơn lập,Thành phố,Trung bình,16
+486,Gò Vấp,4,3,5,1,Đông,2019,10.1,5.0,Sổ hồng,155.52,36.6,1,0,Hàng kề,Thành phố,Cao cấp,7
+194,Tân Phú,7,5,2,2,Đông Nam,2021,18.6,9.2,Sổ hồng,43.15,185.8,0,1,Song lập,Nội khu,Thô,5
+389,Quận 5,14,3,3,1,Tây Bắc,2005,11.4,2.4,Sổ hồng,178.6,43.2,0,0,Đơn lập,Không view,Trung bình,21
+308,Quận 5,5,4,5,2,Tây Bắc,2005,10.9,9.5,Sổ hồng,105.96,98.0,0,1,Hàng kề,Không view,Trung bình,21
+444,Quận 3,10,4,5,1,Đông Tây,2013,10.0,7.4,Sổ hồng,217.84,183.2,0,1,Đơn lập,Nội khu,Trung bình,13
+243,Tân Bình,12,6,4,2,Đông,2021,17.7,8.1,Sổ hồng,72.38,185.7,1,1,Hàng kề,Không view,Trung bình,5
+356,Gò Vấp,6,3,2,1,Đông Nam,2021,11.4,3.4,Sổ hồng,137.05,177.7,1,1,Song lập,Nội khu,Trung bình,5
+496,Bình Thạnh,13,4,2,2,Tây Bắc,2011,14.0,6.1,Sổ hồng,157.25,142.0,0,1,Hàng kề,Không view,Cao cấp,15
+426,Quận 1,Đa Kao,3,3,1,Đông Nam,2006,11.3,1.1,Đang chờ sổ,266.51,0.0,0,0,Hàng kề,Nội khu,Trung bình,20
+155,Phú Nhuận,14,6,3,2,Tây Bắc,2015,10.2,5.3,Giấy tờ tay,69.84,0.0,0,1,Đơn lập,Nội khu,Thô,11
+310,Tân Bình,5,4,3,2,Tây,2015,16.2,11.4,Sổ hồng,147.67,70.2,0,1,Song lập,Không view,Cao cấp,11
+290,Bình Thạnh,6,6,2,2,Đông Nam,2022,18.9,4.0,Sổ đỏ,145.07,0.0,1,0,Đơn lập,Sông,Cao cấp,4
+376,Bình Thạnh,16,4,4,1,Nam,2013,11.6,7.6,Sổ hồng,221.58,0.0,1,1,Hàng kề,Sông,Cao cấp,13
+158,Gò Vấp,11,5,3,2,Đông Tây,2007,11.3,9.6,Sổ hồng,44.84,70.4,0,1,Song lập,Thành phố,Trung bình,19
+427,Tân Bình,14,3,4,2,Bắc,2013,12.4,8.0,Sổ đỏ,124.03,176.2,0,1,Song lập,Nội khu,Thô,13
+244,Bình Thạnh,11,5,4,1,Đông Nam,2006,14.1,8.9,Sổ hồng,106.55,60.6,0,1,Song lập,Không view,Cao cấp,20
+226,Quận 3,Võ Thị Sáu,4,2,1,Tây Bắc,2024,11.9,7.0,Sổ đỏ,116.56,0.0,0,1,Đơn lập,Thành phố,Thô,2
+319,Quận 3,12,4,4,1,Nam,2016,15.6,2.0,Sổ đỏ,226.6,91.8,0,1,Đơn lập,Không view,Cao cấp,10
+344,Phú Nhuận,13,6,2,2,Đông Nam,2021,15.9,2.8,Sổ đỏ,182.48,196.7,1,1,Hàng kề,Thành phố,Cao cấp,5
+320,Quận 3,Phú Nhuận,5,2,1,Nam,2012,12.4,-0.2,Sổ đỏ,171.27,42.0,1,0,Song lập,Nội khu,Trung bình,14
+187,Bình Chánh,1,6,5,1,Tây Nam,2011,9.9,13.3,Sổ đỏ,35.85,186.3,1,1,Hàng kề,Không view,Cao cấp,15
+314,Quận 3,14,6,3,2,Tây Nam,2012,16.0,1.2,Sổ hồng,161.94,161.6,0,1,Song lập,Thành phố,Trung bình,14
+172,Quận 3,Võ Thị Sáu,4,5,2,Tây Bắc,2015,15.2,8.7,Giấy tờ tay,97.92,0.0,0,1,Song lập,Nội khu,Cao cấp,11
+448,Quận 1,Nguyễn Thái Bình,3,2,2,Đông Tây,2011,10.4,-0.1,Giấy tờ tay,426.61,0.0,1,1,Đơn lập,Nội khu,Cao cấp,15
+488,Tân Phú,10,3,4,2,Đông Bắc,2009,13.1,4.7,Giấy tờ tay,104.46,123.4,0,1,Đơn lập,Thành phố,Cao cấp,17
+329,Bình Chánh,4,6,4,1,Bắc,2013,14.0,13.4,Sổ hồng,59.04,197.3,1,1,Đơn lập,Nội khu,Trung bình,13
+275,Bình Thạnh,6,3,5,2,Đông,2013,17.4,10.4,Sổ hồng,127.77,159.0,1,1,Hàng kề,Nội khu,Trung bình,13
+347,Quận 12,3,6,3,2,Đông,2023,17.9,7.6,Sổ hồng,75.33,172.2,1,1,Hàng kề,Không view,Cao cấp,3
+482,Bình Tân,10,3,3,2,Tây Nam,2018,11.7,9.5,Sổ hồng,104.83,104.7,1,0,Hàng kề,Thành phố,Cao cấp,8
+325,Quận 12,12,5,2,1,Đông,2022,18.1,11.6,Sổ hồng,40.03,0.0,1,0,Hàng kề,Nội khu,Thô,4
+493,Quận 1,Bến Thành,4,4,1,Tây,2006,8.0,3.9,Sổ hồng,331.25,198.5,0,1,Song lập,Không view,Trung bình,20
+266,Quận 3,14,5,4,2,Tây Nam,2019,8.6,-0.0,Sổ hồng,132.19,115.7,0,1,Song lập,Sông,Trung bình,7
+405,Quận 1,Nguyễn Thái Bình,5,3,2,Bắc,2017,15.3,-0.8,Sổ đỏ,278.52,0.0,0,1,Đơn lập,Không view,Trung bình,9
+310,Quận 3,9,4,2,2,Đông,2025,19.2,0.2,Sổ hồng,169.25,193.7,0,1,Song lập,Nội khu,Cao cấp,1
+270,Quận 1,Bến Nghé,5,5,1,Đông Nam,2007,13.8,-0.6,Sổ hồng,187.45,70.1,0,0,Song lập,Nội khu,Trung bình,19
+303,Quận 1,Nguyễn Cư Trinh,5,4,1,Tây,2025,11.7,2.6,Sổ đỏ,348.56,64.2,1,0,Song lập,Sông,Cao cấp,1
+498,Quận 12,4,5,3,1,Đông Bắc,2013,10.3,11.9,Sổ hồng,78.13,0.0,1,1,Đơn lập,Không view,Thô,13
+438,Quận 12,8,6,5,1,Bắc,2025,14.9,7.8,Sổ đỏ,89.9,0.0,1,0,Song lập,Thành phố,Cao cấp,1
+326,Quận 5,12,5,4,1,Tây Nam,2014,18.4,8.6,Sổ hồng,154.59,0.0,1,1,Đơn lập,Nội khu,Trung bình,12
+371,Quận 1,Cầu Kho,3,5,2,Nam,2025,11.4,0.5,Sổ hồng,296.95,88.7,1,1,Hàng kề,Nội khu,Cao cấp,1
+272,Quận 12,3,3,3,1,Đông Tây,2008,15.2,10.4,Sổ hồng,45.3,0.0,0,1,Đơn lập,Nội khu,Trung bình,18
+246,Tân Phú,4,6,3,2,Đông,2017,15.0,4.2,Sổ đỏ,64.8,0.0,0,1,Hàng kề,Không view,Trung bình,9
+369,Bình Chánh,10,5,3,1,Tây Nam,2012,17.8,10.8,Sổ hồng,54.01,0.0,0,0,Song lập,Không view,Thô,14
+160,Nhà Bè,8,5,4,1,Tây Nam,2015,11.1,10.2,Giấy tờ tay,25.01,148.4,0,1,Đơn lập,Không view,Cao cấp,11
+224,Bình Chánh,8,5,3,1,Đông Bắc,2025,13.6,14.1,Sổ hồng,60.94,146.9,1,1,Đơn lập,Nội khu,Cao cấp,1
+207,Quận 7,Tân Phú,6,2,2,Đông Bắc,2023,17.3,4.9,Sổ đỏ,90.87,35.3,0,1,Song lập,Nội khu,Trung bình,3
+196,Bình Chánh,3,5,5,2,Nam,2022,19.1,13.6,Sổ hồng,26.34,102.6,0,1,Hàng kề,Thành phố,Thô,4
+436,Tân Phú,3,3,4,1,Tây Bắc,2014,17.9,8.9,Sổ hồng,109.42,127.7,0,1,Hàng kề,Nội khu,Cao cấp,12
+374,Quận 1,Cầu Kho,5,4,1,Đông,2007,16.9,6.1,Sổ đỏ,319.13,118.1,1,1,Đơn lập,Không view,Cao cấp,19
+307,Quận 3,Phú Nhuận,5,4,2,Tây Bắc,2020,8.0,3.2,Giấy tờ tay,170.5,0.0,0,1,Song lập,Không view,Cao cấp,6
+311,Quận 7,Tân Phong,6,3,1,Tây Bắc,2025,11.7,5.5,Sổ hồng,149.8,49.2,0,0,Song lập,Thành phố,Trung bình,1
+338,Quận 1,Nguyễn Cư Trinh,3,3,2,Bắc,2012,19.8,-0.1,Sổ hồng,218.25,105.4,1,1,Song lập,Thành phố,Thô,14
+459,Nhà Bè,1,6,4,1,Đông Nam,2022,14.2,16.4,Sổ đỏ,89.18,133.1,1,1,Hàng kề,Nội khu,Trung bình,4
+490,Quận 5,1,5,4,2,Tây Nam,2007,11.5,4.5,Sổ hồng,175.31,179.4,1,1,Song lập,Sông,Thô,19
+473,Quận 3,10,6,5,1,Tây Nam,2018,9.9,8.3,Sổ hồng,289.96,115.2,0,1,Đơn lập,Không view,Trung bình,8
+284,Thủ Đức,Bình Chiểu,5,3,2,Tây Bắc,2020,19.4,7.9,Sổ hồng,85.61,102.5,0,1,Đơn lập,Nội khu,Trung bình,6
+325,Tân Bình,11,4,5,2,Đông Nam,2006,18.8,7.5,Sổ hồng,148.19,131.7,0,1,Đơn lập,Không view,Cao cấp,20
+304,Quận 4,Tân Thuận Đông,3,5,2,Tây Nam,2025,13.3,6.4,Sổ đỏ,125.68,133.3,0,1,Đơn lập,Nội khu,Trung bình,1
+450,Quận 1,Bến Nghé,3,3,2,Đông Tây,2010,16.5,3.6,Sổ hồng,284.22,0.0,0,1,Song lập,Thành phố,Trung bình,16
+459,Quận 3,14,3,3,2,Đông Tây,2008,11.5,8.6,Sổ đỏ,297.6,156.9,0,1,Song lập,Sông,Cao cấp,18
+273,Quận 12,5,5,4,2,Tây Bắc,2017,18.4,11.5,Sổ hồng,31.72,0.0,1,1,Hàng kề,Nội khu,Thô,9
+297,Tân Bình,13,6,2,2,Đông,2018,17.2,7.5,Sổ hồng,89.87,175.5,0,1,Đơn lập,Không view,Thô,8
+441,Quận 1,Bến Thành,3,5,2,Tây Nam,2016,13.0,6.4,Sổ hồng,484.62,161.3,0,0,Song lập,Sông,Cao cấp,10
+185,Quận 1,Tân Định,5,5,1,Đông,2011,18.7,6.8,Sổ đỏ,119.26,184.1,1,1,Hàng kề,Không view,Thô,15
+487,Gò Vấp,2,5,2,2,Tây,2012,16.6,10.9,Giấy tờ tay,147.03,41.5,1,0,Hàng kề,Không view,Cao cấp,14
+180,Bình Tân,3,4,4,1,Tây,2020,10.9,4.8,Đang chờ sổ,41.6,0.0,0,1,Song lập,Nội khu,Trung bình,6
+205,Tân Phú,8,6,5,1,Tây Bắc,2016,10.7,10.6,Sổ hồng,38.92,0.0,1,0,Hàng kề,Nội khu,Thô,10
+435,Quận 12,12,6,5,2,Đông Nam,2020,16.3,7.1,Sổ đỏ,75.07,118.3,0,1,Song lập,Nội khu,Trung bình,6
+268,Phú Nhuận,14,5,5,2,Tây Bắc,2022,8.8,5.6,Sổ hồng,130.82,151.8,0,1,Đơn lập,Thành phố,Cao cấp,4
+402,Tân Phú,8,3,2,1,Bắc,2015,16.2,8.8,Sổ đỏ,99.52,80.7,1,1,Song lập,Sông,Thô,11
+245,Quận 3,Võ Thị Sáu,4,5,1,Tây Nam,2010,14.8,8.4,Đang chờ sổ,127.7,47.0,0,0,Hàng kề,Sông,Cao cấp,16
+329,Tân Bình,10,4,4,2,Nam,2014,8.4,9.3,Sổ đỏ,100.41,170.5,0,1,Đơn lập,Không view,Cao cấp,12
+188,Quận 3,11,4,4,2,Đông Nam,2008,16.5,2.6,Sổ hồng,115.35,0.0,0,1,Đơn lập,Thành phố,Cao cấp,18
+355,Nhà Bè,8,4,4,2,Đông Bắc,2016,17.3,16.4,Sổ hồng,61.22,171.7,1,1,Hàng kề,Nội khu,Thô,10
+418,Quận 5,1,3,4,2,Đông Tây,2007,14.3,3.6,Sổ hồng,191.67,0.0,0,0,Đơn lập,Nội khu,Cao cấp,19
+209,Tân Bình,8,5,5,2,Đông Bắc,2018,8.6,4.5,Sổ hồng,73.35,75.5,0,1,Song lập,Không view,Thô,8
+281,Quận 3,14,6,5,1,Đông Nam,2010,8.7,3.2,Sổ đỏ,117.21,107.5,0,1,Song lập,Không view,Trung bình,16
+155,Quận 5,13,3,2,2,Đông Nam,2008,16.3,8.7,Sổ hồng,54.11,165.9,1,1,Song lập,Không view,Thô,18
+442,Quận 7,Tân Kiểng,3,2,2,Tây Bắc,2015,14.5,6.4,Sổ đỏ,264.58,37.3,1,0,Song lập,Sông,Trung bình,11
+281,Tân Bình,2,6,4,2,Đông Bắc,2006,17.8,3.2,Sổ hồng,103.11,40.4,0,1,Hàng kề,Không view,Thô,20
+209,Quận 1,Nguyễn Thái Bình,5,4,1,Tây Bắc,2006,9.9,5.4,Đang chờ sổ,98.63,0.0,0,1,Hàng kề,Không view,Thô,20
+210,Bình Chánh,3,4,3,1,Đông Nam,2010,8.2,18.8,Đang chờ sổ,33.76,67.4,0,1,Đơn lập,Không view,Thô,16
+350,Quận 10,2,3,3,1,Đông Nam,2015,13.2,10.0,Sổ hồng,149.04,36.5,1,1,Hàng kề,Không view,Trung bình,11
+266,Bình Thạnh,17,6,5,1,Đông Nam,2021,11.5,10.2,Sổ hồng,136.65,61.1,0,1,Song lập,Nội khu,Cao cấp,5
+190,Quận 1,Bến Thành,5,4,1,Tây Bắc,2007,17.6,0.4,Sổ hồng,115.78,0.0,1,1,Song lập,Không view,Thô,19
+373,Phú Nhuận,1,4,2,2,Đông Tây,2020,18.1,4.8,Đang chờ sổ,210.11,0.0,1,1,Song lập,Sông,Cao cấp,6
+175,Bình Thạnh,4,6,3,1,Tây Nam,2007,18.4,1.6,Sổ hồng,64.68,88.1,1,1,Đơn lập,Sông,Trung bình,19
+403,Gò Vấp,6,4,3,1,Bắc,2022,19.5,4.8,Sổ hồng,125.54,56.6,1,1,Song lập,Không view,Trung bình,4
+418,Thủ Đức,Linh Đông,6,3,2,Tây,2012,11.4,6.0,Sổ hồng,127.12,30.7,0,1,Song lập,Nội khu,Trung bình,14
+311,Tân Bình,12,6,3,1,Tây Nam,2018,13.1,6.3,Sổ hồng,142.31,0.0,0,1,Song lập,Nội khu,Cao cấp,8
+389,Gò Vấp,17,3,2,2,Đông,2020,11.2,9.1,Giấy tờ tay,131.45,63.1,0,1,Song lập,Không view,Cao cấp,6
+324,Phú Nhuận,8,4,4,1,Tây,2011,16.1,3.4,Sổ hồng,138.31,0.0,1,1,Song lập,Nội khu,Cao cấp,15
+281,Thủ Đức,Linh Tây,3,4,1,Đông Nam,2014,10.6,6.5,Sổ hồng,79.63,112.5,1,1,Song lập,Không view,Trung bình,12
+176,Quận 7,Tân Phong,5,3,2,Tây Nam,2006,14.8,4.8,Sổ hồng,70.65,0.0,1,1,Hàng kề,Không view,Trung bình,20
+312,Quận 3,13,4,3,1,Nam,2024,19.0,0.6,Sổ hồng,146.03,180.4,1,1,Hàng kề,Nội khu,Thô,2
+159,Quận 1,Bến Thành,6,3,1,Nam,2017,8.3,5.3,Sổ hồng,148.4,157.5,1,1,Đơn lập,Nội khu,Cao cấp,9
+223,Phú Nhuận,11,6,3,1,Bắc,2023,16.6,9.6,Đang chờ sổ,120.26,165.3,0,1,Đơn lập,Không view,Cao cấp,3
+402,Quận 3,9,6,2,1,Tây Nam,2014,12.2,1.1,Giấy tờ tay,237.21,0.0,1,1,Song lập,Nội khu,Trung bình,12
+233,Quận 4,Phú Thuận,4,4,2,Nam,2007,15.2,8.5,Sổ hồng,89.91,72.5,0,0,Song lập,Nội khu,Trung bình,19
+202,Quận 7,Tân Hưng,5,4,2,Đông Bắc,2025,18.6,5.8,Sổ đỏ,86.68,0.0,0,1,Song lập,Không view,Thô,1
+459,Quận 5,14,4,3,1,Đông Nam,2024,14.1,4.5,Sổ đỏ,233.43,51.9,0,1,Song lập,Thành phố,Trung bình,2
+490,Quận 1,Cầu Kho,4,4,2,Nam,2018,11.6,0.9,Sổ hồng,279.89,0.0,0,1,Hàng kề,Thành phố,Thô,8
+287,Nhà Bè,2,3,3,1,Đông Tây,2018,11.8,14.0,Sổ đỏ,37.82,0.0,1,1,Hàng kề,Thành phố,Cao cấp,8
+403,Quận 3,Phú Nhuận,5,5,1,Nam,2014,10.5,7.1,Sổ hồng,207.83,0.0,0,1,Song lập,Thành phố,Thô,12
+393,Phú Nhuận,12,5,3,2,Nam,2006,8.3,4.4,Sổ hồng,155.22,99.9,0,1,Hàng kề,Nội khu,Cao cấp,20
+351,Quận 12,3,5,3,2,Tây Bắc,2018,17.8,7.5,Sổ đỏ,67.78,146.2,0,1,Đơn lập,Nội khu,Cao cấp,8
+184,Bình Thạnh,17,5,5,2,Đông,2019,10.7,8.2,Sổ hồng,86.81,175.4,1,1,Hàng kề,Không view,Trung bình,7
+190,Tân Bình,9,3,2,2,Tây Bắc,2010,11.0,9.6,Sổ hồng,55.18,0.0,0,0,Hàng kề,Thành phố,Trung bình,16
+379,Quận 5,7,5,3,2,Đông Tây,2008,18.2,5.4,Sổ hồng,133.21,129.7,0,1,Song lập,Không view,Trung bình,18
+356,Quận 1,Nguyễn Cư Trinh,6,4,2,Tây Bắc,2005,10.2,-0.5,Sổ hồng,218.32,0.0,0,1,Đơn lập,Không view,Trung bình,21
+200,Quận 7,Tân Phú,6,2,1,Nam,2005,14.2,5.7,Đang chờ sổ,98.77,0.0,1,1,Đơn lập,Sông,Trung bình,21
