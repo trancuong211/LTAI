@@ -10,10 +10,20 @@ from pathlib import Path
 
 MODEL_DIR = Path(__file__).resolve().parent / "models"
 
+def train_model(house_type):
+    import subprocess
+    script = Path(__file__).resolve().parent / "train_advanced.py"
+    result = subprocess.run(["python", str(script)], capture_output=True, text=True, timeout=300)
+    if result.returncode != 0:
+        return False, result.stderr
+    return True, result.stdout
+
 def predict(house_type, features):
     model_path = MODEL_DIR / f"{house_type}_model.pkl"
     if not model_path.exists():
-        return {"error": f"Model not found: {house_type}"}
+        ok, msg = train_model(house_type)
+        if not ok:
+            return {"error": f"Train failed: {msg}"}
 
     data = joblib.load(model_path)
     model = data['model']

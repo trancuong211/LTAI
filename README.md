@@ -12,24 +12,18 @@ Dự án Machine Learning dự đoán giá nhà tại TP.HCM sử dụng 4 mô h
 ## Cấu trúc Project
 
 ```
-AI_Du_doan_gia_nha_HCM/
+LTAI/
 │
 ├── data/raw/                        # Dữ liệu theo loại nhà
-│   ├── nha_pho.csv                  # Nhà phố (19 columns)
-│   ├── biet_thu.csv                 # Biệt thự (19 columns)
-│   ├── can_ho_chung_cu.csv          # Căn hộ chung cư (18 columns)
-│   └── nha_hem.csv                  # Nhà hẻm (17 columns)
+│   ├── nha_pho.csv                  # Nhà phố
+│   ├── biet_thu.csv                 # Biệt thự
+│   ├── can_ho_chung_cu.csv          # Căn hộ chung cư
+│   └── nha_hem.csv                  # Nhà hẻm
 │
-├── models/                          # Model đã train
-│   ├── nha_pho_model.pkl
-│   ├── biet_thu_model.pkl
-│   ├── can_ho_model.pkl
-│   └── nha_hem_model.pkl
-│
-├── backend/                         # Web API
-│   ├── app.py                       # FastAPI app
-│   ├── preprocessing.py             # Xu ly input
-│   └── requirements.txt
+├── backend/                         # Web API (Node.js/Express)
+│   ├── server.js                    # Express server
+│   ├── preprocessing.js             # Xử lý input
+│   └── package.json
 │
 ├── frontend/                        # Giao diện web
 │   ├── index.html
@@ -45,7 +39,7 @@ AI_Du_doan_gia_nha_HCM/
 ├── predict_cli.py                   # Predict (JSON bridge cho backend)
 ├── add_data.py                      # Thêm dữ liệu thủ công
 ├── config.yaml                      # Cấu hình
-├── requirements.txt                 # Dependencies
+├── requirements.txt                 # Python dependencies
 └── README.md
 ```
 
@@ -119,6 +113,7 @@ Kết quả train nâng cao:
 ```bash
 # Chạy backend server
 cd backend
+npm install  # nếu chưa cài
 node server.js
 
 # Web app sẽ gọi predict_cli.py tự động
@@ -129,16 +124,16 @@ node server.js
 python add_data.py
 ```
 
-### 5. Chạy Web App
+### 4. Chạy Web App
 ```bash
-# Cai dependencies
-pip install fastapi uvicorn
-
-# Chay server
+# Cài dependencies (nếu chưa)
 cd backend
-uvicorn app:app --reload --port 8000
+npm install
 
-# Mo trinh duyet: http://localhost:8000
+# Chạy server
+node server.js
+
+# Mở trình duyệt: http://localhost:3000
 ```
 
 ## Giá Trị Đầu Vào

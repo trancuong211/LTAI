@@ -32,9 +32,7 @@ app.get('/meta', (req, res) => {
 
     res.json({
         districts: DISTRICTS,
-        wards: Object.fromEntries(
-            Object.entries(WARDS).map(([k, v]) => [k, v.slice(0, 3).concat(['...'])])
-        ),
+        wards: WARDS,
         huong: HUONG,
         phap_ly: PHAP_LY,
         vi_tri_mat_tien: VI_TRI_MAT_TIEN,
