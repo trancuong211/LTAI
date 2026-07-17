@@ -13,6 +13,7 @@ from constants import (
     VIEW_TYPES, VI_TRI_HEM, WARD_MAPPING, TYPE_FEATURES, DU_AN_CAN_HO
 )
 from train_advanced import encode_data, TYPE_CONFIG
+from train_improved import add_features
 
 print("=" * 90)
 print("  BANG DANH GIA SAISO MO HINH DU DOAN GIA NHA HCM")
@@ -44,6 +45,7 @@ for house_type_name, config in TYPE_CONFIG.items():
     model_name = model_data.get("model_name", "unknown")
 
     df_encoded = encode_data(df, house_type_name)
+    df_encoded = add_features(df_encoded, house_type_name)
     available_features = [f for f in feature_names if f in df_encoded.columns]
     df_clean = df_encoded[available_features + ["gia"]].dropna()
 

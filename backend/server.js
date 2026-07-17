@@ -22,6 +22,8 @@ app.use(express.static(path.join(__dirname, '..', 'frontend')));
 // Spawn predict server khi start
 let predictServerProcess = null;
 let predictServerReady = false;
+let predictRestartCount = 0;
+const MAX_PREDICT_RESTARTS = 10;
 
 function waitForPredictServer(retries, interval, callback) {
     if (retries <= 0) return callback(false);
@@ -42,11 +44,20 @@ function waitForPredictServer(retries, interval, callback) {
     req.on('timeout', () => { req.destroy(); setTimeout(() => waitForPredictServer(retries - 1, interval, callback), interval); });
 }
 
+function findPython() {
+    const venvPython = path.join(__dirname, '..', '.venv', 'Scripts', 'python.exe');
+    const fs = require('fs');
+    if (fs.existsSync(venvPython)) return venvPython;
+    return 'python';
+}
+
 function startPredictServer() {
     const scriptPath = path.join(__dirname, 'predict_server.py');
-    predictServerProcess = require('child_process').spawn('python', [scriptPath, String(PREDICT_PORT)], {
+    const pythonCmd = findPython();
+    predictServerProcess = require('child_process').spawn(pythonCmd, [scriptPath, String(PREDICT_PORT)], {
         windowsHide: true,
         stdio: ['ignore', 'pipe', 'pipe'],
+        env: { ...process.env, PYTHONIOENCODING: 'utf-8' },
     });
 
     predictServerProcess.stdout.on('data', (d) => {
@@ -64,7 +75,14 @@ function startPredictServer() {
     });
 
     predictServerProcess.on('close', (code) => {
-        console.error(`Predict server exited with code ${code}. Restarting in 3s...`);
+        predictRestartCount++;
+        if (predictRestartCount >= MAX_PREDICT_RESTARTS) {
+            console.error(`Predict server crashed ${MAX_PREDICT_RESTARTS} times. Giving up.`);
+            predictServerProcess = null;
+            predictServerReady = false;
+            return;
+        }
+        console.error(`Predict server exited with code ${code}. Restarting (${predictRestartCount}/${MAX_PREDICT_RESTARTS}) in 3s...`);
         predictServerProcess = null;
         predictServerReady = false;
         setTimeout(startPredictServer, 3000);
@@ -75,6 +93,7 @@ function startPredictServer() {
     waitForPredictServer(20, 500, (ready) => {
         if (ready) {
             predictServerReady = true;
+            predictRestartCount = 0;
             console.log(`  Predict server is ready!`);
         } else {
             console.error(`  Predict server failed to start after 10s`);

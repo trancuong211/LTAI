@@ -7,6 +7,16 @@ const TYPE_NAMES = {
     nha_hem: "Nha hem"
 };
 
+function escapeHtml(str) {
+    if (str == null) return '';
+    return String(str)
+        .replace(/&/g, '&amp;')
+        .replace(/</g, '&lt;')
+        .replace(/>/g, '&gt;')
+        .replace(/"/g, '&quot;')
+        .replace(/'/g, '&#039;');
+}
+
 async function loadMeta() {
     try {
         const res = await fetch('/meta');
@@ -22,47 +32,47 @@ function populateSelects() {
 
     // Quan
     const quanSelect = document.getElementById('quan');
-    quanSelect.innerHTML = metaData.districts.map(d => `<option value="${d}">${d}</option>`).join('');
+    quanSelect.innerHTML = metaData.districts.map(d => `<option value="${escapeHtml(d)}">${escapeHtml(d)}</option>`).join('');
 
     // Huong
     const huongSelect = document.getElementById('huong_nha');
-    huongSelect.innerHTML = metaData.huong.map(h => `<option value="${h}">${h}</option>`).join('');
+    huongSelect.innerHTML = metaData.huong.map(h => `<option value="${escapeHtml(h)}">${escapeHtml(h)}</option>`).join('');
 
     // Phap ly
     const phapLySelect = document.getElementById('phap_ly');
-    phapLySelect.innerHTML = metaData.phap_ly.map(p => `<option value="${p}">${p}</option>`).join('');
+    phapLySelect.innerHTML = metaData.phap_ly.map(p => `<option value="${escapeHtml(p)}">${escapeHtml(p)}</option>`).join('');
 
     // Vi tri mat tien
     const vtmtSelect = document.getElementById('vi_tri_mat_tien');
-    vtmtSelect.innerHTML = metaData.vi_tri_mat_tien.map(v => `<option value="${v}">${v}</option>`).join('');
+    vtmtSelect.innerHTML = metaData.vi_tri_mat_tien.map(v => `<option value="${escapeHtml(v)}">${escapeHtml(v)}</option>`).join('');
 
     // Chat luong (for nha pho)
     const clxdsSelect = document.getElementById('chat_luong_xay_dung');
-    clxdsSelect.innerHTML = metaData.chat_luong_xay_dung.map(c => `<option value="${c}">${c}</option>`).join('');
+    clxdsSelect.innerHTML = metaData.chat_luong_xay_dung.map(c => `<option value="${escapeHtml(c)}">${escapeHtml(c)}</option>`).join('');
 
     // Chat luong (for biet thu)
     const clxdsBtSelect = document.getElementById('chat_luong_xay_dung_bt');
-    clxdsBtSelect.innerHTML = metaData.chat_luong_xay_dung.map(c => `<option value="${c}">${c}</option>`).join('');
+    clxdsBtSelect.innerHTML = metaData.chat_luong_xay_dung.map(c => `<option value="${escapeHtml(c)}">${escapeHtml(c)}</option>`).join('');
 
     // Loai biet thu
     const lbtSelect = document.getElementById('loai_biet_thu');
-    lbtSelect.innerHTML = metaData.loai_biet_thu.map(l => `<option value="${l}">${l}</option>`).join('');
+    lbtSelect.innerHTML = metaData.loai_biet_thu.map(l => `<option value="${escapeHtml(l)}">${escapeHtml(l)}</option>`).join('');
 
     // View (biet thu)
     const viewBtSelect = document.getElementById('view_bt');
-    viewBtSelect.innerHTML = metaData.view.map(v => `<option value="${v}">${v}</option>`).join('');
+    viewBtSelect.innerHTML = metaData.view.map(v => `<option value="${escapeHtml(v)}">${escapeHtml(v)}</option>`).join('');
 
     // View (can ho)
     const viewChSelect = document.getElementById('view_ch');
-    viewChSelect.innerHTML = metaData.view.map(v => `<option value="${v}">${v}</option>`).join('');
+    viewChSelect.innerHTML = metaData.view.map(v => `<option value="${escapeHtml(v)}">${escapeHtml(v)}</option>`).join('');
 
     // Du an can ho
     const daSelect = document.getElementById('ten_du_an');
-    daSelect.innerHTML = metaData.du_an_can_ho.map((d, i) => `<option value="${i}">${d}</option>`).join('');
+    daSelect.innerHTML = metaData.du_an_can_ho.map((d, i) => `<option value="${i}">${escapeHtml(d)}</option>`).join('');
 
     // Vi tri hem
     const vthSelect = document.getElementById('vi_tri_hem');
-    vthSelect.innerHTML = metaData.vi_tri_hem.map(v => `<option value="${v}">${v}</option>`).join('');
+    vthSelect.innerHTML = metaData.vi_tri_hem.map(v => `<option value="${escapeHtml(v)}">${escapeHtml(v)}</option>`).join('');
 
     // Wards
     updateWards();
@@ -73,7 +83,7 @@ function updateWards() {
     const quan = document.getElementById('quan').value;
     const phuongSelect = document.getElementById('phuong');
     const wards = metaData.wards[quan] || [];
-    phuongSelect.innerHTML = wards.map(w => `<option value="${w}">${w}</option>`).join('');
+    phuongSelect.innerHTML = wards.map(w => `<option value="${escapeHtml(w)}">${escapeHtml(w)}</option>`).join('');
 }
 
 function updateForm() {
@@ -152,6 +162,17 @@ function getFormData() {
     return data;
 }
 
+function validateFormData(data) {
+    const errors = [];
+    if (data.dien_tich <= 0 || data.dien_tich > 10000) errors.push('Dien tich phai tu 1 den 10000 m2');
+    if (data.so_phong_ngu < 1 || data.so_phong_ngu > 20) errors.push('So phong ngu phai tu 1 den 20');
+    if (data.so_phong_tam < 1 || data.so_phong_tam > 15) errors.push('So phong tam phai tu 1 den 15');
+    if (data.so_tang < 1 || data.so_tang > 50) errors.push('So tang phai tu 1 den 50');
+    if (data.nam_xay_dung < 1900 || data.nam_xay_dung > new Date().getFullYear()) errors.push('Nam xay dung khong hop le');
+    if (data.khoang_cach_trung_tam < 0 || data.khoang_cach_trung_tam > 100) errors.push('Khoang cach trung tam phai tu 0 den 100 km');
+    return errors;
+}
+
 async function predict() {
     const btn = document.getElementById('predictBtn');
     const resultDiv = document.getElementById('result');
@@ -163,6 +184,11 @@ async function predict() {
 
     try {
         const data = getFormData();
+
+        const validationErrors = validateFormData(data);
+        if (validationErrors.length > 0) {
+            throw new Error(validationErrors.join('. '));
+        }
 
         const res = await fetch('/predict', {
             method: 'POST',
@@ -250,14 +276,14 @@ async function predict() {
         }
 
         const detailRows = detailItems.map(([label, value]) =>
-            `<div class="detail-row"><span class="detail-label">${label}</span><span class="detail-value">${value}</span></div>`
+            `<div class="detail-row"><span class="detail-label">${escapeHtml(label)}</span><span class="detail-value">${escapeHtml(value)}</span></div>`
         ).join('');
 
         resultDiv.innerHTML = `
             <div class="result-content">
                 <div class="result-header">
-                    <span class="result-type-badge">${TYPE_NAMES[result.house_type || data.house_type]}</span>
-                    <span class="result-model-badge">Model: ${modelName}</span>
+                    <span class="result-type-badge">${escapeHtml(TYPE_NAMES[result.house_type || data.house_type])}</span>
+                    <span class="result-model-badge">Model: ${escapeHtml(modelName)}</span>
                 </div>
                 <div class="result-price">${priceBillionDisplay} ty VND</div>
                 <div class="result-vnd">${priceVnd} VND</div>
@@ -271,7 +297,7 @@ async function predict() {
         `;
         resultDiv.classList.remove('hidden');
     } catch (e) {
-        resultDiv.innerHTML = `<div class="error"><p>Loi: ${e.message}</p></div>`;
+        resultDiv.innerHTML = `<div class="error"><p>Loi: ${escapeHtml(e.message)}</p></div>`;
         resultDiv.classList.remove('hidden');
     } finally {
         btn.disabled = false;
