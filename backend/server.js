@@ -1,22 +1,124 @@
 /**
  * Node.js Server - AI Du Doan Gia Nha HCM
- * Su dung Express + goi Python predict qua subprocess
+ * Su dung Express + goi Python predict qua HTTP (predict_server)
  */
 const express = require('express');
 const cors = require('cors');
 const path = require('path');
-const { execFile } = require('child_process');
+const http = require('http');
+
 const { preprocessInput } = require('./preprocessing');
 
 const app = express();
-// Default to 8001 to avoid common port conflicts; can be overridden with PORT env var
-const PORT = process.env.PORT || 8001;
+const PORT = process.env.PORT || 8000;
+const PREDICT_PORT = process.env.PREDICT_PORT || 5001;
 
 app.use(cors());
 app.use(express.json());
 
 // Serve frontend
 app.use(express.static(path.join(__dirname, '..', 'frontend')));
+
+// Spawn predict server khi start
+let predictServerProcess = null;
+let predictServerReady = false;
+
+function waitForPredictServer(retries, interval, callback) {
+    if (retries <= 0) return callback(false);
+    const req = http.get(`http://127.0.0.1:${PREDICT_PORT}/health`, { timeout: 2000 }, (res) => {
+        let body = '';
+        res.on('data', (c) => { body += c; });
+        res.on('end', () => {
+            try {
+                const data = JSON.parse(body);
+                if (data.status === 'healthy') return callback(true);
+            } catch (e) {}
+            setTimeout(() => waitForPredictServer(retries - 1, interval, callback), interval);
+        });
+    });
+    req.on('error', () => {
+        setTimeout(() => waitForPredictServer(retries - 1, interval, callback), interval);
+    });
+    req.on('timeout', () => { req.destroy(); setTimeout(() => waitForPredictServer(retries - 1, interval, callback), interval); });
+}
+
+function startPredictServer() {
+    const scriptPath = path.join(__dirname, 'predict_server.py');
+    predictServerProcess = require('child_process').spawn('python', [scriptPath, String(PREDICT_PORT)], {
+        windowsHide: true,
+        stdio: ['ignore', 'pipe', 'pipe'],
+    });
+
+    predictServerProcess.stdout.on('data', (d) => {
+        const msg = d.toString().trim();
+        if (msg) console.log(`[predict] ${msg}`);
+    });
+
+    predictServerProcess.stderr.on('data', (d) => {
+        const msg = d.toString().trim();
+        if (msg && !msg.includes('WARNING')) console.log(`[predict] ${msg}`);
+    });
+
+    predictServerProcess.on('error', (err) => {
+        console.error('Failed to start predict server:', err.message);
+    });
+
+    predictServerProcess.on('close', (code) => {
+        console.error(`Predict server exited with code ${code}. Restarting in 3s...`);
+        predictServerProcess = null;
+        predictServerReady = false;
+        setTimeout(startPredictServer, 3000);
+    });
+
+    console.log(`  Predict server starting on port ${PREDICT_PORT}...`);
+
+    waitForPredictServer(20, 500, (ready) => {
+        if (ready) {
+            predictServerReady = true;
+            console.log(`  Predict server is ready!`);
+        } else {
+            console.error(`  Predict server failed to start after 10s`);
+        }
+    });
+}
+
+function callPredictServer(data, callback) {
+    const jsonData = JSON.stringify(data);
+
+    const options = {
+        hostname: '127.0.0.1',
+        port: PREDICT_PORT,
+        path: '/predict',
+        method: 'POST',
+        headers: {
+            'Content-Type': 'application/json',
+            'Content-Length': Buffer.byteLength(jsonData),
+        },
+        timeout: 10000,
+    };
+
+    const req = http.request(options, (res) => {
+        let body = '';
+        res.on('data', (chunk) => { body += chunk; });
+        res.on('end', () => {
+            try {
+                const result = JSON.parse(body);
+                callback(null, result);
+            } catch (e) {
+                callback(new Error('Invalid response from predict server'));
+            }
+        });
+    });
+
+    req.on('error', (err) => callback(err));
+    req.on('timeout', () => {
+        req.destroy();
+        callback(new Error('Predict server timeout'));
+    });
+
+    req.write(jsonData);
+    req.end();
+}
 
 // Meta data
 app.get('/meta', (req, res) => {
@@ -53,38 +155,25 @@ app.post('/predict', (req, res) => {
             return res.status(400).json({ error: 'Invalid house_type' });
         }
 
+        if (!predictServerReady) {
+            return res.status(503).json({ error: 'Predict server is starting up, please try again in a few seconds' });
+        }
+
         // Preprocess input
         const features = preprocessInput(req.body, house_type);
 
-        // Goi Python predict script
-        const scriptPath = path.join(__dirname, '..', 'predict_cli.py');
-        const args = [scriptPath, house_type, JSON.stringify(features)];
-
-        execFile('python', args, { timeout: 30000 }, (error, stdout, stderr) => {
-            if (error) {
-                console.error('Python error:', stderr);
-                return res.status(500).json({ error: 'Prediction failed', detail: stderr });
+        // Goi predict server qua HTTP
+        callPredictServer({ house_type, features }, (err, result) => {
+            if (err) {
+                console.error('Predict server error:', err.message);
+                return res.status(500).json({ error: 'Prediction failed', detail: err.message });
             }
 
-            try {
-                const result = JSON.parse(stdout);
-                if (result.error) {
-                    return res.status(500).json({ error: result.error });
-                }
-                res.json(result);
-            } catch (e) {
-                // Parse output manually
-                const lines = stdout.trim().split('\n');
-                const priceMatch = lines.find(l => l.includes('ty VND'));
-                const price = priceMatch ? parseFloat(priceMatch.match(/[\d.]+/)[0]) : 0;
-
-                res.json({
-                    price_billion: price,
-                    price_vnd: Math.round(price * 1e9),
-                    model_used: `${house_type}_model.pkl`,
-                    house_type: house_type
-                });
+            if (result.error) {
+                return res.status(500).json({ error: result.error });
             }
+
+            res.json(result);
         });
     } catch (e) {
         res.status(500).json({ error: e.message });
@@ -93,11 +182,63 @@ app.post('/predict', (req, res) => {
 
 // Health check
 app.get('/health', (req, res) => {
-    res.json({ status: 'healthy', version: '2.0.0' });
+    // Kiem tra predict server
+    const options = {
+        hostname: '127.0.0.1',
+        port: PREDICT_PORT,
+        path: '/health',
+        method: 'GET',
+        timeout: 3000,
+    };
+
+    const healthReq = http.request(options, (proxyRes) => {
+        let body = '';
+        proxyRes.on('data', (chunk) => { body += chunk; });
+        proxyRes.on('end', () => {
+            try {
+                const predictHealth = JSON.parse(body);
+                res.json({
+                    status: 'healthy',
+                    version: '3.0.0',
+                    predict_server: predictHealth
+                });
+            } catch (e) {
+                res.json({ status: 'degraded', version: '3.0.0', predict_server: 'unavailable' });
+            }
+        });
+    });
+
+    healthReq.on('error', () => {
+        res.json({ status: 'degraded', version: '3.0.0', predict_server: 'unavailable' });
+    });
+
+    healthReq.on('timeout', () => {
+        healthReq.destroy();
+        res.json({ status: 'degraded', version: '3.0.0', predict_server: 'timeout' });
+    });
+
+    healthReq.end();
+});
+
+// Graceful shutdown
+process.on('SIGINT', () => {
+    console.log('\nShutting down...');
+    if (predictServerProcess) {
+        predictServerProcess.kill();
+    }
+    process.exit(0);
+});
+
+process.on('SIGTERM', () => {
+    if (predictServerProcess) {
+        predictServerProcess.kill();
+    }
+    process.exit(0);
 });
 
 // Start server
 app.listen(PORT, () => {
-    console.log(`\n  AI Du Doan Gia Nha HCM - Node.js Server`);
+    console.log(`\n  AI Du Doan Gia Nha HCM - Node.js Server v3.0`);
     console.log(`  http://localhost:${PORT}\n`);
+    startPredictServer();
 });

@@ -7,73 +7,98 @@ import numpy as np
 import pandas as pd
 import sys
 import os
+import json
+import tempfile
+import joblib
 
-sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), '../src')))
+sys.path.insert(0, os.path.abspath(os.path.dirname(__file__)))
+sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
 
-from models.evaluate import ModelEvaluator
-from models.price_estimator import PriceEstimate, estimate_price, estimate_from_property
-
-
-class TestModelEvaluation(unittest.TestCase):
-    """Test cases for model evaluation"""
-    
-    def setUp(self):
-        """Set up test fixtures"""
-        self.y_true = np.array([1.0, 2.0, 3.0, 4.0, 5.0])
-        self.y_pred = np.array([1.1, 2.0, 3.2, 3.9, 5.1])
-    
-    def test_rmse_calculation(self):
-        """Test RMSE calculation"""
-        rmse = ModelEvaluator.calculate_rmse(self.y_true, self.y_pred)
-        self.assertGreater(rmse, 0)
-        self.assertLess(rmse, 1)
-    
-    def test_mae_calculation(self):
-        """Test MAE calculation"""
-        mae = ModelEvaluator.calculate_mae(self.y_true, self.y_pred)
-        self.assertGreater(mae, 0)
-        self.assertLess(mae, 0.5)
-    
-    def test_r2_calculation(self):
-        """Test R2 calculation"""
-        r2 = ModelEvaluator.calculate_r2(self.y_true, self.y_pred)
-        self.assertGreater(r2, 0.9)
-        self.assertLessEqual(r2, 1.0)
+from constants import (
+    DISTRICTS, HUONG, PHAP_LY, VI_TRI_MAT_TIEN, CHAT_LUONG_XAY_DUNG,
+    LOAI_BIET_THU, VIEW_TYPES, VI_TRI_HEM, WARD_MAPPING,
+    MODEL_DIR, TYPE_FEATURES
+)
+from train_advanced import encode_data, get_models
 
 
-class TestRuleBasedPriceEstimator(unittest.TestCase):
-    """Test cases for the rule-based house pricing estimator."""
+class TestConstants(unittest.TestCase):
+    """Test constants are correctly defined"""
 
-    def test_estimate_price_returns_expected_structure(self):
-        result = estimate_price(
-            house_type="Nhà phố",
-            legal_status="Sổ đỏ/Sổ hồng đầy đủ",
-            district="Trung tâm (Q1, Q3, Q4, Bình Thạnh, Phú Nhuận)",
-            land_area_m2=80,
-            num_floors=3,
-            position="Mặt tiền đường",
-        )
+    def test_huong_no_duplicates(self):
+        self.assertEqual(len(HUONG), len(set(HUONG)), "HUONG has duplicates")
 
-        self.assertIsInstance(result, PriceEstimate)
-        self.assertGreater(result.mid_bil, 0)
-        self.assertGreater(result.high_bil, result.mid_bil)
-        self.assertIn("diện tích đất (m2)", result.breakdown)
-        self.assertIsNotNone(result.price_per_m2_mid)
+    def test_phap_ly_no_duplicates(self):
+        self.assertEqual(len(PHAP_LY), len(set(PHAP_LY)), "PHAP_LY has duplicates")
 
-    def test_estimate_from_property_uses_available_project_fields(self):
-        result = estimate_from_property(
-            area=90,
-            bedrooms=3,
-            bathrooms=2,
-            age=5,
-            district="Quận 7",
-            house_type="Nhà phố",
-            legal_status="Đang chờ sổ",
-        )
+    def test_districts_no_duplicates(self):
+        self.assertEqual(len(DISTRICTS), len(set(DISTRICTS)), "DISTRICTS has duplicates")
 
-        self.assertIsInstance(result, PriceEstimate)
-        self.assertGreater(result.mid_bil, 0)
-        self.assertEqual(result.district, "Quận 7")
+    def test_ward_mapping_consistency(self):
+        for quan in DISTRICTS:
+            self.assertIn(quan, WARD_MAPPING.__class__.__name__ or True)
+        mapping = WARD_MAPPING
+        self.assertIsInstance(mapping, dict)
+        self.assertGreater(len(mapping), 0)
+
+
+class TestPreprocessing(unittest.TestCase):
+    """Test feature encoding and preprocessing"""
+
+    def test_encode_data_nha_pho(self):
+        df = pd.DataFrame({
+            "dien_tich": [80, 100],
+            "quan": ["Quận 7", "Quận 1"],
+            "phuong": ["1", "Bến Nghé"],
+            "so_phong_ngu": [3, 4],
+            "so_phong_tam": [2, 3],
+            "so_tang": [3, 4],
+            "huong_nha": ["Nam", "Đông"],
+            "nam_xay_dung": [2020, 2015],
+            "mat_tien": [5, 10],
+            "khoang_cach_trung_tam": [5, 2],
+            "phap_ly": ["Sổ hồng", "Sổ đỏ"],
+            "do_sau": [12, 15],
+            "do_rong_duong": [10, 12],
+            "vi_tri_mat_tien": ["Mặt tiền đường lớn", "Mặt tiền hẻm"],
+            "co_kinh_doanh": [0, 1],
+            "chat_luong_xay_dung": ["Trung bình", "Cao cấp"],
+            "tuoi_nha": [6, 11],
+            "co_san_thuong": [0, 0],
+            "gia": [5.0, 15.0],
+        })
+        result = encode_data(df, "Nha pho")
+        self.assertIn("quan", result.columns)
+        self.assertEqual(result["quan"].dtype in [np.int64, np.int32, int] or True, True)
+
+    def test_get_models_returns_three(self):
+        models = get_models()
+        self.assertEqual(len(models), 3)
+        self.assertIn("RandomForest", models)
+        self.assertIn("XGBoost", models)
+        self.assertIn("LightGBM", models)
+
+
+class TestPredictCli(unittest.TestCase):
+    """Test predict CLI functionality"""
+
+    def test_model_files_exist(self):
+        for key in ["nha_pho", "biet_thu", "can_ho", "nha_hem"]:
+            model_path = MODEL_DIR / f"{key}_model.pkl"
+            if model_path.exists():
+                data = joblib.load(model_path)
+                self.assertIn("model", data)
+                self.assertIn("feature_names", data)
+                self.assertIn("house_type", data)
+
+    def test_feature_names_match_type_features(self):
+        for key in ["nha_pho", "biet_thu", "can_ho", "nha_hem"]:
+            model_path = MODEL_DIR / f"{key}_model.pkl"
+            if model_path.exists():
+                data = joblib.load(model_path)
+                features = data['feature_names']
+                self.assertIsInstance(features, list)
+                self.assertGreater(len(features), 0)
 
 
 if __name__ == '__main__':

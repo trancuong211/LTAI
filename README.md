@@ -7,21 +7,52 @@ Dự án Machine Learning dự đoán giá nhà tại TP.HCM sử dụng 4 mô h
 - Dự đoán giá nhà cho 4 loại: **Nhà phố**, **Biệt thự**, **Căn hộ chung cư**, **Nhà hẻm**
 - Mỗi loại nhà có **file CSV riêng** và **model riêng** với features đặc trưng
 - **Tự động chọn thuật toán tốt nhất** qua 5-fold Cross-Validation (RandomForest vs XGBoost vs LightGBM)
-- Sai số trung bình: **~14%** so với giá thực tế
+- Sai số trung bình (MAPE): **~9.9%** so với giá thực tế
+- **~89% dự đoán sai dưới 20%**
 
-## Cấu trúc Project
+## Hiệu Suất Model
+
+| Loại nhà | Model | R2 | MAPE | Sai < 10% | Sai < 20% |
+|----------|-------|-----|------|-----------|-----------|
+| Nhà phố | LightGBM | 0.968 | 8.6% | 75.6% | 92.2% |
+| Biệt thự | LightGBM | 0.946 | 8.9% | 69.3% | 91.1% |
+| Căn hộ | LightGBM | 0.955 | 9.4% | 62.0% | 92.2% |
+| Nhà hẻm | RandomForest | 0.921 | 12.8% | 55.3% | 82.1% |
+| **Trung bình** | | **0.947** | **9.9%** | **65.5%** | **89.4%** |
+
+## Kiến Trúc Hệ Thống
+
+```
+Frontend (HTML/JS)  →  Node.js Server (port 8000)  →  Python Predict Server (port 5001)
+                         │                                  │
+                         ├── preprocessing.js               ├── Pre-loaded models
+                         └── static files                   └── Flask API
+```
+
+- **Frontend**: Giao diện nhập thông tin nhà
+- **Node.js Server**: Xử lý request, preprocessing, serve frontend
+- **Python Predict Server**: Flask server, pre-load models khi start, serve predictions
+
+## Cấu Trúc Project
 
 ```
 LTAI/
 │
 ├── data/raw/                        # Dữ liệu theo loại nhà
-│   ├── nha_pho.csv                  # Nhà phố
-│   ├── biet_thu.csv                 # Biệt thự
-│   ├── can_ho_chung_cu.csv          # Căn hộ chung cư
-│   └── nha_hem.csv                  # Nhà hẻm
+│   ├── nha_pho.csv                  # Nhà phố (~200 mẫu)
+│   ├── biet_thu.csv                 # Biệt thự (~200 mẫu)
+│   ├── can_ho_chung_cu.csv          # Căn hộ chung cư (~200 mẫu)
+│   └── nha_hem.csv                  # Nhà hẻm (~200 mẫu)
 │
-├── backend/                         # Web API (Node.js/Express)
-│   ├── server.js                    # Express server
+├── models/                          # Model đã train
+│   ├── nha_pho_model.pkl
+│   ├── biet_thu_model.pkl
+│   ├── can_ho_model.pkl
+│   └── nha_hem_model.pkl
+│
+├── backend/                         # Web API
+│   ├── server.js                    # Express server (port 8000)
+│   ├── predict_server.py            # Flask predict server (port 5001)
 │   ├── preprocessing.js             # Xử lý input
 │   └── package.json
 │
@@ -36,7 +67,9 @@ LTAI/
 │
 ├── constants.py                     # Danh mục dùng chung
 ├── train_advanced.py                # Train nâng cao (CV + model comparison)
-├── predict_cli.py                   # Predict (JSON bridge cho backend)
+├── train_improved.py                # Train với feature engineering + tuning
+├── predict_cli.py                   # Predict CLI (JSON bridge)
+├── evaluate_models.py               # Đánh giá sai số model
 ├── add_data.py                      # Thêm dữ liệu thủ công
 ├── config.yaml                      # Cấu hình
 ├── requirements.txt                 # Python dependencies
@@ -82,122 +115,54 @@ khoang_cach_ra_duong_chinh
 ```bash
 # Clone repo
 git clone <url>
-cd AI_Du_doan_gia_nha_HCM
+cd LTAI
 
 # Tạo venv
 python -m venv .venv
 .venv\Scripts\activate  # Windows
 
-# Cài dependencies
+# Cài Python dependencies
 pip install -r requirements.txt
+
+# Cài Node.js dependencies
+cd backend
+npm install
 ```
 
 ## Sử Dụng
 
 ### 1. Train model
 
-#### Train nâng cao (CV + Model Comparison) - Khuyến nghị
 ```bash
+# Train nâng cao (CV + Model Comparison) - Khuyến nghị
 python train_advanced.py
+
+# Đánh giá sai số
+python evaluate_models.py
 ```
 
-Kết quả train nâng cao:
-| Model | Model tốt nhất | CV R2 | Test R2 | MAE (ty) | Sai số % |
-|-------|----------------|-------|---------|----------|----------|
-| Nhà phố | LightGBM | 0.9376 | 0.9496 | 1.02 | ~14% |
-| Biệt thự | LightGBM | 0.9288 | 0.9233 | 2.81 | ~12% |
-| Chung cư | RandomForest | 0.9228 | 0.9202 | 0.81 | ~15% |
-| Nhà hẻm | LightGBM | 0.9314 | 0.9089 | 0.59 | ~16% |
+### 2. Chạy Web App
 
-### 2. Predict (qua web app)
 ```bash
-# Chạy backend server
+# Chạy server (tự start predict server)
 cd backend
-npm install  # nếu chưa cài
-node server.js
+npm start
 
-# Web app sẽ gọi predict_cli.py tự động
+# Web app: http://localhost:8000
+# Predict server: http://localhost:5001
 ```
 
 ### 3. Thêm dữ liệu thủ công
+
 ```bash
 python add_data.py
 ```
-
-### 4. Chạy Web App
-```bash
-# Cài dependencies (nếu chưa)
-cd backend
-npm install
-
-# Chạy server
-node server.js
-
-# Mở trình duyệt: http://localhost:3000
-```
-
-## Giá Trị Đầu Vào
-
-| Giá trị | Mô tả | Ví dụ |
-|---------|-------|-------|
-| dien_tich | Diện tích (m²) | 75 |
-| quan | Quận/Huyện | Quận 7 |
-| phuong | Phường | Tân Phong |
-| so_phong_ngu | Số phòng ngủ | 2 |
-| so_phong_tam | Số phòng tắm | 2 |
-| so_tang | Số tầng | 15 |
-| huong_nha | Hướng nhà | Đông Nam |
-| nam_xay_dung | Năm xây dựng | 2023 |
-| phap_ly | Pháp lý | Sổ hồng |
-
-### Đặc trưng Nhà phố
-| Giá trị | Mô tả | Ví dụ |
-|---------|-------|-------|
-| mat_tien | Mặt tiền (m) | 7 |
-| do_sau | Độ sâu (m) | 12 |
-| do_rong_duong | Độ rộng đường (m) | 10 |
-| vi_tri_mat_tien | Vị trí mặt tiền | Mặt tiền đường lớn / Mặt tiền hẻm / Mặt tiền ngã tư |
-| co_kinh_doanh | Có kinh doanh (0/1) | 1 |
-| chat_luong_xay_dung | Chất lượng xây dựng | Cao cấp / Trung bình / Thô |
-| tuoi_nha | Tuổi nhà (năm) | 5 |
-| co_san_thuong | Có sầm u thương (0/1) | 1 |
-
-### Đặc trưng Biệt thự
-| Giá trị | Mô tả | Ví dụ |
-|---------|-------|-------|
-| dien_tich_dat | Diện tích đất (m²) | 250 |
-| dien_tich_san_vuon | Diện tích sân vườn (m²) | 120 |
-| co_be_boi | Có bể bơi (0/1) | 1 |
-| co_gara | Có gara (0/1) | 1 |
-| loai_biet_thu | Loại biệt thự | Đơn lập / Song lập / Hàng kề |
-| view | View | Sông / Thành phố / Nội khu / Không view |
-
-### Đặc trưng Căn hộ
-| Giá trị | Mô tả | Ví dụ |
-|---------|-------|-------|
-| tang | Tầng hiện tại | 15 |
-| tong_so_tang_toa_nha | Tổng số tầng tòa nhà | 25 |
-| view | View | Sông / Thành phố / Nội khu / Không view |
-| ten_du_an | Tên dự án (index 0-16) | 3 |
-| nam_ban_giao | Năm bàn giao | 2024 |
-| co_thang_may | Có thang máy (0/1) | 1 |
-| phi_quan_ly | Phí quản lý (nghìn/m²/tháng) | 18 |
-| co_ham | Có hầm (0/1) | 1 |
-
-### Đặc trưng Nhà hẻm
-| Giá trị | Mô tả | Ví dụ |
-|---------|-------|-------|
-| do_rong_hem | Độ rộng hẻm (m) | 3.5 |
-| vi_tri_hem | Vị trí hẻm | Hẻm thông / Hẻm cụt |
-| do_rong_duong_chinh | Độ rộng đường chính (m) | 8 |
-| co_oto_vao_hem | Ô tô vào hẻm được (0/1) | 1 |
-| khoang_cach_ra_duong_chinh | Khoảng cách ra đường chính (m) | 50 |
 
 ## Danh Mục Giá Trị
 
 **Quận/Huyện:** Quận 1, Quận 3, Quận 4, Quận 5, Quận 7, Quận 10, Bình Thạnh, Phú Nhuận, Tân Bình, Gò Vấp, Thủ Đức, Bình Tân, Tân Phú, Quận 12, Bình Chánh, Nhà Bè
 
-**Hướng nhà:** Đông, Tây, Nam, Bắc, Đông Nam, Đông Tây, Tây Nam, Tây Bắc, Đông Bắc, Tây Bắc
+**Hướng nhà:** Đông, Tây, Nam, Bắc, Đông Nam, Đông Bắc, Tây Nam, Tây Bắc
 
 **Pháp lý:** Sổ hồng, Sổ đỏ, Giấy tờ tay, Đang chờ sổ
 

@@ -9,7 +9,7 @@ const DISTRICTS = [
     "Bình Tân", "Tân Phú", "Quận 12", "Bình Chánh", "Nhà Bè"
 ];
 
-const HUONG = ["Đông", "Tây", "Nam", "Bắc", "Đông Nam", "Đông Tây", "Tây Nam", "Tây Bắc", "Đông Bắc", "Tây Bắc"];
+const HUONG = ["Đông", "Tây", "Nam", "Bắc", "Đông Nam", "Đông Bắc", "Tây Nam", "Tây Bắc"];
 const PHAP_LY = ["Sổ hồng", "Sổ đỏ", "Giấy tờ tay", "Đang chờ sổ"];
 const VI_TRI_MAT_TIEN = ["Mặt tiền đường lớn", "Mặt tiền hẻm", "Mặt tiền ngã tư"];
 const CHAT_LUONG_XAY_DUNG = ["Cao cấp", "Trung bình", "Thô"];

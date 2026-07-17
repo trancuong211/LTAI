@@ -79,64 +79,73 @@ function updateWards() {
 function updateForm() {
     const type = document.getElementById('house_type').value;
 
-    document.querySelectorAll('.type-fields').forEach(el => el.style.display = 'none');
+    document.querySelectorAll('.type-fields').forEach(el => {
+        el.classList.add('hidden');
+        el.style.display = '';
+    });
 
-    if (type === 'nha_pho') {
-        document.getElementById('nha_pho_fields').style.display = 'block';
-    } else if (type === 'biet_thu') {
-        document.getElementById('biet_thu_fields').style.display = 'block';
-    } else if (type === 'can_ho') {
-        document.getElementById('can_ho_fields').style.display = 'block';
-    } else if (type === 'nha_hem') {
-        document.getElementById('nha_hem_fields').style.display = 'block';
+    const target = document.getElementById(type + '_fields');
+    if (target) {
+        target.classList.remove('hidden');
+        target.style.display = 'block';
     }
+}
+
+function safeParseFloat(id, defaultVal) {
+    const val = parseFloat(document.getElementById(id).value);
+    return isNaN(val) ? defaultVal : val;
+}
+
+function safeParseInt(id, defaultVal) {
+    const val = parseInt(document.getElementById(id).value);
+    return isNaN(val) ? defaultVal : val;
 }
 
 function getFormData() {
     const type = document.getElementById('house_type').value;
     const data = {
         house_type: type,
-        dien_tich: parseFloat(document.getElementById('dien_tich').value),
+        dien_tich: safeParseFloat('dien_tich', 80),
         quan: document.getElementById('quan').value,
         phuong: document.getElementById('phuong').value,
-        so_phong_ngu: parseInt(document.getElementById('so_phong_ngu').value),
-        so_phong_tam: parseInt(document.getElementById('so_phong_tam').value),
-        so_tang: parseInt(document.getElementById('so_tang').value),
+        so_phong_ngu: safeParseInt('so_phong_ngu', 3),
+        so_phong_tam: safeParseInt('so_phong_tam', 2),
+        so_tang: safeParseInt('so_tang', 3),
         huong_nha: document.getElementById('huong_nha').value,
-        nam_xay_dung: parseInt(document.getElementById('nam_xay_dung').value),
+        nam_xay_dung: safeParseInt('nam_xay_dung', 2020),
         phap_ly: document.getElementById('phap_ly').value,
-        mat_tien: parseFloat(document.getElementById('mat_tien').value),
-        khoang_cach_trung_tam: parseFloat(document.getElementById('khoang_cach_trung_tam').value),
+        mat_tien: safeParseFloat('mat_tien', 5),
+        khoang_cach_trung_tam: safeParseFloat('khoang_cach_trung_tam', 5),
     };
 
     if (type === 'nha_pho') {
-        data.do_sau = parseFloat(document.getElementById('do_sau').value);
-        data.do_rong_duong = parseFloat(document.getElementById('do_rong_duong').value);
+        data.do_sau = safeParseFloat('do_sau', 12);
+        data.do_rong_duong = safeParseFloat('do_rong_duong', 10);
         data.vi_tri_mat_tien = document.getElementById('vi_tri_mat_tien').value;
         data.chat_luong_xay_dung = document.getElementById('chat_luong_xay_dung').value;
         data.co_kinh_doanh = document.getElementById('co_kinh_doanh').checked ? 1 : 0;
         data.co_san_thuong = document.getElementById('co_san_thuong').checked ? 1 : 0;
     } else if (type === 'biet_thu') {
-        data.dien_tich_san_vuon = parseFloat(document.getElementById('dien_tich_san_vuon').value);
+        data.dien_tich_san_vuon = safeParseFloat('dien_tich_san_vuon', 50);
         data.loai_biet_thu = document.getElementById('loai_biet_thu').value;
         data.view = document.getElementById('view_bt').value;
         data.chat_luong_xay_dung = document.getElementById('chat_luong_xay_dung_bt').value;
         data.co_be_boi = document.getElementById('co_be_boi').checked ? 1 : 0;
         data.co_gara = document.getElementById('co_gara').checked ? 1 : 0;
     } else if (type === 'can_ho') {
-        data.tang = parseInt(document.getElementById('tang').value);
-        data.tong_so_tang_toa_nha = parseInt(document.getElementById('tong_so_tang_toa_nha').value);
+        data.tang = safeParseInt('tang', 10);
+        data.tong_so_tang_toa_nha = safeParseInt('tong_so_tang_toa_nha', 25);
         data.view = document.getElementById('view_ch').value;
-        data.ten_du_an = parseInt(document.getElementById('ten_du_an').value);
-        data.nam_ban_giao = parseInt(document.getElementById('nam_ban_giao').value);
-        data.phi_quan_ly = parseFloat(document.getElementById('phi_quan_ly').value);
+        data.ten_du_an = safeParseInt('ten_du_an', 0);
+        data.nam_ban_giao = safeParseInt('nam_ban_giao', 2024);
+        data.phi_quan_ly = safeParseFloat('phi_quan_ly', 15);
         data.co_thang_may = document.getElementById('co_thang_may').checked ? 1 : 0;
         data.co_ham = document.getElementById('co_ham').checked ? 1 : 0;
     } else if (type === 'nha_hem') {
-        data.do_rong_hem = parseFloat(document.getElementById('do_rong_hem').value);
+        data.do_rong_hem = safeParseFloat('do_rong_hem', 3.5);
         data.vi_tri_hem = document.getElementById('vi_tri_hem').value;
-        data.do_rong_duong_chinh = parseFloat(document.getElementById('do_rong_duong_chinh').value);
-        data.khoang_cach_ra_duong_chinh = parseFloat(document.getElementById('khoang_cach_ra_duong_chinh').value);
+        data.do_rong_duong_chinh = safeParseFloat('do_rong_duong_chinh', 8);
+        data.khoang_cach_ra_duong_chinh = safeParseFloat('khoang_cach_ra_duong_chinh', 50);
         data.co_oto_vao_hem = document.getElementById('co_oto_vao_hem').checked ? 1 : 0;
     }
 
@@ -169,8 +178,9 @@ async function predict() {
         }
 
         if (!res.ok) {
-            const errMsg = result?.error || result?.detail || result?.message || 'Loi khong xac dinh';
-            throw new Error(errMsg);
+            const errMsg = result?.error || 'Loi khong xac dinh';
+            const detail = result?.detail ? ` (${result.detail.trim().split('\n').pop()})` : '';
+            throw new Error(errMsg + detail);
         }
 
         const priceVndNum = result.price_vnd != null ? Number(result.price_vnd) : (result.price_billion != null ? Math.round(Number(result.price_billion) * 1e9) : null);
