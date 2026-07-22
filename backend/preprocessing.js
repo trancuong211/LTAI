@@ -9,7 +9,7 @@ const DISTRICTS = [
     "Bình Tân", "Tân Phú", "Quận 12", "Bình Chánh", "Nhà Bè"
 ];
 
-const HUONG = ["Đông", "Tây", "Nam", "Bắc", "Đông Nam", "Đông Tây", "Tây Nam", "Tây Bắc", "Đông Bắc", "Tây Bắc"];
+const HUONG = ["Đông", "Tây", "Nam", "Bắc", "Đông Nam", "Đông Bắc", "Tây Nam", "Tây Bắc"];
 const PHAP_LY = ["Sổ hồng", "Sổ đỏ", "Giấy tờ tay", "Đang chờ sổ"];
 const VI_TRI_MAT_TIEN = ["Mặt tiền đường lớn", "Mặt tiền hẻm", "Mặt tiền ngã tư"];
 const CHAT_LUONG_XAY_DUNG = ["Cao cấp", "Trung bình", "Thô"];
@@ -63,7 +63,7 @@ function preprocessInput(data, houseType) {
     const huongNha = data.huong_nha || "Nam";
     const phapLy = data.phap_ly || "Sổ hồng";
     const namXayDung = data.nam_xay_dung || 2020;
-    const tuoiNha = 2026 - namXayDung;
+    const tuoiNha = new Date().getFullYear() - namXayDung;
 
     const quanIdx = safeIndex(DISTRICTS, quan);
     const huongIdx = safeIndex(HUONG, huongNha, 2);
@@ -126,7 +126,7 @@ function preprocessInput(data, houseType) {
             huong_nha: huongIdx,
             nam_xay_dung: namXayDung,
             view: safeIndex(VIEW_TYPES, data.view, 3),
-            ten_du_an: data.ten_du_an || 0,
+            ten_du_an: parseInt(data.ten_du_an) || 0,
             nam_ban_giao: data.nam_ban_giao || 2024,
             phi_quan_ly: data.phi_quan_ly || 15,
             co_thang_may: data.co_thang_may || 1,

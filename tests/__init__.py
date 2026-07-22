@@ -6,22 +6,19 @@ import unittest
 import sys
 import os
 
-# Add src directory to path
-sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), '../src')))
+sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
 
 
 class TestDataLoading(unittest.TestCase):
     """Test cases for data loading functionality"""
-    
+
     def test_imports(self):
-        """Test that all imports work"""
+        """Test that core modules can be imported"""
         try:
-            from data.load_data import load_raw_data
-            from data.preprocess import handle_missing_values
-            from features.build_features import create_polynomial_features
-            from models.train_model import ModelTrainer
-            from models.evaluate import ModelEvaluator
-            self.assertTrue(True)
+            from constants import DISTRICTS, HUONG, TYPE_FEATURES
+            self.assertTrue(len(DISTRICTS) > 0)
+            self.assertTrue(len(HUONG) > 0)
+            self.assertTrue(len(TYPE_FEATURES) > 0)
         except ImportError as e:
             self.fail(f"Import failed: {e}")
 

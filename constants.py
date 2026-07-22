@@ -22,7 +22,7 @@ HOUSE_TYPES = ["Nhà phố", "Biệt thự", "Căn hộ chung cư", "Nhà hẻm"
 TYPE_KEYS = ["nha_pho", "biet_thu", "can_ho", "nha_hem"]
 
 # Categorical features
-HUONG = ["Đông", "Tây", "Nam", "Bắc", "Đông Nam", "Đông Tây", "Tây Nam", "Tây Bắc", "Đông Bắc", "Tây Bắc"]
+HUONG = ["Đông", "Tây", "Nam", "Bắc", "Đông Nam", "Đông Bắc", "Tây Nam", "Tây Bắc"]
 PHAP_LY = ["Sổ hồng", "Sổ đỏ", "Giấy tờ tay", "Đang chờ sổ"]
 VI_TRI_MAT_TIEN = ["Mặt tiền đường lớn", "Mặt tiền hẻm", "Mặt tiền ngã tư"]
 CHAT_LUONG_XAY_DUNG = ["Cao cấp", "Trung bình", "Thô"]

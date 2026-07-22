@@ -25,11 +25,14 @@ def predict(house_type, features):
         if not ok:
             return {"error": f"Train failed: {msg}"}
 
-    data = joblib.load(model_path)
+    try:
+        data = joblib.load(model_path)
+    except Exception as e:
+        return {"error": f"Failed to load model: {e}"}
+
     model = data['model']
     feature_names = data['feature_names']
 
-    # Build feature array in correct order
     feat_dict = {f: features.get(f, 0) for f in feature_names}
 
     import pandas as pd
@@ -47,9 +50,17 @@ def predict(house_type, features):
     }
 
 if __name__ == "__main__":
-    house_type = sys.argv[1]
-    features_json = sys.argv[2]
-    features = json.loads(features_json)
+    try:
+        if len(sys.argv) > 1 and sys.argv[1] == '--stdin':
+            input_data = json.loads(sys.stdin.read())
+            house_type = input_data['house_type']
+            features = input_data['features']
+        else:
+            house_type = sys.argv[1]
+            features_json = sys.argv[2]
+            features = json.loads(features_json)
 
-    result = predict(house_type, features)
-    print(json.dumps(result))
+        result = predict(house_type, features)
+        print(json.dumps(result))
+    except Exception as e:
+        print(json.dumps({"error": str(e)}))
