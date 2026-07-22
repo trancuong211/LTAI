@@ -7,16 +7,6 @@ const TYPE_NAMES = {
   nha_hem: "Nha hem",
 };
 
-function escapeHtml(str) {
-    if (str == null) return '';
-    return String(str)
-        .replace(/&/g, '&amp;')
-        .replace(/</g, '&lt;')
-        .replace(/>/g, '&gt;')
-        .replace(/"/g, '&quot;')
-        .replace(/'/g, '&#039;');
-}
-
 async function loadMeta() {
   try {
     const res = await fetch("/meta");
@@ -30,7 +20,6 @@ async function loadMeta() {
 function populateSelects() {
   if (!metaData) return;
 
-<<<<<<< HEAD
   const quanSelect = document.getElementById("quan");
   quanSelect.innerHTML = metaData.districts
     .map((d) => `<option value="${d}">${d}</option>`)
@@ -85,51 +74,6 @@ function populateSelects() {
   daSelect.innerHTML = metaData.du_an_can_ho
     .map((d, i) => `<option value="${i}">${d}</option>`)
     .join("");
-=======
-    // Quan
-    const quanSelect = document.getElementById('quan');
-    quanSelect.innerHTML = metaData.districts.map(d => `<option value="${escapeHtml(d)}">${escapeHtml(d)}</option>`).join('');
-
-    // Huong
-    const huongSelect = document.getElementById('huong_nha');
-    huongSelect.innerHTML = metaData.huong.map(h => `<option value="${escapeHtml(h)}">${escapeHtml(h)}</option>`).join('');
-
-    // Phap ly
-    const phapLySelect = document.getElementById('phap_ly');
-    phapLySelect.innerHTML = metaData.phap_ly.map(p => `<option value="${escapeHtml(p)}">${escapeHtml(p)}</option>`).join('');
-
-    // Vi tri mat tien
-    const vtmtSelect = document.getElementById('vi_tri_mat_tien');
-    vtmtSelect.innerHTML = metaData.vi_tri_mat_tien.map(v => `<option value="${escapeHtml(v)}">${escapeHtml(v)}</option>`).join('');
-
-    // Chat luong (for nha pho)
-    const clxdsSelect = document.getElementById('chat_luong_xay_dung');
-    clxdsSelect.innerHTML = metaData.chat_luong_xay_dung.map(c => `<option value="${escapeHtml(c)}">${escapeHtml(c)}</option>`).join('');
-
-    // Chat luong (for biet thu)
-    const clxdsBtSelect = document.getElementById('chat_luong_xay_dung_bt');
-    clxdsBtSelect.innerHTML = metaData.chat_luong_xay_dung.map(c => `<option value="${escapeHtml(c)}">${escapeHtml(c)}</option>`).join('');
-
-    // Loai biet thu
-    const lbtSelect = document.getElementById('loai_biet_thu');
-    lbtSelect.innerHTML = metaData.loai_biet_thu.map(l => `<option value="${escapeHtml(l)}">${escapeHtml(l)}</option>`).join('');
-
-    // View (biet thu)
-    const viewBtSelect = document.getElementById('view_bt');
-    viewBtSelect.innerHTML = metaData.view.map(v => `<option value="${escapeHtml(v)}">${escapeHtml(v)}</option>`).join('');
-
-    // View (can ho)
-    const viewChSelect = document.getElementById('view_ch');
-    viewChSelect.innerHTML = metaData.view.map(v => `<option value="${escapeHtml(v)}">${escapeHtml(v)}</option>`).join('');
-
-    // Du an can ho
-    const daSelect = document.getElementById('ten_du_an');
-    daSelect.innerHTML = metaData.du_an_can_ho.map((d, i) => `<option value="${i}">${escapeHtml(d)}</option>`).join('');
-
-    // Vi tri hem
-    const vthSelect = document.getElementById('vi_tri_hem');
-    vthSelect.innerHTML = metaData.vi_tri_hem.map(v => `<option value="${escapeHtml(v)}">${escapeHtml(v)}</option>`).join('');
->>>>>>> 518445034424bf6a098414a00d1bc305eb391743
 
   const vthSelect = document.getElementById("vi_tri_hem");
   vthSelect.innerHTML = metaData.vi_tri_hem
@@ -140,7 +84,6 @@ function populateSelects() {
 }
 
 function updateWards() {
-<<<<<<< HEAD
   if (!metaData) return;
   const quan = document.getElementById("quan").value;
   const phuongSelect = document.getElementById("phuong");
@@ -148,13 +91,6 @@ function updateWards() {
   phuongSelect.innerHTML = wards
     .map((w) => `<option value="${w}">${w}</option>`)
     .join("");
-=======
-    if (!metaData) return;
-    const quan = document.getElementById('quan').value;
-    const phuongSelect = document.getElementById('phuong');
-    const wards = metaData.wards[quan] || [];
-    phuongSelect.innerHTML = wards.map(w => `<option value="${escapeHtml(w)}">${escapeHtml(w)}</option>`).join('');
->>>>>>> 518445034424bf6a098414a00d1bc305eb391743
 }
 
 // Common fields shown/hidden per house type: each type only uses a
@@ -169,7 +105,6 @@ const COMMON_FIELD_VISIBILITY = {
 function updateForm() {
   const type = document.getElementById("house_type").value;
 
-<<<<<<< HEAD
   document
     .querySelectorAll(".type-fields")
     .forEach((el) => el.classList.add("hidden"));
@@ -188,32 +123,9 @@ function updateForm() {
 function computeTuoiNha(namXayDung) {
   const currentYear = new Date().getFullYear();
   return currentYear - namXayDung;
-=======
-    document.querySelectorAll('.type-fields').forEach(el => {
-        el.classList.add('hidden');
-        el.style.display = '';
-    });
-
-    const target = document.getElementById(type + '_fields');
-    if (target) {
-        target.classList.remove('hidden');
-        target.style.display = 'block';
-    }
->>>>>>> 518445034424bf6a098414a00d1bc305eb391743
-}
-
-function safeParseFloat(id, defaultVal) {
-    const val = parseFloat(document.getElementById(id).value);
-    return isNaN(val) ? defaultVal : val;
-}
-
-function safeParseInt(id, defaultVal) {
-    const val = parseInt(document.getElementById(id).value);
-    return isNaN(val) ? defaultVal : val;
 }
 
 function getFormData() {
-<<<<<<< HEAD
   const type = document.getElementById("house_type").value;
 
   const data = {
@@ -226,54 +138,6 @@ function getFormData() {
     nam_xay_dung: parseInt(document.getElementById("nam_xay_dung").value),
     phap_ly: document.getElementById("phap_ly").value,
   };
-=======
-    const type = document.getElementById('house_type').value;
-    const data = {
-        house_type: type,
-        dien_tich: safeParseFloat('dien_tich', 80),
-        quan: document.getElementById('quan').value,
-        phuong: document.getElementById('phuong').value,
-        so_phong_ngu: safeParseInt('so_phong_ngu', 3),
-        so_phong_tam: safeParseInt('so_phong_tam', 2),
-        so_tang: safeParseInt('so_tang', 3),
-        huong_nha: document.getElementById('huong_nha').value,
-        nam_xay_dung: safeParseInt('nam_xay_dung', 2020),
-        phap_ly: document.getElementById('phap_ly').value,
-        mat_tien: safeParseFloat('mat_tien', 5),
-        khoang_cach_trung_tam: safeParseFloat('khoang_cach_trung_tam', 5),
-    };
-
-    if (type === 'nha_pho') {
-        data.do_sau = safeParseFloat('do_sau', 12);
-        data.do_rong_duong = safeParseFloat('do_rong_duong', 10);
-        data.vi_tri_mat_tien = document.getElementById('vi_tri_mat_tien').value;
-        data.chat_luong_xay_dung = document.getElementById('chat_luong_xay_dung').value;
-        data.co_kinh_doanh = document.getElementById('co_kinh_doanh').checked ? 1 : 0;
-        data.co_san_thuong = document.getElementById('co_san_thuong').checked ? 1 : 0;
-    } else if (type === 'biet_thu') {
-        data.dien_tich_san_vuon = safeParseFloat('dien_tich_san_vuon', 50);
-        data.loai_biet_thu = document.getElementById('loai_biet_thu').value;
-        data.view = document.getElementById('view_bt').value;
-        data.chat_luong_xay_dung = document.getElementById('chat_luong_xay_dung_bt').value;
-        data.co_be_boi = document.getElementById('co_be_boi').checked ? 1 : 0;
-        data.co_gara = document.getElementById('co_gara').checked ? 1 : 0;
-    } else if (type === 'can_ho') {
-        data.tang = safeParseInt('tang', 10);
-        data.tong_so_tang_toa_nha = safeParseInt('tong_so_tang_toa_nha', 25);
-        data.view = document.getElementById('view_ch').value;
-        data.ten_du_an = safeParseInt('ten_du_an', 0);
-        data.nam_ban_giao = safeParseInt('nam_ban_giao', 2024);
-        data.phi_quan_ly = safeParseFloat('phi_quan_ly', 15);
-        data.co_thang_may = document.getElementById('co_thang_may').checked ? 1 : 0;
-        data.co_ham = document.getElementById('co_ham').checked ? 1 : 0;
-    } else if (type === 'nha_hem') {
-        data.do_rong_hem = safeParseFloat('do_rong_hem', 3.5);
-        data.vi_tri_hem = document.getElementById('vi_tri_hem').value;
-        data.do_rong_duong_chinh = safeParseFloat('do_rong_duong_chinh', 8);
-        data.khoang_cach_ra_duong_chinh = safeParseFloat('khoang_cach_ra_duong_chinh', 50);
-        data.co_oto_vao_hem = document.getElementById('co_oto_vao_hem').checked ? 1 : 0;
-    }
->>>>>>> 518445034424bf6a098414a00d1bc305eb391743
 
   const tuoiNha = computeTuoiNha(data.nam_xay_dung);
 
@@ -357,17 +221,6 @@ function getFormData() {
   return data;
 }
 
-function validateFormData(data) {
-    const errors = [];
-    if (data.dien_tich <= 0 || data.dien_tich > 10000) errors.push('Dien tich phai tu 1 den 10000 m2');
-    if (data.so_phong_ngu < 1 || data.so_phong_ngu > 20) errors.push('So phong ngu phai tu 1 den 20');
-    if (data.so_phong_tam < 1 || data.so_phong_tam > 15) errors.push('So phong tam phai tu 1 den 15');
-    if (data.so_tang < 1 || data.so_tang > 50) errors.push('So tang phai tu 1 den 50');
-    if (data.nam_xay_dung < 1900 || data.nam_xay_dung > new Date().getFullYear()) errors.push('Nam xay dung khong hop le');
-    if (data.khoang_cach_trung_tam < 0 || data.khoang_cach_trung_tam > 100) errors.push('Khoang cach trung tam phai tu 0 den 100 km');
-    return errors;
-}
-
 async function predict() {
   const btn = document.getElementById("predictBtn");
   const resultDiv = document.getElementById("result");
@@ -411,7 +264,6 @@ async function predict() {
       throw new Error("Invalid response from server");
     }
 
-<<<<<<< HEAD
     if (!res.ok) {
       const errMsg =
         result?.error ||
@@ -420,18 +272,6 @@ async function predict() {
         "Loi khong xac dinh";
       throw new Error(errMsg);
     }
-=======
-        const validationErrors = validateFormData(data);
-        if (validationErrors.length > 0) {
-            throw new Error(validationErrors.join('. '));
-        }
-
-        const res = await fetch('/predict', {
-            method: 'POST',
-            headers: { 'Content-Type': 'application/json' },
-            body: JSON.stringify(data)
-        });
->>>>>>> 518445034424bf6a098414a00d1bc305eb391743
 
     const priceVndNum =
       result.price_vnd != null
@@ -446,7 +286,6 @@ async function predict() {
           ? priceVndNum / 1e9
           : null;
 
-<<<<<<< HEAD
     const priceVnd =
       priceVndNum != null ? priceVndNum.toLocaleString("vi-VN") : "N/A";
     const priceBillionDisplay =
@@ -456,13 +295,6 @@ async function predict() {
             maximumFractionDigits: 2,
           })
         : "N/A";
-=======
-        if (!res.ok) {
-            const errMsg = result?.error || 'Loi khong xac dinh';
-            const detail = result?.detail ? ` (${result.detail.trim().split('\n').pop()})` : '';
-            throw new Error(errMsg + detail);
-        }
->>>>>>> 518445034424bf6a098414a00d1bc305eb391743
 
     // area for gia/m2 calc: nha_pho/can_ho/nha_hem -> dien_tich; biet_thu -> dien_tich_dat
     const areaForCalc = data.dien_tich ?? data.dien_tich_dat ?? null;
@@ -554,7 +386,6 @@ async function predict() {
       )
       .join("");
 
-<<<<<<< HEAD
     resultDiv.innerHTML = `
             <div class="result-top">
                 <span class="badge on">${TYPE_NAMES[result.house_type || data.house_type]}</span>
@@ -574,35 +405,6 @@ async function predict() {
     if (resultSection) {
       resultSection.classList.remove("panel-hidden");
       resultSection.classList.add("panel-visible");
-=======
-        const detailRows = detailItems.map(([label, value]) =>
-            `<div class="detail-row"><span class="detail-label">${escapeHtml(label)}</span><span class="detail-value">${escapeHtml(value)}</span></div>`
-        ).join('');
-
-        resultDiv.innerHTML = `
-            <div class="result-content">
-                <div class="result-header">
-                    <span class="result-type-badge">${escapeHtml(TYPE_NAMES[result.house_type || data.house_type])}</span>
-                    <span class="result-model-badge">Model: ${escapeHtml(modelName)}</span>
-                </div>
-                <div class="result-price">${priceBillionDisplay} ty VND</div>
-                <div class="result-vnd">${priceVnd} VND</div>
-                <div class="result-price-m2">Gia / m2: ${giaPerM2} trieu</div>
-                <div class="result-divider"></div>
-                <h3 class="result-section-title">Thong tin da chon</h3>
-                <div class="result-details-grid">
-                    ${detailRows}
-                </div>
-            </div>
-        `;
-        resultDiv.classList.remove('hidden');
-    } catch (e) {
-        resultDiv.innerHTML = `<div class="error"><p>Loi: ${escapeHtml(e.message)}</p></div>`;
-        resultDiv.classList.remove('hidden');
-    } finally {
-        btn.disabled = false;
-        loadingDiv.classList.add('hidden');
->>>>>>> 518445034424bf6a098414a00d1bc305eb391743
     }
     if (formSection) {
       formSection.classList.add("panel-hidden");
