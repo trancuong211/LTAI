@@ -79,7 +79,7 @@
           <div class="field-block">
             <h3>Thông số kỹ thuật</h3>
             <div class="form-row">
-              <div class="form-group">
+              <div class="form-group" id="fg_dien_tich">
                 <label for="dien_tich">Dien tich (m2)</label>
                 <input type="number" id="dien_tich" value="80" step="1" />
               </div>
@@ -105,15 +105,15 @@
               </div>
             </div>
             <div class="form-row">
-              <div class="form-group">
+              <div class="form-group" id="fg_so_tang">
                 <label for="so_tang">So tang</label>
                 <input type="number" id="so_tang" value="3" min="1" max="50" />
               </div>
-              <div class="form-group">
+              <div class="form-group" id="fg_mat_tien">
                 <label for="mat_tien">Mat tien (m)</label>
                 <input type="number" id="mat_tien" value="5" step="0.5" />
               </div>
-              <div class="form-group">
+              <div class="form-group" id="fg_khoang_cach_trung_tam">
                 <label for="khoang_cach_trung_tam">Khoang cach TT (km)</label>
                 <input
                   type="number"
@@ -121,40 +121,6 @@
                   value="5"
                   step="0.5"
                 />
-              </div>
-            </div>
-          </div>
-
-          <div class="field-block">
-            <h3>Tiện ích</h3>
-            <div class="form-row">
-              <div class="form-group checkbox">
-                <input type="checkbox" id="co_kinh_doanh" />
-                <label for="co_kinh_doanh">Co kinh doanh</label>
-              </div>
-              <div class="form-group checkbox">
-                <input type="checkbox" id="co_san_thuong" />
-                <label for="co_san_thuong">Co san thuong</label>
-              </div>
-            </div>
-            <div class="form-row">
-              <div class="form-group checkbox">
-                <input type="checkbox" id="co_be_boi" />
-                <label for="co_be_boi">Co be boi</label>
-              </div>
-              <div class="form-group checkbox">
-                <input type="checkbox" id="co_gara" checked />
-                <label for="co_gara">Co gara</label>
-              </div>
-            </div>
-            <div class="form-row">
-              <div class="form-group checkbox">
-                <input type="checkbox" id="co_thang_may" checked />
-                <label for="co_thang_may">Co thang may</label>
-              </div>
-              <div class="form-group checkbox">
-                <input type="checkbox" id="co_ham" />
-                <label for="co_ham">Co ham</label>
               </div>
             </div>
           </div>
@@ -199,6 +165,10 @@
             <h3>Dac tinh Biet thu</h3>
             <div class="form-row">
               <div class="form-group">
+                <label for="dien_tich_dat">Dien tich dat (m2)</label>
+                <input type="number" id="dien_tich_dat" value="150" step="1" />
+              </div>
+              <div class="form-group">
                 <label for="dien_tich_san_vuon">Dien tich san vuon (m2)</label>
                 <input
                   type="number"
@@ -207,6 +177,8 @@
                   step="1"
                 />
               </div>
+            </div>
+            <div class="form-row">
               <div class="form-group">
                 <label for="loai_biet_thu">Loai biet thu</label>
                 <select id="loai_biet_thu"></select>
@@ -277,6 +249,12 @@
               <div class="form-group">
                 <label for="phi_quan_ly">Phi quan ly (nghin/m2/thang)</label>
                 <input type="number" id="phi_quan_ly" value="15" step="1" />
+              </div>
+            </div>
+            <div class="form-row">
+              <div class="form-group">
+                <label for="chat_luong_xay_dung_ch">Chat luong</label>
+                <select id="chat_luong_xay_dung_ch"></select>
               </div>
             </div>
             <div class="form-row">
