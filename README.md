@@ -7,18 +7,18 @@ Dự án Machine Learning dự đoán giá nhà tại TP.HCM sử dụng 4 mô h
 - Dự đoán giá nhà cho 4 loại: **Nhà phố**, **Biệt thự**, **Căn hộ chung cư**, **Nhà hẻm**
 - Mỗi loại nhà có **file CSV riêng** và **model riêng** với features đặc trưng
 - **Tự động chọn thuật toán tốt nhất** qua 5-fold Cross-Validation (RandomForest vs XGBoost vs LightGBM)
-- Sai số trung bình (MAPE): **~9.9%** so với giá thực tế
-- **~89% dự đoán sai dưới 20%**
+- Sai số trung bình (MAPE): **~20.4%** so với giá thực tế
+- **~56.5% dự đoán sai dưới 20%**
 
 ## Hiệu Suất Model
 
-| Loại nhà | Model | R2 | MAPE | Sai < 10% | Sai < 20% |
-|----------|-------|-----|------|-----------|-----------|
-| Nhà phố | LightGBM | 0.968 | 8.6% | 75.6% | 92.2% |
-| Biệt thự | LightGBM | 0.946 | 8.9% | 69.3% | 91.1% |
-| Căn hộ | LightGBM | 0.955 | 9.4% | 62.0% | 92.2% |
-| Nhà hẻm | RandomForest | 0.921 | 12.8% | 55.3% | 82.1% |
-| **Trung bình** | | **0.947** | **9.9%** | **65.5%** | **89.4%** |
+| Loại nhà | Model | R2 | MAE | MAPE | Sai < 10% | Sai < 15% | Sai < 20% |
+|----------|-------|-----|------|------|-----------|-----------|-----------|
+| Nhà phố | XGBoost | 0.841 | 5.05 ty | 21.1% | 30.6% | 41.7% | 61.1% |
+| Biệt thự | LightGBM | 0.824 | 22.64 ty | 18.7% | 33.3% | 47.2% | 66.7% |
+| Căn hộ | LightGBM | 0.880 | 1.81 ty | 18.6% | 19.4% | 52.8% | 63.9% |
+| Nhà hẻm | XGBoost | 0.804 | 2.27 ty | 23.2% | 25.0% | 36.1% | 44.4% |
+| **Trung bình** | | **0.837** | | **20.4%** | **27.1%** | **44.5%** | **59.0%** |
 
 ## Kiến Trúc Hệ Thống
 
@@ -78,36 +78,40 @@ LTAI/
 
 ## Features Theo Loại Nhà
 
-### Nhà phố (18 features)
+### Nhà phố (22 features)
 ```
 dien_tich, quan, phuong, so_phong_ngu, so_phong_tam, so_tang,
 huong_nha, nam_xay_dung, mat_tien, khoang_cach_trung_tam, phap_ly,
 do_sau, do_rong_duong, vi_tri_mat_tien, co_kinh_doanh,
-chat_luong_xay_dung, tuoi_nha, co_san_thuong
+chat_luong_xay_dung, tuoi_nha, co_san_thuong,
+dien_tich_x_mat_tien, dien_tich_per_phong, dien_tich_per_tang, mat_tien_per_duong
 ```
 
-### Biệt thự (18 features)
+### Biệt thự (21 features)
 ```
 dien_tich_dat, quan, phuong, so_phong_ngu, so_phong_tam, so_tang,
 huong_nha, nam_xay_dung, mat_tien, khoang_cach_trung_tam, phap_ly,
 dien_tich_san_vuon, co_be_boi, co_gara, loai_biet_thu, view,
-chat_luong_xay_dung, tuoi_nha
+chat_luong_xay_dung, tuoi_nha,
+ty_le_vuon, dien_tich_per_phong, dien_tich_x_mat_tien
 ```
 
-### Căn hộ chung cư (17 features)
+### Căn hộ chung cư (20 features)
 ```
 dien_tich, quan, phuong, so_phong_ngu, so_phong_tam, tang,
 tong_so_tang_toa_nha, huong_nha, nam_xay_dung, view, ten_du_an,
 nam_ban_giao, phi_quan_ly, co_thang_may, co_ham, phap_ly,
-chat_luong_xay_dung
+chat_luong_xay_dung,
+dien_tich_per_phong, ty_le_tang, phi_x_dien_tich
 ```
 
-### Nhà hẻm (16 features)
+### Nhà hẻm (19 features)
 ```
 dien_tich, quan, phuong, so_phong_ngu, so_phong_tam, so_tang,
 huong_nha, nam_xay_dung, mat_tien, khoang_cach_trung_tam, phap_ly,
 do_rong_hem, vi_tri_hem, do_rong_duong_chinh, co_oto_vao_hem,
-khoang_cach_ra_duong_chinh
+khoang_cach_ra_duong_chinh,
+dien_tich_x_rong_hem, dien_tich_per_phong, kc_x_rong_hem
 ```
 
 ## Cài Đặt
@@ -129,12 +133,17 @@ cd backend
 npm install
 ```
 
+> **Lưu ý:** Model files (`.pkl`) không được commit lên git. Khi chạy server lần đầu, predict server sẽ tự động train model nếu chưa có.
+
 ## Sử Dụng
 
 ### 1. Train model
 
 ```bash
-# Train nâng cao (CV + Model Comparison) - Khuyến nghị
+# Train với feature engineering + hyperparameter tuning
+python train_improved.py
+
+# Train nâng cao (CV + Model Comparison)
 python train_advanced.py
 
 # Đánh giá sai số

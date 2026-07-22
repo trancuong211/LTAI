@@ -4,20 +4,34 @@ Chay tren port rieng, Node.js goi HTTP den day
 """
 import sys
 import io
-sys.stdout = io.TextIOWrapper(sys.stdout.buffer, encoding='utf-8')
+if sys.stdout.encoding != 'utf-8':
+    sys.stdout = io.TextIOWrapper(sys.stdout.buffer, encoding='utf-8')
 
-from flask import Flask, request, jsonify
+from flask import Flask, request, Response
 import numpy as np
 import joblib
 import pandas as pd
 from pathlib import Path
 import time
 import logging
+import json
 
 logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(message)s')
 logger = logging.getLogger(__name__)
 
 app = Flask(__name__)
+
+
+def jsonify(data):
+    def default(o):
+        if isinstance(o, (np.integer,)):
+            return int(o)
+        if isinstance(o, (np.floating,)):
+            return float(o)
+        if isinstance(o, np.ndarray):
+            return o.tolist()
+        raise TypeError(f"Object of type {type(o)} is not JSON serializable")
+    return Response(json.dumps(data, default=default), mimetype='application/json')
 
 MODEL_DIR = Path(__file__).resolve().parent.parent / "models"
 loaded_models = {}
@@ -25,17 +39,47 @@ loaded_models = {}
 MODEL_KEYS = ["nha_pho", "biet_thu", "can_ho", "nha_hem"]
 
 
+def train_missing_model(key):
+    """Train model thu cong khi file pkl thieu"""
+    sys.path.insert(0, str(MODEL_DIR.parent))
+    from train_improved import train_and_compare, TYPE_CONFIG
+    from constants import MODEL_DIR as _MD
+    _MD.mkdir(exist_ok=True)
+
+    TYPE_KEY_MAP = {
+        "nha_pho": "Nha pho",
+        "biet_thu": "Biet thu",
+        "can_ho": "Can ho chung cu",
+        "nha_hem": "Nha hem",
+    }
+    house_type_name = TYPE_KEY_MAP.get(key)
+    if not house_type_name or house_type_name not in TYPE_CONFIG:
+        logger.error(f"Unknown model key: {key}")
+        return False
+
+    logger.info(f"Training missing model: {key} ...")
+    result = train_and_compare(house_type_name, TYPE_CONFIG[house_type_name])
+    if result:
+        logger.info(f"Trained model: {key} (R2={result['test_r2']:.4f})")
+        return True
+    logger.error(f"Failed to train model: {key}")
+    return False
+
+
 def load_all_models():
-    """Load tat ca models khi server start"""
+    """Load tat ca models khi server start. Auto train neu thieu."""
+    MODEL_DIR.mkdir(exist_ok=True)
     start = time.time()
     for key in MODEL_KEYS:
         model_path = MODEL_DIR / f"{key}_model.pkl"
+        if not model_path.exists():
+            train_missing_model(key)
         if model_path.exists():
             data = joblib.load(model_path)
             loaded_models[key] = data
             logger.info(f"Loaded model: {key} ({data.get('model_name', 'unknown')}, features={len(data['feature_names'])})")
         else:
-            logger.warning(f"Model not found: {model_path}")
+            logger.warning(f"Model not found after training: {model_path}")
     elapsed = time.time() - start
     logger.info(f"All models loaded in {elapsed:.2f}s")
 
@@ -145,7 +189,7 @@ def predict():
         log_pred = model.predict(feat_df)[0]
         elapsed = time.time() - start
 
-        prediction = np.expm1(log_pred)
+        prediction = float(np.expm1(log_pred))
         if prediction < 0:
             prediction = 0
         price_vnd = int(prediction * 1_000_000_000)
